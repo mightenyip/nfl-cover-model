@@ -41,7 +41,7 @@ import matplotlib.pyplot as plt
 # Configuration
 # -----------------------------
 
-SEASONS = list(range(2015, 2025))  # edit as desired
+SEASONS = [2023, 2024]  # Use available data (2025 only has Week 1)
 DATA_DIR = os.environ.get("NFL_DATA_DIR", ".")  # optional: set to a local data folder
 SAVE_FEATURES_CSV = "team_game_features.csv"
 SAVE_MODEL = "logreg_model.pkl"  # optional: if you want to persist

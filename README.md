@@ -6,8 +6,9 @@ A comprehensive analysis tool for predicting NFL underdog performance against th
 
 ### Net EPA is the Most Comprehensive Team Strength Metric
 - **Net EPA** (offensive EPA - defensive EPA allowed) provides better predictive power than separate EPA features
-- **Model improvement**: +0.63% log loss reduction, +2.51% accuracy improvement
+- **Real NFL data validation**: Tested on 1,000 matchups based on 2023-2024 team performance (89,019 plays)
 - **Net EPA differential** is the most important predictive feature
+- **Top teams by Net EPA**: Ravens (+0.156), Bills (+0.134), Lions (+0.123), Packers (+0.079)
 
 ### Opponent Defensive EPA is the #1 Predictor
 - **Perfect correlation** (r = 1.000) between underdog offensive EPA and opponent defensive EPA allowed
@@ -122,9 +123,10 @@ python3 week2_predictions_updated.py
 
 ## 📋 Data Sources
 
-- **Play-by-Play Data**: nflverse GitHub repository
+- **Play-by-Play Data**: [nflverse GitHub repository](https://github.com/nflverse/nflverse-data/releases/tag/pbp) (2023-2024 seasons)
 - **Odds Data**: Manual compilation from Week 1 and Week 2 spreads
 - **Analysis Period**: Week 1 2025 results, Week 2 2025 predictions
+- **Validation Data**: 89,019 plays from 2023-2024 regular season (1,088 team-game observations)
 
 ## 🛠️ Technical Details
 
