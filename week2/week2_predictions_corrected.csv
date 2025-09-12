@@ -1,0 +1,17 @@
+game,underdog,favorite,spread,underdog_net_epa,favorite_net_epa,underdog_epa_off,favorite_epa_off,opponent_def_epa,defense_quality,net_epa_differential,cover_probability_original,cover_probability_corrected,confidence_original,confidence_corrected,is_home,predicted_cover_binary_original,predicted_cover_binary_corrected,predicted_winner_original,predicted_winner_corrected,outright_win_probability_original,outright_win_probability_corrected
+Chargers at Raiders,Raiders,Chargers,3.5,0.131,0.083,0.082,0.214,0.131,WEAK,-0.048,0.803,0.642,HIGH,MEDIUM,True,Yes,Yes,Raiders,Raiders,0.65,0.55
+Bills at Jets,Jets,Bills,6.5,0.367,-0.136,0.158,0.204,0.34,WEAK,0.503,0.778,0.990,HIGH,HIGH,True,Yes,Yes,Jets,Jets,0.45,0.85
+Eagles at Chiefs,Chiefs,Eagles,0.5,0.345,0.032,0.131,0.171,0.139,WEAK,0.313,0.749,0.990,HIGH,HIGH,True,Yes,Yes,Chiefs,Chiefs,0.72,0.95
+Bears at Lions,Bears,Lions,5.5,-0.175,-0.054,-0.111,-0.054,0.0,AVERAGE,-0.121,0.524,0.313,MEDIUM,LOW,False,Yes,No,Lions,Lions,0.35,0.20
+Browns at Ravens,Browns,Ravens,11.5,-0.198,0.204,-0.088,0.204,0.0,AVERAGE,-0.402,0.515,0.010,MEDIUM,LOW,False,Yes,No,Ravens,Ravens,0.15,0.05
+Buccaneers at Texans,Buccaneers,Texans,2.5,0.0,-0.121,0.076,-0.121,0.0,AVERAGE,0.121,0.507,0.767,MEDIUM,HIGH,False,Yes,Yes,Texans,Texans,0.42,0.70
+Jaguars at Bengals,Jaguars,Bengals,3.5,0.0,-0.066,0.09,-0.066,0.0,AVERAGE,0.066,0.500,0.667,MEDIUM,HIGH,False,No,Yes,Bengals,Jaguars,0.58,0.75
+Patriots at Dolphins,Patriots,Dolphins,1.5,-0.098,-0.075,-0.049,-0.075,0.0,AVERAGE,-0.023,0.500,0.469,MEDIUM,MEDIUM,False,No,No,Dolphins,Dolphins,0.52,0.48
+49ers at Saints,Saints,49ers,4.5,0.107,0.012,-0.091,0.012,0.0,AVERAGE,0.095,0.493,0.785,MEDIUM,HIGH,True,No,Yes,49ers,Saints,0.62,0.80
+Falcons at Vikings,Falcons,Vikings,4.5,0.065,-0.064,0.011,-0.064,0.0,AVERAGE,0.129,0.484,0.803,MEDIUM,HIGH,False,No,Yes,Vikings,Falcons,0.58,0.75
+Seahawks at Steelers,Seahawks,Steelers,3.0,0.094,0.209,-0.082,0.209,0.0,AVERAGE,-0.115,0.477,0.300,MEDIUM,LOW,False,No,No,Steelers,Steelers,0.55,0.35
+Giants at Cowboys,Giants,Cowboys,5.5,0.185,0.139,-0.113,0.139,0.0,AVERAGE,0.046,0.459,0.647,MEDIUM,HIGH,False,No,Yes,Cowboys,Giants,0.62,0.70
+Panthers at Cardinals,Panthers,Cardinals,6.5,0.197,0.016,-0.107,0.016,0.0,AVERAGE,0.181,0.451,0.927,MEDIUM,HIGH,False,No,Yes,Cardinals,Panthers,0.65,0.90
+Broncos at Colts,Colts,Broncos,2.5,0.41,0.301,0.251,0.082,-0.219,STRONG,0.109,0.353,0.859,LOW,HIGH,True,No,Yes,Broncos,Colts,0.68,0.85
+Commanders at Packers,Commanders,Packers,3.5,0.144,0.239,0.072,0.185,-0.054,STRONG,-0.095,0.250,0.361,LOW,MEDIUM,False,No,No,Packers,Packers,0.75,0.60
+Rams at Titans,Titans,Rams,5.5,0.109,0.046,-0.219,-0.075,-0.121,STRONG,0.063,0.243,0.767,LOW,HIGH,True,No,Yes,Rams,Titans,0.72,0.80

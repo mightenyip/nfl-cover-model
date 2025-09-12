@@ -1,0 +1,17 @@
+game,underdog,favorite,spread,cover_probability,confidence,predicted_cover,actual_cover,spread_correct,predicted_outright_win,actual_underdog_win,outright_correct,actual_home_score,actual_away_score,notes
+Chargers at Raiders,Raiders,Chargers,3.5,0.80275,HIGH,True,True,True,True,False,False,24.0,21.0,Sample result - Raiders covered +3.5
+Chargers at Raiders,Raiders,Chargers,3.5,0.80275,HIGH,True,True,True,True,False,False,17.0,21.0,Sample result - Raiders covered +3.5
+Bills at Jets,Jets,Bills,6.5,0.7776500000000001,HIGH,True,True,True,True,False,False,17.0,14.0,Sample result - Jets covered +6.5
+Eagles at Chiefs,Chiefs,Eagles,0.5,0.7492500000000001,HIGH,True,True,True,True,True,True,28.0,31.0,Sample result - Chiefs won outright
+Bears at Lions,Bears,Lions,5.5,0.5241,MEDIUM,True,False,False,True,False,False,21.0,17.0,Sample result - Bears did not cover +5.5
+Browns at Ravens,Browns,Ravens,11.5,0.5149,MEDIUM,True,False,False,True,False,False,31.0,20.0,Sample result - Browns did not cover +11.5
+Buccaneers at Texans,Buccaneers,Texans,2.5,0.5069,MEDIUM,True,True,True,True,True,True,21.0,24.0,Sample result - Buccaneers won outright
+Jaguars at Bengals,Jaguars,Bengals,3.5,0.5,MEDIUM,False,True,False,False,False,True,24.0,21.0,Sample result - Jaguars covered +3.5
+Patriots at Dolphins,Patriots,Dolphins,1.5,0.5,MEDIUM,False,True,False,False,True,False,21.0,24.0,Sample result - Patriots won outright
+49ers at Saints,Saints,49ers,4.5,0.49325,MEDIUM,False,True,False,False,False,True,17.0,21.0,Sample result - Saints covered +4.5
+Falcons at Vikings,Falcons,Vikings,4.5,0.48375,MEDIUM,False,False,True,False,False,True,24.0,17.0,Sample result - Falcons did not cover +4.5
+Seahawks at Steelers,Seahawks,Steelers,3.0,0.4765,MEDIUM,False,True,False,False,False,True,24.0,21.0,Sample result - Seahawks covered +3.0
+Giants at Cowboys,Giants,Cowboys,5.5,0.4585499999999999,MEDIUM,False,False,True,False,False,True,28.0,17.0,Sample result - Giants did not cover +5.5
+Panthers at Cardinals,Panthers,Cardinals,6.5,0.45075,MEDIUM,False,False,True,False,False,True,21.0,14.0,Sample result - Panthers did not cover +6.5
+Broncos at Colts,Colts,Broncos,2.5,0.35285,LOW,False,True,False,False,True,False,28.0,31.0,Sample result - Colts won outright
+Rams at Titans,Titans,Rams,5.5,0.24275,LOW,False,True,False,False,False,True,17.0,24.0,Sample result - Titans covered +5.5

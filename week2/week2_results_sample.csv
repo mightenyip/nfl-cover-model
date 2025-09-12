@@ -1,0 +1,17 @@
+game,underdog,favorite,spread,underdog_net_epa,favorite_net_epa,underdog_epa_off,favorite_epa_off,opponent_def_epa,defense_quality,net_epa_differential,cover_probability,confidence,is_home,actual_home_score,actual_away_score,actual_margin,actual_cover,actual_winner,actual_underdog_win,game_completed,notes
+Chargers at Raiders,Raiders,Chargers,3.5,0.131,0.0,0.082,0.214,0.131,WEAK,-0.131,0.80275,HIGH,True,24,21,3,True,home,False,True,Sample result - Raiders covered +3.5
+Bills at Jets,Jets,Bills,6.5,-0.051,-0.136,0.158,0.204,0.34,WEAK,-0.085,0.7776500000000001,HIGH,True,17,14,3,True,home,False,True,Sample result - Jets covered +6.5
+Eagles at Chiefs,Chiefs,Eagles,0.5,-0.083,0.0,0.131,0.171,0.139,WEAK,0.083,0.7492500000000001,HIGH,True,28,31,-3,True,away,True,True,Sample result - Chiefs won outright
+Bears at Lions,Bears,Lions,5.5,-0.047,-0.239,-0.111,-0.054,0.0,AVERAGE,-0.192,0.5241,MEDIUM,False,21,17,4,False,home,False,True,Sample result - Bears did not cover +5.5
+Browns at Ravens,Browns,Ravens,11.5,-0.088,0.204,-0.088,0.204,0.0,AVERAGE,-0.292,0.5149,MEDIUM,False,31,20,11,False,home,False,True,Sample result - Browns did not cover +11.5
+Jaguars at Bengals,Jaguars,Bengals,3.5,0.09,-0.066,0.09,-0.066,0.0,AVERAGE,-0.156,0.5555,MEDIUM,False,24,21,3,True,home,False,True,Sample result - Jaguars covered +3.5
+Giants at Cowboys,Giants,Cowboys,5.5,-0.113,0.139,-0.113,0.139,0.0,AVERAGE,0.252,0.367525,LOW,False,28,17,11,False,home,False,True,Sample result - Giants did not cover +5.5
+Patriots at Dolphins,Patriots,Dolphins,1.5,-0.049,-0.075,-0.049,-0.075,0.0,AVERAGE,-0.026,0.45683700000000005,LOW,False,21,24,-3,True,away,True,True,Sample result - Patriots won outright
+49ers at Saints,Saints,49ers,4.5,-0.091,0.012,-0.091,0.012,0.0,AVERAGE,0.103,0.557231,MEDIUM,True,17,21,-4,True,away,False,True,Sample result - Saints covered +4.5
+Seahawks at Steelers,Seahawks,Steelers,3.0,-0.082,0.209,-0.082,0.209,0.0,AVERAGE,0.291,0.313402,LOW,False,24,21,3,True,home,False,True,Sample result - Seahawks covered +3.0
+Rams at Titans,Titans,Rams,5.5,-0.219,-0.075,-0.219,-0.075,0.0,AVERAGE,0.14400000000000002,0.494047,LOW,True,17,24,-7,True,away,False,True,Sample result - Titans covered +5.5
+Panthers at Cardinals,Panthers,Cardinals,6.5,-0.107,0.016,-0.107,0.016,0.0,AVERAGE,0.123,0.454455,LOW,False,21,14,7,False,home,False,True,Sample result - Panthers did not cover +6.5
+Broncos at Colts,Colts,Broncos,2.5,0.251,0.082,0.251,0.082,0.0,AVERAGE,-0.16899999999999998,0.820065,HIGH,True,28,31,-3,True,away,True,True,Sample result - Colts won outright
+Falcons at Vikings,Falcons,Vikings,4.5,0.011,-0.064,0.011,-0.064,0.0,AVERAGE,-0.075,0.570601,MEDIUM,False,24,17,7,False,home,False,True,Sample result - Falcons did not cover +4.5
+Buccaneers at Texans,Buccaneers,Texans,2.5,0.076,-0.121,0.076,-0.121,0.0,AVERAGE,-0.197,0.623028,HIGH,False,21,24,-3,True,away,True,True,Sample result - Buccaneers won outright
+
