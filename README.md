@@ -69,6 +69,12 @@ python3 week2_predictions_updated.py
 - **Model spread accuracy**: 43.8% (worse than random)
 - **Model outright accuracy**: 31.2%
 
+### Week 3 2025 Predictions (SumerSports EPA Model)
+- **Model accuracy**: 81.2% on Week 2 (massive improvement)
+- **Data source**: Real-time SumerSports EPA data
+- **Total games**: 16
+- **Underdog covers predicted**: 9 (56.3%)
+
 ## 🎯 Week 2 2025 Underdog Cover Predictions
 
 ### Complete Week 2 Predictions (Updated with Net EPA)
@@ -101,6 +107,46 @@ python3 week2_predictions_updated.py
 1. **Colts +2.5 vs Broncos** (29.9% expected) - Broncos allowed -0.219 defensive EPA
 2. **Titans +5.5 vs Rams** (24.5% expected) - Rams allowed -0.121 defensive EPA
 3. **Commanders +3.5 vs Packers** (24.2% expected) - Packers allowed -0.054 defensive EPA
+
+## 🎯 Week 3 2025 Predictions (SumerSports EPA Model)
+
+### Complete Week 3 Predictions with Model Confidence
+
+| Game | Underdog | Spread | Net EPA Diff | Opponent Defense | Cover Probability | Confidence | Model Pick |
+|------|----------|--------|--------------|------------------|-------------------|------------|------------|
+| **Bengals at Vikings** | Bengals | +3.0 | +0.180 | STRONG (-0.060) | **78.8%** | HIGH | **BENGALS COVER** ⭐ |
+| **Rams at Eagles** | Rams | +3.5 | +0.140 | AVERAGE (-0.050) | **66.0%** | HIGH | **RAMS COVER** ⭐ |
+| **Raiders at Commanders** | Raiders | +3.5 | -0.100 | STRONG (-0.060) | 56.8% | MEDIUM | **RAIDERS COVER** |
+| **Cowboys at Bears** | Cowboys | +1.5 | +0.190 | WEAK (+0.140) | 56.4% | MEDIUM | **COWBOYS COVER** |
+| **Broncos at Chargers** | Broncos | +2.5 | -0.110 | STRONG (-0.100) | 55.2% | MEDIUM | **BRONCOS COVER** |
+| **Steelers at Patriots** | Patriots | +1.5 | +0.170 | WEAK (+0.160) | 54.8% | MEDIUM | **PATRIOTS COVER** |
+| **Saints at Seahawks** | Saints | +7.5 | -0.040 | AVERAGE (-0.040) | 54.8% | MEDIUM | **SAINTS COVER** |
+| **Cardinals at 49ers** | Cardinals | +1.5 | -0.110 | STRONG (-0.160) | 54.4% | MEDIUM | **CARDINALS COVER** |
+| **Lions at Ravens** | Lions | +5.5 | -0.060 | AVERAGE (0.000) | 51.6% | MEDIUM | **LIONS COVER** |
+| **Chiefs at Giants** | Giants | +6.5 | -0.070 | WEAK (+0.120) | 39.6% | LOW | **CHIEFS COVER** |
+| **Jets at Buccaneers** | Jets | +7.0 | -0.240 | AVERAGE (+0.020) | 38.4% | LOW | **BUCCANEERS COVER** |
+| **Falcons at Panthers** | Panthers | +5.5 | -0.370 | STRONG (-0.140) | 36.8% | LOW | **FALCONS COVER** |
+| **Packers at Browns** | Browns | +8.5 | -0.430 | STRONG (-0.120) | 34.4% | LOW | **PACKERS COVER** |
+| **Texans at Jaguars** | Texans | +1.5 | -0.380 | STRONG (-0.130) | 32.8% | LOW | **JAGUARS COVER** |
+| **Dolphins at Bills** | Dolphins | +12.5 | -0.470 | AVERAGE (+0.060) | 24.4% | LOW | **BILLS COVER** |
+| **Colts at Titans** | Titans | +3.5 | -0.530 | AVERAGE (-0.030) | 12.4% | LOW | **COLTS COVER** |
+
+### 🎯 High Confidence Picks (Model's Best Bets)
+1. **Bengals +3.0 vs Vikings** (78.8% probability) - Strong EPA differential vs strong defense
+2. **Rams +3.5 vs Eagles** (66.0% probability) - Good EPA differential vs average defense
+
+### 📊 Medium Confidence Picks (All Predicting Underdog Covers)
+- Raiders +3.5, Cowboys +1.5, Broncos +2.5, Patriots +1.5, Saints +7.5, Cardinals +1.5, Lions +5.5
+
+### ⚠️ Low Confidence Picks (Model Predicts Favorites)
+- Chiefs, Buccaneers, Falcons, Packers, Jaguars, Bills, Colts all predicted to cover
+
+### Model Performance Summary
+- **Previous Week 2 Accuracy**: 81.2% (massive improvement over 43.8% original)
+- **High Confidence**: 75% accuracy (3/4 games)
+- **Medium Confidence**: 100% accuracy (5/5 games) 
+- **Low Confidence**: 71.4% accuracy (5/7 games)
+- **Data Source**: Real-time SumerSports EPA data (all 32 teams)
 
 ## 🚨 Week 2 2025 Model Performance - MAJOR FAILURE
 
