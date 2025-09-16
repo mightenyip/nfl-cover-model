@@ -63,10 +63,11 @@ python3 week2_predictions_updated.py
 - **Home underdogs**: 50.0% cover rate
 - **Away underdogs**: 50.0% cover rate
 
-### Week 2 2025 Predictions
-- **High confidence picks**: 3 games (75%+ expected cover rate)
-- **Average picks**: 10 games (50% expected cover rate)
-- **Picks to avoid**: 3 games (25% expected cover rate)
+### Week 2 2025 Results
+- **Total underdogs**: 16
+- **Underdogs who covered**: 7 (43.8%)
+- **Model spread accuracy**: 43.8% (worse than random)
+- **Model outright accuracy**: 31.2%
 
 ## 🎯 Week 2 2025 Underdog Cover Predictions
 
@@ -101,6 +102,51 @@ python3 week2_predictions_updated.py
 2. **Titans +5.5 vs Rams** (24.5% expected) - Rams allowed -0.121 defensive EPA
 3. **Commanders +3.5 vs Packers** (24.2% expected) - Packers allowed -0.054 defensive EPA
 
+## 🚨 Week 2 2025 Model Performance - MAJOR FAILURE
+
+### Model Accuracy Results
+The model performed **significantly worse than random chance** in Week 2:
+
+- **Spread prediction accuracy**: 43.8% (7/16 correct) - **Worse than 50% random**
+- **Outright prediction accuracy**: 31.2% (5/16 correct) - **Much worse than random**
+
+### Confidence Level Performance (Completely Broken)
+| Confidence Level | Games | Accuracy | Performance |
+|------------------|-------|----------|-------------|
+| **HIGH** | 3 | **0.0%** | Predicted 3 covers, got 0 - **Complete failure** |
+| **MEDIUM** | 10 | **50.0%** | Exactly random chance |
+| **LOW** | 3 | **66.7%** | Actually performed best |
+
+### Key Model Failures
+
+#### 1. **High Confidence Picks Were All Wrong**
+- **Jets +6.5** (77.8% predicted) → Lost by 20, did NOT cover
+- **Chiefs +0.5** (74.9% predicted) → Lost by 3, did NOT cover  
+- **Raiders +3.5** (80.3% predicted) → Lost by 11, did NOT cover
+
+#### 2. **EPA Metrics Were Not Predictive**
+- Covered underdogs had **worse** net EPA (-0.109) than non-covered underdogs (-0.052)
+- The core feature engineering completely failed
+
+#### 3. **Opponent Defense Logic Partially Reversed**
+- **WEAK defenses**: 0% cover rate (0/3) - Model predicted these would be good
+- **STRONG defenses**: 66.7% cover rate (2/3) - Model predicted these would be bad
+- **AVERAGE defenses**: 50% cover rate (5/10) - Only these performed as expected
+
+### What This Means
+The model's confidence calibration is **fundamentally broken**. You would have performed better by:
+- **Betting AGAINST** the model's high-confidence picks
+- **Betting ON** the model's low-confidence picks
+- This is the **opposite** of what a good model should do
+
+### Comparison: Week 1 vs Week 2
+| Metric | Week 1 | Week 2 | Change |
+|--------|--------|--------|--------|
+| Model Accuracy | Good | 43.8% | **Major decline** |
+| EPA Predictive Value | Strong | None | **Complete failure** |
+| Confidence Calibration | Working | Broken | **Reversed** |
+| Opponent Defense Logic | 75% vs 25% | 0% vs 67% | **Partially reversed** |
+
 ## 📈 Methodology
 
 ### EPA Analysis
@@ -116,16 +162,24 @@ python3 week2_predictions_updated.py
 
 ## 🔍 Key Insights
 
-1. **Defense Quality Matters Most**: Underdogs facing weak defenses have 3x higher cover rate than those facing strong defenses
-2. **Perfect Correlation**: Underdog offensive EPA perfectly correlates with opponent defensive EPA allowed
-3. **Matchup Over Skill**: The opponent's defensive performance is more important than the underdog's offensive ability
-4. **Realistic Cover Rates**: 50% overall cover rate provides a realistic baseline
+### Week 1 Findings (Model Worked)
+1. **Defense Quality Matters Most**: Underdogs facing weak defenses had 3x higher cover rate than those facing strong defenses
+2. **Perfect Correlation**: Underdog offensive EPA perfectly correlated with opponent defensive EPA allowed
+3. **Matchup Over Skill**: The opponent's defensive performance was more important than the underdog's offensive ability
+4. **Realistic Cover Rates**: 50% overall cover rate provided a realistic baseline
+
+### Week 2 Findings (Model Failed)
+1. **Model Performance Collapsed**: 43.8% accuracy - worse than random chance
+2. **Confidence Calibration Broken**: High confidence picks had 0% accuracy, low confidence had 66.7%
+3. **EPA Metrics Not Predictive**: Covered underdogs had worse net EPA than non-covered underdogs
+4. **Opponent Defense Logic Reversed**: Strong defenses favored underdogs (67% cover rate), weak defenses failed (0% cover rate)
+5. **Model Would Perform Better Inverted**: Betting against high-confidence picks and for low-confidence picks
 
 ## 📋 Data Sources
 
 - **Play-by-Play Data**: [nflverse GitHub repository](https://github.com/nflverse/nflverse-data/releases/tag/pbp) (2023-2024 seasons)
 - **Odds Data**: Manual compilation from Week 1 and Week 2 spreads
-- **Analysis Period**: Week 1 2025 results, Week 2 2025 predictions
+- **Analysis Period**: Week 1 2025 results (model worked), Week 2 2025 results (model failed)
 - **Validation Data**: 89,019 plays from 2023-2024 regular season (1,088 team-game observations)
 
 ## 🛠️ Technical Details
