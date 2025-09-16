@@ -27,15 +27,15 @@ class SumerSportsScraper:
             'Referer': 'https://sumersports.com/',
         })
         
-        # Team mappings based on SumerSports data (from the actual page content)
+        # Team mappings based on SumerSports data (full team names)
         self.team_mappings = {
-            'Baltimore': 'BAL', 'Indianapolis': 'IND', 'Buffalo': 'BUF', 'Detroit': 'DET', 'Green': 'GB',
-            'Tampa': 'TB', 'Jacksonville': 'JAX', 'England': 'NE', 'Angeles': 'LA', 'Chargers': 'LAC',
-            'Dallas': 'DAL', 'Arizona': 'ARI', 'Francisco': 'SF', 'Kansas': 'KC', 'Philadelphia': 'PHI',
-            'Atlanta': 'ATL', 'Jets': 'NYJ', 'Denver': 'DEN', 'Washington': 'WAS', 'Miami': 'MIA',
-            'Cincinnati': 'CIN', 'Pittsburgh': 'PIT', 'Orleans': 'NO', 'Seattle': 'SEA', 'Houston': 'HOU',
-            'Carolina': 'CAR', 'Chicago': 'CHI', 'Vegas': 'LV', 'Cleveland': 'CLE', 'Tennessee': 'TEN',
-            'Minnesota': 'MIN', 'Giants': 'NYG'
+            'Baltimore Ravens': 'BAL', 'Indianapolis Colts': 'IND', 'Buffalo Bills': 'BUF', 'Detroit Lions': 'DET', 'Green Bay Packers': 'GB',
+            'Tampa Bay Buccaneers': 'TB', 'Jacksonville Jaguars': 'JAX', 'New England Patriots': 'NE', 'Los Angeles Rams': 'LA', 'Los Angeles Chargers': 'LAC',
+            'Dallas Cowboys': 'DAL', 'Arizona Cardinals': 'ARI', 'San Francisco 49ers': 'SF', 'Kansas City Chiefs': 'KC', 'Philadelphia Eagles': 'PHI',
+            'Atlanta Falcons': 'ATL', 'New York Jets': 'NYJ', 'Denver Broncos': 'DEN', 'Washington Commanders': 'WAS', 'Miami Dolphins': 'MIA',
+            'Cincinnati Bengals': 'CIN', 'Pittsburgh Steelers': 'PIT', 'New Orleans Saints': 'NO', 'Seattle Seahawks': 'SEA', 'Houston Texans': 'HOU',
+            'Carolina Panthers': 'CAR', 'Chicago Bears': 'CHI', 'Las Vegas Raiders': 'LV', 'Cleveland Browns': 'CLE', 'Tennessee Titans': 'TEN',
+            'Minnesota Vikings': 'MIN', 'New York Giants': 'NYG'
         }
         
         # Full team names
@@ -77,14 +77,14 @@ class SumerSportsScraper:
                     team_cell = cells[0]
                     team_text = team_cell.get_text(strip=True)
                     
-                    # Extract team abbreviation from text (e.g., "1.Baltimore Ravens" -> "BLT")
-                    # The text format is "1.Baltimore Ravens" so we need to extract the abbreviation
-                    team_match = re.search(r'\d+\.(\w+)\s+\w+', team_text)
+                    # Extract full team name from text (e.g., "1.Baltimore Ravens" -> "Baltimore Ravens")
+                    # The text format is "1.Baltimore Ravens" so we need to extract the full team name
+                    team_match = re.search(r'\d+\.(.+)', team_text)
                     if team_match:
-                        team_abbr = team_match.group(1)
+                        full_team_name = team_match.group(1).strip()
                         
                         # Map to standard abbreviation
-                        standard_abbr = self.team_mappings.get(team_abbr)
+                        standard_abbr = self.team_mappings.get(full_team_name)
                         if standard_abbr:
                             try:
                                 # Extract EPA/Play from third column (index 2)
@@ -149,13 +149,13 @@ class SumerSportsScraper:
                     team_cell = cells[0]
                     team_text = team_cell.get_text(strip=True)
                     
-                    # Extract team abbreviation from text
-                    team_match = re.search(r'\d+\.(\w+)\s+\w+', team_text)
+                    # Extract full team name from text
+                    team_match = re.search(r'\d+\.(.+)', team_text)
                     if team_match:
-                        team_abbr = team_match.group(1)
+                        full_team_name = team_match.group(1).strip()
                         
                         # Map to standard abbreviation
-                        standard_abbr = self.team_mappings.get(team_abbr)
+                        standard_abbr = self.team_mappings.get(full_team_name)
                         if standard_abbr:
                             try:
                                 # Extract EPA/Play from third column (index 2) - defensive EPA allowed
