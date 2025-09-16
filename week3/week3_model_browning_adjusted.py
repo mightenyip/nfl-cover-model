@@ -1,28 +1,26 @@
 #!/usr/bin/env python3
 """
-Week 3 Model Predictions Using SumerSports EPA Data
+Week 3 2025 NFL Predictions with Jake Browning-adjusted Bengals EPA
 """
 
 import pandas as pd
 import os
-import numpy as np
+from datetime import datetime
 
-def run_week3_predictions():
-    """Run Week 3 predictions using our improved SumerSports EPA model"""
-    
-    print("=== Week 3 2025 NFL Predictions ===")
-    print("Using SumerSports EPA data (81.2% accuracy on Week 2)")
+def run_week3_browning_adjusted():
+    print("=== Week 3 2025 NFL Predictions (Browning-Adjusted) ===")
+    print("Using SumerSports EPA data with Jake Browning adjustment for Bengals")
 
     # Load Week 3 schedule and odds
     week3_odds_path = os.path.join("week3", "week3_2025_odds.csv")
     week3_odds = pd.read_csv(week3_odds_path)
 
-    # Load the scraped SumerSports EPA data
-    scraped_epa_path = "sumersports_epa_data.csv"
-    scraped_epa = pd.read_csv(scraped_epa_path)
+    # Load the Browning-adjusted EPA data
+    adjusted_epa_path = os.path.join(os.path.dirname(__file__), "..", "sumersports_epa_data_browning_adjusted.csv")
+    adjusted_epa = pd.read_csv(adjusted_epa_path)
 
     print(f"Loaded {len(week3_odds)} games from Week 3 odds")
-    print(f"Loaded {len(scraped_epa)} teams from SumerSports EPA data")
+    print(f"Loaded {len(adjusted_epa)} teams from Browning-adjusted EPA data")
 
     # Create team name to abbreviation mapping
     team_name_to_abbr = {
@@ -42,7 +40,7 @@ def run_week3_predictions():
     # Merge EPA data with Week 3 odds
     # For underdog team
     week3_data = week3_odds.merge(
-        scraped_epa[['team', 'team_name', 'epa_off_per_play', 'epa_def_allowed_per_play', 'net_epa_per_play']],
+        adjusted_epa[['team', 'team_name', 'epa_off_per_play', 'epa_def_allowed_per_play', 'net_epa_per_play']],
         left_on='underdog_abbr',
         right_on='team',
         how='left',
@@ -57,7 +55,7 @@ def run_week3_predictions():
 
     # For favorite team (opponent defense)
     week3_data = week3_data.merge(
-        scraped_epa[['team', 'team_name', 'epa_def_allowed_per_play']],
+        adjusted_epa[['team', 'team_name', 'epa_def_allowed_per_play']],
         left_on='favorite_abbr',
         right_on='team',
         how='left',
@@ -69,7 +67,7 @@ def run_week3_predictions():
     # Calculate net EPA differential (underdog_net_epa - favorite_net_epa)
     # We need favorite's net EPA as well
     week3_data = week3_data.merge(
-        scraped_epa[['team', 'net_epa_per_play']],
+        adjusted_epa[['team', 'net_epa_per_play']],
         left_on='favorite_abbr',
         right_on='team',
         how='left',
@@ -80,41 +78,16 @@ def run_week3_predictions():
     week3_data['net_epa_differential'] = week3_data['underdog_net_epa'] - week3_data['favorite_net_epa']
 
     # Determine defense quality based on opponent_def_epa
-    # Using thresholds based on the scraped data distribution
     def get_defense_quality(epa):
-        if epa > 0.10:  # Weak defense (allows high EPA)
+        if epa > 0.08: # Higher EPA allowed means weaker defense
             return 'WEAK'
-        elif epa >= -0.05:  # Average defense
+        elif epa >= -0.05: # Around league average
             return 'AVERAGE'
-        else:  # Strong defense (allows low/negative EPA)
+        else: # Lower EPA allowed means stronger defense
             return 'STRONG'
-    
     week3_data['defense_quality'] = week3_data['opponent_def_epa'].apply(get_defense_quality)
 
-    # Check for missing data
-    missing_teams = week3_data[week3_data['underdog_epa_off'].isna() | week3_data['opponent_def_epa'].isna()]
-    if not missing_teams.empty:
-        print(f"\n⚠️  Missing EPA data for {len(missing_teams)} games:")
-        for _, row in missing_teams.iterrows():
-            print(f"  {row['underdog_team']} vs {row['favorite_team']}")
-        
-        # Fill missing data with league average
-        league_avg_off = scraped_epa['epa_off_per_play'].mean()
-        league_avg_def = scraped_epa['epa_def_allowed_per_play'].mean()
-        league_avg_net = scraped_epa['net_epa_per_play'].mean()
-        
-        week3_data = week3_data.copy()  # Avoid chained assignment warnings
-        week3_data['underdog_epa_off'] = week3_data['underdog_epa_off'].fillna(league_avg_off)
-        week3_data['underdog_epa_def_allowed'] = week3_data['underdog_epa_def_allowed'].fillna(league_avg_def)
-        week3_data['underdog_net_epa'] = week3_data['underdog_net_epa'].fillna(league_avg_net)
-        week3_data['opponent_def_epa'] = week3_data['opponent_def_epa'].fillna(league_avg_def)
-        week3_data['favorite_net_epa'] = week3_data['favorite_net_epa'].fillna(league_avg_net)
-        week3_data['net_epa_differential'] = week3_data['underdog_net_epa'] - week3_data['favorite_net_epa']
-        
-        print(f"✅ Filled missing data with league averages")
-
-    # --- Model Logic Using SumerSports EPA Data ---
-    # This model uses the same logic that achieved 81.2% accuracy on Week 2
+    # --- Model Logic Using Browning-Adjusted EPA Data ---
     
     # Base probability
     week3_data['cover_probability'] = 0.50
@@ -148,12 +121,7 @@ def run_week3_predictions():
     week3_data['predicted_cover'] = week3_data['cover_probability'] >= 0.5
     
     # Calculate outright win probability
-    # For underdogs to win outright, they need to beat the spread AND win the game
-    # We'll use a simplified model: outright win probability = cover probability * 0.7
-    # This assumes that covering the spread is easier than winning outright
     week3_data['outright_win_probability'] = week3_data['cover_probability'] * 0.7
-    
-    # Cap outright win probabilities
     week3_data['outright_win_probability'] = week3_data['outright_win_probability'].clip(0.05, 0.85)
     
     # Assign outright win confidence levels
@@ -168,8 +136,19 @@ def run_week3_predictions():
     week3_data['outright_confidence'] = week3_data['outright_win_probability'].apply(assign_outright_confidence)
     week3_data['predicted_outright_win'] = week3_data['outright_win_probability'] >= 0.5
 
-    print(f"\n=== Week 3 Predictions ===")
-    print(f"Data source: SumerSports (81.2% accuracy on Week 2)")
+    print(f"\n=== Week 3 Predictions (Browning-Adjusted) ===")
+    print(f"Data source: SumerSports EPA with Jake Browning adjustment")
+    
+    # Focus on Bengals game
+    bengals_game = week3_data[week3_data['underdog_team'] == 'Bengals'].iloc[0]
+    print(f"\n=== Bengals vs Vikings (Key Game) ===")
+    print(f"Bengals Net EPA: {bengals_game['underdog_net_epa']:.4f}")
+    print(f"Vikings Net EPA: {bengals_game['favorite_net_epa']:.4f}")
+    print(f"Net EPA Differential: {bengals_game['net_epa_differential']:.4f}")
+    print(f"Cover Probability: {bengals_game['cover_probability']:.1%}")
+    print(f"Outright Win Probability: {bengals_game['outright_win_probability']:.1%}")
+    print(f"Cover Confidence: {bengals_game['confidence']}")
+    print(f"Outright Confidence: {bengals_game['outright_confidence']}")
     
     print(f"\nAll Games (sorted by cover probability):")
     for _, row in week3_data.sort_values(by='cover_probability', ascending=False).iterrows():
@@ -236,11 +215,12 @@ def run_week3_predictions():
     print(defense_quality_summary)
 
     # Save predictions
-    week3_data.to_csv(os.path.join("week3", "week3_predictions.csv"), index=False)
-    print(f"\n✅ Predictions saved to week3/week3_predictions.csv")
+    predictions_output_path = os.path.join("week3", "week3_predictions_browning_adjusted.csv")
+    week3_data.to_csv(predictions_output_path, index=False)
+    print(f"\n✅ Predictions saved to {predictions_output_path}")
 
     # Summary statistics
-    print(f"\n=== Week 3 Summary ===")
+    print(f"\n=== Week 3 Summary (Browning-Adjusted) ===")
     print(f"Total games: {len(week3_data)}")
     print(f"Underdog covers predicted: {week3_data['predicted_cover'].sum()}")
     print(f"Favorite covers predicted: {(~week3_data['predicted_cover']).sum()}")
@@ -257,4 +237,4 @@ def run_week3_predictions():
     print(f"Average outright win probability: {avg_outright:.1%}")
 
 if __name__ == "__main__":
-    run_week3_predictions()
+    run_week3_browning_adjusted()

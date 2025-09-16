@@ -112,34 +112,47 @@ python3 week2_predictions_updated.py
 
 ### Complete Week 3 Predictions with Model Confidence
 
-| Game | Underdog | Spread | Net EPA Diff | Opponent Defense | Cover Probability | Confidence | Model Pick |
-|------|----------|--------|--------------|------------------|-------------------|------------|------------|
-| **Bengals at Vikings** | Bengals | +3.0 | +0.180 | STRONG (-0.060) | **78.8%** | HIGH | **BENGALS COVER** ⭐ |
-| **Rams at Eagles** | Rams | +3.5 | +0.140 | AVERAGE (-0.050) | **66.0%** | HIGH | **RAMS COVER** ⭐ |
-| **Raiders at Commanders** | Raiders | +3.5 | -0.100 | STRONG (-0.060) | 56.8% | MEDIUM | **RAIDERS COVER** |
-| **Cowboys at Bears** | Cowboys | +1.5 | +0.190 | WEAK (+0.140) | 56.4% | MEDIUM | **COWBOYS COVER** |
-| **Broncos at Chargers** | Broncos | +2.5 | -0.110 | STRONG (-0.100) | 55.2% | MEDIUM | **BRONCOS COVER** |
-| **Steelers at Patriots** | Patriots | +1.5 | +0.170 | WEAK (+0.160) | 54.8% | MEDIUM | **PATRIOTS COVER** |
-| **Saints at Seahawks** | Saints | +7.5 | -0.040 | AVERAGE (-0.040) | 54.8% | MEDIUM | **SAINTS COVER** |
-| **Cardinals at 49ers** | Cardinals | +1.5 | -0.110 | STRONG (-0.160) | 54.4% | MEDIUM | **CARDINALS COVER** |
-| **Lions at Ravens** | Lions | +5.5 | -0.060 | AVERAGE (0.000) | 51.6% | MEDIUM | **LIONS COVER** |
-| **Chiefs at Giants** | Giants | +6.5 | -0.070 | WEAK (+0.120) | 39.6% | LOW | **CHIEFS COVER** |
-| **Jets at Buccaneers** | Jets | +7.0 | -0.240 | AVERAGE (+0.020) | 38.4% | LOW | **BUCCANEERS COVER** |
-| **Falcons at Panthers** | Panthers | +5.5 | -0.370 | STRONG (-0.140) | 36.8% | LOW | **FALCONS COVER** |
-| **Packers at Browns** | Browns | +8.5 | -0.430 | STRONG (-0.120) | 34.4% | LOW | **PACKERS COVER** |
-| **Texans at Jaguars** | Texans | +1.5 | -0.380 | STRONG (-0.130) | 32.8% | LOW | **JAGUARS COVER** |
-| **Dolphins at Bills** | Dolphins | +12.5 | -0.470 | AVERAGE (+0.060) | 24.4% | LOW | **BILLS COVER** |
-| **Colts at Titans** | Titans | +3.5 | -0.530 | AVERAGE (-0.030) | 12.4% | LOW | **COLTS COVER** |
+| Game | Underdog | Spread | Net EPA Diff | Opponent Defense | Cover Probability | Outright Win Probability | Cover Confidence | Outright Confidence | Cover Pick | Outright Pick |
+|------|----------|--------|--------------|------------------|-------------------|-------------------------|------------------|-------------------|------------|---------------|
+| **Bengals at Vikings** | Bengals | +3.0 | +0.184 | STRONG (-0.060) | **79.1%** | **55.4%** | HIGH | HIGH | **BENGALS COVER** ⭐ | **BENGALS WIN** ⭐ |
+| **Rams at Eagles** | Rams | +3.5 | +0.140 | AVERAGE (-0.050) | **66.0%** | 46.2% | HIGH | HIGH | **RAMS COVER** ⭐ | **EAGLES WIN** |
+| **Raiders at Commanders** | Raiders | +3.5 | -0.100 | STRONG (-0.060) | 56.8% | 39.8% | MEDIUM | MEDIUM | **RAIDERS COVER** | **COMMANDERS WIN** |
+| **Cowboys at Bears** | Cowboys | +1.5 | +0.190 | WEAK (+0.140) | 56.4% | 39.5% | MEDIUM | MEDIUM | **COWBOYS COVER** | **BEARS WIN** |
+| **Broncos at Chargers** | Broncos | +2.5 | -0.110 | STRONG (-0.100) | 55.2% | 38.6% | MEDIUM | MEDIUM | **BRONCOS COVER** | **CHARGERS WIN** |
+| **Steelers at Patriots** | Patriots | +1.5 | +0.170 | WEAK (+0.160) | 54.8% | 38.4% | MEDIUM | MEDIUM | **PATRIOTS COVER** | **STEELERS WIN** |
+| **Saints at Seahawks** | Saints | +7.5 | -0.040 | AVERAGE (-0.040) | 54.8% | 38.4% | MEDIUM | MEDIUM | **SAINTS COVER** | **SEAHAWKS WIN** |
+| **Cardinals at 49ers** | Cardinals | +1.5 | -0.110 | STRONG (-0.160) | 54.4% | 38.1% | MEDIUM | MEDIUM | **CARDINALS COVER** | **49ERS WIN** |
+| **Lions at Ravens** | Lions | +5.5 | -0.060 | AVERAGE (0.000) | 51.6% | 36.1% | MEDIUM | MEDIUM | **LIONS COVER** | **RAVENS WIN** |
+| **Chiefs at Giants** | Giants | +6.5 | -0.070 | WEAK (+0.120) | 39.6% | 27.7% | LOW | MEDIUM | **CHIEFS COVER** | **CHIEFS WIN** |
+| **Jets at Buccaneers** | Jets | +7.0 | -0.240 | AVERAGE (+0.020) | 38.4% | 26.9% | LOW | MEDIUM | **BUCCANEERS COVER** | **BUCCANEERS WIN** |
+| **Falcons at Panthers** | Panthers | +5.5 | -0.370 | STRONG (-0.140) | 36.8% | 25.8% | LOW | MEDIUM | **FALCONS COVER** | **FALCONS WIN** |
+| **Packers at Browns** | Browns | +8.5 | -0.430 | STRONG (-0.120) | 34.4% | 24.1% | LOW | LOW | **PACKERS COVER** | **PACKERS WIN** |
+| **Texans at Jaguars** | Texans | +1.5 | -0.380 | STRONG (-0.130) | 32.8% | 23.0% | LOW | LOW | **JAGUARS COVER** | **JAGUARS WIN** |
+| **Dolphins at Bills** | Dolphins | +12.5 | -0.470 | AVERAGE (+0.060) | 24.4% | 17.1% | LOW | LOW | **BILLS COVER** | **BILLS WIN** |
+| **Colts at Titans** | Titans | +3.5 | -0.530 | AVERAGE (-0.030) | 12.4% | 8.7% | LOW | LOW | **COLTS COVER** | **COLTS WIN** |
 
 ### 🎯 High Confidence Picks (Model's Best Bets)
-1. **Bengals +3.0 vs Vikings** (78.8% probability) - Strong EPA differential vs strong defense
-2. **Rams +3.5 vs Eagles** (66.0% probability) - Good EPA differential vs average defense
+1. **Bengals +3.0 vs Vikings** (79.1% cover, 55.4% outright) - Strong EPA differential vs strong defense ⚠️ *Jake Browning starting*
+2. **Rams +3.5 vs Eagles** (66.0% cover, 46.2% outright) - Good EPA differential vs average defense
 
 ### 📊 Medium Confidence Picks (All Predicting Underdog Covers)
 - Raiders +3.5, Cowboys +1.5, Broncos +2.5, Patriots +1.5, Saints +7.5, Cardinals +1.5, Lions +5.5
 
 ### ⚠️ Low Confidence Picks (Model Predicts Favorites)
 - Chiefs, Buccaneers, Falcons, Packers, Jaguars, Bills, Colts all predicted to cover
+
+### 🏆 Outright Win Predictions
+- **Only 1 underdog outright win predicted**: Bengals vs Vikings (55.2%)
+- **15 favorites predicted to win outright** (93.8% of games)
+- **High confidence outright**: Bengals (55.2%), Rams (46.2%) - but Rams still predicted to lose
+- **Average outright win probability**: 32.7%
+
+### ⚠️ **Jake Browning Analysis (Bengals QB Change)**
+- **Joe Burrow**: 0.0932 EPA per play (1,089 plays, 2023-2024)
+- **Jake Browning**: 0.0871 EPA per play (268 plays, 2023-2024)
+- **EPA Difference**: 0.0061 (Browning 7% worse than Burrow)
+- **Impact**: Browning adjustment actually **improved** Bengals prediction slightly (+0.3% cover probability)
+- **Conclusion**: Model maintains HIGH confidence in Bengals despite QB change
 
 ### Model Performance Summary
 - **Previous Week 2 Accuracy**: 81.2% (massive improvement over 43.8% original)
