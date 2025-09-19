@@ -22,19 +22,25 @@ A comprehensive analysis tool for predicting NFL underdog performance against th
 nfl-cover-model/
 ├── README.md                           # This file
 ├── requirements.txt                    # Python dependencies
-├── nfl_cover_model_starter.py         # Main analysis script
+├── scripts/                           # Python analysis scripts
+│   ├── nfl_cover_model_starter.py    # Main analysis script
+│   ├── epa_scraper.py                 # EPA data scraping
+│   ├── sumersports_scraper.py         # SumerSports data scraping
+│   └── ... (other analysis scripts)
+├── data/                              # Data files
+│   ├── play_by_play_2023.parquet     # 2023 NFL play-by-play data
+│   ├── play_by_play_2024.parquet     # 2024 NFL play-by-play data
+│   ├── sumersports_epa_data.*        # EPA data in various formats
+│   └── epa_source_comparison.csv     # EPA source comparison data
+├── schedule/                          # Weekly odds and schedules
+│   ├── week1_2025_odds.csv           # Week 1 2025 odds
+│   ├── week2_2025_odds.csv           # Week 2 2025 odds
+│   └── week3_2025_odds.csv           # Week 3 2025 odds
 ├── week1/                             # Week 1 2025 analysis
-│   ├── week1_2025_odds.csv           # Week 1 odds and spreads
 │   └── week1_2025_results_analysis.md # Week 1 results and EPA analysis
-├── week2/                             # Week 2 2025 predictions
-│   ├── week2_2025_odds.csv           # Week 2 odds and spreads
-│   ├── week2_2025_predictions_analysis.md # Week 2 predictions analysis
-│   ├── week2_underdog_predictions.csv # Week 2 predictions (original)
-│   ├── week2_underdog_predictions_updated.csv # Week 2 predictions (updated)
-│   ├── week2_predictions.py          # Week 2 predictions script (original)
-│   └── week2_predictions_updated.py  # Week 2 predictions script (updated)
-└── images/                            # Data files
-    └── play_by_play_2025.parquet     # NFL play-by-play data
+├── week2/                             # Week 2 2025 predictions and analysis
+├── week3/                             # Week 3 2025 predictions and analysis
+└── images/                            # Generated plots and visualizations
 ```
 
 ## 🚀 Quick Start
@@ -46,7 +52,7 @@ pip install -r requirements.txt
 
 ### 2. Run Week 1 Analysis
 ```bash
-python3 nfl_cover_model_starter.py
+python3 scripts/nfl_cover_model_starter.py
 ```
 
 ### 3. Generate Week 2 Predictions
@@ -266,6 +272,17 @@ predictions = make_week2_predictions()
 ```python
 import pandas as pd
 week1_results = pd.read_csv('week1/week1_2025_results_analysis.md')
+```
+
+### Access Data Files
+```python
+import pandas as pd
+# Load play-by-play data
+pbp_2024 = pd.read_parquet('data/play_by_play_2024.parquet')
+# Load EPA data
+epa_data = pd.read_csv('data/sumersports_epa_data.csv')
+# Load weekly odds
+week1_odds = pd.read_csv('schedule/week1_2025_odds.csv')
 ```
 
 ## 🤝 Contributing
