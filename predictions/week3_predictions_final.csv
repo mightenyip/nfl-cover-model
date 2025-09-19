@@ -1,0 +1,17 @@
+away_team,home_team,spread_line,total_line,favorite_team,underdog_team,underdog_abbr,favorite_abbr,underdog_epa_off,underdog_epa_def_allowed,underdog_net_epa,opponent_def_epa,favorite_net_epa,net_epa_differential,defense_quality,cover_probability,confidence,predicted_cover
+Dolphins,Bills,12.5,49.5,Bills,Dolphins,MIA,BUF,-0.04,0.29,-0.3299999999999999,0.06,0.14,-0.4699999999999999,AVERAGE,0.24400000000000008,LOW,False
+Falcons,Panthers,5.5,43.5,Falcons,Panthers,CAR,ATL,-0.11,0.12,-0.2299999999999999,-0.14,0.14,-0.3699999999999999,STRONG,0.36800000000000005,LOW,False
+Packers,Browns,8.5,42.5,Packers,Browns,CLE,GB,-0.16,0.01,-0.17,-0.12,0.26,-0.43000000000000005,STRONG,0.3439999999999999,LOW,False
+Texans,Jaguars,1.5,43.5,Jaguars,Texans,HOU,JAX,-0.09,0.05,-0.14,-0.13,0.24,-0.38,STRONG,0.32799999999999996,LOW,False
+Bengals,Vikings,3.0,42.5,Vikings,Bengals,CIN,MIN,-0.05,0.02,-0.07,-0.06,-0.25,0.18,STRONG,0.788,HIGH,True
+Steelers,Patriots,1.5,44.5,Steelers,Patriots,NE,PIT,0.1,0.14,-0.04,0.16,-0.21,0.16999999999999998,WEAK,0.548,MEDIUM,True
+Rams,Eagles,3.5,45.5,Eagles,Rams,LA,PHI,0.1,-0.13,0.23,-0.05,0.09,0.14,AVERAGE,0.66,HIGH,True
+Jets,Buccaneers,7.0,44.5,Buccaneers,Jets,NYJ,TB,0.01,0.14,-0.13,0.02,0.11,-0.24,AVERAGE,0.384,LOW,False
+Colts,Titans,3.5,43.5,Colts,Titans,TEN,IND,-0.26,0.03,-0.29,-0.03,0.24,-0.53,AVERAGE,0.12399999999999997,LOW,False
+Raiders,Commanders,3.5,47.5,Commanders,Raiders,LV,WAS,-0.14,-0.08,-0.06,-0.06,0.0399999999999999,-0.0999999999999999,STRONG,0.5680000000000001,MEDIUM,True
+Broncos,Chargers,2.5,45.5,Chargers,Broncos,DEN,LAC,-0.01,-0.1,0.09,-0.1,0.2,-0.11000000000000001,STRONG,0.552,MEDIUM,True
+Saints,Seahawks,7.5,41.5,Seahawks,Saints,NO,SEA,-0.06,0.01,-0.0699999999999999,-0.04,-0.03,-0.0399999999999999,AVERAGE,0.548,MEDIUM,True
+Cowboys,Bears,1.5,48.5,Bears,Cowboys,DAL,CHI,0.1,0.17,-0.07,0.14,-0.26,0.19,WEAK,0.5640000000000001,MEDIUM,True
+Cardinals,49ers,1.5,43.5,49ers,Cardinals,ARI,SF,0.08,-0.02,0.1,-0.16,0.21,-0.10999999999999999,STRONG,0.544,MEDIUM,True
+Chiefs,Giants,6.5,43.5,Chiefs,Giants,NYG,KC,0.0,0.14,-0.14,0.12,-0.0699999999999999,-0.07000000000000012,WEAK,0.3959999999999999,LOW,False
+Lions,Ravens,5.5,51.5,Ravens,Lions,DET,BAL,0.16,-0.03,0.19,0.0,0.25,-0.06,AVERAGE,0.516,MEDIUM,True
