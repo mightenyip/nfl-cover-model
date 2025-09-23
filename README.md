@@ -25,8 +25,7 @@ A comprehensive analysis tool for predicting NFL underdog performance against th
 | **#1** | **B v2** | **Matchup EPA (Pass/Rush)** | **75.0%** | 50.0% | +12.5% |
 | **#2** | **C Updated** | **Spread Rules + ATS Trends** | **68.8%** | 31.2% | -6.3% ⭐ |
 | **#3** | **D** | **Total Rules** | **43.8%** | 81.2% | +43.8% |
-| **#4** | **C Original** | **Spread Rules** | **37.5%** | 100.0% | +62.5% |
-| **#5** | **A** | **SumerSports EPA** | **31.2%** | 56.2% | +18.8% |
+| **#4** | **A** | **SumerSports EPA** | **31.2%** | 56.2% | +18.8% |
 
 **Week 3 Reality**: 37.5% underdog cover rate (6/16 games) - A weak week for underdogs
 **Model C Updated**: Would have predicted 31.2% underdog covers (5/16) - Closest to reality!
