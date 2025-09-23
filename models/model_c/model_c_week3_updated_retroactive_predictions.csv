@@ -1,0 +1,17 @@
+away_team,home_team,favorite_team,underdog_team,spread_line,total_line,predicted_cover,confidence,probability,rule_applied,prediction,favorite_is_home,favorite_is_away
+Dolphins,Bills,Bills,Dolphins,12.5,49.5,True,HIGH,0.58,Large Home Favorite Spread - Dolphins +12.5,Cover,True,False
+Falcons,Panthers,Falcons,Panthers,5.5,43.5,False,HIGH,0.6,Away Favorite Rule (60.0% ATS) - Falcons -5.5,No Cover,False,True
+Packers,Browns,Packers,Browns,8.5,42.5,True,MEDIUM,0.55,Large Away Favorite Spread - Browns +8.5,Cover,False,True
+Texans,Jaguars,Jaguars,Texans,1.5,43.5,False,MEDIUM,0.52,Home Favorite Small Spread (51.9% ATS) - Jaguars -1.5,No Cover,True,False
+Bengals,Vikings,Vikings,Bengals,3.0,42.5,False,MEDIUM,0.52,Home Favorite Small Spread (51.9% ATS) - Vikings -3.0,No Cover,True,False
+Steelers,Patriots,Steelers,Patriots,1.5,44.5,False,HIGH,0.6,Away Favorite Rule (60.0% ATS) - Steelers -1.5,No Cover,False,True
+Rams,Eagles,Eagles,Rams,3.5,45.5,False,MEDIUM,0.52,Home Favorite Small Spread (51.9% ATS) - Eagles -3.5,No Cover,True,False
+Jets,Buccaneers,Buccaneers,Jets,7.0,44.5,True,HIGH,0.58,Large Home Favorite Spread - Jets +7.0,Cover,True,False
+Colts,Titans,Colts,Titans,3.5,43.5,False,HIGH,0.6,Away Favorite Rule (60.0% ATS) - Colts -3.5,No Cover,False,True
+Raiders,Commanders,Commanders,Raiders,3.5,47.5,False,MEDIUM,0.52,Home Favorite Small Spread (51.9% ATS) - Commanders -3.5,No Cover,True,False
+Broncos,Chargers,Chargers,Broncos,2.5,45.5,False,MEDIUM,0.52,Home Favorite Small Spread (51.9% ATS) - Chargers -2.5,No Cover,True,False
+Saints,Seahawks,Seahawks,Saints,7.5,41.5,True,HIGH,0.58,Large Home Favorite Spread - Saints +7.5,Cover,True,False
+Cowboys,Bears,Bears,Cowboys,1.5,48.5,False,MEDIUM,0.52,Home Favorite Small Spread (51.9% ATS) - Bears -1.5,No Cover,True,False
+Cardinals,49ers,49ers,Cardinals,1.5,43.5,False,MEDIUM,0.52,Home Favorite Small Spread (51.9% ATS) - 49ers -1.5,No Cover,True,False
+Chiefs,Giants,Chiefs,Giants,6.5,43.5,False,HIGH,0.6,Away Favorite Rule (60.0% ATS) - Chiefs -6.5,No Cover,False,True
+Lions,Ravens,Ravens,Lions,5.5,51.5,True,MEDIUM,0.52,Home Favorite Medium Spread - Lions +5.5,Cover,True,False

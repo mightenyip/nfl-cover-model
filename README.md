@@ -23,11 +23,13 @@ A comprehensive analysis tool for predicting NFL underdog performance against th
 | Rank | Model | Methodology | Accuracy | Predicted Cover Rate | vs Reality |
 |------|-------|-------------|----------|---------------------|------------|
 | **#1** | **B v2** | **Matchup EPA (Pass/Rush)** | **75.0%** | 50.0% | +12.5% |
-| **#2** | **D** | **Total Rules** | **43.8%** | 81.2% | +43.8% |
-| **#3** | **C** | **Spread Rules** | **37.5%** | 100.0% | +62.5% |
-| **#4** | **A** | **SumerSports EPA** | **31.2%** | 56.2% | +18.8% |
+| **#2** | **C Updated** | **Spread Rules + ATS Trends** | **68.8%** | 31.2% | -6.3% ⭐ |
+| **#3** | **D** | **Total Rules** | **43.8%** | 81.2% | +43.8% |
+| **#4** | **C Original** | **Spread Rules** | **37.5%** | 100.0% | +62.5% |
+| **#5** | **A** | **SumerSports EPA** | **31.2%** | 56.2% | +18.8% |
 
 **Week 3 Reality**: 37.5% underdog cover rate (6/16 games) - A weak week for underdogs
+**Model C Updated**: Would have predicted 31.2% underdog covers (5/16) - Closest to reality!
 
 ### 🎯 Week 4 Predictions (Current Slate)
 
@@ -36,7 +38,6 @@ A comprehensive analysis tool for predicting NFL underdog performance against th
 |-------|------------------|---------------------|-----------------|----------|
 | **Model A** | 8 (50%) | 8 (50%) | 4 games | Balanced EPA analysis |
 | **Model B v2** | 10 (62.5%) | 6 (37.5%) | 9 games | Extremely bullish underdogs |
-| **Model C Original** | 16 (100%) | 0 (0%) | 0 games | All underdogs (rule-based) |
 | **Model C Updated** | 5 (31.2%) | 11 (68.8%) | 11 games | Data-driven ATS trends ⭐ |
 | **Model D** | 12 (75%) | 4 (25%) | 14 games | Total-based rules |
 
