@@ -1,0 +1,16 @@
+game,underdog,spread,predicted_cover,actual_cover,model_correct
+MIA @ BUF,MIA,+12.5,No,Yes,No
+ATL @ CAR,CAR,+5.5,No,Yes,No
+GB @ CLE,CLE,+8.5,No,Yes,No
+HOU @ JAX,HOU,+1.5,No,No,Yes
+CIN @ MIN,CIN,+3.0,Yes,No,No
+PIT @ NE,NE,+1.5,Yes,No,No
+LA @ PHI,LA,+3.5,Yes,No,No
+NYJ @ TB,NYJ,+7.0,No,Yes,No
+IND @ TEN,TEN,+3.5,No,No,Yes
+LV @ WAS,LV,+3.5,Yes,No,No
+DEN @ LAC,DEN,+2.5,Yes,No,No
+NO @ SEA,NO,+7.5,Yes,No,No
+DAL @ CHI,DAL,+1.5,Yes,No,No
+ARI @ SF,ARI,+1.5,Yes,Yes,Yes
+KC @ NYG,NYG,+6.5,No,No,Yes
