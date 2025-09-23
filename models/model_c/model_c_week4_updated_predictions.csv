@@ -1,0 +1,17 @@
+away_team,home_team,favorite_team,underdog_team,spread_line,total_line,predicted_cover,confidence,probability,rule_applied,prediction,favorite_is_home,favorite_is_away
+Seahawks,Cardinals,Seahawks,Cardinals,1.5,43.5,False,HIGH,0.6,Away Favorite Rule (60.0% ATS) - Seahawks -1.5,No Cover,False,True
+Vikings,Steelers,Vikings,Steelers,2.5,40.5,False,HIGH,0.6,Away Favorite Rule (60.0% ATS) - Vikings -2.5,No Cover,False,True
+Commanders,Falcons,Commanders,Falcons,1.5,45.5,False,HIGH,0.6,Away Favorite Rule (60.0% ATS) - Commanders -1.5,No Cover,False,True
+Saints,Bills,Bills,Saints,16.5,48.5,True,HIGH,0.58,Large Home Favorite Spread - Saints +16.5,Cover,True,False
+Browns,Lions,Lions,Browns,8.5,44.5,True,HIGH,0.58,Large Home Favorite Spread - Browns +8.5,Cover,True,False
+Titans,Texans,Texans,Titans,7.0,38.5,True,HIGH,0.58,Large Home Favorite Spread - Titans +7.0,Cover,True,False
+Panthers,Patriots,Patriots,Panthers,5.5,43.5,True,MEDIUM,0.52,Home Favorite Medium Spread - Panthers +5.5,Cover,True,False
+Chargers,Giants,Chargers,Giants,6.5,44.5,False,HIGH,0.6,Away Favorite Rule (60.0% ATS) - Chargers -6.5,No Cover,False,True
+Eagles,Buccaneers,Eagles,Buccaneers,3.5,43.5,False,HIGH,0.6,Away Favorite Rule (60.0% ATS) - Eagles -3.5,No Cover,False,True
+Colts,Rams,Rams,Colts,3.5,49.5,False,MEDIUM,0.52,Home Favorite Small Spread (51.9% ATS) - Rams -3.5,No Cover,True,False
+Jaguars,49ers,49ers,Jaguars,3.0,47.0,False,MEDIUM,0.52,Home Favorite Small Spread (51.9% ATS) - 49ers -3.0,No Cover,True,False
+Ravens,Chiefs,Ravens,Chiefs,2.5,48.5,False,HIGH,0.6,Away Favorite Rule (60.0% ATS) - Ravens -2.5,No Cover,False,True
+Bears,Raiders,Raiders,Bears,1.5,47.5,False,MEDIUM,0.52,Home Favorite Small Spread (51.9% ATS) - Raiders -1.5,No Cover,True,False
+Packers,Cowboys,Packers,Cowboys,7.0,47.5,False,HIGH,0.6,Away Favorite Rule (60.0% ATS) - Packers -7.0,No Cover,False,True
+Jets,Dolphins,Dolphins,Jets,2.5,45.0,False,MEDIUM,0.52,Home Favorite Small Spread (51.9% ATS) - Dolphins -2.5,No Cover,True,False
+Bengals,Broncos,Broncos,Bengals,7.0,44.0,True,HIGH,0.58,Large Home Favorite Spread - Bengals +7.0,Cover,True,False

@@ -7,21 +7,21 @@ import pandas as pd
 import numpy as np
 import os
 
-def run_week3_sumersports_model():
+def run_model_a_sumersports():
     """Run Week 3 model using SumerSports EPA data with the proven methodology"""
     
-    print("=== Week 3 SumerSports Model Predictions ===")
-    print("Using methodology that achieved 81.2% accuracy in Week 2")
+    print("=== Week 4 Model A: SumerSports EPA Predictions ===")
+    print("Using proven SumerSports EPA methodology")
 
-    # Load Week 3 schedule and odds
-    week3_odds_path = "../../week3/week3_2025_odds.csv"
-    week3_odds = pd.read_csv(week3_odds_path)
+    # Load Week 4 schedule and odds
+    week4_odds_path = "../../schedule/week4_2025_odds.csv"
+    week4_odds = pd.read_csv(week4_odds_path)
 
     # Load the SumerSports EPA data
     scraped_epa_path = "../../data/sumersports_epa_data.csv"
     scraped_epa = pd.read_csv(scraped_epa_path)
 
-    print(f"Loaded {len(week3_odds)} games from Week 3 odds")
+    print(f"Loaded {len(week4_odds)} games from Week 4 odds")
     print(f"Loaded {len(scraped_epa)} teams from SumerSports EPA data")
 
     # Create team name to abbreviation mapping
@@ -35,28 +35,28 @@ def run_week3_sumersports_model():
         'Titans': 'TEN', 'Vikings': 'MIN'
     }
     
-    # Add abbreviation columns to week3_odds
-    week3_odds['underdog_abbr'] = week3_odds['underdog_team'].map(team_name_to_abbr)
-    week3_odds['favorite_abbr'] = week3_odds['favorite_team'].map(team_name_to_abbr)
+    # Add abbreviation columns to week4_odds
+    week4_odds['underdog_abbr'] = week4_odds['underdog_team'].map(team_name_to_abbr)
+    week4_odds['favorite_abbr'] = week4_odds['favorite_team'].map(team_name_to_abbr)
 
-    # Merge EPA data with Week 3 odds
+    # Merge EPA data with Week 4 odds
     # For underdog team
-    week3_data = week3_odds.merge(
+    week4_data = week4_odds.merge(
         scraped_epa[['team', 'team_name', 'epa_off_per_play', 'epa_def_allowed_per_play', 'net_epa_per_play']],
         left_on='underdog_abbr',
         right_on='team',
         how='left',
         suffixes=('', '_underdog')
     )
-    week3_data.rename(columns={
+    week4_data.rename(columns={
         'epa_off_per_play': 'underdog_epa_off',
         'epa_def_allowed_per_play': 'underdog_epa_def_allowed',
         'net_epa_per_play': 'underdog_net_epa'
     }, inplace=True)
-    week3_data.drop(columns=['team', 'team_name'], inplace=True)
+    week4_data.drop(columns=['team', 'team_name'], inplace=True)
 
     # For favorite team (opponent defense)
-    week3_data = week3_data.merge(
+    week4_data = week4_data.merge(
         scraped_epa[['team', 'team_name', 'epa_def_allowed_per_play']],
         left_on='favorite_abbr',
         right_on='team',

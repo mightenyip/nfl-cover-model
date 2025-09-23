@@ -16,9 +16,9 @@ A comprehensive analysis tool for predicting NFL underdog performance against th
 - **Underdogs vs STRONG defenses**: 25% cover rate
 - **The matchup matters more than the underdog's inherent offensive ability**
 
-## 🤖 Model Performance Comparison (Week 3 2025)
+## 🤖 Model Performance Comparison
 
-### 📊 Four-Model Comparison Results
+### 📊 Week 3 Results (Historical Performance)
 
 | Rank | Model | Methodology | Accuracy | Predicted Cover Rate | vs Reality |
 |------|-------|-------------|----------|---------------------|------------|
@@ -28,6 +28,51 @@ A comprehensive analysis tool for predicting NFL underdog performance against th
 | **#4** | **A** | **SumerSports EPA** | **31.2%** | 56.2% | +18.8% |
 
 **Week 3 Reality**: 37.5% underdog cover rate (6/16 games) - A weak week for underdogs
+
+### 🎯 Week 4 Predictions (Current Slate)
+
+#### **Model Prediction Distribution**
+| Model | Cover Predictions | No Cover Predictions | High Confidence | Strategy |
+|-------|------------------|---------------------|-----------------|----------|
+| **Model A** | 8 (50%) | 8 (50%) | 4 games | Balanced EPA analysis |
+| **Model B v2** | 10 (62.5%) | 6 (37.5%) | 9 games | Extremely bullish underdogs |
+| **Model C Original** | 16 (100%) | 0 (0%) | 0 games | All underdogs (rule-based) |
+| **Model C Updated** | 5 (31.2%) | 11 (68.8%) | 11 games | Data-driven ATS trends ⭐ |
+| **Model D** | 12 (75%) | 4 (25%) | 14 games | Total-based rules |
+
+#### **🔥 High Confidence Picks Summary**
+
+**Model A (4 High Confidence Games)**:
+- Vikings @ Steelers: Steelers +2.5 - **COVER** (67.2%)
+- Commanders @ Falcons: Falcons +1.5 - **COVER** (71.2%)
+- Colts @ Rams: Colts +3.5 - **COVER** (65.6%)
+- Jaguars @ 49ers: Jaguars +3.0 - **COVER** (66.8%)
+
+**Model B v2 (9 High Confidence Games)**:
+- 8 games at **95.0% confidence** (VERY_HIGH)
+- 1 game at **77.4% confidence** (HIGH)
+- All **UNDERDOG COVERS**
+
+**Model C Updated (11 High Confidence Games)**:
+- 7 games at **60.0% confidence** (Away Favorites - 60% ATS success rate)
+- 4 games at **58.0% confidence** (Large Home Favorites - fade strategy)
+- **6 Favorite Covers / 5 Underdog Covers**
+
+**Model D (14 High Confidence Games)**:
+- 10 Underdog Covers (Low total games)
+- 4 Favorite Covers (High total + small spread)
+
+#### **🎯 Consensus & Key Insights**
+
+**Full Model Consensus (1 Game)**:
+- **Ravens @ Chiefs**: Chiefs +2.5 - **NO COVER** (All 4 models agree, 60% confidence)
+
+**Key Insights**:
+1. **Model C Updated** incorporates real Week 1-3 ATS data (Away Favorites: 60.0%, Home Dogs: 40.0%)
+2. **Model B v2** remains extremely bullish on underdogs (95% confidence on 8 games)
+3. **Model A** provides balanced, nuanced predictions with EPA analysis
+4. **Significant model disagreements** - only 1 consensus game out of 16
+5. **Model C Updated** shifts from all-underdogs to favorite-heavy strategy (68.8% favorites)
 
 ### 🔬 Model Methodology Details
 
@@ -57,7 +102,9 @@ A comprehensive analysis tool for predicting NFL underdog performance against th
   - ✅ **Perfect on LOW confidence picks** (3/3 = 100%)
   - ✅ **Closest to reality** (50% vs 37.5% actual)
 
-#### **Model C: Spread-Based Rules**
+#### **Model C: Spread-Based Rules (Two Versions)**
+
+**Model C Original**:
 - **Key Variables**: Spread line, home field advantage
 - **Rules**:
   - Choose HOME FAVORITE on spreads between -2.5 and -3.5
@@ -67,6 +114,19 @@ A comprehensive analysis tool for predicting NFL underdog performance against th
   - ⚠️ **Limited application** - rules didn't apply to Week 3 spreads
   - ⚠️ **All 16 games defaulted** to underdog prediction
   - ⚠️ **Rules too narrow** for this week's spread distribution
+
+**Model C Updated (Week 4)** ⭐:
+- **Key Variables**: Real Week 1-3 ATS data, home/away status, spread ranges
+- **Rules**:
+  - **Away Favorites**: 60.0% ATS success → HIGH confidence favorite picks
+  - **Large Home Favorites**: Fade strategy → HIGH confidence underdog picks
+  - **Home Favorites (small spreads)**: 51.9% ATS → MEDIUM confidence favorite picks
+  - **Home Dogs**: 40.0% ATS → HIGH confidence fade (favorite picks)
+- **Highlights**:
+  - ✅ **Data-driven approach** using real NFL performance
+  - ✅ **11 high confidence picks** vs 0 in original
+  - ✅ **Favorite-heavy strategy** (68.8% favorites vs 0% in original)
+  - ✅ **Incorporates actual ATS trends** from current season
 
 #### **Model D: Total-Based Rules**
 - **Key Variables**: Total line, spread line

@@ -1,0 +1,17 @@
+Game,Underdog,Spread,Total,Model_A,Model_A_Conf,Model_A_Prob,Model_B,Model_B_Conf,Model_B_Prob,Model_C_Orig,Model_C_Orig_Conf,Model_C_Updated,Model_C_Updated_Conf,Model_C_Updated_Prob,Model_D,Model_D_Conf
+Seahawks @ Cardinals,Cardinals,1.5,43.5,Cover,MEDIUM,0.636,Cover,VERY_HIGH,0.95,Cover,LOW,No Cover,HIGH,0.6,Cover,HIGH
+Vikings @ Steelers,Steelers,2.5,40.5,Cover,HIGH,0.672,Cover,VERY_HIGH,0.95,Cover,LOW,No Cover,HIGH,0.6,Cover,HIGH
+Commanders @ Falcons,Falcons,1.5,45.5,Cover,HIGH,0.712,No Cover,LOW,0.376,Cover,LOW,No Cover,HIGH,0.6,Cover,HIGH
+Saints @ Bills,Saints,16.5,48.5,No Cover,MEDIUM,0.484,No Cover,VERY_LOW,0.05,Cover,LOW,Cover,HIGH,0.58,Cover,LOW
+Browns @ Lions,Browns,8.5,44.5,No Cover,LOW,0.3,Cover,HIGH,0.618,Cover,LOW,Cover,HIGH,0.58,Cover,HIGH
+Titans @ Texans,Titans,7.0,38.5,No Cover,MEDIUM,0.456,No Cover,LOW,0.369,Cover,LOW,Cover,HIGH,0.58,Cover,HIGH
+Panthers @ Patriots,Panthers,5.5,43.5,No Cover,LOW,0.292,Cover,VERY_HIGH,0.95,Cover,LOW,Cover,MEDIUM,0.52,Cover,HIGH
+Chargers @ Giants,Giants,6.5,44.5,No Cover,LOW,0.4,Cover,VERY_HIGH,0.774,Cover,LOW,No Cover,HIGH,0.6,Cover,HIGH
+Eagles @ Buccaneers,Buccaneers,3.5,43.5,Cover,MEDIUM,0.564,Cover,MEDIUM,0.561,Cover,LOW,No Cover,HIGH,0.6,Cover,HIGH
+Colts @ Rams,Colts,3.5,49.5,Cover,HIGH,0.656,Cover,VERY_HIGH,0.95,Cover,LOW,No Cover,MEDIUM,0.52,No Cover,HIGH
+Jaguars @ 49ers,Jaguars,3.0,47.0,Cover,HIGH,0.668,Cover,VERY_HIGH,0.95,Cover,LOW,No Cover,MEDIUM,0.52,No Cover,HIGH
+Ravens @ Chiefs,Chiefs,2.5,48.5,No Cover,LOW,0.284,No Cover,VERY_LOW,0.232,Cover,LOW,No Cover,HIGH,0.6,No Cover,HIGH
+Bears @ Raiders,Bears,1.5,47.5,No Cover,MEDIUM,0.472,Cover,VERY_HIGH,0.95,Cover,LOW,No Cover,MEDIUM,0.52,No Cover,HIGH
+Packers @ Cowboys,Cowboys,7.0,47.5,No Cover,MEDIUM,0.412,Cover,VERY_HIGH,0.95,Cover,LOW,No Cover,HIGH,0.6,Cover,LOW
+Jets @ Dolphins,Jets,2.5,45.0,Cover,MEDIUM,0.58,No Cover,VERY_LOW,0.05,Cover,LOW,No Cover,MEDIUM,0.52,Cover,HIGH
+Bengals @ Broncos,Bengals,7.0,44.0,Cover,MEDIUM,0.548,No Cover,LOW,0.361,Cover,LOW,Cover,HIGH,0.58,Cover,HIGH
