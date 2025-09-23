@@ -1,0 +1,17 @@
+away_team,home_team,spread_line,total_line,favorite_team,underdog_team,underdog_abbr,favorite_abbr,cover_probability,confidence,predicted_cover,rule_applied
+Dolphins,Bills,12.5,49.5,Bills,Dolphins,MIA,BUF,0.45,LOW,True,Default Underdog
+Falcons,Panthers,5.5,43.5,Falcons,Panthers,CAR,ATL,0.45,LOW,True,Default Underdog
+Packers,Browns,8.5,42.5,Packers,Browns,CLE,GB,0.45,LOW,True,Default Underdog
+Texans,Jaguars,1.5,43.5,Jaguars,Texans,HOU,JAX,0.45,LOW,True,Default Underdog
+Bengals,Vikings,3.0,42.5,Vikings,Bengals,CIN,MIN,0.45,LOW,True,Default Underdog
+Steelers,Patriots,1.5,44.5,Steelers,Patriots,NE,PIT,0.45,LOW,True,Default Underdog
+Rams,Eagles,3.5,45.5,Eagles,Rams,LA,PHI,0.45,LOW,True,Default Underdog
+Jets,Buccaneers,7.0,44.5,Buccaneers,Jets,NYJ,TB,0.45,LOW,True,Default Underdog
+Colts,Titans,3.5,43.5,Colts,Titans,TEN,IND,0.45,LOW,True,Default Underdog
+Raiders,Commanders,3.5,47.5,Commanders,Raiders,LV,WAS,0.45,LOW,True,Default Underdog
+Broncos,Chargers,2.5,45.5,Chargers,Broncos,DEN,LAC,0.45,LOW,True,Default Underdog
+Saints,Seahawks,7.5,41.5,Seahawks,Saints,NO,SEA,0.45,LOW,True,Default Underdog
+Cowboys,Bears,1.5,48.5,Bears,Cowboys,DAL,CHI,0.45,LOW,True,Default Underdog
+Cardinals,49ers,1.5,43.5,49ers,Cardinals,ARI,SF,0.45,LOW,True,Default Underdog
+Chiefs,Giants,6.5,43.5,Chiefs,Giants,NYG,KC,0.45,LOW,True,Default Underdog
+Lions,Ravens,5.5,51.5,Ravens,Lions,DET,BAL,0.45,LOW,True,Default Underdog

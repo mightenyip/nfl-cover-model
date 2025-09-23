@@ -16,26 +16,94 @@ A comprehensive analysis tool for predicting NFL underdog performance against th
 - **Underdogs vs STRONG defenses**: 25% cover rate
 - **The matchup matters more than the underdog's inherent offensive ability**
 
+## 🤖 Model Performance Comparison (Week 3 2025)
+
+### 📊 Four-Model Comparison Results
+
+| Rank | Model | Methodology | Accuracy | Predicted Cover Rate | vs Reality |
+|------|-------|-------------|----------|---------------------|------------|
+| **#1** | **B v2** | **Matchup EPA (Pass/Rush)** | **75.0%** | 50.0% | +12.5% |
+| **#2** | **D** | **Total Rules** | **43.8%** | 81.2% | +43.8% |
+| **#3** | **C** | **Spread Rules** | **37.5%** | 100.0% | +62.5% |
+| **#4** | **A** | **SumerSports EPA** | **31.2%** | 56.2% | +18.8% |
+
+**Week 3 Reality**: 37.5% underdog cover rate (6/16 games) - A weak week for underdogs
+
+### 🔬 Model Methodology Details
+
+#### **Model A: SumerSports EPA (Original)**
+- **Key Variables**: Net EPA per play, opponent defense quality, spread adjustments
+- **Rules**: 
+  - Base probability: 50%
+  - Defense quality adjustments: STRONG (+12%), WEAK (-10%), AVERAGE (+2%)
+  - Net EPA differential multiplier: 0.8x
+  - Spread line adjustment: 0.008x
+- **Highlights**: 
+  - ❌ **Worst performer** (31.2% accuracy)
+  - ❌ **0% accuracy** on HIGH confidence picks
+  - ❌ **Overestimated** underdog cover rate by 18.8%
+
+#### **Model B v2: Matchup-Specific EPA (Pass/Rush)**
+- **Key Variables**: EPA per pass/rush for offense vs defense, matchup advantages, relative strength
+- **Rules**:
+  - Base probability: 50%
+  - Underdog total advantage multiplier: 2.0x
+  - Favorite total advantage multiplier: -1.5x
+  - Pass/rush balance factor: 0.5x
+  - Spread adjustment: 0.01x
+- **Highlights**:
+  - 🏆 **Best performer** (75.0% accuracy)
+  - ✅ **3/5 VERY_HIGH confidence picks correct** (60%)
+  - ✅ **Perfect on LOW confidence picks** (3/3 = 100%)
+  - ✅ **Closest to reality** (50% vs 37.5% actual)
+
+#### **Model C: Spread-Based Rules**
+- **Key Variables**: Spread line, home field advantage
+- **Rules**:
+  - Choose HOME FAVORITE on spreads between -2.5 and -3.5
+  - Choose FAVORITE on spreads between -1 and -3.5
+  - Default to UNDERDOG for all other spreads
+- **Highlights**:
+  - ⚠️ **Limited application** - rules didn't apply to Week 3 spreads
+  - ⚠️ **All 16 games defaulted** to underdog prediction
+  - ⚠️ **Rules too narrow** for this week's spread distribution
+
+#### **Model D: Total-Based Rules**
+- **Key Variables**: Total line, spread line
+- **Rules**:
+  - Choose FAVORITE (spread ≤ 6.5) on games with TOTAL ≥ 46 points
+  - Choose UNDERDOG in games with TOTAL ≤ 45.5 points
+  - Default to UNDERDOG for other games
+- **Highlights**:
+  - ✅ **Second best performer** (43.8% accuracy)
+  - ✅ **High confidence on 15/16 games** based on total rules
+  - ✅ **Very active rules** - applied to 15/16 games
+  - ⚠️ **Overestimated** underdog cover rate (+43.8%)
+
 ## 📁 Repository Structure
 
 ```
 nfl-cover-model/
 ├── README.md                           # This file
 ├── requirements.txt                    # Python dependencies
+├── models/                            # Model implementations and comparisons
+│   ├── model_a/                       # SumerSports EPA model (original)
+│   ├── model_b/                       # Enhanced EPA models
+│   ├── model_c/                       # Spread-based rules model
+│   ├── model_d/                       # Total-based rules model
+│   └── *_comparison.py               # Model comparison scripts
 ├── scripts/                           # Python analysis scripts
 │   ├── nfl_cover_model_starter.py    # Main analysis script
 │   ├── epa_scraper.py                 # EPA data scraping
 │   ├── sumersports_scraper.py         # SumerSports data scraping
+│   ├── detailed_epa_scraper.py        # Pass/Rush EPA scraping
 │   └── ... (other analysis scripts)
 ├── data/                              # Data files
 │   ├── play_by_play_2023.parquet     # 2023 NFL play-by-play data
 │   ├── play_by_play_2024.parquet     # 2024 NFL play-by-play data
 │   ├── sumersports_epa_data.*        # EPA data in various formats
+│   ├── detailed_epa_data.*           # Pass/Rush EPA breakdown data
 │   └── epa_source_comparison.csv     # EPA source comparison data
-├── schedule/                          # Weekly odds and schedules
-│   ├── week1_2025_odds.csv           # Week 1 2025 odds
-│   ├── week2_2025_odds.csv           # Week 2 2025 odds
-│   └── week3_2025_odds.csv           # Week 3 2025 odds
 ├── week1/                             # Week 1 2025 analysis
 │   └── week1_2025_results_analysis.md # Week 1 results and EPA analysis
 ├── week2/                             # Week 2 2025 predictions and analysis
@@ -59,6 +127,27 @@ python3 scripts/nfl_cover_model_starter.py
 ```bash
 cd week2
 python3 week2_predictions_updated.py
+```
+
+### 4. Run Model Comparisons
+```bash
+# Run all four models for Week 3
+cd models/model_a && python3 model_a_sumersports.py
+cd ../model_b && python3 model_b_matchup_epa.py
+cd ../model_c && python3 model_c_spread_rules.py
+cd ../model_d && python3 model_d_total_rules.py
+
+# Compare all models
+cd .. && python3 four_model_comparison.py
+```
+
+### 5. Scrape Fresh EPA Data
+```bash
+# Basic EPA data
+python3 scripts/sumersports_scraper.py
+
+# Detailed Pass/Rush EPA data
+python3 scripts/detailed_epa_scraper.py
 ```
 
 ## 📊 Analysis Results

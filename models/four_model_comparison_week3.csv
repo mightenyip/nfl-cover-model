@@ -1,0 +1,5 @@
+Model,Methodology,Accuracy,Predicted_Cover_Rate,Actual_Cover_Rate,Difference,Correct_Predictions,Total_Games
+B_v2,Matchup EPA (Pass/Rush),0.75,0.5,0.375,0.125,12,16
+D,Total Rules,0.4375,0.8125,0.375,0.4375,7,16
+C,Spread Rules,0.375,1.0,0.375,0.625,6,16
+A,SumerSports EPA,0.3125,0.5625,0.375,0.1875,5,16

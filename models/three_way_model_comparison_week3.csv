@@ -1,0 +1,17 @@
+away_team,home_team,underdog_team,spread_line,cover_probability_A,confidence_A,predicted_cover_A,cover_probability_B,confidence_B,predicted_cover_B,cover_probability_B_v2,confidence_B_v2,predicted_cover_B_v2
+Dolphins,Bills,Dolphins,12.5,0.244,LOW,False,0.02,VERY_LOW,False,0.6960000000000001,HIGH,True
+Falcons,Panthers,Panthers,5.5,0.368,LOW,False,0.02,VERY_LOW,False,0.762,VERY_HIGH,True
+Packers,Browns,Browns,8.5,0.3439999999999999,LOW,False,0.0614080896686159,VERY_LOW,False,0.7219999999999999,VERY_HIGH,True
+Texans,Jaguars,Texans,1.5,0.3279999999999999,LOW,False,0.0475499999999999,VERY_LOW,False,0.481,MEDIUM,False
+Bengals,Vikings,Bengals,3.0,0.788,HIGH,True,0.8171166666666667,VERY_HIGH,True,0.55,MEDIUM,True
+Steelers,Patriots,Patriots,1.5,0.548,MEDIUM,True,0.5283,MEDIUM,True,0.4439999999999999,LOW,False
+Rams,Eagles,Rams,3.5,0.66,HIGH,True,0.8840333333333334,VERY_HIGH,True,0.4539999999999999,MEDIUM,False
+Jets,Buccaneers,Jets,7.0,0.384,LOW,False,0.0922166666666667,VERY_LOW,False,0.5,MEDIUM,True
+Colts,Titans,Titans,3.5,0.1239999999999999,LOW,False,0.02,VERY_LOW,False,0.05,VERY_LOW,False
+Raiders,Commanders,Raiders,3.5,0.5680000000000001,MEDIUM,True,0.3154333333333332,LOW,False,0.05,VERY_LOW,False
+Broncos,Chargers,Broncos,2.5,0.552,MEDIUM,True,0.4577785714285713,MEDIUM,False,0.3069999999999999,LOW,False
+Saints,Seahawks,Saints,7.5,0.548,MEDIUM,True,0.8010382352941174,VERY_HIGH,True,0.946,VERY_HIGH,True
+Cowboys,Bears,Cowboys,1.5,0.5640000000000001,MEDIUM,True,0.63175,HIGH,True,0.95,VERY_HIGH,True
+Cardinals,49ers,Cardinals,1.5,0.544,MEDIUM,True,0.5082545454545454,MEDIUM,True,0.8450000000000001,VERY_HIGH,True
+Chiefs,Giants,Giants,6.5,0.3959999999999999,LOW,False,0.5329333333333336,MEDIUM,True,0.3,LOW,False
+Lions,Ravens,Lions,5.5,0.516,MEDIUM,True,0.4896576923076923,MEDIUM,False,0.05,VERY_LOW,False
