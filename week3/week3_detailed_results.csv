@@ -1,0 +1,16 @@
+game,underdog,favorite,spread,cover_probability,confidence,predicted_cover,actual_away_score,actual_home_score,actual_margin,actual_cover,actual_underdog_win,spread_correct,outright_correct
+MIA @ BUF,MIA,BUF,12.5,0.244,LOW,False,21,31,10,True,False,False,False
+ATL @ CAR,CAR,ATL,5.5,0.368,LOW,False,0,30,30,True,True,False,True
+GB @ CLE,CLE,GB,8.5,0.3439999999999999,LOW,False,10,13,3,True,True,False,True
+HOU @ JAX,HOU,JAX,1.5,0.3279999999999999,LOW,False,10,17,7,False,False,True,False
+CIN @ MIN,CIN,MIN,3.0,0.788,HIGH,True,10,48,38,False,False,False,False
+PIT @ NE,NE,PIT,1.5,0.548,MEDIUM,True,21,14,-7,False,False,False,False
+LA @ PHI,LA,PHI,3.5,0.66,HIGH,True,26,33,7,False,False,False,False
+NYJ @ TB,NYJ,TB,7.0,0.384,LOW,False,27,29,2,True,False,False,False
+IND @ TEN,TEN,IND,3.5,0.1239999999999999,LOW,False,41,20,-21,False,False,True,False
+LV @ WAS,LV,WAS,3.5,0.5680000000000001,MEDIUM,True,24,41,17,False,False,False,False
+DEN @ LAC,DEN,LAC,2.5,0.552,MEDIUM,True,20,23,3,False,False,False,False
+NO @ SEA,NO,SEA,7.5,0.548,MEDIUM,True,13,44,31,False,False,False,False
+DAL @ CHI,DAL,CHI,1.5,0.5640000000000001,MEDIUM,True,14,31,17,False,False,False,False
+ARI @ SF,ARI,SF,1.5,0.544,MEDIUM,True,15,16,1,True,False,True,False
+KC @ NYG,NYG,KC,6.5,0.3959999999999999,LOW,False,22,9,-13,False,False,True,False
