@@ -1,0 +1,17 @@
+Game,Favorite,Underdog,Spread,Total,Final_Score,Actual_Cover,Actual_Winner,Model_A_Pred,Model_A_Correct,Model_B_Pred,Model_B_Correct,Model_C_Updated_Pred,Model_C_Updated_Correct,Model_D_Pred,Model_D_Correct
+MIA @ BUF,Bills,Dolphins,12.5,49.5,BUF 48 - MIA 20,Yes,Dolphins,Cover,1,Cover,1,Cover,1,Cover,1
+ATL @ CAR,Falcons,Panthers,5.5,43.5,ATL 37 - CAR 34,Yes,Panthers,No Cover,0,No Cover,0,No Cover,0,No Cover,0
+GB @ CLE,Packers,Browns,8.5,42.5,GB 31 - CLE 17,Yes,Browns,Cover,1,Cover,1,Cover,1,Cover,1
+HOU @ JAX,Jaguars,Texans,1.5,43.5,JAX 37 - HOU 17,No,Jaguars,Cover,0,Cover,0,No Cover,1,Cover,0
+CIN @ MIN,Vikings,Bengals,3,42.5,MIN 24 - CIN 21,No,Vikings,Cover,0,Cover,0,No Cover,1,Cover,0
+PIT @ NE,Steelers,Patriots,1.5,44.5,NE 17 - PIT 14,No,Patriots,Cover,0,Cover,0,No Cover,1,Cover,0
+LA @ PHI,Eagles,Rams,3.5,45.5,PHI 37 - LA 31,No,Rams,Cover,0,Cover,0,No Cover,1,Cover,0
+NYJ @ TB,Buccaneers,Jets,7,44.5,TB 13 - NYJ 12,Yes,Jets,Cover,1,Cover,1,Cover,1,Cover,1
+IND @ TEN,Colts,Titans,3.5,43.5,IND 23 - TEN 16,No,Colts,Cover,0,Cover,0,No Cover,1,Cover,0
+LV @ WAS,Commanders,Raiders,3.5,47.5,WAS 30 - LV 24,No,Raiders,Cover,0,Cover,0,No Cover,1,Cover,0
+DEN @ LAC,Chargers,Broncos,2.5,45.5,LAC 24 - DEN 17,No,Broncos,Cover,0,Cover,0,No Cover,1,Cover,0
+NO @ SEA,Seahawks,Saints,7.5,41.5,SEA 37 - NO 31,No,Saints,Cover,0,Cover,0,Cover,0,Cover,0
+DAL @ CHI,Bears,Cowboys,1.5,48.5,CHI 28 - DAL 13,No,Cowboys,Cover,0,Cover,0,No Cover,1,Cover,0
+ARI @ SF,49ers,Cardinals,1.5,43.5,SF 35 - ARI 16,Yes,Cardinals,Cover,1,Cover,1,No Cover,0,Cover,1
+KC @ NYG,Chiefs,Giants,6.5,43.5,KC 34 - NYG 12,No,Giants,Cover,0,Cover,0,No Cover,1,Cover,0
+DET @ BAL,Ravens,Lions,5.5,51.5,DET 38 - BAL 30,Yes,Lions,Cover,1,Cover,1,Cover,1,Cover,1

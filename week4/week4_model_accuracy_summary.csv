@@ -1,0 +1,6 @@
+Model,Total_Games,Correct_Predictions,Incorrect_Predictions,Accuracy_Percentage,Underdog_Picks,Underdog_Correct,Favorite_Picks,Favorite_Correct,Underdog_Accuracy,Favorite_Accuracy
+Model A (SumerSports EPA),16,5,11,31.25%,8,2,8,3,25.00%,37.50%
+Model B v2 (Matchup EPA),16,5,11,31.25%,10,3,6,2,30.00%,33.33%
+Model C Updated (Spread Rules),16,11,5,68.75%,4,2,12,9,50.00%,75.00%
+Model D (Total Rules),16,11,5,68.75%,10,2,6,9,20.00%,150.00%
+Reality (Actual Results),16,,,31.25%,5,5,11,11,100.00%,100.00%

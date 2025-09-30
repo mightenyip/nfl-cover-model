@@ -1,0 +1,17 @@
+Game,Favorite,Underdog,Spread,Total,Final_Score,Actual_Cover,Actual_Winner,Model_A_Pred,Model_A_Conf,Model_A_Prob,Model_A_Correct,Model_B_Pred,Model_B_Conf,Model_B_Prob,Model_B_Correct,Model_C_Updated_Pred,Model_C_Updated_Conf,Model_C_Updated_Prob,Model_C_Updated_Correct,Model_D_Pred,Model_D_Conf,Model_D_Correct
+Seahawks @ Cardinals,Seahawks,Cardinals,1.5,43.5,SEA 23 - ARI 20,No,Seahawks,Cover,MEDIUM,0.636,0,Cover,VERY_HIGH,0.95,0,No Cover,HIGH,0.6,1,Cover,HIGH,0
+Vikings @ Steelers,Vikings,Steelers,2.5,40.5,MIN 21 - PIT 24,Yes,Steelers,Cover,HIGH,0.672,1,Cover,VERY_HIGH,0.95,1,No Cover,HIGH,0.6,0,Cover,HIGH,1
+Commanders @ Falcons,Commanders,Falcons,1.5,45.5,WAS 27 - ATL 34,Yes,Falcons,Cover,HIGH,0.712,1,No Cover,LOW,0.376,0,No Cover,HIGH,0.6,0,Cover,HIGH,1
+Saints @ Bills,Bills,Saints,16.5,48.5,NO 19 - BUF 31,No,Bills,No Cover,MEDIUM,0.484,1,No Cover,VERY_LOW,0.05,1,Cover,HIGH,0.58,0,Cover,LOW,0
+Browns @ Lions,Lions,Browns,8.5,44.5,CLE 10 - DET 34,No,Lions,No Cover,LOW,0.3,1,Cover,HIGH,0.618,0,Cover,HIGH,0.58,0,Cover,HIGH,0
+Titans @ Texans,Texans,Titans,7.0,38.5,TEN 0 - HOU 26,No,Texans,No Cover,MEDIUM,0.456,1,No Cover,LOW,0.369,1,Cover,HIGH,0.58,0,Cover,HIGH,0
+Panthers @ Patriots,Patriots,Panthers,5.5,43.5,CAR 13 - NE 42,No,Patriots,No Cover,LOW,0.292,1,Cover,VERY_HIGH,0.95,0,Cover,MEDIUM,0.52,0,Cover,HIGH,0
+Chargers @ Giants,Chargers,Giants,6.5,44.5,LAC 18 - NYG 21,Yes,Giants,No Cover,LOW,0.4,0,Cover,VERY_HIGH,0.774,1,No Cover,HIGH,0.6,0,Cover,HIGH,1
+Eagles @ Buccaneers,Eagles,Buccaneers,3.5,43.5,PHI 31 - TB 25,No,Eagles,Cover,MEDIUM,0.564,0,Cover,MEDIUM,0.561,0,No Cover,HIGH,0.6,1,Cover,HIGH,0
+Colts @ Rams,Rams,Colts,3.5,49.5,IND 20 - LAR 27,No,Rams,Cover,HIGH,0.656,0,Cover,VERY_HIGH,0.95,0,No Cover,MEDIUM,0.52,1,No Cover,HIGH,1
+Jaguars @ 49ers,49ers,Jaguars,3.0,47.0,JAC 26 - SF 21,Yes,Jaguars,Cover,HIGH,0.668,1,Cover,VERY_HIGH,0.95,1,No Cover,MEDIUM,0.52,0,No Cover,HIGH,0
+Ravens @ Chiefs,Ravens,Chiefs,2.5,48.5,BAL 20 - KC 37,No,Ravens,No Cover,LOW,0.284,1,No Cover,VERY_LOW,0.232,1,No Cover,HIGH,0.6,1,No Cover,HIGH,1
+Bears @ Raiders,Raiders,Bears,1.5,47.5,CHI 25 - LV 24,Yes,Bears,No Cover,MEDIUM,0.472,0,Cover,VERY_HIGH,0.95,1,No Cover,MEDIUM,0.52,0,No Cover,HIGH,0
+Packers @ Cowboys,Packers,Cowboys,7.0,47.5,GB 40 - DAL 40,No,Tie,No Cover,MEDIUM,0.412,1,Cover,VERY_HIGH,0.95,0,No Cover,HIGH,0.6,1,Cover,LOW,0
+Jets @ Dolphins,Dolphins,Jets,2.5,45.0,NYJ 21 - MIA 27,No,Dolphins,Cover,MEDIUM,0.58,0,No Cover,VERY_LOW,0.05,1,No Cover,MEDIUM,0.52,1,Cover,HIGH,0
+Bengals @ Broncos,Broncos,Bengals,7.0,44.0,CIN 3 - DEN 28,No,Broncos,Cover,MEDIUM,0.548,0,No Cover,LOW,0.361,1,Cover,HIGH,0.58,0,Cover,HIGH,0
