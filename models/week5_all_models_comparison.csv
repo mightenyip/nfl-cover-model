@@ -1,0 +1,15 @@
+Game,Underdog,Spread,Total,Model_A_Pred,Model_A_Conf,Model_A_Prob,Model_B_Pred,Model_B_Conf,Model_B_Prob,Model_C_Pred,Model_C_Conf,Model_C_Prob,Model_D_Pred,Model_D_Conf,Cover_Count,Consensus,Consensus_Conf,Avg_Probability
+49ers at Rams,49ers,-5.5,43.5,Cover,MEDIUM,64.8%,Cover,VERY_HIGH,77.0%,No Cover,MEDIUM,55.3%,Cover,HIGH,3,Cover,HIGH,66.8%
+Texans at Ravens,Ravens,-2.5,40.5,Cover,HIGH,85.2%,Cover,VERY_HIGH,95.0%,No Cover,MEDIUM,53.8%,Cover,HIGH,3,Cover,HIGH,76.0%
+Broncos at Eagles,Broncos,-3.5,43.5,Cover,MEDIUM,54.8%,Cover,HIGH,64.0%,No Cover,HIGH,55.3%,Cover,HIGH,3,Cover,HIGH,61.0%
+Giants at Saints,Giants,-1.5,42.0,No Cover,MEDIUM,47.6%,Cover,MEDIUM,52.5%,No Cover,HIGH,55.3%,Cover,HIGH,2,Split,HIGH,56.3%
+Commanders at Chargers,Commanders,-2.5,47.0,Cover,MEDIUM,51.2%,Cover,VERY_HIGH,95.0%,No Cover,HIGH,55.3%,No Cover,HIGH,2,Split,HIGH,57.9%
+Chiefs at Jaguars,Jaguars,-3.5,46.5,Cover,HIGH,67.6%,Cover,HIGH,68.0%,No Cover,MEDIUM,53.8%,No Cover,HIGH,2,Split,HIGH,54.9%
+Dolphins at Panthers,Panthers,-1.5,44.0,No Cover,MEDIUM,49.2%,No Cover,VERY_LOW,7.0%,No Cover,MEDIUM,53.8%,Cover,HIGH,1,No Cover,MEDIUM,45.0%
+Raiders at Colts,Raiders,-6.5,48.0,No Cover,LOW,33.2%,No Cover,VERY_LOW,22.0%,No Cover,MEDIUM,55.3%,No Cover,HIGH,0,No Cover,MEDIUM,35.1%
+Cowboys at Jets,Jets,-2.5,47.5,No Cover,LOW,37.2%,No Cover,VERY_LOW,5.0%,No Cover,MEDIUM,53.8%,No Cover,HIGH,0,No Cover,MEDIUM,31.5%
+Titans at Cardinals,Titans,-8.5,42.5,No Cover,LOW,27.6%,Cover,HIGH,62.0%,Cover,MEDIUM,55.0%,Cover,HIGH,3,Cover,MEDIUM,53.6%
+Vikings at Browns,Browns,-3.5,36.0,Cover,HIGH,71.2%,No Cover,LOW,36.5%,No Cover,MEDIUM,53.8%,Cover,HIGH,2,Split,MEDIUM,57.9%
+Buccaneers at Seahawks,Buccaneers,-3.5,44.5,Cover,HIGH,66.0%,No Cover,VERY_LOW,29.5%,No Cover,HIGH,55.3%,Cover,HIGH,2,Split,MEDIUM,55.2%
+Lions at Bengals,Bengals,-10.5,49.5,No Cover,LOW,39.6%,No Cover,VERY_LOW,5.0%,Cover,MEDIUM,55.0%,Cover,LOW,2,Split,LOW,42.4%
+Patriots at Bills,Patriots,-8.0,49.5,No Cover,MEDIUM,44.0%,No Cover,VERY_LOW,5.0%,Cover,MEDIUM,55.0%,Cover,LOW,2,Split,LOW,43.5%

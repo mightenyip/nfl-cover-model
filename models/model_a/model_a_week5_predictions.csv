@@ -1,0 +1,15 @@
+away_team,home_team,favorite_team,underdog_team,spread_line,total_line,underdog_abbr,favorite_abbr,underdog_epa_off,underdog_epa_def_allowed,underdog_net_epa,opponent_def_epa,favorite_net_epa,net_epa_differential,defense_quality,cover_probability,confidence,predicted_cover,outright_win_probability,outright_confidence,predicted_outright_win
+49ers,Rams,Rams,49ers,-5.5,43.5,SF,LA,0.05,-0.16,0.21,-0.13,0.23,-0.020000000000000018,STRONG,0.648,MEDIUM,True,0.4536,HIGH,False
+Vikings,Browns,Vikings,Browns,-3.5,36.0,CLE,MIN,-0.16,0.01,-0.17,-0.06,-0.25,0.07999999999999999,STRONG,0.712,HIGH,True,0.49839999999999995,HIGH,False
+Texans,Ravens,Texans,Ravens,-2.5,40.5,BAL,HOU,0.25,0.0,0.25,0.05,-0.14,0.39,AVERAGE,0.8520000000000001,HIGH,True,0.5964,HIGH,True
+Dolphins,Panthers,Dolphins,Panthers,-1.5,44.0,CAR,MIA,-0.11,0.12,-0.2299999999999999,0.29,-0.3299999999999999,0.1,WEAK,0.49200000000000005,MEDIUM,False,0.34440000000000004,MEDIUM,False
+Raiders,Colts,Colts,Raiders,-6.5,48.0,LV,IND,-0.14,-0.08,-0.06,-0.03,0.24,-0.3,AVERAGE,0.332,LOW,False,0.2324,LOW,False
+Giants,Saints,Saints,Giants,-1.5,42.0,NYG,NO,0.0,0.14,-0.14,0.01,-0.0699999999999999,-0.07000000000000012,AVERAGE,0.4759999999999999,MEDIUM,False,0.33319999999999994,MEDIUM,False
+Cowboys,Jets,Cowboys,Jets,-2.5,47.5,NYJ,DAL,0.01,0.14,-0.13,0.17,-0.07,-0.06,WEAK,0.37200000000000005,LOW,False,0.2604,MEDIUM,False
+Broncos,Eagles,Eagles,Broncos,-3.5,43.5,DEN,PHI,-0.01,-0.1,0.09,-0.05,0.09,0.0,AVERAGE,0.548,MEDIUM,True,0.3836,MEDIUM,False
+Titans,Cardinals,Cardinals,Titans,-8.5,42.5,TEN,ARI,-0.26,0.03,-0.29,-0.02,0.1,-0.39,AVERAGE,0.27599999999999997,LOW,False,0.19319999999999996,LOW,False
+Buccaneers,Seahawks,Seahawks,Buccaneers,-3.5,44.5,TB,SEA,0.13,0.02,0.11,-0.04,-0.03,0.14,AVERAGE,0.66,HIGH,True,0.46199999999999997,HIGH,False
+Lions,Bengals,Lions,Bengals,-10.5,49.5,CIN,DET,-0.05,0.02,-0.07,-0.03,0.19,-0.26,AVERAGE,0.396,LOW,False,0.2772,MEDIUM,False
+Commanders,Chargers,Chargers,Commanders,-2.5,47.0,WAS,LAC,-0.02,-0.06,0.0399999999999999,-0.1,0.2,-0.16000000000000011,STRONG,0.5119999999999999,MEDIUM,True,0.3583999999999999,MEDIUM,False
+Patriots,Bills,Bills,Patriots,-8.0,49.5,NE,BUF,0.1,0.14,-0.04,0.06,0.14,-0.18000000000000002,AVERAGE,0.44,MEDIUM,False,0.308,MEDIUM,False
+Chiefs,Jaguars,Chiefs,Jaguars,-3.5,46.5,JAX,KC,0.11,-0.13,0.24,0.12,-0.0699999999999999,0.3099999999999999,WEAK,0.6759999999999999,HIGH,True,0.4731999999999999,HIGH,False

@@ -1,0 +1,15 @@
+away_team,home_team,favorite_team,underdog_team,spread_line,total_line,predicted_cover,confidence,probability,rule_applied,prediction,favorite_is_home,favorite_is_away
+49ers,Rams,Rams,49ers,-5.5,43.5,False,MEDIUM,0.553,Home Favorite Medium Spread (55.3% ATS) - Rams -5.5,No Cover,True,False
+Vikings,Browns,Vikings,Browns,-3.5,36.0,False,MEDIUM,0.538,Away Favorite Rule (53.8% ATS) - Vikings -3.5,No Cover,False,True
+Texans,Ravens,Texans,Ravens,-2.5,40.5,False,MEDIUM,0.538,Away Favorite Rule (53.8% ATS) - Texans -2.5,No Cover,False,True
+Dolphins,Panthers,Dolphins,Panthers,-1.5,44.0,False,MEDIUM,0.538,Away Favorite Rule (53.8% ATS) - Dolphins -1.5,No Cover,False,True
+Raiders,Colts,Colts,Raiders,-6.5,48.0,False,MEDIUM,0.553,Home Favorite Medium Spread (55.3% ATS) - Colts -6.5,No Cover,True,False
+Giants,Saints,Saints,Giants,-1.5,42.0,False,HIGH,0.553,Home Favorite Small Spread (55.3% ATS) - Saints -1.5,No Cover,True,False
+Cowboys,Jets,Cowboys,Jets,-2.5,47.5,False,MEDIUM,0.538,Away Favorite Rule (53.8% ATS) - Cowboys -2.5,No Cover,False,True
+Broncos,Eagles,Eagles,Broncos,-3.5,43.5,False,HIGH,0.553,Home Favorite Small Spread (55.3% ATS) - Eagles -3.5,No Cover,True,False
+Titans,Cardinals,Cardinals,Titans,-8.5,42.5,True,MEDIUM,0.55,Large Home Favorite Spread - Titans +8.5,Cover,True,False
+Buccaneers,Seahawks,Seahawks,Buccaneers,-3.5,44.5,False,HIGH,0.553,Home Favorite Small Spread (55.3% ATS) - Seahawks -3.5,No Cover,True,False
+Lions,Bengals,Lions,Bengals,-10.5,49.5,True,MEDIUM,0.55,Large Away Favorite Spread - Bengals +10.5,Cover,False,True
+Commanders,Chargers,Chargers,Commanders,-2.5,47.0,False,HIGH,0.553,Home Favorite Small Spread (55.3% ATS) - Chargers -2.5,No Cover,True,False
+Patriots,Bills,Bills,Patriots,-8.0,49.5,True,MEDIUM,0.55,Large Home Favorite Spread - Patriots +8.0,Cover,True,False
+Chiefs,Jaguars,Chiefs,Jaguars,-3.5,46.5,False,MEDIUM,0.538,Away Favorite Rule (53.8% ATS) - Chiefs -3.5,No Cover,False,True
