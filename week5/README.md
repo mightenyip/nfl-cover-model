@@ -1,6 +1,8 @@
-# Week 5 NFL Cover Model Predictions
+# NFL Cover Model Predictions
 
-## 📊 Complete Model Predictions Table
+## Week 5
+
+### 📊 Complete Model Predictions Table
 
 **All 14 Games - Updated Odds Analysis**
 
