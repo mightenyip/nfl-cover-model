@@ -1,32 +1,51 @@
 # Week 5 NFL Cover Model Predictions
 
-## 📊 Conservative Betting Strategy
+## 📊 Complete Model Predictions Table
 
-**Updated Odds Analysis** - All models re-run with latest lines
+**All 14 Games - Updated Odds Analysis**
 
-### 🎯 Lock Picks (3-4 Models Agree)
+| Game | Spread | Total | Model A (EPA) | Model B (Matchup) | Model C (ATS) | Model D (Total) | Consensus |
+|------|--------|-------|---------------|-------------------|---------------|-----------------|-----------|
+| **49ers @ Rams** | LAR -5.5 | 43.5 | ✅ Cover (64.8%) | ✅ Cover (77.0%) | ❌ No Cover (55.3%) | ✅ Cover (HIGH) | **COVER** |
+| **Vikings @ Browns** | MIN -3.5 | 36.0 | ✅ Cover (71.2%) | ❌ No Cover (36.5%) | ❌ No Cover (53.8%) | ✅ Cover (HIGH) | **SPLIT** |
+| **Texans @ Ravens** | HOU -2.5 | 40.5 | ✅ Cover (85.2%) | ✅ Cover (95.0%) | ❌ No Cover (53.8%) | ✅ Cover (HIGH) | **COVER** |
+| **Dolphins @ Panthers** | MIA -1.5 | 44.0 | ❌ No Cover (49.2%) | ❌ No Cover (6.5%) | ❌ No Cover (53.8%) | ✅ Cover (HIGH) | **NO COVER** |
+| **Raiders @ Colts** | IND -6.5 | 48.0 | ❌ No Cover (33.2%) | ❌ No Cover (22.5%) | ❌ No Cover (55.3%) | ❌ No Cover (HIGH) | **NO COVER** |
+| **Giants @ Saints** | NO -1.5 | 42.0 | ❌ No Cover (47.6%) | ✅ Cover (52.5%) | ❌ No Cover (55.3%) | ✅ Cover (HIGH) | **SPLIT** |
+| **Cowboys @ Jets** | DAL -2.5 | 47.5 | ❌ No Cover (37.2%) | ❌ No Cover (5.0%) | ❌ No Cover (53.8%) | ❌ No Cover (HIGH) | **NO COVER** |
+| **Broncos @ Eagles** | PHI -3.5 | 43.5 | ✅ Cover (54.8%) | ✅ Cover (64.0%) | ❌ No Cover (55.3%) | ✅ Cover (HIGH) | **COVER** |
+| **Titans @ Cardinals** | ARI -8.5 | 42.5 | ❌ No Cover (27.6%) | ✅ Cover (61.0%) | ✅ Cover (55.0%) | ✅ Cover (HIGH) | **COVER** |
+| **Buccaneers @ Seahawks** | SEA -3.5 | 44.5 | ✅ Cover (66.0%) | ❌ No Cover (29.5%) | ❌ No Cover (55.3%) | ✅ Cover (HIGH) | **SPLIT** |
+| **Lions @ Bengals** | DET -10.5 | 49.5 | ❌ No Cover (39.6%) | ❌ No Cover (5.0%) | ✅ Cover (55.0%) | ✅ Cover (LOW) | **SPLIT** |
+| **Commanders @ Chargers** | LAC -2.5 | 47.0 | ✅ Cover (51.2%) | ✅ Cover (95.0%) | ❌ No Cover (55.3%) | ❌ No Cover (HIGH) | **SPLIT** |
+| **Patriots @ Bills** | BUF -8.0 | 49.5 | ❌ No Cover (44.0%) | ❌ No Cover (5.0%) | ✅ Cover (55.0%) | ✅ Cover (LOW) | **SPLIT** |
+| **Chiefs @ Jaguars** | KC -3.5 | 46.5 | ✅ Cover (67.6%) | ✅ Cover (68.0%) | ❌ No Cover (53.8%) | ❌ No Cover (HIGH) | **SPLIT** |
 
-| Game | Spread | Model A | Model B | Model C | Model D | Consensus | Confidence |
-|------|--------|---------|---------|---------|---------|-----------|------------|
-| **Ravens +2.5** vs Texans | HOU -2.5 | ✅ Cover (85.2%) | ✅ Cover (95.0%) | ❌ No Cover (53.8%) | ✅ Cover (HIGH) | **COVER** | **HIGH (76.0%)** |
-| **49ers +5.5** @ Rams | LAR -5.5 | ✅ Cover (64.8%) | ✅ Cover (77.0%) | ❌ No Cover (55.3%) | ✅ Cover (HIGH) | **COVER** | **HIGH (66.8%)** |
-| **Broncos +3.5** @ Eagles | PHI -3.5 | ✅ Cover (54.8%) | ✅ Cover (64.0%) | ❌ No Cover (55.3%) | ✅ Cover (HIGH) | **COVER** | **HIGH (61.0%)** |
-| **Cowboys -2.5** @ Jets | DAL -2.5 | ❌ No Cover (37.2%) | ❌ No Cover (5.0%) | ❌ No Cover (53.8%) | ❌ No Cover (HIGH) | **NO COVER** | **MEDIUM (31.5%)** |
-| **Dolphins -1.5** @ Panthers | MIA -1.5 | ❌ No Cover (49.2%) | ❌ No Cover (6.5%) | ❌ No Cover (53.8%) | ❌ No Cover (HIGH) | **NO COVER** | **MEDIUM (45.0%)** |
-| **Colts -6.5** vs Raiders | IND -6.5 | ❌ No Cover (33.2%) | ❌ No Cover (22.5%) | ❌ No Cover (55.3%) | ❌ No Cover (HIGH) | **NO COVER** | **MEDIUM (35.1%)** |
-| **Titans +8.5** @ Cardinals | ARI -8.5 | ❌ No Cover (27.6%) | ✅ Cover (61.0%) | ✅ Cover (55.0%) | ✅ Cover (HIGH) | **COVER** | **MEDIUM (53.6%)** |
+## 🎯 Conservative Betting Strategy
 
-### ⚠️ Split Decisions (Avoid - 2/4 Models Agree)
+### **Lock Picks (3-4 Models Agree)**
 
-| Game | Spread | Model A | Model B | Model C | Model D | Split Count | Risk Level |
-|------|--------|---------|---------|---------|---------|-------------|------------|
-| **Giants +1.5** @ Saints | NO -1.5 | ❌ No Cover (47.6%) | ✅ Cover (52.5%) | ❌ No Cover (55.3%) | ✅ Cover (HIGH) | 2/4 Cover | **HIGH** |
-| **Commanders +2.5** @ Chargers | LAC -2.5 | ✅ Cover (51.2%) | ✅ Cover (95.0%) | ❌ No Cover (55.3%) | ❌ No Cover (HIGH) | 2/4 Cover | **HIGH** |
-| **Jaguars +3.5** vs Chiefs | KC -3.5 | ✅ Cover (67.6%) | ✅ Cover (68.0%) | ❌ No Cover (53.8%) | ❌ No Cover (HIGH) | 2/4 Cover | **HIGH** |
-| **Browns +3.5** vs Vikings | MIN -3.5 | ✅ Cover (71.2%) | ❌ No Cover (36.5%) | ❌ No Cover (53.8%) | ✅ Cover (HIGH) | 2/4 Cover | **HIGH** |
-| **Buccaneers +3.5** @ Seahawks | SEA -3.5 | ✅ Cover (66.0%) | ❌ No Cover (29.5%) | ❌ No Cover (55.3%) | ✅ Cover (HIGH) | 2/4 Cover | **HIGH** |
-| **Bengals +10.5** vs Lions | DET -10.5 | ❌ No Cover (39.6%) | ❌ No Cover (5.0%) | ✅ Cover (55.0%) | ✅ Cover (LOW) | 2/4 Cover | **HIGH** |
-| **Patriots +8.0** @ Bills | BUF -8.0 | ❌ No Cover (44.0%) | ❌ No Cover (5.0%) | ✅ Cover (55.0%) | ✅ Cover (LOW) | 2/4 Cover | **HIGH** |
+| Game | Consensus | Confidence | Reasoning |
+|------|-----------|------------|-----------|
+| **Ravens +2.5** vs Texans | **COVER** | **HIGH (76.0%)** | 3/4 models favor Ravens, +0.18 EPA advantage |
+| **49ers +5.5** @ Rams | **COVER** | **HIGH (66.8%)** | 3/4 models favor 49ers, +0.25 pass advantage |
+| **Broncos +3.5** @ Eagles | **COVER** | **HIGH (61.0%)** | 3/4 models favor Broncos, even matchup |
+| **Cowboys -2.5** @ Jets | **NO COVER** | **MEDIUM (31.5%)** | All 4 models pick Cowboys (unanimous) |
+| **Dolphins -1.5** @ Panthers | **NO COVER** | **MEDIUM (45.0%)** | 3/4 models pick Dolphins, Panthers worst defense |
+| **Colts -6.5** vs Raiders | **NO COVER** | **MEDIUM (35.1%)** | 3/4 models pick Colts, Raiders struggling |
+| **Titans +8.5** @ Cardinals | **COVER** | **MEDIUM (53.6%)** | 3/4 models favor Titans, large spread value |
+
+### **Split Decisions (Avoid - 2/4 Models Agree)**
+
+| Game | Split Count | Risk Level | Notes |
+|------|-------------|------------|-------|
+| **Giants +1.5** @ Saints | 2/4 Cover | **HIGH** | Models A,C vs B,D |
+| **Commanders +2.5** @ Chargers | 2/4 Cover | **HIGH** | Models A,B vs C,D |
+| **Jaguars +3.5** vs Chiefs | 2/4 Cover | **HIGH** | Models A,B vs C,D |
+| **Browns +3.5** vs Vikings | 2/4 Cover | **HIGH** | Models A,D vs B,C |
+| **Buccaneers +3.5** @ Seahawks | 2/4 Cover | **HIGH** | Models A,D vs B,C |
+| **Bengals +10.5** vs Lions | 2/4 Cover | **HIGH** | Models C,D vs A,B |
+| **Patriots +8.0** @ Bills | 2/4 Cover | **HIGH** | Models C,D vs A,B |
 
 ## 💰 Conservative Betting Strategy
 
