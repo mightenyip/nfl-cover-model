@@ -10,7 +10,7 @@
 |------|--------|-------|---------------|-------------------|---------------|-----------------|-----------|
 | **49ers @ Rams** | LAR -5.5 | 43.5 | ✅ Cover (64.8%) | ✅ Cover (77.0%) | ❌ No Cover (55.3%) | ✅ Cover (HIGH) | **COVER** |
 | **Vikings @ Browns** | MIN -3.5 | 36.0 | ✅ Cover (71.2%) | ❌ No Cover (36.5%) | ❌ No Cover (53.8%) | ✅ Cover (HIGH) | **SPLIT** |
-| **Texans @ Ravens** | HOU -2.5 | 40.5 | ✅ Cover (85.2%) | ✅ Cover (95.0%) | ❌ No Cover (53.8%) | ✅ Cover (HIGH) | **COVER** |
+| **Texans @ Ravens** | HOU -2.5 | 40.5 | ❌ No Cover (45.2%) | ❌ No Cover (35.0%) | ❌ No Cover (53.8%) | ✅ Cover (HIGH) | **SPLIT** |
 | **Dolphins @ Panthers** | MIA -1.5 | 44.0 | ❌ No Cover (49.2%) | ❌ No Cover (6.5%) | ❌ No Cover (53.8%) | ✅ Cover (HIGH) | **NO COVER** |
 | **Raiders @ Colts** | IND -6.5 | 48.0 | ❌ No Cover (33.2%) | ❌ No Cover (22.5%) | ❌ No Cover (55.3%) | ❌ No Cover (HIGH) | **NO COVER** |
 | **Giants @ Saints** | NO -1.5 | 42.0 | ❌ No Cover (47.6%) | ✅ Cover (52.5%) | ❌ No Cover (55.3%) | ✅ Cover (HIGH) | **SPLIT** |
@@ -29,7 +29,7 @@
 
 | Game | Consensus | Confidence | Reasoning |
 |------|-----------|------------|-----------|
-| **Ravens +2.5** vs Texans | **COVER** | **HIGH (76.0%)** | 3/4 models favor Ravens, +0.18 EPA advantage |
+| **Texans -2.5** @ Ravens | **NO COVER** | **MEDIUM (45.0%)** | Lamar Jackson injury - backup QB reduces Ravens offense |
 | **49ers +5.5** @ Rams | **COVER** | **HIGH (66.8%)** | 3/4 models favor 49ers, +0.25 pass advantage |
 | **Broncos +3.5** @ Eagles | **COVER** | **HIGH (61.0%)** | 3/4 models favor Broncos, even matchup |
 | **Cowboys -2.5** @ Jets | **NO COVER** | **MEDIUM (31.5%)** | All 4 models pick Cowboys (unanimous) |
@@ -42,6 +42,7 @@
 | Game | Split Count | Risk Level | Notes |
 |------|-------------|------------|-------|
 | **Giants +1.5** @ Saints | 2/4 Cover | **HIGH** | Models A,C vs B,D |
+| **Ravens +2.5** vs Texans | 1/4 Cover | **HIGH** | Lamar Jackson injury - Models A,B,C vs D |
 | **Commanders +2.5** @ Chargers | 2/4 Cover | **HIGH** | Models A,B vs C,D |
 | **Jaguars +3.5** vs Chiefs | 2/4 Cover | **HIGH** | Models A,B vs C,D |
 | **Browns +3.5** vs Vikings | 2/4 Cover | **HIGH** | Models A,D vs B,C |
@@ -126,17 +127,17 @@
 ## 🎲 Final Conservative Recommendations
 
 ### **Primary Bets (2-3 units each)**:
-1. **Ravens +2.5** ✅
-2. **49ers +5.5** ✅  
-3. **Broncos +3.5** ✅
-4. **Cowboys -2.5** ✅
+1. **49ers +5.5** ✅  
+2. **Broncos +3.5** ✅
+3. **Cowboys -2.5** ✅
+4. **Titans +8.5** ✅
 
 ### **Secondary Bets (1 unit each)**:
 5. **Dolphins -1.5** ✅
 6. **Colts -6.5** ✅
-7. **Titans +8.5** ✅
+7. **Texans -2.5** ✅ (Lamar Jackson injury makes Texans more attractive)
 
-### **Avoid**: All 7 split decision games
+### **Avoid**: All 8 split decision games (including Ravens due to QB injury)
 
 **Total Conservative Portfolio**: 7 bets, 11-17 units total
 
