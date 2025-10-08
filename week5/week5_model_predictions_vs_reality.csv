@@ -1,0 +1,15 @@
+Game,Favorite,Underdog,Spread,Total,Final_Score,Actual_Cover,Actual_Winner,Model_A_Pred,Model_A_Conf,Model_A_Prob,Model_A_Correct,Model_B_Pred,Model_B_Conf,Model_B_Prob,Model_B_Correct,Model_C_Pred,Model_C_Conf,Model_C_Prob,Model_C_Correct,Model_D_Pred,Model_D_Conf,Model_D_Correct
+SF @ LAR,Rams,49ers,5.5,43.5,49ers 26 - Rams 23,Yes,49ers,Cover,MEDIUM,64.8%,1,Cover,VERY_HIGH,77.0%,1,No Cover,MEDIUM,55.3%,0,Cover,HIGH,1
+MIN @ CLE,Vikings,Browns,3.5,36.0,Vikings 21 - Browns 17,No,Vikings,Cover,HIGH,71.2%,0,No Cover,LOW,36.5%,1,No Cover,MEDIUM,53.8%,1,Cover,HIGH,0
+HOU @ BAL,Texans,Ravens,2.5,40.5,Texans 44 - Ravens 10,No,Texans,No Cover,MEDIUM,45.2%,1,No Cover,LOW,35.0%,1,No Cover,MEDIUM,53.8%,1,Cover,HIGH,0
+MIA @ CAR,Dolphins,Panthers,1.5,44.0,Dolphins 24 - Panthers 27,Yes,Panthers,No Cover,MEDIUM,49.2%,0,No Cover,VERY_LOW,6.5%,0,No Cover,MEDIUM,53.8%,0,Cover,HIGH,1
+LV @ IND,Colts,Raiders,6.5,48.0,Raiders 6 - Colts 40,No,Colts,No Cover,LOW,33.2%,1,No Cover,VERY_LOW,22.5%,1,No Cover,MEDIUM,55.3%,1,No Cover,HIGH,1
+NYG @ NO,Saints,Giants,1.5,42.0,Giants 14 - Saints 26,No,Saints,No Cover,MEDIUM,47.6%,1,Cover,MEDIUM,52.5%,0,No Cover,HIGH,55.3%,1,Cover,HIGH,0
+DAL @ NYJ,Cowboys,Jets,2.5,47.5,Cowboys 37 - Jets 22,No,Cowboys,No Cover,LOW,37.2%,1,No Cover,VERY_LOW,5.0%,1,No Cover,MEDIUM,53.8%,1,No Cover,HIGH,1
+DEN @ PHI,Eagles,Broncos,3.5,43.5,Broncos 21 - Eagles 17,Yes,Broncos,Cover,MEDIUM,54.8%,1,Cover,HIGH,64.0%,1,No Cover,HIGH,55.3%,0,Cover,HIGH,1
+TEN @ ARI,Cardinals,Titans,8.5,42.5,Titans 22 - Cardinals 21,Yes,Titans,No Cover,LOW,27.6%,0,Cover,HIGH,61.0%,1,Cover,MEDIUM,55.0%,1,Cover,HIGH,1
+TB @ SEA,Seahawks,Buccaneers,3.5,44.5,Buccaneers 38 - Seahawks 35,Yes,Buccaneers,Cover,HIGH,66.0%,1,No Cover,VERY_LOW,29.5%,0,No Cover,HIGH,55.3%,0,Cover,HIGH,1
+DET @ CIN,Lions,Bengals,10.5,49.5,Lions 37 - Bengals 24,No,Lions,No Cover,LOW,39.6%,1,No Cover,VERY_LOW,5.0%,1,Cover,MEDIUM,55.0%,0,Cover,LOW,0
+WAS @ LAC,Chargers,Commanders,2.5,47.0,Commanders 27 - Chargers 10,Yes,Commanders,Cover,MEDIUM,51.2%,1,Cover,VERY_HIGH,95.0%,1,No Cover,HIGH,55.3%,0,No Cover,HIGH,0
+NE @ BUF,Bills,Patriots,8.0,49.5,Patriots 23 - Bills 20,Yes,Patriots,No Cover,MEDIUM,44.0%,0,No Cover,VERY_LOW,5.0%,0,Cover,MEDIUM,55.0%,1,Cover,LOW,1
+KC @ JAX,Chiefs,Jaguars,3.5,46.5,Chiefs 28 - Jaguars 31,Yes,Jaguars,Cover,HIGH,67.6%,1,Cover,HIGH,68.0%,1,No Cover,MEDIUM,53.8%,0,No Cover,HIGH,0

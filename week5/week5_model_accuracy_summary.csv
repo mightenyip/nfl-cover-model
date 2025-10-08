@@ -1,0 +1,5 @@
+Model,Correct,Total,Accuracy
+Model_A,10,14,71.4%
+Model_B,10,14,71.4%
+Model_C,7,14,50.0%
+Model_D,8,14,57.1%
