@@ -12,11 +12,11 @@ All 4 models have generated predictions for Week 6 based on:
 ### When Models A & B BOTH Pick Underdog (3 games)
 **Week 5 Performance: 4-0 (100%)** ⭐
 
-1. **Broncos @ Jets** - Jets -7.5
+1. **Broncos @ Jets** - Broncos -7.5 (Jets +7.5)
    - Model A: Cover (MEDIUM, 65%)
    - Model B: Cover (HIGH, 75%) ⬅️ Very confident
    - Model D: Cover (HIGH)
-   - **Consensus: 3/4 models say underdog covers**
+   - **Consensus: 3/4 models say Jets (underdog) cover**
 
 2. **Seahawks @ Jaguars** - Jaguars -1.5
    - Model A: Cover (MEDIUM, 57%)
@@ -138,9 +138,9 @@ All 4 models have generated predictions for Week 6 based on:
 
 ### 🟢 TIER 1 - HIGHEST CONFIDENCE:
 **When Models A & B both pick underdog (3 games):**
-- Broncos @ Jets (Jets -7.5)
-- Seahawks @ Jaguars (Jaguars -1.5)
-- Lions @ Chiefs (Chiefs -2.5) ⭐ **Best Pick**
+- Broncos @ Jets (Broncos -7.5, pick Jets +7.5)
+- Seahawks @ Jaguars (Jaguars -1.5, pick Seahawks +1.5)
+- Lions @ Chiefs (Chiefs -2.5, pick Lions +2.5) ⭐ **Best Pick**
 
 ### 🟡 TIER 2 - HIGH CONFIDENCE:
 **When 3+ models agree (5 games):**
