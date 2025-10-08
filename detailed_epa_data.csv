@@ -1,33 +1,33 @@
 team,team_name,epa_off_per_play,epa_pass_off,epa_rush_off,epa_def_allowed_per_play,epa_pass_def_allowed,epa_rush_def_allowed,net_epa_per_play,last_updated,source
-BUF,Buffalo Bills,0.2,0.23,0.15,0.06,0.05,0.04,0.14,2025-10-03 06:20:00,sumersports_week5_updated
-IND,Indianapolis Colts,0.16,0.23,0.07,-0.03,-0.05,-0.01,0.19,2025-10-03 06:20:00,sumersports_week5_updated
-GB,Green Bay Packers,0.15,0.28,0.0,0.02,0.01,0.03,0.13,2025-10-03 06:20:00,sumersports_week5_updated
-DET,Detroit Lions,0.15,0.3,-0.02,-0.05,-0.07,-0.03,0.2,2025-10-03 06:20:00,sumersports_week5_updated
-BAL,Baltimore Ravens,0.13,0.14,0.1,0.05,0.08,-0.02,0.08,2025-10-03 06:20:00,sumersports_week5_updated
-DAL,Dallas Cowboys,0.12,0.17,0.03,0.17,0.14,0.11,-0.05000000000000002,2025-10-03 06:20:00,sumersports_week5_updated
-KC,Kansas City Chiefs,0.12,0.13,0.08,0.12,0.1,0.09,0.0,2025-10-03 06:20:00,sumersports_week5_updated
-NE,New England Patriots,0.08,0.23,-0.15,-0.06,-0.08,-0.04,0.14,2025-10-03 06:20:00,sumersports_week5_updated
-WAS,Washington Commanders,0.07,0.01,0.13,-0.1,-0.11,0.07,0.17,2025-10-03 06:20:00,sumersports_week5_updated
-DEN,Denver Broncos,0.05,0.08,0.01,-0.05,-0.03,-0.08,0.1,2025-10-03 06:20:00,sumersports_week5_updated
-LA,Los Angeles Rams,0.04,0.18,-0.18,-0.13,-0.12,-0.08,0.17,2025-10-03 06:20:00,sumersports_week5_updated
-TB,Tampa Bay Buccaneers,0.03,0.06,0.0,-0.04,-0.2,-0.14,0.07,2025-10-03 06:20:00,sumersports_week5_updated
-JAX,Jacksonville Jaguars,0.03,0.02,0.04,0.31,0.28,0.2,-0.28,2025-10-03 06:20:00,sumersports_week5_updated
-MIA,Miami Dolphins,0.03,0.02,0.03,0.29,0.24,0.18,-0.26,2025-10-03 06:20:00,sumersports_week5_updated
-SF,San Francisco 49ers,0.02,0.13,-0.14,-0.02,-0.03,-0.08,0.04,2025-10-03 06:20:00,sumersports_week5_updated
-SEA,Seattle Seahawks,0.02,0.04,-0.01,-0.04,-0.03,-0.05,0.06,2025-10-03 06:20:00,sumersports_week5_updated
-PHI,Philadelphia Eagles,0.02,0.08,-0.06,-0.05,-0.04,-0.02,0.07,2025-10-03 06:20:00,sumersports_week5_updated
-ARI,Arizona Cardinals,0.01,0.17,-0.13,-0.02,-0.04,-0.09,0.03,2025-10-03 06:20:00,sumersports_week5_updated
-PIT,Pittsburgh Steelers,0.01,0.06,-0.05,-0.08,-0.1,-0.06,0.09,2025-10-03 06:20:00,sumersports_week5_updated
-LAC,Los Angeles Chargers,-0.01,0.02,-0.06,-0.1,-0.11,-0.07,0.09000000000000001,2025-10-03 06:20:00,sumersports_week5_updated
-NYJ,New York Jets,-0.01,0.03,-0.06,0.17,0.14,0.09,-0.18000000000000002,2025-10-03 06:20:00,sumersports_week5_updated
-CHI,Chicago Bears,-0.02,0.07,-0.15,0.06,0.04,0.05,-0.08,2025-10-03 06:20:00,sumersports_week5_updated
-ATL,Atlanta Falcons,-0.03,-0.02,-0.03,0.07,0.06,0.05,-0.1,2025-10-03 06:20:00,sumersports_week5_updated
-HOU,Houston Texans,-0.05,-0.08,0.01,0.05,0.03,0.13,-0.1,2025-10-03 06:20:00,sumersports_week5_updated
-CAR,Carolina Panthers,-0.07,-0.08,-0.03,0.29,0.26,0.19,-0.36,2025-10-03 06:20:00,sumersports_week5_updated
-NO,New Orleans Saints,-0.08,-0.14,0.02,0.01,0.04,-0.06,-0.09,2025-10-03 06:20:00,sumersports_week5_updated
-MIN,Minnesota Vikings,-0.09,-0.15,-0.01,-0.06,-0.09,-0.05,-0.03,2025-10-03 06:20:00,sumersports_week5_updated
-LV,Las Vegas Raiders,-0.1,-0.05,-0.18,0.18,0.16,0.12,-0.28,2025-10-03 06:20:00,sumersports_week5_updated
-NYG,New York Giants,-0.11,-0.1,-0.1,0.07,0.06,0.04,-0.18,2025-10-03 06:20:00,sumersports_week5_updated
-CLE,Cleveland Browns,-0.2,-0.31,0.01,-0.06,-0.08,-0.04,-0.14,2025-10-03 06:20:00,sumersports_week5_updated
-TEN,Tennessee Titans,-0.25,-0.33,-0.09,0.16,0.14,0.12,-0.41000000000000003,2025-10-03 06:20:00,sumersports_week5_updated
-CIN,Cincinnati Bengals,-0.28,-0.34,-0.15,-0.03,-0.05,-0.08,-0.25,2025-10-03 06:20:00,sumersports_week5_updated
+DET,Detroit Lions,0.15,0.3,-0.02,-0.1,-0.05,-0.18,0.25,2025-10-07 11:02:00,sumersports_week5_oct7
+IND,Indianapolis Colts,0.16,0.23,0.07,-0.08,-0.09,-0.06,0.24,2025-10-07 11:02:00,sumersports_week5_oct7
+BUF,Buffalo Bills,0.18,0.23,0.15,0.02,-0.02,0.07,0.16,2025-10-07 11:02:00,sumersports_week5_oct7
+GB,Green Bay Packers,0.15,0.28,0.0,0.01,0.07,-0.08,0.13999999999999999,2025-10-07 11:02:00,sumersports_week5_oct7
+KC,Kansas City Chiefs,0.12,0.13,0.08,-0.01,-0.04,0.02,0.13,2025-10-07 11:02:00,sumersports_week5_oct7
+HOU,Houston Texans,0.0,-0.02,0.02,-0.12,-0.19,-0.01,0.12,2025-10-07 11:02:00,sumersports_week5_oct7
+DEN,Denver Broncos,0.02,-0.02,0.07,-0.09,-0.07,-0.11,0.11,2025-10-07 11:02:00,sumersports_week5_oct7
+MIN,Minnesota Vikings,-0.03,-0.08,0.03,-0.13,-0.3,0.05,0.1,2025-10-07 11:02:00,sumersports_week5_oct7
+PHI,Philadelphia Eagles,0.03,0.05,0.01,-0.05,-0.07,-0.02,0.08,2025-10-07 11:02:00,sumersports_week5_oct7
+JAX,Jacksonville Jaguars,0.01,-0.08,0.13,-0.07,-0.12,0.04,0.08,2025-10-07 11:02:00,sumersports_week5_oct7
+WAS,Washington Commanders,0.07,0.01,0.13,0.01,0.09,-0.1,0.060000000000000005,2025-10-07 11:02:00,sumersports_week5_oct7
+SF,San Francisco 49ers,0.03,0.18,-0.16,-0.03,0.02,-0.11,0.06,2025-10-07 11:02:00,sumersports_week5_oct7
+LA,Los Angeles Rams,0.02,0.0,0.03,-0.03,-0.02,-0.03,0.05,2025-10-07 11:02:00,sumersports_week5_oct7
+SEA,Seattle Seahawks,0.06,0.1,0.01,0.01,0.12,-0.18,0.049999999999999996,2025-10-07 11:02:00,sumersports_week5_oct7
+BAL,Baltimore Ravens,0.21,0.28,0.12,0.17,0.21,0.12,0.03999999999999998,2025-10-07 11:02:00,sumersports_week5_oct7
+NE,New England Patriots,0.08,0.23,-0.15,0.05,0.18,-0.14,0.03,2025-10-07 11:02:00,sumersports_week5_oct7
+TB,Tampa Bay Buccaneers,0.05,0.18,-0.13,0.03,0.11,-0.1,0.020000000000000004,2025-10-07 11:02:00,sumersports_week5_oct7
+NO,New Orleans Saints,-0.01,0.03,-0.07,-0.01,0.04,-0.06,0.0,2025-10-07 11:02:00,sumersports_week5_oct7
+ATL,Atlanta Falcons,-0.07,-0.15,0.03,-0.05,-0.13,0.05,-0.020000000000000004,2025-10-07 11:02:00,sumersports_week5_oct7
+PIT,Pittsburgh Steelers,0.0,0.01,-0.01,0.04,0.11,-0.05,-0.04,2025-10-07 11:02:00,sumersports_week5_oct7
+LAC,Los Angeles Chargers,-0.08,-0.14,0.0,-0.04,-0.07,0.01,-0.04,2025-10-07 11:02:00,sumersports_week5_oct7
+CHI,Chicago Bears,-0.05,-0.01,-0.09,0.01,0.03,-0.02,-0.060000000000000005,2025-10-07 11:02:00,sumersports_week5_oct7
+ARI,Arizona Cardinals,-0.09,-0.17,0.02,-0.02,0.06,-0.16,-0.06999999999999999,2025-10-07 11:02:00,sumersports_week5_oct7
+DAL,Dallas Cowboys,0.12,0.17,0.03,0.19,0.3,0.03,-0.07,2025-10-07 11:02:00,sumersports_week5_oct7
+CIN,Cincinnati Bengals,-0.02,0.05,-0.12,0.11,0.18,0.01,-0.13,2025-10-07 11:02:00,sumersports_week5_oct7
+CAR,Carolina Panthers,-0.08,-0.13,-0.01,0.05,0.09,-0.01,-0.13,2025-10-07 11:02:00,sumersports_week5_oct7
+CLE,Cleveland Browns,-0.19,-0.25,-0.1,-0.03,0.12,-0.22,-0.16,2025-10-07 11:02:00,sumersports_week5_oct7
+NYG,New York Giants,-0.11,-0.19,0.0,0.06,0.04,0.1,-0.16999999999999998,2025-10-07 11:02:00,sumersports_week5_oct7
+MIA,Miami Dolphins,0.05,-0.02,0.13,0.23,0.26,0.17,-0.18,2025-10-07 11:02:00,sumersports_week5_oct7
+TEN,Tennessee Titans,-0.12,-0.17,-0.05,0.08,0.13,0.02,-0.2,2025-10-07 11:02:00,sumersports_week5_oct7
+LV,Las Vegas Raiders,-0.14,-0.17,-0.1,0.06,0.19,-0.14,-0.2,2025-10-07 11:02:00,sumersports_week5_oct7
+NYJ,New York Jets,-0.13,-0.17,-0.08,0.15,0.26,0.02,-0.28,2025-10-07 11:02:00,sumersports_week5_oct7
