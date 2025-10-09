@@ -16,6 +16,81 @@ A comprehensive analysis tool for predicting NFL underdog performance against th
 - **Underdogs vs STRONG defenses**: 25% cover rate
 - **The matchup matters more than the underdog's inherent offensive ability**
 
+## 🎯 Week 6 2025 Predictions (Current Week)
+
+### Model Performance (Week 5 Results)
+| Model | Week 5 Accuracy | When A & B Agree |
+|-------|----------------|------------------|
+| **Model A** | **71.4%** (10/14) | 80% accuracy (8/10) |
+| **Model B** | **71.4%** (10/14) | 80% accuracy (8/10) |
+| **Model C** | 50.0% (7/14) | - |
+
+**When Models A & B both picked underdog:** 4-0 (100%) ⭐  
+**When Models A & B both picked favorite:** 4-2 (66.7%)
+
+### 🔥 Week 6 High Confidence Picks
+
+#### TIER 1: Models A & B Both Pick Underdog (Week 5: 4-0, 100%)
+
+1. **Jets +7.5** vs Broncos (London game)
+   - Model A: MEDIUM (65%)
+   - Model B: HIGH (75%)
+   - Model C: No Cover (disagrees)
+
+2. **Seahawks +1.5** @ Jaguars
+   - Model A: MEDIUM (57%)
+   - Model B: HIGH (68%)
+   - Model C: No Cover (disagrees)
+
+3. **Lions +2.5** @ Chiefs (Sunday Night Football) ⭐
+   - Model A: HIGH (67%)
+   - Model B: HIGH (68%)
+   - Model C: No Cover (disagrees)
+
+#### TIER 2: All 3 Models Agree - Favorite Covers (Week 5: 4-2, 66.7%)
+
+1. **Eagles -7.5** @ Giants (Thursday Night)
+2. **Steelers -5** vs Browns
+3. **Cowboys -3.5** @ Panthers  
+4. **Raiders -4.5** vs Titans
+5. **Packers -14.5** vs Bengals
+
+### Week 6 Complete Predictions Table
+
+| Game | Favorite | Spread | Model A | Model B | Model C | Consensus |
+|------|----------|--------|---------|---------|---------|-----------|
+| Eagles @ Giants | Eagles | -7.5 | No Cover | No Cover | No Cover | ✅ ALL 3 |
+| Broncos @ Jets | Broncos | -7.5 | Cover | Cover | No Cover | Split |
+| Cardinals @ Colts | Colts | -6.5 | No Cover | Cover | No Cover | Split |
+| Chargers @ Dolphins | Chargers | -4.5 | No Cover | Cover | No Cover | Split |
+| Patriots @ Saints | Patriots | -3.5 | Cover | No Cover | No Cover | Split |
+| Browns @ Steelers | Steelers | -5.0 | No Cover | No Cover | No Cover | ✅ ALL 3 |
+| Cowboys @ Panthers | Cowboys | -3.5 | No Cover | No Cover | No Cover | ✅ ALL 3 |
+| Seahawks @ Jaguars | Jaguars | -1.5 | Cover | Cover | No Cover | Split |
+| Rams @ Ravens | Rams | -7.5 | No Cover | Cover | No Cover | Split |
+| Titans @ Raiders | Raiders | -4.5 | No Cover | No Cover | No Cover | ✅ ALL 3 |
+| Bengals @ Packers | Packers | -14.5 | No Cover | No Cover | No Cover | ✅ ALL 3 |
+| 49ers @ Buccaneers | Bucs | -3.0 | No Cover | Cover | No Cover | Split |
+| Lions @ Chiefs | Chiefs | -2.5 | Cover | Cover | No Cover | Split |
+| Bills @ Falcons | Bills | -4.5 | No Cover | Cover | No Cover | Split |
+| Bears @ Commanders | Commanders | -4.5 | No Cover | Cover | No Cover | Split |
+
+**Consensus Picks:** 5 games (All 3 models agree)  
+**Models A & B Agree:** 8 games total (3 underdogs, 5 favorites)
+
+### 🎯 Betting Strategy for Week 6
+
+**🟢 HIGHEST CONFIDENCE (Based on Week 5 data):**
+- When Models A & B both pick underdog: **Jets +7.5, Seahawks +1.5, Lions +2.5**
+
+**✅ HIGH CONFIDENCE:**
+- When all 3 models agree on favorite: **Eagles -7.5, Steelers -5, Cowboys -3.5, Raiders -4.5, Packers -14.5**
+
+**⚠️ AVOID:**
+- Games where A & B disagree (7 games) - Historical 50% accuracy
+
+---
+
 ## 🤖 Model Performance Comparison
 
 ### 📊 Week 3 Results (Historical Performance)
