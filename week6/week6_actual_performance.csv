@@ -1,0 +1,16 @@
+Game,Underdog_Covered,Model_A_Correct,Model_B_Correct,Model_C_Correct,Model_D_Correct,Model_A_Pred,Model_B_Pred,Model_C_Pred,Model_D_Pred,Actual_Result
+Eagles @ Giants,True,False,False,False,True,No Cover,No Cover,No Cover,Cover,Giants 17-34
+Broncos @ Jets,True,True,True,False,True,Cover,Cover,No Cover,Cover,Broncos 13-11
+Cardinals @ Colts,True,False,True,False,True,No Cover,Cover,No Cover,Cover,Colts 27-31
+Chargers @ Dolphins,True,False,True,False,True,No Cover,Cover,No Cover,Cover,Chargers 29-27
+Patriots @ Saints,True,True,False,False,True,Cover,No Cover,No Cover,Cover,Patriots 25-19
+Browns @ Steelers,False,True,True,True,False,No Cover,No Cover,No Cover,Cover,Steelers 9-23
+Cowboys @ Panthers,True,False,False,False,True,No Cover,No Cover,No Cover,Cover,Panthers 27-30
+Seahawks @ Jaguars,True,True,True,False,False,Cover,Cover,No Cover,No Cover,Seahawks 20-12
+Rams @ Ravens,False,True,False,True,False,No Cover,Cover,No Cover,Cover,Rams 17-3
+Titans @ Raiders,False,True,True,True,False,No Cover,No Cover,No Cover,Cover,Raiders 10-20
+Bengals @ Packers,True,False,False,False,True,No Cover,No Cover,No Cover,Cover,Packers 18-27
+49ers @ Buccaneers,True,False,True,False,True,No Cover,Cover,No Cover,Cover,Buccaneers 19-30
+Lions @ Chiefs,False,False,False,True,True,Cover,Cover,No Cover,No Cover,Chiefs 17-30
+Bills @ Falcons,True,False,True,False,True,No Cover,Cover,No Cover,Cover,Falcons 14-24
+Bears @ Commanders,True,False,True,False,True,No Cover,Cover,No Cover,Cover,Bears 25-24
