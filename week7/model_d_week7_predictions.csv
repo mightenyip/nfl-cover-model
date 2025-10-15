@@ -1,0 +1,16 @@
+away_team,home_team,favorite_team,underdog_team,spread_line,total_line,predicted_cover,confidence,rule_applied,prediction
+Steelers,Bengals,Steelers,Bengals,-5.5,46.5,False,HIGH,High Total + Small Spread = Favorite,No Cover
+Rams,Jaguars,Rams,Jaguars,-3.0,44.5,True,HIGH,Low Total = Underdog,Cover
+Saints,Bears,Bears,Saints,-5.5,47.5,False,HIGH,High Total + Small Spread = Favorite,No Cover
+Dolphins,Browns,Browns,Dolphins,-2.5,40.5,True,HIGH,Low Total = Underdog,Cover
+Patriots,Titans,Patriots,Titans,-7.0,42.5,True,HIGH,Low Total = Underdog,Cover
+Raiders,Chiefs,Chiefs,Raiders,-11.5,45.5,True,HIGH,Low Total = Underdog,Cover
+Eagles,Vikings,Eagles,Vikings,-2.5,43.5,True,HIGH,Low Total = Underdog,Cover
+Panthers,Jets,Panthers,Jets,-1.5,41.5,True,HIGH,Low Total = Underdog,Cover
+Giants,Broncos,Broncos,Giants,-7.0,40.5,True,HIGH,Low Total = Underdog,Cover
+Colts,Chargers,Chargers,Colts,-1.5,48.5,False,HIGH,High Total + Small Spread = Favorite,No Cover
+Commanders,Cowboys,Commanders,Cowboys,-2.5,55.5,False,HIGH,High Total + Small Spread = Favorite,No Cover
+Packers,Cardinals,Packers,Cardinals,-6.5,44.5,True,HIGH,Low Total = Underdog,Cover
+Falcons,49ers,49ers,Falcons,-2.5,47.5,False,HIGH,High Total + Small Spread = Favorite,No Cover
+Buccaneers,Lions,Lions,Buccaneers,-4.5,52.5,False,HIGH,High Total + Small Spread = Favorite,No Cover
+Texans,Seahawks,Seahawks,Texans,-3.5,41.5,True,HIGH,Low Total = Underdog,Cover

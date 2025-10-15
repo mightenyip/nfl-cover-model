@@ -1,0 +1,16 @@
+away_team,home_team,favorite_team,underdog_team,spread_line,total_line,model_a_prediction,model_a_confidence,model_a_probability,model_b_prediction,model_b_confidence,model_b_probability,model_c_prediction,model_c_confidence,model_c_probability,model_d_prediction,model_d_confidence,consensus,agreement,notes
+Steelers,Bengals,Steelers,Bengals,-5.5,46.5,Cover,MEDIUM,55.6%,No Cover,VERY_LOW,5.5%,No Cover,HIGH,56.2%,No Cover,HIGH,FAVORITE,1/4 models predict UNDERDOG cover,Model A likes Bengals defense vs Steelers offense
+Rams,Jaguars,Rams,Jaguars,-3.0,44.5,Cover,HIGH,65.2%,Cover,VERY_HIGH,91.5%,No Cover,HIGH,56.2%,Cover,HIGH,UNDERDOG,3/4 models predict UNDERDOG cover,Strong underdog consensus - Jaguars at home
+Saints,Bears,Bears,Saints,-5.5,47.5,Cover,MEDIUM,59.6%,Cover,MEDIUM,53.0%,No Cover,MEDIUM,51.1%,No Cover,HIGH,SPLIT,2/4 models predict UNDERDOG cover,Close matchup - slight underdog edge
+Dolphins,Browns,Browns,Dolphins,-2.5,40.5,No Cover,MEDIUM,41.2%,Cover,VERY_HIGH,95.0%,No Cover,MEDIUM,51.1%,Cover,HIGH,SPLIT,2/4 models predict UNDERDOG cover,Model B v2 strongly favors Dolphins
+Patriots,Titans,Patriots,Titans,-7.0,42.5,No Cover,LOW,25.6%,No Cover,VERY_LOW,17.0%,No Cover,HIGH,56.2%,Cover,HIGH,FAVORITE,1/4 models predict UNDERDOG cover,Strong favorite consensus - Patriots big road favorites
+Raiders,Chiefs,Chiefs,Raiders,-11.5,45.5,No Cover,MEDIUM,50.0%,No Cover,VERY_LOW,8.5%,Cover,MEDIUM,55.0%,Cover,HIGH,SPLIT,2/4 models predict UNDERDOG cover,Large spread creates uncertainty
+Eagles,Vikings,Eagles,Vikings,-2.5,43.5,No Cover,LOW,26.8%,No Cover,VERY_LOW,10.0%,No Cover,HIGH,56.2%,Cover,HIGH,FAVORITE,1/4 models predict UNDERDOG cover,Strong favorite consensus - Eagles road favorites
+Panthers,Jets,Panthers,Jets,-1.5,41.5,No Cover,MEDIUM,49.2%,Cover,VERY_HIGH,91.5%,No Cover,HIGH,56.2%,Cover,HIGH,SPLIT,2/4 models predict UNDERDOG cover,Model B v2 strongly favors Jets
+Giants,Broncos,Broncos,Giants,-7.0,40.5,No Cover,MEDIUM,49.2%,Cover,HIGH,61.0%,Cover,MEDIUM,55.0%,Cover,HIGH,UNDERDOG,3/4 models predict UNDERDOG cover,Strong underdog consensus - Giants getting points
+Colts,Chargers,Chargers,Colts,-1.5,48.5,Cover,HIGH,66.4%,Cover,VERY_HIGH,95.0%,No Cover,MEDIUM,51.1%,No Cover,HIGH,SPLIT,2/4 models predict UNDERDOG cover,Model A and B v2 strongly favor Colts
+Commanders,Cowboys,Commanders,Cowboys,-2.5,55.5,Cover,MEDIUM,55.2%,Cover,VERY_HIGH,95.0%,No Cover,HIGH,56.2%,No Cover,HIGH,SPLIT,2/4 models predict UNDERDOG cover,Close matchup - slight underdog edge
+Packers,Cardinals,Packers,Cardinals,-6.5,44.5,Cover,MEDIUM,54.4%,No Cover,VERY_LOW,5.0%,No Cover,HIGH,56.2%,Cover,HIGH,SPLIT,2/4 models predict UNDERDOG cover,Model A and D favor Cardinals getting points
+Falcons,49ers,49ers,Falcons,-2.5,47.5,Cover,MEDIUM,58.4%,Cover,VERY_HIGH,78.5%,No Cover,MEDIUM,51.1%,No Cover,HIGH,SPLIT,2/4 models predict UNDERDOG cover,Model A and B v2 favor Falcons
+Buccaneers,Lions,Lions,Buccaneers,-4.5,52.5,No Cover,MEDIUM,49.2%,Cover,VERY_HIGH,91.0%,No Cover,MEDIUM,51.1%,No Cover,HIGH,FAVORITE,1/4 models predict UNDERDOG cover,Strong favorite consensus - Lions home favorites
+Texans,Seahawks,Seahawks,Texans,-3.5,41.5,No Cover,MEDIUM,46.0%,Cover,HIGH,68.0%,No Cover,MEDIUM,51.1%,Cover,HIGH,SPLIT,2/4 models predict UNDERDOG cover,Model B v2 and D favor Texans

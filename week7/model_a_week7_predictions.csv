@@ -1,0 +1,16 @@
+away_team,home_team,favorite_team,underdog_team,spread_line,total_line,underdog_abbr,favorite_abbr,underdog_epa_off,underdog_epa_def_allowed,underdog_net_epa,opponent_def_epa,favorite_net_epa,net_epa_differential,defense_quality,cover_probability,confidence,predicted_cover,outright_win_probability,outright_confidence,predicted_outright_win
+Steelers,Bengals,Steelers,Bengals,-5.5,46.5,CIN,PIT,-0.05,0.02,-0.07,0.16,-0.21,0.13999999999999999,WEAK,0.556,MEDIUM,True,0.3892,MEDIUM,False
+Rams,Jaguars,Rams,Jaguars,-3.0,44.5,JAX,LA,0.11,-0.13,0.24,-0.13,0.23,0.009999999999999981,STRONG,0.652,HIGH,True,0.4564,HIGH,False
+Saints,Bears,Bears,Saints,-5.5,47.5,NO,CHI,-0.06,0.01,-0.0699999999999999,0.14,-0.26,0.1900000000000001,WEAK,0.5960000000000002,MEDIUM,True,0.4172000000000001,MEDIUM,False
+Dolphins,Browns,Browns,Dolphins,-2.5,40.5,MIA,CLE,-0.04,0.29,-0.3299999999999999,0.01,-0.17,-0.1599999999999999,AVERAGE,0.41200000000000014,MEDIUM,False,0.2884000000000001,MEDIUM,False
+Patriots,Titans,Patriots,Titans,-7.0,42.5,TEN,NE,-0.26,0.03,-0.29,0.14,-0.04,-0.24999999999999997,WEAK,0.25600000000000006,LOW,False,0.17920000000000003,LOW,False
+Raiders,Chiefs,Chiefs,Raiders,-11.5,45.5,LV,KC,-0.14,-0.08,-0.06,0.12,-0.0699999999999999,0.009999999999999898,WEAK,0.4999999999999999,MEDIUM,False,0.3499999999999999,MEDIUM,False
+Eagles,Vikings,Eagles,Vikings,-2.5,43.5,MIN,PHI,-0.31,-0.06,-0.25,-0.05,0.09,-0.33999999999999997,AVERAGE,0.26800000000000007,LOW,False,0.18760000000000004,LOW,False
+Panthers,Jets,Panthers,Jets,-1.5,41.5,NYJ,CAR,0.01,0.14,-0.13,0.12,-0.2299999999999999,0.0999999999999999,WEAK,0.49199999999999994,MEDIUM,False,0.34439999999999993,MEDIUM,False
+Giants,Broncos,Broncos,Giants,-7.0,40.5,NYG,DEN,0.0,0.14,-0.14,-0.1,0.09,-0.23,STRONG,0.49199999999999994,MEDIUM,False,0.34439999999999993,MEDIUM,False
+Colts,Chargers,Chargers,Colts,-1.5,48.5,IND,LAC,0.21,-0.03,0.24,-0.1,0.2,0.03999999999999998,STRONG,0.664,HIGH,True,0.4648,HIGH,False
+Commanders,Cowboys,Commanders,Cowboys,-2.5,55.5,DAL,WAS,0.1,0.17,-0.07,-0.06,0.0399999999999999,-0.1099999999999999,STRONG,0.552,MEDIUM,True,0.3864,MEDIUM,False
+Packers,Cardinals,Packers,Cardinals,-6.5,44.5,ARI,GB,0.08,-0.02,0.1,-0.12,0.26,-0.16,STRONG,0.544,MEDIUM,True,0.3808,MEDIUM,False
+Falcons,49ers,49ers,Falcons,-2.5,47.5,ATL,SF,0.0,-0.14,0.14,-0.16,0.21,-0.06999999999999998,STRONG,0.5840000000000001,MEDIUM,True,0.40880000000000005,MEDIUM,False
+Buccaneers,Lions,Lions,Buccaneers,-4.5,52.5,TB,DET,0.13,0.02,0.11,-0.03,0.19,-0.08,AVERAGE,0.492,MEDIUM,False,0.3444,MEDIUM,False
+Texans,Seahawks,Seahawks,Texans,-3.5,41.5,HOU,SEA,-0.09,0.05,-0.14,-0.04,-0.03,-0.11000000000000001,AVERAGE,0.46,MEDIUM,False,0.322,MEDIUM,False

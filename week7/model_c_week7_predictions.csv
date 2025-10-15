@@ -1,0 +1,16 @@
+away_team,home_team,favorite_team,underdog_team,spread_line,total_line,predicted_cover,confidence,probability,rule_applied,prediction,favorite_is_home,favorite_is_away
+Steelers,Bengals,Steelers,Bengals,-5.5,46.5,False,HIGH,0.562,Away Favorite Rule (56.2% ATS) - Steelers -5.5,No Cover,False,True
+Rams,Jaguars,Rams,Jaguars,-3.0,44.5,False,HIGH,0.562,Away Favorite Rule (56.2% ATS) - Rams -3.0,No Cover,False,True
+Saints,Bears,Bears,Saints,-5.5,47.5,False,MEDIUM,0.511,Home Favorite Medium Spread (51.1% ATS) - Bears -5.5,No Cover,True,False
+Dolphins,Browns,Browns,Dolphins,-2.5,40.5,False,MEDIUM,0.511,Home Favorite Small Spread (51.1% ATS) - Browns -2.5,No Cover,True,False
+Patriots,Titans,Patriots,Titans,-7.0,42.5,False,HIGH,0.562,Away Favorite Rule (56.2% ATS) - Patriots -7.0,No Cover,False,True
+Raiders,Chiefs,Chiefs,Raiders,-11.5,45.5,True,MEDIUM,0.55,Large Home Favorite Spread - Raiders +11.5,Cover,True,False
+Eagles,Vikings,Eagles,Vikings,-2.5,43.5,False,HIGH,0.562,Away Favorite Rule (56.2% ATS) - Eagles -2.5,No Cover,False,True
+Panthers,Jets,Panthers,Jets,-1.5,41.5,False,HIGH,0.562,Away Favorite Rule (56.2% ATS) - Panthers -1.5,No Cover,False,True
+Giants,Broncos,Broncos,Giants,-7.0,40.5,True,MEDIUM,0.55,Large Home Favorite Spread - Giants +7.0,Cover,True,False
+Colts,Chargers,Chargers,Colts,-1.5,48.5,False,MEDIUM,0.511,Home Favorite Small Spread (51.1% ATS) - Chargers -1.5,No Cover,True,False
+Commanders,Cowboys,Commanders,Cowboys,-2.5,55.5,False,HIGH,0.562,Away Favorite Rule (56.2% ATS) - Commanders -2.5,No Cover,False,True
+Packers,Cardinals,Packers,Cardinals,-6.5,44.5,False,HIGH,0.562,Away Favorite Rule (56.2% ATS) - Packers -6.5,No Cover,False,True
+Falcons,49ers,49ers,Falcons,-2.5,47.5,False,MEDIUM,0.511,Home Favorite Small Spread (51.1% ATS) - 49ers -2.5,No Cover,True,False
+Buccaneers,Lions,Lions,Buccaneers,-4.5,52.5,False,MEDIUM,0.511,Home Favorite Medium Spread (51.1% ATS) - Lions -4.5,No Cover,True,False
+Texans,Seahawks,Seahawks,Texans,-3.5,41.5,False,MEDIUM,0.511,Home Favorite Small Spread (51.1% ATS) - Seahawks -3.5,No Cover,True,False

@@ -1,0 +1,16 @@
+away_team,home_team,favorite_team,underdog_team,spread_line,total_line,model_a_prediction,model_a_confidence,model_a_probability,model_b_prediction,model_b_confidence,model_b_probability,model_c_prediction,model_c_confidence,model_c_probability,model_d_prediction,model_d_confidence,agreement,consensus
+Steelers,Bengals,Steelers,Bengals,-5.5,46.5,Cover,MEDIUM,55.6%,No Cover,VERY_LOW,5.5%,No Cover,HIGH,56.2%,No Cover,HIGH,1/4 models predict UNDERDOG cover,FAVORITE
+Rams,Jaguars,Rams,Jaguars,-3.0,44.5,Cover,HIGH,65.2%,Cover,VERY_HIGH,91.5%,No Cover,HIGH,56.2%,Cover,HIGH,3/4 models predict UNDERDOG cover,UNDERDOG
+Saints,Bears,Bears,Saints,-5.5,47.5,Cover,MEDIUM,59.6%,Cover,MEDIUM,53.0%,No Cover,MEDIUM,51.1%,No Cover,HIGH,2/4 models predict UNDERDOG cover,SPLIT
+Dolphins,Browns,Browns,Dolphins,-2.5,40.5,No Cover,MEDIUM,41.2%,Cover,VERY_HIGH,95.0%,No Cover,MEDIUM,51.1%,Cover,HIGH,2/4 models predict UNDERDOG cover,SPLIT
+Patriots,Titans,Patriots,Titans,-7.0,42.5,No Cover,LOW,25.6%,No Cover,VERY_LOW,17.0%,No Cover,HIGH,56.2%,Cover,HIGH,1/4 models predict UNDERDOG cover,FAVORITE
+Raiders,Chiefs,Chiefs,Raiders,-11.5,45.5,No Cover,MEDIUM,50.0%,No Cover,VERY_LOW,8.5%,Cover,MEDIUM,55.0%,Cover,HIGH,2/4 models predict UNDERDOG cover,SPLIT
+Eagles,Vikings,Eagles,Vikings,-2.5,43.5,No Cover,LOW,26.8%,No Cover,VERY_LOW,10.0%,No Cover,HIGH,56.2%,Cover,HIGH,1/4 models predict UNDERDOG cover,FAVORITE
+Panthers,Jets,Panthers,Jets,-1.5,41.5,No Cover,MEDIUM,49.2%,Cover,VERY_HIGH,91.5%,No Cover,HIGH,56.2%,Cover,HIGH,2/4 models predict UNDERDOG cover,SPLIT
+Giants,Broncos,Broncos,Giants,-7.0,40.5,No Cover,MEDIUM,49.2%,Cover,HIGH,61.0%,Cover,MEDIUM,55.0%,Cover,HIGH,3/4 models predict UNDERDOG cover,UNDERDOG
+Colts,Chargers,Chargers,Colts,-1.5,48.5,Cover,HIGH,66.4%,Cover,VERY_HIGH,95.0%,No Cover,MEDIUM,51.1%,No Cover,HIGH,2/4 models predict UNDERDOG cover,SPLIT
+Commanders,Cowboys,Commanders,Cowboys,-2.5,55.5,Cover,MEDIUM,55.2%,Cover,VERY_HIGH,95.0%,No Cover,HIGH,56.2%,No Cover,HIGH,2/4 models predict UNDERDOG cover,SPLIT
+Packers,Cardinals,Packers,Cardinals,-6.5,44.5,Cover,MEDIUM,54.4%,No Cover,VERY_LOW,5.0%,No Cover,HIGH,56.2%,Cover,HIGH,2/4 models predict UNDERDOG cover,SPLIT
+Falcons,49ers,49ers,Falcons,-2.5,47.5,Cover,MEDIUM,58.4%,Cover,VERY_HIGH,78.5%,No Cover,MEDIUM,51.1%,No Cover,HIGH,2/4 models predict UNDERDOG cover,SPLIT
+Buccaneers,Lions,Lions,Buccaneers,-4.5,52.5,No Cover,MEDIUM,49.2%,Cover,VERY_HIGH,91.0%,No Cover,MEDIUM,51.1%,No Cover,HIGH,1/4 models predict UNDERDOG cover,FAVORITE
+Texans,Seahawks,Seahawks,Texans,-3.5,41.5,No Cover,MEDIUM,46.0%,Cover,HIGH,68.0%,No Cover,MEDIUM,51.1%,Cover,HIGH,2/4 models predict UNDERDOG cover,SPLIT
