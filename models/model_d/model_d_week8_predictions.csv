@@ -1,0 +1,14 @@
+game,favorite,underdog,spread,spread_description,cover_probability,confidence,rule_applied,predicted_cover,prediction
+Vikings @ Chargers,Chargers,Vikings,-3.5,Vikings +3.5,0.55,MEDIUM,Medium spread underdog,True,Cover
+Dolphins @ Falcons,Falcons,Dolphins,-7.5,Dolphins +7.5,0.65,HIGH,Fade large spread,True,Cover
+Jets @ Bengals,Bengals,Jets,-6.5,Jets +6.5,0.55,MEDIUM,Medium spread underdog,True,Cover
+Browns @ Patriots,Patriots,Browns,-7.0,Browns +7.0,0.55,MEDIUM,Medium spread underdog,True,Cover
+Giants @ Eagles,Eagles,Giants,-7.5,Giants +7.5,0.65,HIGH,Fade large spread,True,Cover
+Bills @ Panthers,Bills,Panthers,-7.5,Bills -7.5,0.65,HIGH,Fade large spread,True,Cover
+Bears @ Ravens,Ravens,Bears,-6.5,Bears +6.5,0.55,MEDIUM,Medium spread underdog,True,Cover
+49ers @ Texans,Texans,49ers,-1.5,49ers +1.5,0.55,MEDIUM,Small spread favorite,False,No Cover
+Buccaneers @ Saints,Buccaneers,Saints,-4.5,Buccaneers -4.5,0.55,MEDIUM,Medium spread underdog,True,Cover
+Cowboys @ Broncos,Broncos,Cowboys,-3.5,Cowboys +3.5,0.55,MEDIUM,Medium spread underdog,True,Cover
+Titans @ Colts,Colts,Titans,-14.0,Titans +14.0,0.65,HIGH,Fade large spread,True,Cover
+Packers @ Steelers,Packers,Steelers,-3.0,Packers -3.0,0.55,MEDIUM,Medium spread underdog,True,Cover
+Commanders @ Chiefs,Chiefs,Commanders,-12.5,Commanders +12.5,0.65,HIGH,Fade large spread,True,Cover

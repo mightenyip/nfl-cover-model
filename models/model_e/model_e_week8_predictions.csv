@@ -1,0 +1,14 @@
+game,favorite,underdog,spread,spread_description,cover_probability,confidence,predicted_cover,prediction
+Vikings @ Chargers,Chargers,Vikings,-3.5,Vikings +3.5,0.4525010755222667,MEDIUM,True,Cover
+Dolphins @ Falcons,Falcons,Dolphins,-7.5,Dolphins +7.5,0.4723210738148823,LOW,True,Cover
+Jets @ Bengals,Bengals,Jets,-6.5,Jets +6.5,0.509049251244904,LOW,True,Cover
+Browns @ Patriots,Patriots,Browns,-7.0,Browns +7.0,0.45936952398615927,LOW,True,Cover
+Giants @ Eagles,Eagles,Giants,-7.5,Giants +7.5,0.5061245062938613,MEDIUM,True,Cover
+Bills @ Panthers,Bills,Panthers,-7.5,Bills -7.5,0.4949209046283854,MEDIUM,True,Cover
+Bears @ Ravens,Ravens,Bears,-6.5,Bears +6.5,0.5258807367129767,LOW,True,Cover
+49ers @ Texans,Texans,49ers,-1.5,49ers +1.5,0.4840250516517992,LOW,False,No Cover
+Buccaneers @ Saints,Buccaneers,Saints,-4.5,Buccaneers -4.5,0.5457213072206781,MEDIUM,True,Cover
+Cowboys @ Broncos,Broncos,Cowboys,-3.5,Cowboys +3.5,0.4592745843380148,LOW,True,Cover
+Titans @ Colts,Colts,Titans,-14.0,Titans +14.0,0.5347494366347461,MEDIUM,False,No Cover
+Packers @ Steelers,Packers,Steelers,-3.0,Packers -3.0,0.5229731786693819,LOW,True,Cover
+Commanders @ Chiefs,Chiefs,Commanders,-12.5,Commanders +12.5,0.4578800198078458,MEDIUM,False,No Cover

@@ -1,0 +1,14 @@
+game,favorite,underdog,spread,spread_description,cover_probability,confidence,defense_quality,opponent_def_epa,net_epa_diff,predicted_cover,prediction
+Vikings @ Chargers,Chargers,Vikings,-3.5,Vikings +3.5,0.4855,MEDIUM,STRONG,-0.08,0.039999999999999994,False,No Cover
+Dolphins @ Falcons,Falcons,Dolphins,-7.5,Dolphins +7.5,0.447,LOW,POOR,0.17,-0.24000000000000002,False,No Cover
+Jets @ Bengals,Bengals,Jets,-6.5,Jets +6.5,0.5385,MEDIUM,WEAK,0.07,0.07999999999999999,True,Cover
+Browns @ Patriots,Patriots,Browns,-7.0,Browns +7.0,0.45349999999999996,MEDIUM,STRONG,-0.08,-0.12,False,No Cover
+Giants @ Eagles,Eagles,Giants,-7.5,Giants +7.5,0.424,LOW,AVERAGE,0.04,-0.13,False,No Cover
+Bills @ Panthers,Bills,Panthers,-7.5,Bills -7.5,0.47600000000000003,MEDIUM,AVERAGE,0.02,0.13,False,No Cover
+Bears @ Ravens,Ravens,Bears,-6.5,Bears +6.5,0.5275000000000001,MEDIUM,STRONG,-0.05,0.25,True,Cover
+49ers @ Texans,Texans,49ers,-1.5,49ers +1.5,0.482,MEDIUM,AVERAGE,-0.01,-0.09000000000000001,False,No Cover
+Buccaneers @ Saints,Buccaneers,Saints,-4.5,Buccaneers -4.5,0.522,MEDIUM,AVERAGE,0.01,0.11000000000000001,True,Cover
+Cowboys @ Broncos,Broncos,Cowboys,-3.5,Cowboys +3.5,0.521,MEDIUM,POOR,0.13,-0.12000000000000002,True,Cover
+Titans @ Colts,Colts,Titans,-14.0,Titans +14.0,0.3645,LOW,WEAK,0.07,-0.54,False,No Cover
+Packers @ Steelers,Packers,Steelers,-3.0,Packers -3.0,0.52,MEDIUM,AVERAGE,0.04,0.1,True,Cover
+Commanders @ Chiefs,Chiefs,Commanders,-12.5,Commanders +12.5,0.408,LOW,AVERAGE,0.04,-0.21000000000000002,False,No Cover
