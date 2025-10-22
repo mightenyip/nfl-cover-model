@@ -1,0 +1,14 @@
+game,favorite,underdog,spread,predicted_cover,confidence,probability,rule_applied
+Vikings @ Chargers,Chargers,Vikings,-3.5,True,LOW,50.0,Home favorites 51.4% - NEUTRAL
+Dolphins @ Falcons,Falcons,Dolphins,-7.5,True,LOW,50.0,Home favorites 51.4% - NEUTRAL
+Jets @ Bengals,Bengals,Jets,-6.5,True,LOW,50.0,Home favorites 51.4% - NEUTRAL
+Browns @ Patriots,Patriots,Browns,-7.0,True,LOW,50.0,Home favorites 51.4% - NEUTRAL
+Giants @ Eagles,Eagles,Giants,-7.5,True,LOW,50.0,Home favorites 51.4% - NEUTRAL
+Bills @ Panthers,Bills,Panthers,-7.5,True,HIGH,69.69696969696969,Away favorites only 30.3% - FADE them
+Bears @ Ravens,Ravens,Bears,-6.5,True,LOW,50.0,Home favorites 51.4% - NEUTRAL
+49ers @ Texans,Texans,49ers,-1.5,True,LOW,50.0,Home favorites 51.4% - NEUTRAL
+Buccaneers @ Saints,Buccaneers,Saints,-4.5,True,HIGH,69.69696969696969,Away favorites only 30.3% - FADE them
+Cowboys @ Broncos,Broncos,Cowboys,-3.5,True,LOW,50.0,Home favorites 51.4% - NEUTRAL
+Titans @ Colts,Colts,Titans,-14.0,True,LOW,50.0,Home favorites 51.4% - NEUTRAL
+Packers @ Steelers,Packers,Steelers,-3.0,True,HIGH,69.69696969696969,Away favorites only 30.3% - FADE them
+Commanders @ Chiefs,Chiefs,Commanders,-12.5,True,LOW,50.0,Home favorites 51.4% - NEUTRAL

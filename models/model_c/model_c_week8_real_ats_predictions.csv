@@ -1,0 +1,14 @@
+away_team,home_team,favorite_team,underdog_team,spread_line,total_line,predicted_cover,confidence,probability,rule_applied,prediction,favorite_is_home,favorite_is_away
+Vikings,Chargers,Chargers,Vikings,-3.5,44.5,False,VERY_HIGH,0.648,Home Favorite Small Spread (64.8% ATS) - Chargers -3.5,No Cover,True,False
+Dolphins,Falcons,Falcons,Dolphins,-7.5,44.5,True,MEDIUM,0.6,Large Home Favorite Spread - Dolphins +7.5,Cover,True,False
+Jets,Bengals,Bengals,Jets,-6.5,44.5,False,VERY_HIGH,0.648,Home Favorite Medium Spread (64.8% ATS) - Bengals -6.5,No Cover,True,False
+Browns,Patriots,Patriots,Browns,-7.0,40.5,True,MEDIUM,0.6,Large Home Favorite Spread - Browns +7.0,Cover,True,False
+Giants,Eagles,Eagles,Giants,-7.5,44.5,True,MEDIUM,0.6,Large Home Favorite Spread - Giants +7.5,Cover,True,False
+Bills,Panthers,Bills,Panthers,-7.5,45.5,True,MEDIUM,0.6,Large Away Favorite Spread - Panthers +7.5,Cover,False,True
+Bears,Ravens,Ravens,Bears,-6.5,49.5,False,VERY_HIGH,0.648,Home Favorite Medium Spread (64.8% ATS) - Ravens -6.5,No Cover,True,False
+49ers,Texans,Texans,49ers,-1.5,41.5,False,VERY_HIGH,0.648,Home Favorite Small Spread (64.8% ATS) - Texans -1.5,No Cover,True,False
+Buccaneers,Saints,Buccaneers,Saints,-4.5,46.5,False,VERY_HIGH,0.648,Away Favorite Rule (64.8% ATS) - Buccaneers -4.5,No Cover,False,True
+Cowboys,Broncos,Broncos,Cowboys,-3.5,51.5,False,VERY_HIGH,0.648,Home Favorite Small Spread (64.8% ATS) - Broncos -3.5,No Cover,True,False
+Titans,Colts,Colts,Titans,-14.0,47.5,True,MEDIUM,0.6,Large Home Favorite Spread - Titans +14.0,Cover,True,False
+Packers,Steelers,Packers,Steelers,-3.0,44.5,False,VERY_HIGH,0.648,Away Favorite Rule (64.8% ATS) - Packers -3.0,No Cover,False,True
+Commanders,Chiefs,Chiefs,Commanders,-12.5,47.5,True,MEDIUM,0.6,Large Home Favorite Spread - Commanders +12.5,Cover,True,False

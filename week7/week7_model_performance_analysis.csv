@@ -1,0 +1,16 @@
+game,underdog,spread,actual_cover,model_a_pred,model_a_correct,model_b_pred,model_b_correct,model_c_pred,model_c_correct,model_d_pred,model_d_correct,consensus_pred,consensus_correct,agreement
+Steelers @ Bengals,Bengals,-5.5,False,True,False,False,True,False,True,False,True,False,True,1/4 models predict UNDERDOG cover
+Rams @ Jaguars,Jaguars,-3.0,False,True,False,True,False,False,True,True,False,True,False,3/4 models predict UNDERDOG cover
+Saints @ Bears,Saints,-5.5,False,True,False,True,False,False,True,False,True,False,True,2/4 models predict UNDERDOG cover
+Dolphins @ Browns,Dolphins,-2.5,False,False,True,True,False,False,True,True,False,False,True,2/4 models predict UNDERDOG cover
+Patriots @ Titans,Titans,-7.0,False,False,True,False,True,False,True,True,False,False,True,1/4 models predict UNDERDOG cover
+Raiders @ Chiefs,Raiders,-11.5,False,False,True,False,True,True,False,True,False,False,True,2/4 models predict UNDERDOG cover
+Eagles @ Vikings,Vikings,-2.5,False,False,True,False,True,False,True,True,False,False,True,1/4 models predict UNDERDOG cover
+Panthers @ Jets,Jets,-1.5,False,False,True,True,False,False,True,True,False,False,True,2/4 models predict UNDERDOG cover
+Giants @ Broncos,Giants,-7.0,True,False,False,True,True,True,True,True,True,True,True,3/4 models predict UNDERDOG cover
+Colts @ Chargers,Colts,-1.5,True,True,True,True,True,False,False,False,False,False,False,2/4 models predict UNDERDOG cover
+Commanders @ Cowboys,Cowboys,-2.5,False,True,False,True,False,False,True,False,True,False,True,2/4 models predict UNDERDOG cover
+Packers @ Cardinals,Cardinals,-6.5,True,True,True,False,False,False,False,True,True,False,False,2/4 models predict UNDERDOG cover
+Falcons @ 49ers,Falcons,-2.5,False,True,False,True,False,False,True,False,True,False,True,2/4 models predict UNDERDOG cover
+Buccaneers @ Lions,Buccaneers,-4.5,False,False,True,True,False,False,True,False,True,False,True,1/4 models predict UNDERDOG cover
+Texans @ Seahawks,Texans,-3.5,False,False,True,True,False,False,True,True,False,False,True,2/4 models predict UNDERDOG cover

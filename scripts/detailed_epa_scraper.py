@@ -88,9 +88,8 @@ class DetailedEPAScraper:
                                 # Extract various EPA metrics
                                 epa_per_play = float(cells[2].get_text(strip=True))
                                 epa_per_pass = float(cells[6].get_text(strip=True))
-                                # Column 7 appears to be total rush yards, not EPA per rush
-                                # Let's use EPA per play as baseline and adjust
-                                epa_per_rush = epa_per_play * 0.8  # Estimate rush EPA as lower than overall
+                                # Column 7 is EPA/Rush according to the website structure
+                                epa_per_rush = float(cells[7].get_text(strip=True))
                                 total_epa = float(cells[3].get_text(strip=True))
                                 success_rate = float(cells[4].get_text(strip=True).replace('%', ''))
                                 
@@ -161,9 +160,8 @@ class DetailedEPAScraper:
                                 # Extract various EPA metrics (defensive EPA allowed)
                                 epa_per_play = float(cells[2].get_text(strip=True))
                                 epa_per_pass = float(cells[6].get_text(strip=True))
-                                # Column 7 appears to be total rush yards allowed, not EPA per rush allowed
-                                # Let's use EPA per play as baseline and adjust
-                                epa_per_rush = epa_per_play * 0.8  # Estimate rush EPA allowed as lower than overall
+                                # Column 7 is EPA/Rush allowed according to the website structure
+                                epa_per_rush = float(cells[7].get_text(strip=True))
                                 total_epa = float(cells[3].get_text(strip=True))
                                 success_rate = float(cells[4].get_text(strip=True).replace('%', ''))
                                 

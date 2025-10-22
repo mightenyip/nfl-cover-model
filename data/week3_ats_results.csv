@@ -1,0 +1,17 @@
+game,final_score,away_score,home_score,favorite,underdog,spread,favorite_score,underdog_score,margin,underdog_covered
+Dolphins @ Bills,BUF 31 - MIA 21,21,31,Bills,Dolphins,12.5,31,21,10,True
+Packers @ Browns,CLE 13 - GB 10,10,13,Packers,Browns,8.5,10,13,-3,True
+Colts @ Titans,IND 41 - TEN 20,41,20,Colts,Titans,3.5,41,20,21,False
+Bengals @ Vikings,MIN 48 - CIN 10,10,48,Vikings,Bengals,3.0,48,10,38,False
+Steelers @ Patriots,PIT 21 - NE 14,21,14,Steelers,Patriots,1.5,21,14,7,False
+Rams @ Eagles,PHI 33 - LAR 26,26,33,Eagles,Rams,3.5,33,26,7,False
+Jets @ Buccaneers,TB 29 - NYJ 27,27,29,Buccaneers,Jets,7.0,29,27,2,True
+Raiders @ Commanders,WSH 41 - LV 24,24,41,Commanders,Raiders,3.5,41,24,17,False
+Falcons @ Panthers,CAR 30 - ATL 0,0,30,Falcons,Panthers,5.5,0,30,-30,True
+Texans @ Jaguars,JAX 17 - HOU 10,10,17,Jaguars,Texans,1.5,17,10,7,False
+Broncos @ Chargers,LAC 23 - DEN 20,20,23,Chargers,Broncos,2.5,23,20,3,False
+Saints @ Seahawks,SEA 44 - NO 13,13,44,Seahawks,Saints,7.5,44,13,31,False
+Cowboys @ Bears,CHI 31 - DAL 14,14,31,Bears,Cowboys,1.5,31,14,17,False
+Cardinals @ 49ers,SF 16 - ARI 15,15,16,49ers,Cardinals,1.5,16,15,1,True
+Chiefs @ Giants,KC 22 - NYG 9,22,9,Chiefs,Giants,6.5,22,9,13,False
+Lions @ Ravens,DET 38 - BAL 30,38,30,Ravens,Lions,5.5,30,38,-8,True
