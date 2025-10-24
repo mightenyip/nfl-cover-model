@@ -7,7 +7,7 @@ Giants @ Eagles,Eagles,Giants,-7.5,Cover,0.5082249012587723,MEDIUM,0.6,3,5,"{'Mo
 Bills @ Panthers,Bills,Panthers,-7.5,Cover,0.5713781203196164,HIGH,0.8,4,5,"{'Model_A': 'Cover', 'Model_B': 'No Cover', 'Model_C': 'Cover', 'Model_D': 'Cover', 'Model_E': 'Cover'}"
 Bears @ Ravens,Ravens,Bears,-6.5,Cover,0.5196761473425953,HIGH,0.8,4,5,"{'Model_A': 'No Cover', 'Model_B': 'Cover', 'Model_C': 'Cover', 'Model_D': 'Cover', 'Model_E': 'Cover'}"
 49ers @ Texans,Texans,49ers,-1.5,No Cover,0.49780501033035984,HIGH,0.8,1,5,"{'Model_A': 'No Cover', 'Model_B': 'No Cover', 'Model_C': 'Cover', 'Model_D': 'No Cover', 'Model_E': 'No Cover'}"
-Buccaneers @ Saints,Buccaneers,Saints,-4.5,Cover,0.5695382008380749,HIGH,1.0,5,5,"{'Model_A': 'Cover', 'Model_B': 'Cover', 'Model_C': 'Cover', 'Model_D': 'Cover', 'Model_E': 'Cover'}"
+Buccaneers @ Saints,Buccaneers,Saints,-4.5,Cover,0.572538200838075,HIGH,1.0,5,5,"{'Model_A': 'Cover', 'Model_B': 'Cover', 'Model_C': 'Cover', 'Model_D': 'Cover', 'Model_E': 'Cover'}"
 Cowboys @ Broncos,Broncos,Cowboys,-3.5,Cover,0.5228549168676031,HIGH,1.0,5,5,"{'Model_A': 'Cover', 'Model_B': 'Cover', 'Model_C': 'Cover', 'Model_D': 'Cover', 'Model_E': 'Cover'}"
 Titans @ Colts,Colts,Titans,-14.0,No Cover,0.48744988732694916,MEDIUM,0.6,2,5,"{'Model_A': 'No Cover', 'Model_B': 'No Cover', 'Model_C': 'Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
 Packers @ Steelers,Packers,Steelers,-3.0,Cover,0.5639885751278157,HIGH,1.0,5,5,"{'Model_A': 'Cover', 'Model_B': 'Cover', 'Model_C': 'Cover', 'Model_D': 'Cover', 'Model_E': 'Cover'}"
