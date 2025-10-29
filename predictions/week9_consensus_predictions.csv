@@ -1,0 +1,12 @@
+game,favorite,underdog,spread,consensus_prediction,consensus_probability,confidence,agreement,underdog_votes,total_votes,model_breakdown
+Bears @ Bengals,Bears,Bengals,-2.5,No Cover,0.65,MEDIUM,0.6,2,5,"{'Model_A': 'No Cover', 'Model_B': 'Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
+Vikings @ Lions,Lions,Vikings,-8.5,No Cover,0.601,HIGH,0.8,1,5,"{'Model_A': 'No Cover', 'Model_B': 'No Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
+Panthers @ Packers,Packers,Panthers,-12.5,No Cover,0.5890000000000001,HIGH,0.8,1,5,"{'Model_A': 'No Cover', 'Model_B': 'No Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
+Chargers @ Titans,Chargers,Titans,-9.5,No Cover,0.5890000000000001,HIGH,0.8,1,5,"{'Model_A': 'No Cover', 'Model_B': 'No Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
+Falcons @ Patriots,Patriots,Falcons,-5.5,No Cover,0.5890000000000001,HIGH,0.8,1,5,"{'Model_A': 'No Cover', 'Model_B': 'No Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
+49ers @ Giants,49ers,Giants,-2.5,Cover,0.576,MEDIUM,0.6,3,5,"{'Model_A': 'Cover', 'Model_B': 'Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
+Colts @ Steelers,Colts,Steelers,-3.0,No Cover,0.6300000000000001,HIGH,0.8,1,5,"{'Model_A': 'No Cover', 'Model_B': 'No Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
+Broncos @ Texans,Texans,Broncos,-1.5,Cover,0.614,MEDIUM,0.6,3,5,"{'Model_A': 'Cover', 'Model_B': 'Cover', 'Model_C': 'No Cover', 'Model_D': 'No Cover', 'Model_E': 'Cover'}"
+Jaguars @ Raiders,Jaguars,Raiders,-3.0,No Cover,0.6040000000000001,HIGH,0.8,1,5,"{'Model_A': 'No Cover', 'Model_B': 'No Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
+Saints @ Rams,Rams,Saints,-13.5,No Cover,0.5890000000000001,HIGH,0.8,1,5,"{'Model_A': 'No Cover', 'Model_B': 'No Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
+Chiefs @ Bills,Chiefs,Bills,-1.5,Cover,0.5900000000000001,MEDIUM,0.6,3,5,"{'Model_A': 'Cover', 'Model_B': 'Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
