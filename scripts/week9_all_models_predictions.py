@@ -438,6 +438,24 @@ def create_consensus_predictions(model_predictions):
             for model_name, pred in model_predictions_dict.items():
                 model_breakdown[model_name] = "Cover" if pred else "No Cover"
             
+            # Get individual model probabilities and predictions
+            model_a_prob = model_probabilities.get('Model_A', 0.0)
+            model_b_prob = model_probabilities.get('Model_B', 0.0)
+            model_c_prob = model_probabilities.get('Model_C', 0.0)
+            model_d_prob = model_probabilities.get('Model_D', 0.0)
+            model_e_prob = model_probabilities.get('Model_E', 0.0)
+            
+            # Get individual model predictions
+            model_a_pred = model_predictions_dict.get('Model_A', False)
+            model_b_pred = model_predictions_dict.get('Model_B', False)
+            model_c_pred = model_predictions_dict.get('Model_C', False)
+            model_d_pred = model_predictions_dict.get('Model_D', False)
+            model_e_pred = model_predictions_dict.get('Model_E', False)
+            
+            # Normalize Model C probability if it's a percentage
+            if model_c_prob > 1.0:
+                model_c_prob = model_c_prob / 100.0
+            
             consensus_predictions.append({
                 'game': game,
                 'favorite': favorite,
@@ -445,6 +463,16 @@ def create_consensus_predictions(model_predictions):
                 'spread': spread,
                 'consensus_prediction': "Cover" if consensus_cover else "No Cover",
                 'consensus_probability': avg_probability,
+                'model_a_prediction': "Cover" if model_a_pred else "No Cover",
+                'model_a_probability': model_a_prob,
+                'model_b_prediction': "Cover" if model_b_pred else "No Cover",
+                'model_b_probability': model_b_prob,
+                'model_c_prediction': "Cover" if model_c_pred else "No Cover",
+                'model_c_probability': model_c_prob,
+                'model_d_prediction': "Cover" if model_d_pred else "No Cover",
+                'model_d_probability': model_d_prob,
+                'model_e_prediction': "Cover" if model_e_pred else "No Cover",
+                'model_e_probability': model_e_prob,
                 'confidence': confidence,
                 'agreement': agreement,
                 'underdog_votes': underdog_votes,
@@ -520,6 +548,16 @@ def main():
             'spread': pred['spread'],
             'consensus_prediction': pred['consensus_prediction'],
             'consensus_probability': pred['consensus_probability'],
+            'model_a_prediction': pred['model_a_prediction'],
+            'model_a_probability': pred['model_a_probability'],
+            'model_b_prediction': pred['model_b_prediction'],
+            'model_b_probability': pred['model_b_probability'],
+            'model_c_prediction': pred['model_c_prediction'],
+            'model_c_probability': pred['model_c_probability'],
+            'model_d_prediction': pred['model_d_prediction'],
+            'model_d_probability': pred['model_d_probability'],
+            'model_e_prediction': pred['model_e_prediction'],
+            'model_e_probability': pred['model_e_probability'],
             'confidence': pred['confidence'],
             'agreement': pred['agreement'],
             'underdog_votes': pred['underdog_votes'],
