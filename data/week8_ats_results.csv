@@ -1,0 +1,14 @@
+game,final_score,away_score,home_score,favorite,underdog,spread,favorite_score,underdog_score,margin,underdog_covered
+Vikings @ Chargers,LAC 37 - MIN 10,10,37,Chargers,Vikings,-3.5,37,10,27,False
+Dolphins @ Falcons,MIA 34 - ATL 10,34,10,Falcons,Dolphins,-7.5,10,34,-24,True
+Jets @ Bengals,NYJ 39 - CIN 38,39,38,Bengals,Jets,-6.5,38,39,-1,True
+Browns @ Patriots,NE 32 - CLE 13,13,32,Patriots,Browns,-7.0,32,13,19,False
+Giants @ Eagles,PHI 38 - NYG 20,20,38,Eagles,Giants,-7.5,38,20,18,False
+Bills @ Panthers,BUF 40 - CAR 9,40,9,Bills,Panthers,-7.5,40,9,31,False
+Bears @ Ravens,BAL 30 - CHI 16,16,30,Ravens,Bears,-6.5,30,16,14,False
+49ers @ Texans,HOU 26 - SF 15,15,26,Texans,49ers,-1.5,26,15,11,False
+Buccaneers @ Saints,TB 23 - NO 3,23,3,Buccaneers,Saints,-4.5,23,3,20,False
+Cowboys @ Broncos,DEN 44 - DAL 24,24,44,Broncos,Cowboys,-3.5,44,24,20,False
+Titans @ Colts,IND 38 - TEN 14,14,38,Colts,Titans,-14.0,38,14,24,False
+Packers @ Steelers,GB 35 - PIT 25,35,25,Packers,Steelers,-3.0,35,25,10,False
+Commanders @ Chiefs,KC 28 - WSH 7,7,28,Chiefs,Commanders,-12.5,28,7,21,False
