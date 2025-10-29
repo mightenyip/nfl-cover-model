@@ -17,8 +17,8 @@ def load_historical_data():
     print("=== Loading Historical Data (Weeks 1-8) ===")
     print("=" * 50)
     
-    # Load EPA data
-    epa_df = pd.read_csv('data/comprehensive_epa_data_week8.csv')
+    # Load EPA data - use detailed_epa_data.csv which has all 32 teams
+    epa_df = pd.read_csv('detailed_epa_data.csv')
     print(f"Loaded EPA data for {len(epa_df)} teams")
     
     # Team mapping for consistency

@@ -1,4 +1,5 @@
 game,favorite,underdog,spread,consensus_prediction,consensus_probability,confidence,agreement,underdog_votes,total_votes,model_breakdown
+Ravens @ Dolphins,Ravens,Dolphins,-7.5,No Cover,0.569,MEDIUM,0.6,2,5,"{'Model_A': 'Cover', 'Model_B': 'No Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
 Bears @ Bengals,Bears,Bengals,-2.5,No Cover,0.65,MEDIUM,0.6,2,5,"{'Model_A': 'No Cover', 'Model_B': 'Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
 Vikings @ Lions,Lions,Vikings,-8.5,No Cover,0.601,HIGH,0.8,1,5,"{'Model_A': 'No Cover', 'Model_B': 'No Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
 Panthers @ Packers,Packers,Panthers,-12.5,No Cover,0.5890000000000001,HIGH,0.8,1,5,"{'Model_A': 'No Cover', 'Model_B': 'No Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
@@ -10,3 +11,5 @@ Broncos @ Texans,Texans,Broncos,-1.5,Cover,0.614,MEDIUM,0.6,3,5,"{'Model_A': 'Co
 Jaguars @ Raiders,Jaguars,Raiders,-3.0,No Cover,0.6040000000000001,HIGH,0.8,1,5,"{'Model_A': 'No Cover', 'Model_B': 'No Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
 Saints @ Rams,Rams,Saints,-13.5,No Cover,0.5890000000000001,HIGH,0.8,1,5,"{'Model_A': 'No Cover', 'Model_B': 'No Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
 Chiefs @ Bills,Chiefs,Bills,-1.5,Cover,0.5900000000000001,MEDIUM,0.6,3,5,"{'Model_A': 'Cover', 'Model_B': 'Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
+Seahawks @ Commanders,Seahawks,Commanders,-3.5,No Cover,0.6359999999999999,MEDIUM,0.6,2,5,"{'Model_A': 'No Cover', 'Model_B': 'Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
+Cardinals @ Cowboys,Cowboys,Cardinals,-2.5,No Cover,0.584,MEDIUM,0.6,2,5,"{'Model_A': 'Cover', 'Model_B': 'No Cover', 'Model_C': 'No Cover', 'Model_D': 'Cover', 'Model_E': 'No Cover'}"
