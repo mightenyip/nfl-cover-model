@@ -1,0 +1,12 @@
+game,favorite,underdog,spread,predicted_cover,confidence,probability,net_epa_diff,epa_advantage
+Bears @ Bengals,Bears,Bengals,-2.5,False,HIGH,0.75,0.24,-0.24
+Vikings @ Lions,Lions,Vikings,-8.5,False,HIGH,0.75,-0.27,-0.27
+Panthers @ Packers,Packers,Panthers,-12.5,False,HIGH,0.75,-0.3,-0.3
+Chargers @ Titans,Chargers,Titans,-9.5,False,HIGH,0.75,0.35,-0.35
+Falcons @ Patriots,Patriots,Falcons,-5.5,False,HIGH,0.75,-0.1699999999999999,-0.1699999999999999
+49ers @ Giants,49ers,Giants,-2.5,True,LOW,0.52,0.09,-0.09
+Colts @ Steelers,Colts,Steelers,-3.0,False,HIGH,0.75,0.28,-0.28
+Broncos @ Texans,Texans,Broncos,-1.5,True,LOW,0.52,-0.009999999999999981,-0.009999999999999981
+Jaguars @ Raiders,Jaguars,Raiders,-3.0,False,HIGH,0.75,0.25,-0.25
+Saints @ Rams,Rams,Saints,-13.5,False,HIGH,0.75,-0.28,-0.28
+Chiefs @ Bills,Chiefs,Bills,-1.5,True,LOW,0.52,0.05000000000000002,-0.05000000000000002

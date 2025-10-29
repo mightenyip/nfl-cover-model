@@ -1,0 +1,15 @@
+game,favorite,underdog,spread,predicted_cover,confidence,probability,rule_applied
+Ravens @ Dolphins,Ravens,Dolphins,-7.5,True,HIGH,0.65,High Total Rule (≥50)
+Bears @ Bengals,Bears,Bengals,-2.5,True,HIGH,0.65,High Total Rule (≥50)
+Vikings @ Lions,Lions,Vikings,-8.5,True,MEDIUM,0.58,Medium-High Total Rule (47-49)
+Panthers @ Packers,Packers,Panthers,-12.5,True,LOW,0.52,Default Underdog Rule
+Chargers @ Titans,Chargers,Titans,-9.5,True,LOW,0.52,Default Underdog Rule
+Falcons @ Patriots,Patriots,Falcons,-5.5,True,LOW,0.52,Default Underdog Rule
+49ers @ Giants,49ers,Giants,-2.5,True,MEDIUM,0.58,Medium-High Total Rule (47-49)
+Colts @ Steelers,Colts,Steelers,-3.0,True,HIGH,0.65,High Total Rule (≥50)
+Broncos @ Texans,Texans,Broncos,-1.5,False,HIGH,0.65,Low Total Rule (≤42)
+Jaguars @ Raiders,Jaguars,Raiders,-3.0,True,LOW,0.52,Default Underdog Rule
+Saints @ Rams,Rams,Saints,-13.5,True,LOW,0.52,Default Underdog Rule
+Chiefs @ Bills,Chiefs,Bills,-1.5,True,HIGH,0.65,High Total Rule (≥50)
+Seahawks @ Commanders,Seahawks,Commanders,-3.5,True,MEDIUM,0.58,Medium-High Total Rule (47-49)
+Cardinals @ Cowboys,Cowboys,Cardinals,-2.5,True,HIGH,0.65,High Total Rule (≥50)
