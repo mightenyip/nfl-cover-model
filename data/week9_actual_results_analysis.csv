@@ -1,0 +1,14 @@
+game,score,spread,underdog,actual_cover,model_a_pred,model_a_correct,model_b_pred,model_b_correct,model_c_pred,model_c_correct,model_d_pred,model_d_correct,model_e_pred,model_e_correct,consensus_pred,consensus_correct
+Ravens @ Dolphins,"BAL 28, MIA 6",-7.5,Dolphins,False,True,False,False,True,False,True,True,False,False,True,False,True
+Bears @ Bengals,"CHI 47, CIN 42",-2.5,Bengals,False,False,True,True,False,False,True,True,False,False,True,False,True
+Vikings @ Lions,"MIN 27, DET 24",-8.5,Vikings,True,False,False,False,False,False,False,True,True,False,False,False,False
+Panthers @ Packers,"CAR 16, GB 13",-12.5,Panthers,True,False,False,False,False,False,False,True,True,False,False,False,False
+Chargers @ Titans,"LAC 27, TEN 20",-9.5,Titans,True,False,False,False,False,False,False,True,True,False,False,False,False
+Falcons @ Patriots,"NE 24, ATL 23",-5.5,Falcons,True,False,False,False,False,False,False,True,True,False,False,False,False
+49ers @ Giants,"SF 34, NYG 24",-2.5,Giants,False,True,False,True,False,False,True,True,False,False,True,True,False
+Colts @ Steelers,"PIT 27, IND 20",-3.0,Colts,False,False,True,False,True,False,True,True,False,False,True,False,True
+Broncos @ Texans,"DEN 18, HOU 15",-1.5,Broncos,True,True,True,True,True,False,False,False,False,True,True,True,True
+Jaguars @ Raiders,"JAX 30, LV 29 (OT)",-3.0,Raiders,True,False,False,False,False,False,False,True,True,False,False,False,False
+Saints @ Rams,"LAR 34, NO 10",-13.5,Saints,False,False,True,False,True,False,True,True,False,False,True,False,True
+Chiefs @ Bills,"BUF 28, KC 21",-1.5,Bills,True,True,True,True,True,False,False,True,True,False,False,True,True
+Seahawks @ Commanders,"SEA 38, WSH 14",-3.5,Commanders,False,False,True,True,False,False,True,True,False,False,True,False,True
