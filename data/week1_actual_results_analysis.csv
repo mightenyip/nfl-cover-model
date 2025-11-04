@@ -1,17 +1,13 @@
-game,actual_cover,model_a_pred,model_b_pred,model_c_pred,model_d_pred,model_a_correct,model_b_correct,model_c_correct,model_d_correct
-Cowboys @ Eagles,True,True,True,True,True,True,True,True,True
-Chiefs @ Chargers,True,True,True,False,True,True,True,False,True
-Buccaneers @ Falcons,False,False,False,False,True,True,True,True,False
-Bengals @ Browns,True,True,True,True,True,True,True,True,True
-Dolphins @ Colts,False,False,False,False,True,True,True,True,False
-Raiders @ Patriots,True,True,True,False,True,True,True,False,True
-Cardinals @ Saints,False,False,False,True,True,True,True,False,False
-Steelers @ Jets,True,False,False,False,True,False,False,False,True
-Giants @ Commanders,False,False,False,True,True,True,True,False,False
-Panthers @ Jaguars,False,False,False,False,True,True,True,True,False
-Titans @ Broncos,True,True,True,True,True,True,True,True,True
-49ers @ Seahawks,False,True,True,False,True,False,False,True,False
-Lions @ Packers,False,True,True,False,True,False,False,True,False
-Texans @ Rams,False,False,False,False,True,True,True,True,False
-Ravens @ Bills,True,False,False,False,True,False,False,False,True
-Vikings @ Bears,True,True,True,False,True,True,True,False,True
+game,score,spread,underdog,actual_cover,model_a_pred,model_a_correct,model_b_pred,model_b_correct,model_c_pred,model_c_correct,model_d_pred,model_d_correct,model_e_pred,model_e_correct,consensus_pred,consensus_correct
+Raiders @ Patriots,LV 20 - NE 13,2.5,Raiders,True,,,,,,,,,False,False,False,False
+Steelers @ Jets,PIT 34 - NYJ 32,3.0,Jets,True,,,,,,,,,False,False,False,False
+Dolphins @ Colts,IND 33 - MIA 8,1.5,Dolphins,False,,,,,,,,,False,True,False,True
+Cardinals @ Saints,ARI 20 - NO 13,6.5,Saints,False,,,,,,,,,False,True,False,True
+Panthers @ Jaguars,JAX 26 - CAR 10,4.5,Panthers,False,,,,,,,,,False,True,False,True
+Bengals @ Browns,CIN 17 - CLE 16,5.5,Browns,True,,,,,,,,,True,True,True,True
+Titans @ Broncos,DEN 20 - TEN 12,8.5,Titans,True,,,,,,,,,False,False,False,False
+49ers @ Seahawks,SF 17 - SEA 13,1.5,Seahawks,False,,,,,,,,,False,True,False,True
+Lions @ Packers,GB 27 - DET 13,1.5,Lions,False,,,,,,,,,True,False,True,False
+Ravens @ Bills,BUF 41 - BAL 40,1.5,Ravens,True,,,,,,,,,False,False,False,False
+Vikings @ Bears,MIN 27 - CHI 24,1.5,Vikings,True,,,,,,,,,False,False,False,False
+Chiefs @ Chargers,LAC 27 - KC 21,3.0,Chargers,True,,,,,,,,,False,False,False,False

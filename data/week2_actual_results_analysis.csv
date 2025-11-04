@@ -1,0 +1,15 @@
+game,score,spread,underdog,actual_cover,model_a_pred,model_a_correct,model_b_pred,model_b_correct,model_c_pred,model_c_correct,model_d_pred,model_d_correct,model_e_pred,model_e_correct,consensus_pred,consensus_correct
+Commanders @ Packers,GB 27 - WSH 18,3.5,Commanders,False,,,False,True,False,True,True,False,False,True,False,True
+Browns @ Ravens,BAL 41 - CLE 17,11.5,Browns,False,,,False,True,True,False,True,False,False,True,False,True
+Jaguars @ Bengals,CIN 31 - JAX 27,3.5,Jaguars,False,,,True,False,False,True,True,False,True,False,True,False
+Giants @ Cowboys,DAL 40 - NYG 37,5.5,Giants,True,,,False,False,False,False,True,True,False,False,False,False
+Bears @ Lions,DET 52 - CHI 21,5.5,Bears,False,,,False,True,False,True,True,False,False,True,False,True
+Patriots @ Dolphins,NE 33 - MIA 27,1.5,Patriots,True,,,True,True,False,False,False,False,False,False,False,False
+49ers @ Saints,SF 26 - NO 21,4.5,Saints,False,,,False,True,False,True,True,False,False,True,False,True
+Bills @ Jets,BUF 30 - NYJ 10,6.5,Jets,False,,,False,True,False,True,True,False,False,True,False,True
+Seahawks @ Steelers,SEA 31 - PIT 17,3.0,Seahawks,True,,,True,True,False,False,True,True,False,False,False,False
+Panthers @ Cardinals,ARI 27 - CAR 22,6.5,Panthers,True,,,False,False,False,False,True,True,False,False,False,False
+Broncos @ Colts,IND 29 - DEN 28,2.5,Colts,True,,,True,True,False,False,False,False,True,True,False,False
+Falcons @ Vikings,ATL 22 - MIN 6,4.5,Falcons,True,,,False,False,False,False,True,True,False,False,False,False
+Buccaneers @ Texans,TB 20 - HOU 19,2.5,Buccaneers,True,,,True,True,False,False,False,False,True,True,False,False
+Chargers @ Raiders,LAC 20 - LV 9,3.5,Raiders,False,,,False,True,False,True,True,False,False,True,False,True

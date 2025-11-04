@@ -1,0 +1,14 @@
+game,score,spread,underdog,actual_cover,model_a_pred,model_a_correct,model_b_pred,model_b_correct,model_c_pred,model_c_correct,model_d_pred,model_d_correct,model_e_pred,model_e_correct,consensus_pred,consensus_correct
+Dolphins @ Bills,BUF 31 - MIA 21,12.5,Dolphins,True,,,,,,,,,False,False,False,False
+Falcons @ Panthers,CAR 30 - ATL 0,5.5,Panthers,True,,,,,,,,,False,False,False,False
+Packers @ Browns,CLE 13 - GB 10,8.5,Browns,True,,,,,,,,,False,False,False,False
+Texans @ Jaguars,JAX 17 - HOU 10,1.5,Texans,False,,,,,,,,,False,True,False,True
+Bengals @ Vikings,MIN 48 - CIN 10,3.0,Bengals,False,,,,,,,,,False,True,True,False
+Steelers @ Patriots,PIT 21 - NE 14,1.5,Patriots,False,,,,,,,,,True,False,True,False
+Colts @ Titans,IND 41 - TEN 20,3.5,Titans,False,,,,,,,,,False,True,False,True
+Broncos @ Chargers,LAC 23 - DEN 20,2.5,Broncos,False,,,,,,,,,False,True,False,True
+Saints @ Seahawks,SEA 44 - NO 13,7.5,Saints,False,,,,,,,,,False,True,True,False
+Cowboys @ Bears,CHI 31 - DAL 14,1.5,Cowboys,False,,,,,,,,,False,True,False,True
+Cardinals @ 49ers,SF 16 - ARI 15,1.5,Cardinals,True,,,,,,,,,False,False,True,True
+Chiefs @ Giants,KC 22 - NYG 9,6.5,Giants,False,,,,,,,,,False,True,True,False
+Lions @ Ravens,DET 38 - BAL 30,5.5,Lions,True,,,,,,,,,False,False,False,False

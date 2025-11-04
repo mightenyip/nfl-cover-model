@@ -1,14 +1,12 @@
-game,actual_cover,model_a_pred,model_a_correct,model_b_pred,model_b_correct,model_c_pred,model_c_correct,model_d_pred,model_d_correct,model_e_pred,model_e_correct,consensus_pred,consensus_correct
-Vikings @ Chargers,False,False,True,False,True,False,True,True,False,True,False,True,False
-Dolphins @ Falcons,True,True,True,False,False,True,True,True,True,True,True,True,True
-Jets @ Bengals,True,True,True,True,True,False,False,True,True,True,True,True,True
-Browns @ Patriots,False,False,True,False,True,True,False,True,False,True,False,True,False
-Giants @ Eagles,False,False,True,False,True,True,False,True,False,True,False,True,False
-Bills @ Panthers,False,True,False,False,True,True,False,True,False,True,False,True,False
-Bears @ Ravens,False,False,True,True,False,False,True,True,False,True,False,True,False
-49ers @ Texans,False,False,True,False,True,False,True,False,True,False,True,False,True
-Buccaneers @ Saints,False,True,False,True,False,False,True,True,False,True,False,True,False
-Cowboys @ Broncos,False,True,False,True,False,False,True,True,False,True,False,True,False
-Titans @ Colts,False,False,True,False,True,True,False,True,False,False,True,False,True
-Packers @ Steelers,False,True,False,True,False,False,True,True,False,True,False,True,False
-Commanders @ Chiefs,False,False,True,False,True,True,False,True,False,False,True,False,True
+game,score,spread,underdog,actual_cover,model_a_pred,model_a_correct,model_b_pred,model_b_correct,model_c_pred,model_c_correct,model_d_pred,model_d_correct,model_e_pred,model_e_correct,consensus_pred,consensus_correct
+Vikings @ Chargers,LAC 37 - MIN 10,-3.5,Vikings,False,,,False,True,,,True,False,True,False,True,False
+Dolphins @ Falcons,MIA 34 - ATL 10,-7.5,Dolphins,True,,,False,False,,,True,True,True,True,True,True
+Jets @ Bengals,NYJ 39 - CIN 38,-6.5,Jets,True,,,True,True,,,True,True,True,True,True,True
+Browns @ Patriots,NE 32 - CLE 13,-7.0,Browns,False,,,False,True,,,True,False,True,False,True,False
+Bills @ Panthers,BUF 40 - CAR 9,-7.5,Panthers,False,,,False,True,,,True,False,True,False,True,False
+Bears @ Ravens,BAL 30 - CHI 16,-6.5,Bears,False,,,True,False,,,True,False,True,False,True,False
+49ers @ Texans,HOU 26 - SF 15,-1.5,49ers,False,,,False,True,,,False,True,False,True,False,True
+Cowboys @ Broncos,DEN 44 - DAL 24,-3.5,Cowboys,False,,,True,False,,,True,False,True,False,True,False
+Titans @ Colts,IND 38 - TEN 14,-14.0,Titans,False,,,False,True,,,True,False,False,True,False,True
+Packers @ Steelers,GB 35 - PIT 25,-3.0,Steelers,False,,,True,False,,,True,False,True,False,True,False
+Commanders @ Chiefs,KC 28 - WSH 7,-12.5,Commanders,False,,,False,True,,,True,False,False,True,False,True
