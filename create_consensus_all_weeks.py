@@ -20,36 +20,65 @@ def get_team_mapping():
     }
 
 def load_all_models_for_week(week_num):
-    """Load all model predictions for a given week"""
+    """Load all model predictions for a given week - checks multiple paths"""
     models = {}
     
-    # Model A
-    try:
-        model_a = pd.read_csv(f"predictions/model_a_week{week_num}_predictions.csv")
-        models['Model_A'] = model_a
-    except:
-        pass
+    # Model A - check multiple paths
+    model_a_paths = [
+        f"predictions/model_a_week{week_num}_predictions.csv",
+        f"models/model_a/model_a_week{week_num}_predictions.csv",
+        f"week{week_num}/model_a_week{week_num}_predictions.csv",
+    ]
+    for path in model_a_paths:
+        try:
+            model_a = pd.read_csv(path)
+            models['Model_A'] = model_a
+            break
+        except:
+            continue
     
-    # Model B
-    try:
-        model_b = pd.read_csv(f"models/model_b/model_b_week{week_num}_predictions.csv")
-        models['Model_B'] = model_b
-    except:
-        pass
+    # Model B - check multiple paths
+    model_b_paths = [
+        f"models/model_b/model_b_week{week_num}_predictions.csv",
+        f"models/model_b/model_b_v2_week{week_num}_predictions.csv",
+        f"week{week_num}/model_b_week{week_num}_predictions.csv",
+        f"predictions/model_b_week{week_num}_predictions.csv",
+    ]
+    for path in model_b_paths:
+        try:
+            model_b = pd.read_csv(path)
+            models['Model_B'] = model_b
+            break
+        except:
+            continue
     
-    # Model C
-    try:
-        model_c = pd.read_csv(f"models/model_c/model_c_week{week_num}_predictions.csv")
-        models['Model_C'] = model_c
-    except:
-        pass
+    # Model C - check multiple paths
+    model_c_paths = [
+        f"models/model_c/model_c_week{week_num}_predictions.csv",
+        f"models/model_c/model_c_week{week_num}_updated_predictions.csv",
+        f"models/model_c/model_c_week{week_num}_real_ats_predictions.csv",
+        f"predictions/model_c_week{week_num}_predictions.csv",
+    ]
+    for path in model_c_paths:
+        try:
+            model_c = pd.read_csv(path)
+            models['Model_C'] = model_c
+            break
+        except:
+            continue
     
     # Model D
-    try:
-        model_d = pd.read_csv(f"models/model_d/model_d_week{week_num}_predictions.csv")
-        models['Model_D'] = model_d
-    except:
-        pass
+    model_d_paths = [
+        f"models/model_d/model_d_week{week_num}_predictions.csv",
+        f"predictions/model_d_week{week_num}_predictions.csv",
+    ]
+    for path in model_d_paths:
+        try:
+            model_d = pd.read_csv(path)
+            models['Model_D'] = model_d
+            break
+        except:
+            continue
     
     # Model E
     try:
@@ -74,10 +103,18 @@ def create_consensus_for_week(week_num):
     
     for idx, row in first_model.iterrows():
         # Get game name - try different column names
+        game = None
+        away_team = None
+        home_team = None
+        
         if 'game' in row:
             game = row['game']
         elif 'Game' in row:
             game = row['Game']
+        elif 'away_team' in row and 'home_team' in row:
+            away_team = row['away_team']
+            home_team = row['home_team']
+            game = f"{away_team} @ {home_team}"
         else:
             continue
         
@@ -91,14 +128,20 @@ def create_consensus_for_week(week_num):
         model_probabilities = {}
         
         for model_name, model_df in models.items():
-            # Find matching game
+            # Find matching game - try different matching methods
             game_row = None
             if 'game' in model_df.columns:
                 game_row = model_df[model_df['game'] == game]
             elif 'Game' in model_df.columns:
                 game_row = model_df[model_df['Game'] == game]
+            elif away_team and home_team and 'away_team' in model_df.columns and 'home_team' in model_df.columns:
+                # Match by away_team and home_team
+                game_row = model_df[
+                    (model_df['away_team'] == away_team) & 
+                    (model_df['home_team'] == home_team)
+                ]
             
-            if not game_row.empty:
+            if not game_row.empty and len(game_row) > 0:
                 # Get prediction
                 if 'predicted_cover' in game_row.columns:
                     model_predictions_dict[model_name] = game_row['predicted_cover'].iloc[0]

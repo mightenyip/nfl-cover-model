@@ -1,0 +1,16 @@
+game,consensus_prediction,underdog_votes,total_votes,models
+Eagles @ Giants,No Cover,0,1,Model_E
+Broncos @ Jets,No Cover,0,1,Model_E
+Cardinals @ Colts,No Cover,0,1,Model_E
+Chargers @ Dolphins,No Cover,0,1,Model_E
+Patriots @ Saints,No Cover,0,1,Model_E
+Browns @ Steelers,No Cover,0,1,Model_E
+Cowboys @ Panthers,No Cover,0,1,Model_E
+Seahawks @ Jaguars,No Cover,0,1,Model_E
+Rams @ Ravens,Cover,1,1,Model_E
+Titans @ Raiders,No Cover,0,1,Model_E
+Bengals @ Packers,No Cover,0,1,Model_E
+49ers @ Buccaneers,No Cover,0,1,Model_E
+Lions @ Chiefs,Cover,1,1,Model_E
+Bills @ Falcons,No Cover,0,1,Model_E
+Bears @ Commanders,No Cover,0,1,Model_E
