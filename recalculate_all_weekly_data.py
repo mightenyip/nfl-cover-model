@@ -15,8 +15,9 @@ ABBR_TO_FULL = {
     'LAC': 'Chargers', 'TEN': 'Titans', 'ATL': 'Falcons', 'NE': 'Patriots',
     'SF': '49ers', 'NYG': 'Giants', 'IND': 'Colts', 'PIT': 'Steelers',
     'DEN': 'Broncos', 'HOU': 'Texans', 'JAX': 'Jaguars', 'LV': 'Raiders',
-    'NO': 'Saints', 'LA': 'Rams', 'KC': 'Chiefs', 'BUF': 'Bills',
-    'SEA': 'Seahawks', 'WAS': 'Commanders', 'ARI': 'Cardinals', 'DAL': 'Cowboys'
+    'NO': 'Saints', 'LA': 'Rams', 'LAR': 'Rams', 'KC': 'Chiefs', 'BUF': 'Bills',
+    'SEA': 'Seahawks', 'WAS': 'Commanders', 'WSH': 'Commanders', 'ARI': 'Cardinals', 
+    'DAL': 'Cowboys', 'PHI': 'Eagles', 'TB': 'Buccaneers', 'NYJ': 'Jets', 'CLE': 'Browns'
 }
 
 def parse_score(score_str):
@@ -83,36 +84,65 @@ def calculate_underdog_covered(favorite, underdog, spread, score_str):
         return None  # Push (exact spread)
 
 def load_model_predictions(week_num):
-    """Load predictions from all models for a week"""
+    """Load predictions from all models for a week - checks multiple paths"""
     predictions = {}
     
-    # Model A
-    try:
-        df = pd.read_csv(f'predictions/model_a_week{week_num}_predictions.csv')
-        predictions['model_a'] = df
-    except:
-        pass
+    # Model A - check multiple possible paths
+    model_a_paths = [
+        f'predictions/model_a_week{week_num}_predictions.csv',
+        f'models/model_a/model_a_week{week_num}_predictions.csv',
+        f'week{week_num}/model_a_week{week_num}_predictions.csv',
+    ]
+    for path in model_a_paths:
+        try:
+            df = pd.read_csv(path)
+            predictions['model_a'] = df
+            break
+        except:
+            continue
     
-    # Model B
-    try:
-        df = pd.read_csv(f'models/model_b/model_b_week{week_num}_predictions.csv')
-        predictions['model_b'] = df
-    except:
-        pass
+    # Model B - check multiple possible paths
+    model_b_paths = [
+        f'models/model_b/model_b_week{week_num}_predictions.csv',
+        f'models/model_b/model_b_v2_week{week_num}_predictions.csv',
+        f'week{week_num}/model_b_week{week_num}_predictions.csv',
+        f'predictions/model_b_week{week_num}_predictions.csv',
+    ]
+    for path in model_b_paths:
+        try:
+            df = pd.read_csv(path)
+            predictions['model_b'] = df
+            break
+        except:
+            continue
     
-    # Model C
-    try:
-        df = pd.read_csv(f'models/model_c/model_c_week{week_num}_predictions.csv')
-        predictions['model_c'] = df
-    except:
-        pass
+    # Model C - check multiple possible paths
+    model_c_paths = [
+        f'models/model_c/model_c_week{week_num}_predictions.csv',
+        f'models/model_c/model_c_week{week_num}_updated_predictions.csv',
+        f'models/model_c/model_c_week{week_num}_real_ats_predictions.csv',
+        f'predictions/model_c_week{week_num}_predictions.csv',
+    ]
+    for path in model_c_paths:
+        try:
+            df = pd.read_csv(path)
+            predictions['model_c'] = df
+            break
+        except:
+            continue
     
     # Model D
-    try:
-        df = pd.read_csv(f'models/model_d/model_d_week{week_num}_predictions.csv')
-        predictions['model_d'] = df
-    except:
-        pass
+    model_d_paths = [
+        f'models/model_d/model_d_week{week_num}_predictions.csv',
+        f'predictions/model_d_week{week_num}_predictions.csv',
+    ]
+    for path in model_d_paths:
+        try:
+            df = pd.read_csv(path)
+            predictions['model_d'] = df
+            break
+        except:
+            continue
     
     # Model E
     try:
@@ -135,15 +165,26 @@ def get_model_prediction(model_df, game_name):
     if model_df is None:
         return None
     
-    # Try different column names for game
+    # Parse game_name to get away_team and home_team
+    away_team_match = None
+    home_team_match = None
+    if ' @ ' in game_name:
+        away_team_match, home_team_match = game_name.split(' @ ')
+    
+    # Try different column names for game matching
+    match = None
     if 'game' in model_df.columns:
         match = model_df[model_df['game'] == game_name]
     elif 'Game' in model_df.columns:
         match = model_df[model_df['Game'] == game_name]
-    else:
-        return None
+    elif away_team_match and home_team_match and 'away_team' in model_df.columns and 'home_team' in model_df.columns:
+        # Match by away_team and home_team
+        match = model_df[
+            (model_df['away_team'] == away_team_match) & 
+            (model_df['home_team'] == home_team_match)
+        ]
     
-    if len(match) == 0:
+    if match is None or len(match) == 0:
         return None
     
     row = match.iloc[0]
@@ -192,6 +233,36 @@ def recalculate_week(week_num):
     
     # Load model predictions
     model_preds = load_model_predictions(week_num)
+    
+    # Special handling for Week 1: load post-hoc predictions from analysis file BEFORE it gets overwritten
+    week1_posthoc_predictions = {}
+    if week_num == 1:
+        # Try to load from the original post-hoc file (saved separately)
+        posthoc_file = f'data/week{week_num}_posthoc_predictions.csv'
+        if not os.path.exists(posthoc_file):
+            # Check if analysis file exists and has post-hoc format
+            if os.path.exists(f'data/week{week_num}_actual_results_analysis.csv'):
+                week1_analysis = pd.read_csv(f'data/week{week_num}_actual_results_analysis.csv')
+                if 'model_a_pred' in week1_analysis.columns and 'score' not in week1_analysis.columns:
+                    # This is the post-hoc format, save it before we overwrite
+                    week1_analysis.to_csv(posthoc_file, index=False)
+                    week1_posthoc_predictions['file'] = week1_analysis
+        else:
+            week1_posthoc_predictions['file'] = pd.read_csv(posthoc_file)
+        
+        if 'file' in week1_posthoc_predictions:
+            week1_analysis = week1_posthoc_predictions['file']
+            # Create prediction dataframes from the analysis file
+            week1_preds = {}
+            for model in ['model_a', 'model_b', 'model_c', 'model_d']:
+                if f'{model}_pred' in week1_analysis.columns:
+                    pred_df = week1_analysis[['game', f'{model}_pred']].copy()
+                    pred_df.rename(columns={f'{model}_pred': 'predicted_cover'}, inplace=True)
+                    week1_preds[model] = pred_df
+            if week1_preds:
+                model_preds.update(week1_preds)
+                print(f"Loaded Week 1 post-hoc predictions from analysis file")
+    
     print(f"Loaded predictions from {len(model_preds)} models")
     
     # Build results data

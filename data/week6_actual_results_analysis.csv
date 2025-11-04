@@ -1,4 +1,5 @@
 game,score,spread,underdog,actual_cover,model_a_pred,model_a_correct,model_b_pred,model_b_correct,model_c_pred,model_c_correct,model_d_pred,model_d_correct,model_e_pred,model_e_correct,consensus_pred,consensus_correct
+Eagles @ Giants,NYG 34 - PHI 17,-7.5,Giants,True,,,,,,,,,False,False,False,False
 Broncos @ Jets,DEN 13 - NYJ 11,-7.5,Jets,True,,,,,,,,,False,False,False,False
 Cardinals @ Colts,IND 31 - ARI 27,-6.5,Cardinals,True,,,,,,,,,False,False,False,False
 Chargers @ Dolphins,LAC 29 - MIA 27,-4.5,Dolphins,True,,,,,,,,,False,False,False,False
@@ -6,7 +7,10 @@ Patriots @ Saints,NE 25 - NO 19,-3.5,Saints,False,,,,,,,,,False,True,False,True
 Browns @ Steelers,PIT 23 - CLE 9,-5.0,Browns,False,,,,,,,,,False,True,False,True
 Cowboys @ Panthers,CAR 30 - DAL 27,-3.5,Panthers,True,,,,,,,,,False,False,False,False
 Seahawks @ Jaguars,SEA 20 - JAX 12,-1.5,Seahawks,True,,,,,,,,,False,False,False,False
+Rams @ Ravens,LAR 17 - BAL 3,-7.5,Ravens,False,,,,,,,,,True,False,True,False
 Titans @ Raiders,LV 20 - TEN 10,-4.5,Titans,False,,,,,,,,,False,True,False,True
 Bengals @ Packers,GB 27 - CIN 18,-14.5,Bengals,True,,,,,,,,,False,False,False,False
+49ers @ Buccaneers,TB 30 - SF 19,-3.0,49ers,False,,,,,,,,,False,True,False,True
 Lions @ Chiefs,KC 30 - DET 17,-2.5,Lions,False,,,,,,,,,True,False,True,False
 Bills @ Falcons,ATL 24 - BUF 14,-4.5,Falcons,True,,,,,,,,,False,False,False,False
+Bears @ Commanders,CHI 25 - WSH 24,-4.5,Bears,True,,,,,,,,,False,False,False,False

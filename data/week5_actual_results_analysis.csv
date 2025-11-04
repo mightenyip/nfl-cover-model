@@ -1,13 +1,15 @@
 game,score,spread,underdog,actual_cover,model_a_pred,model_a_correct,model_b_pred,model_b_correct,model_c_pred,model_c_correct,model_d_pred,model_d_correct,model_e_pred,model_e_correct,consensus_pred,consensus_correct
-Vikings @ Browns,MIN 21 - CLE 17,-3.5,Browns,False,,,,,,,,,False,True,False,True
-Texans @ Ravens,HOU 44 - BAL 10,-2.5,Ravens,False,,,,,,,,,True,False,True,False
-Dolphins @ Panthers,CAR 27 - MIA 24,-1.5,Panthers,True,,,,,,,,,False,False,False,False
-Raiders @ Colts,IND 40 - LV 6,-6.5,Raiders,False,,,,,,,,,False,True,False,True
-Giants @ Saints,NO 26 - NYG 14,-1.5,Giants,False,,,,,,,,,False,True,False,True
-Cowboys @ Jets,DAL 37 - NYJ 22,-2.5,Jets,False,,,,,,,,,False,True,False,True
-Titans @ Cardinals,TEN 22 - ARI 21,-8.5,Titans,True,,,,,,,,,False,False,False,False
-Buccaneers @ Seahawks,TB 38 - SEA 35,-3.5,Buccaneers,True,,,,,,,,,True,True,True,True
-Lions @ Bengals,DET 37 - CIN 24,-10.5,Bengals,False,,,,,,,,,False,True,False,True
-Commanders @ Chargers,WSH 27 - LAC 10,-2.5,Commanders,True,,,,,,,,,False,False,False,False
-Patriots @ Bills,NE 23 - BUF 20,-8.0,Patriots,True,,,,,,,,,False,False,False,False
-Chiefs @ Jaguars,JAX 31 - KC 28,-3.5,Jaguars,True,,,,,,,,,False,False,False,False
+49ers @ Rams,SF 26 - LAR 23,-5.5,49ers,True,True,True,True,True,False,False,True,True,False,False,False,False
+Vikings @ Browns,MIN 21 - CLE 17,-3.5,Browns,False,True,False,False,True,False,True,True,False,False,True,False,True
+Texans @ Ravens,HOU 44 - BAL 10,-2.5,Ravens,False,True,False,True,False,False,True,True,False,True,False,True,False
+Dolphins @ Panthers,CAR 27 - MIA 24,-1.5,Panthers,True,False,False,False,False,False,False,True,True,False,False,False,False
+Raiders @ Colts,IND 40 - LV 6,-6.5,Raiders,False,False,True,False,True,False,True,False,True,False,True,False,True
+Giants @ Saints,NO 26 - NYG 14,-1.5,Giants,False,False,True,True,False,False,True,True,False,False,True,False,True
+Cowboys @ Jets,DAL 37 - NYJ 22,-2.5,Jets,False,False,True,False,True,False,True,False,True,False,True,False,True
+Broncos @ Eagles,DEN 21 - PHI 17,-3.5,Broncos,True,True,True,True,True,False,False,True,True,False,False,False,False
+Titans @ Cardinals,TEN 22 - ARI 21,-8.5,Titans,True,False,False,True,True,True,True,True,True,False,False,False,False
+Buccaneers @ Seahawks,TB 38 - SEA 35,-3.5,Buccaneers,True,True,True,False,False,False,False,True,True,True,True,True,True
+Lions @ Bengals,DET 37 - CIN 24,-10.5,Bengals,False,False,True,False,True,True,False,True,False,False,True,False,True
+Commanders @ Chargers,WSH 27 - LAC 10,-2.5,Commanders,True,True,True,True,True,False,False,False,False,False,False,False,False
+Patriots @ Bills,NE 23 - BUF 20,-8.0,Patriots,True,False,False,False,False,True,True,True,True,False,False,False,False
+Chiefs @ Jaguars,JAX 31 - KC 28,-3.5,Jaguars,True,True,True,True,True,False,False,False,False,False,False,False,False
