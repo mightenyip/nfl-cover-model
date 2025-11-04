@@ -1,0 +1,17 @@
+game,favorite,underdog,spread,consensus_prediction,consensus_probability,confidence,agreement,underdog_votes,total_votes,model_breakdown
+Raiders @ Patriots,Patriots,Raiders,2.5,No Cover,0.55,HIGH,1.0,0,1,{'Model_E': 'No Cover'}
+Steelers @ Jets,Steelers,Jets,3.0,No Cover,0.55,HIGH,1.0,0,1,{'Model_E': 'No Cover'}
+Dolphins @ Colts,Colts,Dolphins,1.5,No Cover,0.55,HIGH,1.0,0,1,{'Model_E': 'No Cover'}
+Cardinals @ Saints,Cardinals,Saints,6.5,No Cover,0.55,HIGH,1.0,0,1,{'Model_E': 'No Cover'}
+Giants @ Commanders,Commanders,Giants,6.5,No Cover,0.55,HIGH,1.0,0,1,{'Model_E': 'No Cover'}
+Panthers @ Jaguars,Jaguars,Panthers,4.5,No Cover,0.55,HIGH,1.0,0,1,{'Model_E': 'No Cover'}
+Bengals @ Browns,Bengals,Browns,5.5,Cover,0.7,HIGH,1.0,1,1,{'Model_E': 'Cover'}
+Buccaneers @ Falcons,Buccaneers,Falcons,1.5,No Cover,0.55,HIGH,1.0,0,1,{'Model_E': 'No Cover'}
+Titans @ Broncos,Broncos,Titans,8.5,No Cover,0.55,HIGH,1.0,0,1,{'Model_E': 'No Cover'}
+49ers @ Seahawks,49ers,Seahawks,1.5,No Cover,0.55,HIGH,1.0,0,1,{'Model_E': 'No Cover'}
+Lions @ Packers,Packers,Lions,1.5,Cover,0.7,HIGH,1.0,1,1,{'Model_E': 'Cover'}
+Texans @ Rams,Rams,Texans,3.0,No Cover,0.55,HIGH,1.0,0,1,{'Model_E': 'No Cover'}
+Ravens @ Bills,Bills,Ravens,1.5,No Cover,0.55,HIGH,1.0,0,1,{'Model_E': 'No Cover'}
+Vikings @ Bears,Bears,Vikings,1.5,No Cover,0.55,HIGH,1.0,0,1,{'Model_E': 'No Cover'}
+Chiefs @ Chargers,Chiefs,Chargers,3.0,No Cover,0.55,HIGH,1.0,0,1,{'Model_E': 'No Cover'}
+Cowboys @ Eagles,Eagles,Cowboys,8.5,No Cover,0.55,HIGH,1.0,0,1,{'Model_E': 'No Cover'}
