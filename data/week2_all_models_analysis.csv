@@ -1,0 +1,17 @@
+game,actual_cover,model_b_pred,model_b_correct,model_c_pred,model_c_correct,model_d_pred,model_d_correct
+Commanders @ Packers,False,False,True,False,True,True,False
+Jaguars @ Bengals,False,True,False,False,True,True,False
+Giants @ Cowboys,True,False,False,False,False,True,True
+Bears @ Lions,False,False,True,False,True,True,False
+Rams @ Titans,False,False,True,False,True,True,False
+Patriots @ Dolphins,True,True,True,False,False,False,False
+49ers @ Saints,False,False,True,False,True,True,False
+Bills @ Jets,False,False,True,False,True,True,False
+Seahawks @ Steelers,True,True,True,False,False,True,True
+Browns @ Ravens,False,False,True,True,False,True,False
+Broncos @ Colts,True,True,True,False,False,False,False
+Panthers @ Cardinals,False,False,True,False,True,True,False
+Eagles @ Chiefs,True,False,False,False,False,False,False
+Falcons @ Vikings,True,False,False,False,False,True,True
+Buccaneers @ Texans,True,True,True,False,False,False,False
+Chargers @ Raiders,False,False,True,False,True,True,False

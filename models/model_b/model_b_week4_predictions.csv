@@ -1,0 +1,17 @@
+game,favorite,underdog,spread,predicted_cover,probability,confidence,defense_quality
+Seahawks @ Cardinals,Seahawks,Cardinals,1.5,True,0.506,MEDIUM,AVERAGE
+Vikings @ Steelers,Vikings,Steelers,2.5,False,0.434,MEDIUM,AVERAGE
+Commanders @ Falcons,Commanders,Falcons,1.5,False,0.479,MEDIUM,ELITE
+Saints @ Bills,Bills,Saints,16.5,False,0.46,MEDIUM,AVERAGE
+Browns @ Lions,Lions,Browns,8.5,False,0.445,MEDIUM,AVERAGE
+Titans @ Texans,Texans,Titans,7.0,False,0.4103,MEDIUM,POOR
+Panthers @ Patriots,Patriots,Panthers,5.5,True,0.51275,MEDIUM,STRONG
+Chargers @ Giants,Chargers,Giants,6.5,False,0.36739999999999995,MEDIUM,POOR
+Eagles @ Buccaneers,Eagles,Buccaneers,3.5,True,0.51275,MEDIUM,STRONG
+Colts @ Rams,Rams,Colts,3.5,True,0.5509999999999999,MEDIUM,STRONG
+Jaguars @ 49ers,49ers,Jaguars,3.0,True,0.5084,MEDIUM,ELITE
+Ravens @ Chiefs,Ravens,Chiefs,2.5,False,0.5,MEDIUM,AVERAGE
+Bears @ Raiders,Raiders,Bears,1.5,True,0.5207,MEDIUM,WEAK
+Packers @ Cowboys,Packers,Cowboys,7.0,False,0.3635,MEDIUM,POOR
+Jets @ Dolphins,Dolphins,Jets,2.5,True,0.5448500000000001,MEDIUM,WEAK
+Bengals @ Broncos,Broncos,Bengals,7.0,False,0.383,MEDIUM,AVERAGE

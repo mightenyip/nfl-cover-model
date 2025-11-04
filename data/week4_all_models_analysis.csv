@@ -1,0 +1,17 @@
+game,actual_cover,model_b_pred,model_b_correct,model_c_pred,model_c_correct,model_d_pred,model_d_correct
+Seahawks @ Cardinals,False,True,False,False,True,False,True
+Vikings @ Steelers,True,False,False,False,False,False,False
+Commanders @ Falcons,True,False,False,False,False,False,False
+Saints @ Bills,True,False,False,True,True,True,True
+Browns @ Lions,False,False,True,True,False,True,False
+Panthers @ Patriots,False,True,False,False,True,True,False
+Chargers @ Giants,True,False,False,False,False,True,True
+Eagles @ Buccaneers,False,True,False,False,True,True,False
+Titans @ Texans,False,False,True,False,True,True,False
+Colts @ Rams,False,True,False,False,True,True,False
+Jaguars @ 49ers,True,True,True,False,False,True,True
+Ravens @ Chiefs,False,False,True,False,True,False,True
+Bears @ Raiders,True,True,True,False,False,False,False
+Packers @ Cowboys,True,False,False,False,False,True,True
+Jets @ Dolphins,False,True,False,False,True,False,True
+Bengals @ Broncos,False,False,True,False,True,True,False
