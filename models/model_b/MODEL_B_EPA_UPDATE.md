@@ -98,7 +98,9 @@ Model B analyzes **matchup-specific** EPA:
    - Example: Bills (0.15 rush O) vs. Browns (-0.22 rush D) favors defense
 
 3. **Overall Matchup**
-   - Combined EPA differentials weighted by play type tendencies
+   - Combined EPA differentials weighted by NFL league averages: 55.4% pass, 44.6% run
+   - Source: 2025 NFL season data (team_run_pass_ratios_2025.csv)
+   - This replaces the previous arbitrary 60/40 weighting with data-driven league averages
    - Better matchups = higher cover probability for underdog
 
 4. **Confidence Levels**

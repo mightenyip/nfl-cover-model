@@ -168,8 +168,13 @@ def run_model_b(week6_odds, epa_data):
         favorite_rush_def = favorite_data['epa_rush_def_allowed'].iloc[0]
         rush_matchup = underdog_rush_off - favorite_rush_def
         
-        # Combined matchup (weighted: 60% pass, 40% rush)
-        combined_matchup = (pass_matchup * 0.6) + (rush_matchup * 0.4)
+        # Combined matchup (weighted by NFL league averages: 55.4% pass, 44.6% run)
+        # Source: 2025 NFL season data from team_run_pass_ratios_2025.csv
+        # League average pass rate: 55.4%, run rate: 44.6%
+        # This replaces the previous arbitrary 60/40 weighting
+        NFL_AVG_PASS_RATE = 0.554
+        NFL_AVG_RUN_RATE = 0.446
+        combined_matchup = (pass_matchup * NFL_AVG_PASS_RATE) + (rush_matchup * NFL_AVG_RUN_RATE)
         
         # Model B logic
         cover_prob = 0.50

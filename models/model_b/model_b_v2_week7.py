@@ -117,8 +117,13 @@ def run_model_b_v2_week7():
         net_matchup_advantage = net_pass_advantage + net_rush_advantage
         
         # Total advantages
-        underdog_total_advantage = underdog_pass_advantage + underdog_rush_advantage
-        favorite_total_advantage = favorite_pass_advantage + favorite_rush_advantage
+        # Weight by NFL league averages: 55.4% pass, 44.6% run (2025 season data)
+        # Source: team_run_pass_ratios_2025.csv
+        # This replaces equal weighting with data-driven league averages
+        NFL_AVG_PASS_RATE = 0.554
+        NFL_AVG_RUN_RATE = 0.446
+        underdog_total_advantage = (underdog_pass_advantage * NFL_AVG_PASS_RATE) + (underdog_rush_advantage * NFL_AVG_RUN_RATE)
+        favorite_total_advantage = (favorite_pass_advantage * NFL_AVG_PASS_RATE) + (favorite_rush_advantage * NFL_AVG_RUN_RATE)
         
         # Calculate cover probability (simplified)
         # Higher net advantage = higher probability of covering

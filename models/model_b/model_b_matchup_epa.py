@@ -110,8 +110,13 @@ def run_model_b_matchup_epa():
     week4_data['net_matchup_advantage'] = week4_data['net_pass_advantage'] + week4_data['net_rush_advantage']
     
     # Underdog's relative advantages (what we care about for spread betting)
-    week4_data['underdog_total_advantage'] = week4_data['underdog_pass_advantage'] + week4_data['underdog_rush_advantage']
-    week4_data['favorite_total_advantage'] = week4_data['favorite_pass_advantage'] + week4_data['favorite_rush_advantage']
+    # Weight by NFL league averages: 55.4% pass, 44.6% run (2025 season data)
+    # Source: team_run_pass_ratios_2025.csv
+    # This replaces equal weighting with data-driven league averages
+    NFL_AVG_PASS_RATE = 0.554
+    NFL_AVG_RUN_RATE = 0.446
+    week4_data['underdog_total_advantage'] = (week4_data['underdog_pass_advantage'] * NFL_AVG_PASS_RATE) + (week4_data['underdog_rush_advantage'] * NFL_AVG_RUN_RATE)
+    week4_data['favorite_total_advantage'] = (week4_data['favorite_pass_advantage'] * NFL_AVG_PASS_RATE) + (week4_data['favorite_rush_advantage'] * NFL_AVG_RUN_RATE)
 
     # === MODEL B v2 LOGIC ===
     

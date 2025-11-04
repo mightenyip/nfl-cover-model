@@ -96,8 +96,13 @@ def run_model_b_v2_week7():
     week7_data['net_matchup_advantage'] = week7_data['net_pass_advantage'] + week7_data['net_rush_advantage']
     
     # Underdog's relative advantages
-    week7_data['underdog_total_advantage'] = week7_data['underdog_pass_advantage'] + week7_data['underdog_rush_advantage']
-    week7_data['favorite_total_advantage'] = week7_data['favorite_pass_advantage'] + week7_data['favorite_rush_advantage']
+    # Weight by NFL league averages: 55.4% pass, 44.6% run (2025 season data)
+    # Source: team_run_pass_ratios_2025.csv
+    # This replaces equal weighting with data-driven league averages
+    NFL_AVG_PASS_RATE = 0.554
+    NFL_AVG_RUN_RATE = 0.446
+    week7_data['underdog_total_advantage'] = (week7_data['underdog_pass_advantage'] * NFL_AVG_PASS_RATE) + (week7_data['underdog_rush_advantage'] * NFL_AVG_RUN_RATE)
+    week7_data['favorite_total_advantage'] = (week7_data['favorite_pass_advantage'] * NFL_AVG_PASS_RATE) + (week7_data['favorite_rush_advantage'] * NFL_AVG_RUN_RATE)
 
     # Model B v2 Logic
     week7_data['cover_probability'] = 0.50
