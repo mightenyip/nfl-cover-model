@@ -311,22 +311,23 @@ def run_model_e(week10_odds, epa_data):
         efficiency_diff = underdog_efficiency - fav_efficiency
         
         # Prediction based on efficiency comparison
+        # Probability always represents the chance the UNDERDOG covers
         if efficiency_diff > 0.1:
             predicted_cover = True
             confidence = "HIGH"
-            probability = 0.70
+            probability = 0.70  # 70% chance underdog covers
         elif efficiency_diff > 0.05:
             predicted_cover = True
             confidence = "MEDIUM"
-            probability = 0.60
+            probability = 0.60  # 60% chance underdog covers
         elif efficiency_diff > -0.05:
             predicted_cover = False
             confidence = "MEDIUM"
-            probability = 0.55
+            probability = 0.55  # 55% chance underdog covers (45% favorite)
         else:
             predicted_cover = False
             confidence = "HIGH"
-            probability = 0.65
+            probability = 0.35  # 35% chance underdog covers (65% favorite covers)
         
         predictions.append({
             'game': f"{away_team} @ {home_team}",

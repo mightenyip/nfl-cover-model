@@ -1,15 +1,15 @@
 away_team,home_team,favorite_team,underdog_team,spread_line,total_line,game,Model_A_Cover,Model_A_Prob,Model_A_Conf,Model_B_Cover,Model_B_Prob,Model_B_Conf,Model_E_Cover,Model_E_Prob,Model_E_Conf
-Raiders,Broncos,Broncos,Raiders,-9.5,42.5,Raiders @ Broncos,False,0.446,MEDIUM,True,0.577,MEDIUM,False,0.65,HIGH
-Falcons,Colts,Colts,Falcons,-6.5,48.5,Falcons @ Colts,False,0.422,MEDIUM,False,0.286,VERY_LOW,False,0.65,HIGH
-Giants,Bears,Bears,Giants,-3.5,48.5,Giants @ Bears,False,0.278,HIGH,True,0.566,MEDIUM,False,0.65,HIGH
-Bills,Dolphins,Bills,Dolphins,-9.5,50.5,Bills @ Dolphins,True,0.576,MEDIUM,True,0.562,MEDIUM,False,0.65,HIGH
-Ravens,Vikings,Ravens,Vikings,-4.5,48.5,Ravens @ Vikings,True,0.556,MEDIUM,False,0.173,VERY_LOW,False,0.65,HIGH
+Raiders,Broncos,Broncos,Raiders,-9.5,42.5,Raiders @ Broncos,False,0.446,MEDIUM,True,0.577,MEDIUM,False,0.35,HIGH
+Falcons,Colts,Colts,Falcons,-6.5,48.5,Falcons @ Colts,False,0.422,MEDIUM,False,0.286,VERY_LOW,False,0.35,HIGH
+Giants,Bears,Bears,Giants,-3.5,48.5,Giants @ Bears,False,0.278,HIGH,True,0.566,MEDIUM,False,0.35,HIGH
+Bills,Dolphins,Bills,Dolphins,-9.5,50.5,Bills @ Dolphins,True,0.576,MEDIUM,True,0.562,MEDIUM,False,0.35,HIGH
+Ravens,Vikings,Ravens,Vikings,-4.5,48.5,Ravens @ Vikings,True,0.556,MEDIUM,False,0.173,VERY_LOW,False,0.35,HIGH
 Browns,Jets,Browns,Jets,-2.5,37.5,Browns @ Jets,False,0.42,MEDIUM,True,0.95,VERY_HIGH,True,0.7,HIGH
 Patriots,Buccaneers,Buccaneers,Patriots,-2.5,48.5,Patriots @ Buccaneers,True,0.54,MEDIUM,True,0.907,VERY_HIGH,False,0.55,MEDIUM
-Saints,Panthers,Panthers,Saints,-5.5,39.5,Saints @ Panthers,False,0.464,MEDIUM,False,0.326,LOW,False,0.65,HIGH
+Saints,Panthers,Panthers,Saints,-5.5,39.5,Saints @ Panthers,False,0.464,MEDIUM,False,0.326,LOW,False,0.35,HIGH
 Jaguars,Texans,Texans,Jaguars,-1.5,38.5,Jaguars @ Texans,False,0.432,MEDIUM,True,0.803,VERY_HIGH,False,0.55,MEDIUM
-Cardinals,Seahawks,Seahawks,Cardinals,-6.5,45.5,Cardinals @ Seahawks,False,0.472,MEDIUM,True,0.592,MEDIUM,False,0.65,HIGH
+Cardinals,Seahawks,Seahawks,Cardinals,-6.5,45.5,Cardinals @ Seahawks,False,0.472,MEDIUM,True,0.592,MEDIUM,False,0.35,HIGH
 Rams,49ers,Rams,49ers,-3.5,50.5,Rams @ 49ers,True,0.698,MEDIUM,True,0.856,VERY_HIGH,False,0.55,MEDIUM
-Lions,Commanders,Lions,Commanders,-9.5,48.5,Lions @ Commanders,True,0.626,MEDIUM,True,0.801,VERY_HIGH,False,0.65,HIGH
+Lions,Commanders,Lions,Commanders,-9.5,48.5,Lions @ Commanders,True,0.626,MEDIUM,True,0.801,VERY_HIGH,False,0.35,HIGH
 Steelers,Chargers,Chargers,Steelers,-3.0,44.5,Steelers @ Chargers,False,0.444,MEDIUM,True,0.727,VERY_HIGH,False,0.55,MEDIUM
-Eagles,Packers,Packers,Eagles,-2.5,44.5,Eagles @ Packers,False,0.44,MEDIUM,False,0.417,LOW,False,0.65,HIGH
+Eagles,Packers,Packers,Eagles,-2.5,44.5,Eagles @ Packers,False,0.44,MEDIUM,False,0.417,LOW,False,0.35,HIGH
