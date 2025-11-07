@@ -1,17 +1,17 @@
 game,consensus_prediction,underdog_votes,total_votes,models
-Raiders @ Patriots,No Cover,0,1,Model_E
-Steelers @ Jets,No Cover,0,1,Model_E
-Dolphins @ Colts,No Cover,0,1,Model_E
-Cardinals @ Saints,No Cover,0,1,Model_E
-Giants @ Commanders,No Cover,0,1,Model_E
-Panthers @ Jaguars,No Cover,0,1,Model_E
-Bengals @ Browns,Cover,1,1,Model_E
-Buccaneers @ Falcons,No Cover,0,1,Model_E
-Titans @ Broncos,No Cover,0,1,Model_E
-49ers @ Seahawks,No Cover,0,1,Model_E
-Lions @ Packers,Cover,1,1,Model_E
-Texans @ Rams,No Cover,0,1,Model_E
-Ravens @ Bills,No Cover,0,1,Model_E
-Vikings @ Bears,No Cover,0,1,Model_E
-Chiefs @ Chargers,No Cover,0,1,Model_E
-Cowboys @ Eagles,No Cover,0,1,Model_E
+Cowboys @ Eagles,Cover,2,3,"Model_A, Model_B, Model_E"
+Chiefs @ Chargers,Cover,2,3,"Model_A, Model_B, Model_E"
+Buccaneers @ Falcons,No Cover,0,3,"Model_A, Model_B, Model_E"
+Bengals @ Browns,Cover,3,3,"Model_A, Model_B, Model_E"
+Dolphins @ Colts,No Cover,0,3,"Model_A, Model_B, Model_E"
+Raiders @ Patriots,Cover,2,3,"Model_A, Model_B, Model_E"
+Cardinals @ Saints,No Cover,0,3,"Model_A, Model_B, Model_E"
+Steelers @ Jets,No Cover,0,3,"Model_A, Model_B, Model_E"
+Giants @ Commanders,No Cover,0,3,"Model_A, Model_B, Model_E"
+Panthers @ Jaguars,No Cover,0,3,"Model_A, Model_B, Model_E"
+Titans @ Broncos,Cover,2,3,"Model_A, Model_B, Model_E"
+49ers @ Seahawks,Cover,2,3,"Model_A, Model_B, Model_E"
+Lions @ Packers,Cover,3,3,"Model_A, Model_B, Model_E"
+Texans @ Rams,No Cover,0,3,"Model_A, Model_B, Model_E"
+Ravens @ Bills,No Cover,0,3,"Model_A, Model_B, Model_E"
+Vikings @ Bears,Cover,2,3,"Model_A, Model_B, Model_E"

@@ -1,7 +1,7 @@
 game,score,spread,underdog,actual_cover,model_a_pred,model_a_correct,model_b_pred,model_b_correct,model_c_pred,model_c_correct,model_d_pred,model_d_correct,model_e_pred,model_e_correct,consensus_pred,consensus_correct
 Steelers @ Bengals,CIN 33 - PIT 31,-5.5,Bengals,True,True,True,False,False,,,,,False,False,False,False
 Rams @ Jaguars,LAR 35 - JAX 7,-3.0,Jaguars,False,True,False,False,True,,,,,False,True,False,True
-Saints @ Bears,CHI 26 - NO 14,-5.5,Saints,False,True,False,True,False,,,,,False,True,False,True
+Saints @ Bears,CHI 26 - NO 14,-5.5,Saints,False,True,False,True,False,,,,,False,True,True,False
 Dolphins @ Browns,CLE 31 - MIA 6,-2.5,Dolphins,False,False,True,True,False,,,,,True,False,True,False
 Patriots @ Titans,NE 31 - TEN 13,-7.0,Titans,False,False,True,False,True,,,,,False,True,False,True
 Raiders @ Chiefs,KC 31 - LV 0,-11.5,Raiders,False,False,True,False,True,,,,,False,True,False,True

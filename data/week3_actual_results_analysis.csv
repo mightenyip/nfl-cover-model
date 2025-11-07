@@ -9,9 +9,9 @@ Rams @ Eagles,PHI 33 - LAR 26,3.5,Rams,False,True,False,True,False,True,False,Tr
 Jets @ Buccaneers,TB 29 - NYJ 27,7.0,Jets,True,False,False,False,False,True,True,True,True,False,False,False,False
 Colts @ Titans,IND 41 - TEN 20,3.5,Titans,False,False,True,False,True,True,False,True,False,False,True,False,True
 Raiders @ Commanders,WSH 41 - LV 24,3.5,Raiders,False,True,False,False,True,True,False,False,True,False,True,False,True
-Broncos @ Chargers,LAC 23 - DEN 20,2.5,Broncos,False,True,False,False,True,True,False,True,False,False,True,False,True
+Broncos @ Chargers,LAC 23 - DEN 20,2.5,Broncos,False,True,False,False,True,True,False,True,False,False,True,True,False
 Saints @ Seahawks,SEA 44 - NO 13,7.5,Saints,False,True,False,True,False,True,False,True,False,False,True,True,False
-Cowboys @ Bears,CHI 31 - DAL 14,1.5,Cowboys,False,True,False,True,False,True,False,False,True,False,True,False,True
+Cowboys @ Bears,CHI 31 - DAL 14,1.5,Cowboys,False,True,False,True,False,True,False,False,True,False,True,True,False
 Cardinals @ 49ers,SF 16 - ARI 15,1.5,Cardinals,True,True,True,True,True,True,True,True,True,False,False,True,True
 Chiefs @ Giants,KC 22 - NYG 9,6.5,Giants,False,False,True,True,False,True,False,True,False,False,True,True,False
 Lions @ Ravens,DET 38 - BAL 30,5.5,Lions,True,True,True,False,False,True,True,False,False,False,False,False,False

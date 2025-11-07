@@ -20,16 +20,16 @@ def create_cumulative_performance():
         # Week 2 - From week2_model_performance_report.md
         (2, 16, 8, None, None, None, None, None),
         
-        # Week 3 - Estimated from analysis
+        # Week 3 - Will be updated with actual data
         (3, 16, 5, 5, 11, 7, None, None),
         
         # Week 4 - Will be updated with actual data
         (4, 16, 5, 6, 9, 7, None, None),
         
-        # Week 5 - From week5_model_performance_analysis.md
+        # Week 5 - Will be updated with actual data
         (5, 14, 10, 10, 7, 8, None, None),
         
-        # Week 6 - From week6_final_performance_analysis.md
+        # Week 6 - Will be updated with actual data
         (6, 15, 6, 9, 4, 11, None, None),
         
         # Week 7 - From week7_model_performance_analysis.csv
@@ -91,15 +91,16 @@ def create_cumulative_performance():
     
     # Week 2 - use updated performance data
     try:
-        week2_data = pd.read_csv("data/week2_all_models_analysis.csv")
+        week2_data = pd.read_csv("data/week2_actual_results_analysis.csv")
         week2_correct = {
-            'model_a': 8,  # Known from report
+            'model_a': week2_data['model_a_correct'].sum(),
             'model_b': week2_data['model_b_correct'].sum(),
             'model_c': week2_data['model_c_correct'].sum(),
             'model_d': week2_data['model_d_correct'].sum(),
+            'consensus': week2_data['consensus_correct'].sum() if 'consensus_correct' in week2_data.columns else None,
         }
         weekly_data[1] = (2, 16, week2_correct['model_a'], week2_correct['model_b'], 
-                          week2_correct['model_c'], week2_correct['model_d'], None, None)
+                          week2_correct['model_c'], week2_correct['model_d'], None, week2_correct['consensus'])
     except:
         # Use known values
         weekly_data[1] = (2, 16, 8, 12, 8, 3, None, None)
@@ -119,22 +120,24 @@ def create_cumulative_performance():
         # Use known values
         weekly_data[3] = (4, 16, 5, 6, 9, 7, None, None)
     
-    try:
-        week7_data = pd.read_csv("week7/week7_model_performance_analysis.csv")
-        # Calculate Week 7 actual counts
-        week7_correct = {
-            'model_a': week7_data['model_a_correct'].sum(),
-            'model_b': week7_data['model_b_correct'].sum(),
-            'model_c': week7_data['model_c_correct'].sum(),
-            'model_d': week7_data['model_d_correct'].sum(),
-            'consensus': week7_data['consensus_correct'].sum(),
-        }
-        # Update week 7 with actual data
-        weekly_data[6] = (7, 15, week7_correct['model_a'], week7_correct['model_b'], 
-                          week7_correct['model_c'], week7_correct['model_d'], None, 
-                          week7_correct['consensus'])
-    except:
-        pass
+    # Weeks 3-7 - load from actual results analysis files
+    for week_num in [3, 4, 5, 6, 7]:
+        try:
+            week_data = pd.read_csv(f"data/week{week_num}_actual_results_analysis.csv")
+            week_correct = {
+                'model_a': week_data['model_a_correct'].sum() if 'model_a_correct' in week_data.columns else None,
+                'model_b': week_data['model_b_correct'].sum() if 'model_b_correct' in week_data.columns else None,
+                'model_c': week_data['model_c_correct'].sum() if 'model_c_correct' in week_data.columns else None,
+                'model_d': week_data['model_d_correct'].sum() if 'model_d_correct' in week_data.columns else None,
+                'consensus': week_data['consensus_correct'].sum() if 'consensus_correct' in week_data.columns else None,
+            }
+            week_idx = week_num - 1
+            total_games = len(week_data)
+            weekly_data[week_idx] = (week_num, total_games, week_correct['model_a'], 
+                                      week_correct['model_b'], week_correct['model_c'], 
+                                      week_correct['model_d'], None, week_correct['consensus'])
+        except:
+            pass
     
     try:
         week8_data = pd.read_csv("data/week8_actual_results_analysis.csv")
