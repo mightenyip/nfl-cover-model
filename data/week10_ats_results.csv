@@ -1,0 +1,15 @@
+game,final_score,away_score,home_score,favorite,underdog,spread,favorite_score,underdog_score,margin,underdog_covered
+Bills @ Dolphins,BUF 13 - MIA 30,13,30,Bills,Dolphins,-9.5,13,30,-17,True
+Browns @ Jets,CLE 20 - NYJ 27,20,27,Browns,Jets,-2.5,20,27,-7,True
+Cardinals @ Seahawks,ARI 22 - SEA 44,22,44,Seahawks,Cardinals,-6.5,44,22,22,False
+Eagles @ Packers,PHI 10 - GB 7,10,7,Packers,Eagles,-2.5,7,10,-3,True
+Falcons @ Colts,ATL 25 - IND 31,25,31,Colts,Falcons,-6.5,31,25,6,True
+Giants @ Bears,NYG 20 - CHI 24,20,24,Bears,Giants,-3.5,24,20,4,False
+Jaguars @ Texans,JAX 29 - HOU 36,29,36,Texans,Jaguars,-1.5,36,29,7,False
+Lions @ Commanders,DET 44 - WSH 22,44,22,Lions,Commanders,-9.5,44,22,22,False
+Patriots @ Buccaneers,NE 28 - TB 23,28,23,Buccaneers,Patriots,-2.5,23,28,-5,True
+Raiders @ Broncos,LV 7 - DEN 10,7,10,Broncos,Raiders,-9.5,10,7,3,True
+Rams @ 49ers,LAR 42 - SF 26,42,26,Rams,49ers,-3.5,42,26,16,False
+Ravens @ Vikings,BAL 27 - MIN 19,27,19,Ravens,Vikings,-4.5,27,19,8,False
+Saints @ Panthers,NO 17 - CAR 7,17,7,Panthers,Saints,-5.5,7,17,-10,True
+Steelers @ Chargers,PIT 10 - LAC 25,10,25,Chargers,Steelers,-3.0,25,10,15,False

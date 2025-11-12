@@ -1,0 +1,15 @@
+game,underdog,spread,actual_cover,actual_score,model_a_pred,model_a_prob,model_a_conf,model_a_correct,model_b_pred,model_b_prob,model_b_conf,model_b_correct,model_e_pred,model_e_prob,model_e_conf,model_e_correct,consensus_pred,consensus_correct,agreement
+Raiders @ Broncos,Raiders,-9.5,True,LV 7 - DEN 10,False,0.446,MEDIUM,False,True,0.577,MEDIUM,True,False,0.35,HIGH,False,False,False,1
+Falcons @ Colts,Falcons,-6.5,True,ATL 25 - IND 31,False,0.422,MEDIUM,False,False,0.286,VERY_LOW,False,False,0.35,HIGH,False,False,False,3
+Giants @ Bears,Giants,-3.5,False,NYG 20 - CHI 24,False,0.278,HIGH,True,True,0.566,MEDIUM,False,False,0.35,HIGH,True,False,True,1
+Bills @ Dolphins,Dolphins,-9.5,True,BUF 13 - MIA 30,True,0.576,MEDIUM,True,True,0.562,MEDIUM,True,False,0.35,HIGH,False,True,True,1
+Ravens @ Vikings,Vikings,-4.5,False,BAL 27 - MIN 19,True,0.556,MEDIUM,False,False,0.173,VERY_LOW,True,False,0.35,HIGH,True,False,True,1
+Browns @ Jets,Jets,-2.5,True,CLE 20 - NYJ 27,False,0.42,MEDIUM,False,True,0.95,VERY_HIGH,True,True,0.7,HIGH,True,True,True,1
+Patriots @ Buccaneers,Patriots,-2.5,True,NE 28 - TB 23,True,0.54,MEDIUM,True,True,0.907,VERY_HIGH,True,False,0.55,MEDIUM,False,True,True,1
+Saints @ Panthers,Saints,-5.5,True,NO 17 - CAR 7,False,0.464,MEDIUM,False,False,0.326,LOW,False,False,0.35,HIGH,False,False,False,3
+Jaguars @ Texans,Jaguars,-1.5,False,JAX 29 - HOU 36,False,0.432,MEDIUM,True,True,0.803,VERY_HIGH,False,False,0.55,MEDIUM,True,False,True,1
+Cardinals @ Seahawks,Cardinals,-6.5,False,ARI 22 - SEA 44,False,0.472,MEDIUM,True,True,0.592,MEDIUM,False,False,0.35,HIGH,True,False,True,1
+Rams @ 49ers,49ers,-3.5,False,LAR 42 - SF 26,True,0.698,MEDIUM,False,True,0.856,VERY_HIGH,False,False,0.55,MEDIUM,True,True,False,1
+Lions @ Commanders,Commanders,-9.5,False,DET 44 - WSH 22,True,0.626,MEDIUM,False,True,0.801,VERY_HIGH,False,False,0.35,HIGH,True,True,False,1
+Steelers @ Chargers,Steelers,-3.0,False,PIT 10 - LAC 25,False,0.444,MEDIUM,True,True,0.727,VERY_HIGH,False,False,0.55,MEDIUM,True,False,True,1
+Eagles @ Packers,Eagles,-2.5,True,PHI 10 - GB 7,False,0.44,MEDIUM,False,False,0.417,LOW,False,False,0.35,HIGH,False,False,False,3
