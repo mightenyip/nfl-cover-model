@@ -1,16 +1,16 @@
 game,away_team,home_team,favorite_team,underdog_team,spread_line,total_line,consensus_prediction,consensus_probability,consensus_votes,agreement,model_a_prediction,model_a_probability,model_a_confidence,model_b_prediction,model_b_probability,model_b_confidence,model_e_prediction,model_e_probability,model_e_confidence,underdog_votes,total_votes
-Jets @ Patriots,Jets,Patriots,Patriots,Jets,-13.5,42.5,No Cover,0.435,1/3,Split (1/3),No Cover,0.358,HIGH,Cover,0.596,MEDIUM,No Cover,0.35,HIGH,1,3
+Jets @ Patriots,Jets,Patriots,Patriots,Jets,-12.5,42.5,No Cover,0.429,1/3,Split (1/3),No Cover,0.35,HIGH,Cover,0.586,MEDIUM,No Cover,0.35,HIGH,1,3
 Commanders @ Dolphins,Commanders,Dolphins,Dolphins,Commanders,-2.5,47.5,No Cover,0.541,1/3,Split (1/3),No Cover,0.37,HIGH,Cover,0.703,VERY_HIGH,No Cover,0.55,MEDIUM,1,3
 Panthers @ Falcons,Panthers,Falcons,Falcons,Panthers,-3.5,42.5,No Cover,0.471,1/3,Split (1/3),No Cover,0.328,HIGH,Cover,0.535,MEDIUM,No Cover,0.55,MEDIUM,1,3
 Buccaneers @ Bills,Buccaneers,Bills,Bills,Buccaneers,-5.5,48.5,No Cover,0.46,1/3,Split (1/3),Cover,0.664,MEDIUM,No Cover,0.367,LOW,No Cover,0.35,HIGH,1,3
-Texans @ Titans,Texans,Titans,Texans,Titans,6.5,37.5,Cover,0.521,2/3,"Majority (A, B)",Cover,0.602,MEDIUM,Cover,0.611,HIGH,No Cover,0.35,HIGH,2,3
-Bears @ Vikings,Bears,Vikings,Vikings,Bears,-3.5,48.5,Cover,0.783,3/3,Unanimous (3/3),Cover,0.698,MEDIUM,Cover,0.95,VERY_HIGH,Cover,0.7,HIGH,3,3
-Packers @ Giants,Packers,Giants,Packers,Giants,6.5,42.5,Cover,0.526,2/3,"Majority (A, B)",Cover,0.602,MEDIUM,Cover,0.625,HIGH,No Cover,0.35,HIGH,2,3
+Texans @ Titans,Texans,Titans,Texans,Titans,-6.5,37.5,Cover,0.521,2/3,"Majority (A, B)",Cover,0.602,MEDIUM,Cover,0.611,HIGH,No Cover,0.35,HIGH,2,3
+Bears @ Vikings,Bears,Vikings,Vikings,Bears,-3.0,48.5,Cover,0.781,3/3,Unanimous (3/3),Cover,0.694,MEDIUM,Cover,0.95,VERY_HIGH,Cover,0.7,HIGH,3,3
+Packers @ Giants,Packers,Giants,Packers,Giants,-7.5,42.5,Cover,0.532,2/3,"Majority (A, B)",Cover,0.61,MEDIUM,Cover,0.635,HIGH,No Cover,0.35,HIGH,2,3
 Bengals @ Steelers,Bengals,Steelers,Steelers,Bengals,-5.5,48.5,No Cover,0.551,1/3,Split (1/3),No Cover,0.244,HIGH,Cover,0.859,VERY_HIGH,No Cover,0.55,MEDIUM,1,3
-Chargers @ Jaguars,Chargers,Jaguars,Chargers,Jaguars,2.5,43.5,Cover,0.596,2/3,"Majority (A, B)",Cover,0.64,MEDIUM,Cover,0.599,MEDIUM,No Cover,0.55,MEDIUM,2,3
-Seahawks @ Rams,Seahawks,Rams,Rams,Seahawks,-3.5,48.5,Cover,0.637,2/3,"Majority (A, B)",Cover,0.548,MEDIUM,Cover,0.814,VERY_HIGH,No Cover,0.55,MEDIUM,2,3
-49ers @ Cardinals,49ers,Cardinals,49ers,Cardinals,2.5,47.5,No Cover,0.48,1/3,Split (1/3),Cover,0.54,MEDIUM,No Cover,0.35,LOW,No Cover,0.55,MEDIUM,1,3
-Ravens @ Browns,Ravens,Browns,Ravens,Browns,7.5,39.5,No Cover,0.397,1/3,Split (1/3),Cover,0.68,MEDIUM,No Cover,0.162,VERY_LOW,No Cover,0.35,HIGH,1,3
-Chiefs @ Broncos,Chiefs,Broncos,Chiefs,Broncos,3.5,44.5,No Cover,0.428,1/3,Split (1/3),Cover,0.648,MEDIUM,No Cover,0.286,VERY_LOW,No Cover,0.35,HIGH,1,3
+Chargers @ Jaguars,Chargers,Jaguars,Chargers,Jaguars,-3.0,43.5,Cover,0.599,2/3,"Majority (A, B)",Cover,0.644,MEDIUM,Cover,0.604,HIGH,No Cover,0.55,MEDIUM,2,3
+Seahawks @ Rams,Seahawks,Rams,Rams,Seahawks,-3.0,48.5,Cover,0.634,2/3,"Majority (A, B)",Cover,0.544,MEDIUM,Cover,0.809,VERY_HIGH,No Cover,0.55,MEDIUM,2,3
+49ers @ Cardinals,49ers,Cardinals,49ers,Cardinals,-2.5,47.5,No Cover,0.48,1/3,Split (1/3),Cover,0.54,MEDIUM,No Cover,0.35,LOW,No Cover,0.55,MEDIUM,1,3
+Ravens @ Browns,Ravens,Browns,Ravens,Browns,-7.5,39.5,No Cover,0.397,1/3,Split (1/3),Cover,0.68,MEDIUM,No Cover,0.162,VERY_LOW,No Cover,0.35,HIGH,1,3
+Chiefs @ Broncos,Chiefs,Broncos,Chiefs,Broncos,-3.5,44.5,No Cover,0.428,1/3,Split (1/3),Cover,0.648,MEDIUM,No Cover,0.286,VERY_LOW,No Cover,0.35,HIGH,1,3
 Lions @ Eagles,Lions,Eagles,Eagles,Lions,-2.5,46.5,Cover,0.744,3/3,Unanimous (3/3),Cover,0.79,HIGH,Cover,0.843,VERY_HIGH,Cover,0.6,MEDIUM,3,3
-Cowboys @ Raiders,Cowboys,Raiders,Cowboys,Raiders,3.5,49.5,No Cover,0.366,1/3,Split (1/3),Cover,0.698,MEDIUM,No Cover,0.05,VERY_LOW,No Cover,0.35,HIGH,1,3
+Cowboys @ Raiders,Cowboys,Raiders,Cowboys,Raiders,-3.5,49.5,No Cover,0.366,1/3,Split (1/3),Cover,0.698,MEDIUM,No Cover,0.05,VERY_LOW,No Cover,0.35,HIGH,1,3
