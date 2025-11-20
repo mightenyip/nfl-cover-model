@@ -106,6 +106,12 @@ def calculate_model_e_predictions(epa_df, odds_df):
         # Calculate cover probability based on total advantage
         # Higher advantage = higher probability of covering
         cover_probability = 0.5 + (total_advantage * 0.15)  # Scale factor
+        
+        # Spread adjustment: Larger spreads favor underdogs (more points = easier to cover)
+        # But adjustment should be modest - spreads are already priced in by bookmakers
+        spread_adjustment = abs(spread) * 0.003  # Each point adds ~0.3% to underdog cover probability
+        cover_probability += spread_adjustment
+        
         cover_probability = max(0.1, min(0.9, cover_probability))  # Clamp between 0.1 and 0.9
         
         # Confidence based on magnitude of advantages

@@ -116,8 +116,12 @@ def calculate_model_a_predictions(epa_df, odds_df):
         else:  # POOR
             def_adjustment = 0.12
         
+        # Spread adjustment: Larger spreads favor underdogs (more points = easier to cover)
+        # But adjustment should be modest - spreads are already priced in by bookmakers
+        spread_adjustment = abs(spread) * 0.003  # Each point adds ~0.3% to underdog cover probability
+        
         # Calculate final probability
-        cover_prob = base_prob + epa_adjustment + def_adjustment
+        cover_prob = base_prob + epa_adjustment + def_adjustment + spread_adjustment
         cover_prob = max(0.1, min(0.9, cover_prob))  # Clamp between 10% and 90%
         
         # Determine prediction

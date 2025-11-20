@@ -112,12 +112,10 @@ def calculate_model_b_predictions(epa_df, odds_df):
         # Defense quality adjustment (Model B's key factor)
         def_adjustment = (def_multiplier - 1.0) * 0.15
         
-        # Spread size adjustment (Model B considers spread magnitude)
-        spread_factor = min(abs(spread) / 10.0, 0.2)  # Cap at 0.2
-        if abs(spread) > 7:
-            spread_adjustment = -0.05  # Slight edge to favorites on large spreads
-        else:
-            spread_adjustment = 0.0
+        # Spread size adjustment: Larger spreads favor underdogs (more points = easier to cover)
+        # But adjustment should be modest - spreads are already priced in by bookmakers
+        spread_adjustment = abs(spread) * 0.003  # Each point adds ~0.3% to underdog cover probability
+        spread_adjustment = min(spread_adjustment, 0.05)  # Cap at 5%
         
         # Calculate final probability
         cover_prob = base_prob + epa_adjustment + def_adjustment + spread_adjustment
