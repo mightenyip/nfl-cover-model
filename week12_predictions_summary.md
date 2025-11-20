@@ -177,5 +177,27 @@ All three models agree on:
 
 ---
 
+## EPA Data Sensitivity Analysis
+
+### Week 11 EPA vs Week 12 EPA Comparison
+
+We compared predictions using Week 11 EPA data vs Week 12 EPA data to assess model stability:
+
+**Overall Stability:**
+- **93% of games** (13/14) have the same prediction regardless of EPA version
+- Only **1 game** (Giants @ Lions) changed consensus prediction
+- Average probability difference: +0.6%
+
+**Model Stability:**
+- **Model A:** Average change 1.74% | 1 prediction change (Giants @ Lions +8.2%)
+- **Model B:** Average change 0.76% | 2 prediction changes (Giants @ Lions +3.0%, Colts @ Chiefs +0.4%)
+- **Model E:** Most stable model (not analyzed in detail)
+
+**Key Finding:** Predictions are highly stable across EPA versions, suggesting the models are robust to incremental EPA updates. The single consensus change (Giants @ Lions) reflects legitimate improvement in Giants' EPA metrics relative to Lions' defense.
+
+See `week12_epa_comparison.md` for detailed analysis.
+
+---
+
 *Predictions generated on November 19, 2025 using Week 12 EPA data and updated odds*
 
