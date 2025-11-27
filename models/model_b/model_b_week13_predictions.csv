@@ -1,0 +1,17 @@
+game,away_team,home_team,favorite,underdog,spread,spread_description,cover_probability,confidence,defense_quality,opponent_def_epa,net_epa_diff,predicted_cover,prediction
+Packers @ Lions,Packers,Lions,Lions,Packers,-2.5,Packers +2.5,0.5055,MEDIUM,AVERAGE,-0.02,-0.010000000000000009,True,Cover
+Chiefs @ Cowboys,Chiefs,Cowboys,Chiefs,Cowboys,-3.5,Chiefs -3.5,0.5895,MEDIUM,POOR,0.11,0.16999999999999998,True,Cover
+Bengals @ Ravens,Bengals,Ravens,Ravens,Bengals,-7.0,Bengals +7.0,0.518,MEDIUM,POOR,0.19,-0.24,True,Cover
+Bears @ Eagles,Bears,Eagles,Eagles,Bears,-7.0,Bears +7.0,0.517,MEDIUM,AVERAGE,0.0,-0.020000000000000004,True,Cover
+49ers @ Browns,49ers,Browns,49ers,Browns,-5.5,49ers -5.5,0.47950000000000004,MEDIUM,ELITE,-0.13,0.04,False,No Cover
+Jaguars @ Titans,Jaguars,Titans,Jaguars,Titans,-6.5,Jaguars -6.5,0.604,MEDIUM,WEAK,0.09,0.31,True,Cover
+Texans @ Colts,Texans,Colts,Colts,Texans,-4.5,Texans +4.5,0.4545,MEDIUM,ELITE,-0.14,-0.07,False,No Cover
+Saints @ Dolphins,Saints,Dolphins,Dolphins,Saints,-5.5,Saints +5.5,0.5145,MEDIUM,AVERAGE,-0.02,-0.010000000000000009,True,Cover
+Falcons @ Jets,Falcons,Jets,Falcons,Jets,-2.5,Falcons -2.5,0.5539999999999999,MEDIUM,WEAK,0.07,0.12000000000000002,True,Cover
+Cardinals @ Buccaneers,Cardinals,Buccaneers,Buccaneers,Cardinals,-3.0,Cardinals +3.0,0.505,MEDIUM,AVERAGE,0.0,-0.02,True,Cover
+Rams @ Panthers,Rams,Panthers,Rams,Panthers,-10.5,Rams -10.5,0.618,MEDIUM,WEAK,0.06,0.32,True,Cover
+Vikings @ Seahawks,Vikings,Seahawks,Seahawks,Vikings,-10.5,Vikings +10.5,0.48949999999999994,MEDIUM,AVERAGE,-0.03,-0.21000000000000002,False,No Cover
+Bills @ Steelers,Bills,Steelers,Bills,Steelers,-3.5,Bills -3.5,0.5305,MEDIUM,AVERAGE,0.01,0.09999999999999999,True,Cover
+Raiders @ Chargers,Raiders,Chargers,Chargers,Raiders,-9.5,Raiders +9.5,0.48450000000000004,MEDIUM,AVERAGE,0.0,-0.22,False,No Cover
+Broncos @ Commanders,Broncos,Commanders,Broncos,Commanders,-6.5,Broncos -6.5,0.6085,MEDIUM,POOR,0.13,0.22000000000000003,True,Cover
+Giants @ Patriots,Giants,Patriots,Patriots,Giants,-7.5,Giants +7.5,0.5215,MEDIUM,POOR,0.11,-0.23,True,Cover

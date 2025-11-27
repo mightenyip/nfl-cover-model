@@ -1,0 +1,17 @@
+game,away_team,home_team,favorite,underdog,spread,spread_description,predicted_cover,prediction,confidence,probability,rule_applied
+Packers @ Lions,Packers,Lions,Lions,Packers,-2.5,Packers +2.5,False,No Cover,MEDIUM,53.8,Small spread: Slight fade favorite
+Chiefs @ Cowboys,Chiefs,Cowboys,Chiefs,Cowboys,-3.5,Chiefs -3.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite
+Bengals @ Ravens,Bengals,Ravens,Ravens,Bengals,-7.0,Bengals +7.0,False,No Cover,MEDIUM,55.0,Spread >= 7: Fade favorite
+Bears @ Eagles,Bears,Eagles,Eagles,Bears,-7.0,Bears +7.0,False,No Cover,MEDIUM,55.0,Spread >= 7: Fade favorite
+49ers @ Browns,49ers,Browns,49ers,Browns,-5.5,49ers -5.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite
+Jaguars @ Titans,Jaguars,Titans,Jaguars,Titans,-6.5,Jaguars -6.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite
+Texans @ Colts,Texans,Colts,Colts,Texans,-4.5,Texans +4.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite
+Saints @ Dolphins,Saints,Dolphins,Dolphins,Saints,-5.5,Saints +5.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite
+Falcons @ Jets,Falcons,Jets,Falcons,Jets,-2.5,Falcons -2.5,False,No Cover,MEDIUM,53.8,Small spread: Slight fade favorite
+Cardinals @ Buccaneers,Cardinals,Buccaneers,Buccaneers,Cardinals,-3.0,Cardinals +3.0,False,No Cover,MEDIUM,53.8,Small spread: Slight fade favorite
+Rams @ Panthers,Rams,Panthers,Rams,Panthers,-10.5,Rams -10.5,False,No Cover,MEDIUM,55.0,Spread >= 10: Fade favorite
+Vikings @ Seahawks,Vikings,Seahawks,Seahawks,Vikings,-10.5,Vikings +10.5,False,No Cover,MEDIUM,55.0,Spread >= 10: Fade favorite
+Bills @ Steelers,Bills,Steelers,Bills,Steelers,-3.5,Bills -3.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite
+Raiders @ Chargers,Raiders,Chargers,Chargers,Raiders,-9.5,Raiders +9.5,False,No Cover,MEDIUM,55.0,Spread >= 7: Fade favorite
+Broncos @ Commanders,Broncos,Commanders,Broncos,Commanders,-6.5,Broncos -6.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite
+Giants @ Patriots,Giants,Patriots,Patriots,Giants,-7.5,Giants +7.5,False,No Cover,MEDIUM,55.0,Spread >= 7: Fade favorite

@@ -1,0 +1,17 @@
+game,away_team,home_team,favorite,underdog,spread,total,model_a_prediction,model_a_probability,model_a_confidence,model_b_prediction,model_b_probability,model_b_confidence,model_c_prediction,model_c_probability,model_c_confidence,model_d_prediction,model_d_confidence,model_e_prediction,model_e_probability,model_e_confidence,consensus_prediction,cover_votes,total_votes
+Packers @ Lions,Packers,Lions,Lions,Packers,-2.5,48.5,Cover,50.4%,MEDIUM,Cover,50.5%,MEDIUM,No Cover,53.8%,MEDIUM,No Cover,HIGH,Cover,45.3%,MEDIUM,Cover,3,5
+Chiefs @ Cowboys,Chiefs,Cowboys,Chiefs,Cowboys,-3.5,52.5,Cover,68.2%,HIGH,Cover,59.0%,MEDIUM,No Cover,60.0%,HIGH,Cover,HIGH,Cover,47.2%,LOW,Cover,4,5
+Bengals @ Ravens,Bengals,Ravens,Ravens,Bengals,-7.0,52.5,Cover,56.9%,MEDIUM,Cover,51.8%,MEDIUM,No Cover,55.0%,MEDIUM,Cover,HIGH,Cover,50.9%,LOW,Cover,4,5
+Bears @ Eagles,Bears,Eagles,Eagles,Bears,-7.0,44.5,Cover,51.5%,MEDIUM,Cover,51.7%,MEDIUM,No Cover,55.0%,MEDIUM,Cover,HIGH,Cover,45.9%,LOW,Cover,4,5
+49ers @ Browns,49ers,Browns,49ers,Browns,-5.5,38.5,No Cover,37.9%,LOW,No Cover,47.9%,MEDIUM,No Cover,60.0%,HIGH,Cover,HIGH,Cover,50.6%,MEDIUM,No Cover,2,5
+Jaguars @ Titans,Jaguars,Titans,Jaguars,Titans,-6.5,41.5,Cover,66.2%,HIGH,Cover,60.4%,MEDIUM,No Cover,60.0%,HIGH,Cover,HIGH,Cover,49.5%,MEDIUM,Cover,4,5
+Texans @ Colts,Texans,Colts,Colts,Texans,-4.5,44.5,No Cover,34.2%,LOW,No Cover,45.5%,MEDIUM,No Cover,60.0%,HIGH,Cover,HIGH,Cover,52.6%,LOW,No Cover,2,5
+Saints @ Dolphins,Saints,Dolphins,Dolphins,Saints,-5.5,41.5,Cover,51.3%,MEDIUM,Cover,51.4%,MEDIUM,No Cover,60.0%,HIGH,Cover,HIGH,No Cover,48.4%,LOW,Cover,3,5
+Falcons @ Jets,Falcons,Jets,Falcons,Jets,-2.5,39.5,Cover,59.4%,MEDIUM,Cover,55.4%,MEDIUM,No Cover,53.8%,MEDIUM,No Cover,HIGH,Cover,54.6%,MEDIUM,Cover,3,5
+Cardinals @ Buccaneers,Cardinals,Buccaneers,Buccaneers,Cardinals,-3.0,45.5,Cover,50.3%,MEDIUM,Cover,50.5%,MEDIUM,No Cover,53.8%,MEDIUM,Cover,LOW,Cover,45.9%,LOW,Cover,4,5
+Rams @ Panthers,Rams,Panthers,Rams,Panthers,-10.5,45.5,Cover,67.8%,HIGH,Cover,61.8%,MEDIUM,No Cover,55.0%,MEDIUM,Cover,HIGH,No Cover,53.5%,MEDIUM,Cover,3,5
+Vikings @ Seahawks,Vikings,Seahawks,Seahawks,Vikings,-10.5,41.5,No Cover,46.9%,MEDIUM,No Cover,48.9%,MEDIUM,No Cover,55.0%,MEDIUM,Cover,HIGH,Cover,52.3%,LOW,No Cover,2,5
+Bills @ Steelers,Bills,Steelers,Bills,Steelers,-3.5,47.5,Cover,54.0%,MEDIUM,Cover,53.0%,MEDIUM,No Cover,60.0%,HIGH,Cover,HIGH,No Cover,45.8%,MEDIUM,Cover,3,5
+Raiders @ Chargers,Raiders,Chargers,Chargers,Raiders,-9.5,41.5,No Cover,46.2%,MEDIUM,No Cover,48.4%,MEDIUM,No Cover,55.0%,MEDIUM,Cover,HIGH,No Cover,50.8%,LOW,No Cover,1,5
+Broncos @ Commanders,Broncos,Commanders,Broncos,Commanders,-6.5,43.5,Cover,70.5%,VERY_HIGH,Cover,60.9%,MEDIUM,No Cover,60.0%,HIGH,Cover,HIGH,Cover,51.6%,MEDIUM,Cover,4,5
+Giants @ Patriots,Giants,Patriots,Patriots,Giants,-7.5,46.5,Cover,57.3%,MEDIUM,Cover,52.1%,MEDIUM,No Cover,55.0%,MEDIUM,Cover,HIGH,Cover,53.6%,LOW,Cover,4,5

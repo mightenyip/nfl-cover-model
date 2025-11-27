@@ -1,0 +1,17 @@
+game,favorite,underdog,spread,total,model_a,model_a_prob,model_a_conf,model_b,model_b_prob,model_b_conf,model_e,model_e_prob,model_e_conf,consensus_abe,cover_votes_abe,avg_probability
+Packers @ Lions,Lions,Packers,-2.5,48.5,Cover,50.4%,MEDIUM,Cover,50.5%,MEDIUM,Cover,45.3%,MEDIUM,Cover,3,48.7%
+Chiefs @ Cowboys,Chiefs,Cowboys,-3.5,52.5,Cover,68.2%,HIGH,Cover,59.0%,MEDIUM,Cover,47.2%,LOW,Cover,3,58.1%
+Bengals @ Ravens,Ravens,Bengals,-7.0,52.5,Cover,56.9%,MEDIUM,Cover,51.8%,MEDIUM,Cover,50.9%,LOW,Cover,3,53.2%
+Bears @ Eagles,Eagles,Bears,-7.0,44.5,Cover,51.5%,MEDIUM,Cover,51.7%,MEDIUM,Cover,45.9%,LOW,Cover,3,49.7%
+49ers @ Browns,49ers,Browns,-5.5,38.5,No Cover,37.9%,LOW,No Cover,47.9%,MEDIUM,Cover,50.6%,MEDIUM,No Cover,1,45.5%
+Jaguars @ Titans,Jaguars,Titans,-6.5,41.5,Cover,66.2%,HIGH,Cover,60.4%,MEDIUM,Cover,49.5%,MEDIUM,Cover,3,58.7%
+Texans @ Colts,Colts,Texans,-4.5,44.5,No Cover,34.2%,LOW,No Cover,45.5%,MEDIUM,Cover,52.6%,LOW,No Cover,1,44.1%
+Saints @ Dolphins,Dolphins,Saints,-5.5,41.5,Cover,51.3%,MEDIUM,Cover,51.4%,MEDIUM,No Cover,48.4%,LOW,Cover,2,50.4%
+Falcons @ Jets,Falcons,Jets,-2.5,39.5,Cover,59.4%,MEDIUM,Cover,55.4%,MEDIUM,Cover,54.6%,MEDIUM,Cover,3,56.5%
+Cardinals @ Buccaneers,Buccaneers,Cardinals,-3.0,45.5,Cover,50.3%,MEDIUM,Cover,50.5%,MEDIUM,Cover,45.9%,LOW,Cover,3,48.9%
+Rams @ Panthers,Rams,Panthers,-10.5,45.5,Cover,67.8%,HIGH,Cover,61.8%,MEDIUM,No Cover,53.5%,MEDIUM,Cover,2,61.0%
+Vikings @ Seahawks,Seahawks,Vikings,-10.5,41.5,No Cover,46.9%,MEDIUM,No Cover,48.9%,MEDIUM,Cover,52.3%,LOW,No Cover,1,49.4%
+Bills @ Steelers,Bills,Steelers,-3.5,47.5,Cover,54.0%,MEDIUM,Cover,53.0%,MEDIUM,No Cover,45.8%,MEDIUM,Cover,2,50.9%
+Raiders @ Chargers,Chargers,Raiders,-9.5,41.5,No Cover,46.2%,MEDIUM,No Cover,48.4%,MEDIUM,No Cover,50.8%,LOW,No Cover,0,48.5%
+Broncos @ Commanders,Broncos,Commanders,-6.5,43.5,Cover,70.5%,VERY_HIGH,Cover,60.9%,MEDIUM,Cover,51.6%,MEDIUM,Cover,3,61.0%
+Giants @ Patriots,Patriots,Giants,-7.5,46.5,Cover,57.3%,MEDIUM,Cover,52.1%,MEDIUM,Cover,53.6%,LOW,Cover,3,54.3%
