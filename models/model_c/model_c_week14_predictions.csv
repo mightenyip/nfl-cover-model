@@ -3,10 +3,10 @@ Cowboys @ Lions,Cowboys,Lions,Lions,Cowboys,-3.0,Cowboys +3.0,False,No Cover,MED
 Seahawks @ Falcons,Seahawks,Falcons,Seahawks,Falcons,-7.5,Seahawks -7.5,False,No Cover,MEDIUM,55.0,Spread >= 7: Fade favorite
 Bengals @ Bills,Bengals,Bills,Bills,Bengals,-5.5,Bengals +5.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite
 Titans @ Browns,Titans,Browns,Browns,Titans,-3.5,Titans +3.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite
-Commanders @ Vikings,Commanders,Vikings,Commanders,Vikings,-1.5,Commanders -1.5,False,No Cover,MEDIUM,53.8,Small spread: Slight fade favorite
+Commanders @ Vikings,Commanders,Vikings,Vikings,Commanders,-1.5,Commanders +1.5,False,No Cover,MEDIUM,53.8,Small spread: Slight fade favorite
 Dolphins @ Jets,Dolphins,Jets,Dolphins,Jets,-2.5,Dolphins -2.5,False,No Cover,MEDIUM,53.8,Small spread: Slight fade favorite
-Saints @ Buccaneers,Saints,Buccaneers,Buccaneers,Saints,-8.5,Saints +8.5,False,No Cover,MEDIUM,55.0,Spread >= 7: Fade favorite
-Colts @ Jaguars,Colts,Jaguars,Colts,Jaguars,-1.5,Colts -1.5,False,No Cover,MEDIUM,53.8,Small spread: Slight fade favorite
+Saints @ Buccaneers,Saints,Buccaneers,Saints,Buccaneers,-8.5,Saints -8.5,False,No Cover,MEDIUM,55.0,Spread >= 7: Fade favorite
+Colts @ Jaguars,Colts,Jaguars,Jaguars,Colts,-1.5,Colts +1.5,False,No Cover,MEDIUM,53.8,Small spread: Slight fade favorite
 Steelers @ Ravens,Steelers,Ravens,Ravens,Steelers,-5.5,Steelers +5.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite
 Broncos @ Raiders,Broncos,Raiders,Broncos,Raiders,-7.5,Broncos -7.5,False,No Cover,MEDIUM,55.0,Spread >= 7: Fade favorite
 Bears @ Packers,Bears,Packers,Packers,Bears,-6.5,Bears +6.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite

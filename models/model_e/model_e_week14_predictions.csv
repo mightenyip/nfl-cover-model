@@ -3,10 +3,10 @@ Cowboys @ Lions,Cowboys,Lions,Lions,Cowboys,-3.0,Cowboys +3.0,0.4525010755222667
 Seahawks @ Falcons,Seahawks,Falcons,Seahawks,Falcons,-7.5,Seahawks -7.5,0.4723210738148823,LOW,True,Cover
 Bengals @ Bills,Bengals,Bills,Bills,Bengals,-5.5,Bengals +5.5,0.509049251244904,LOW,True,Cover
 Titans @ Browns,Titans,Browns,Browns,Titans,-3.5,Titans +3.5,0.45936952398615927,LOW,True,Cover
-Commanders @ Vikings,Commanders,Vikings,Commanders,Vikings,-1.5,Commanders -1.5,0.5061245062938613,MEDIUM,True,Cover
+Commanders @ Vikings,Commanders,Vikings,Vikings,Commanders,-1.5,Commanders +1.5,0.5061245062938613,MEDIUM,True,Cover
 Dolphins @ Jets,Dolphins,Jets,Dolphins,Jets,-2.5,Dolphins -2.5,0.4949209046283854,MEDIUM,True,Cover
-Saints @ Buccaneers,Saints,Buccaneers,Buccaneers,Saints,-8.5,Saints +8.5,0.5258807367129767,LOW,True,Cover
-Colts @ Jaguars,Colts,Jaguars,Colts,Jaguars,-1.5,Colts -1.5,0.4840250516517992,LOW,False,No Cover
+Saints @ Buccaneers,Saints,Buccaneers,Saints,Buccaneers,-8.5,Saints -8.5,0.5258807367129767,LOW,True,Cover
+Colts @ Jaguars,Colts,Jaguars,Jaguars,Colts,-1.5,Colts +1.5,0.4840250516517992,LOW,False,No Cover
 Steelers @ Ravens,Steelers,Ravens,Ravens,Steelers,-5.5,Steelers +5.5,0.5457213072206781,MEDIUM,True,Cover
 Broncos @ Raiders,Broncos,Raiders,Broncos,Raiders,-7.5,Broncos -7.5,0.4592745843380148,LOW,True,Cover
 Bears @ Packers,Bears,Packers,Packers,Bears,-6.5,Bears +6.5,0.5347494366347461,MEDIUM,False,No Cover
