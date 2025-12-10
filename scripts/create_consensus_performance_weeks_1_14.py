@@ -102,7 +102,12 @@ def merge_predictions_and_results(week_num):
                     on='game',
                     how='inner'
                 )
-                merged['consensus_correct'] = merged['consensus_cover'] == merged['actual_cover']
+                # Calculate consensus_correct, but preserve NaN for pushes
+                def calc_correct(row):
+                    if pd.isna(row['actual_cover']):
+                        return None  # Push
+                    return row['consensus_cover'] == row['actual_cover']
+                merged['consensus_correct'] = merged.apply(calc_correct, axis=1)
                 return merged
         # If no results file, we can't determine correctness
         return None
@@ -169,22 +174,27 @@ def analyze_all_weeks():
         if 'consensus_correct' in merged.columns:
             # Filter out pushes (None/NaN values)
             non_push_games = merged[merged['consensus_correct'].notna()]
-            total_games = len(non_push_games)
-            correct = non_push_games['consensus_correct'].sum() if total_games > 0 else 0
-            accuracy = correct / total_games if total_games > 0 else 0
+            total_games = len(merged)  # Total games including pushes
+            non_push_total = len(non_push_games)  # Games that count toward accuracy
+            correct = non_push_games['consensus_correct'].sum() if non_push_total > 0 else 0
+            incorrect = non_push_total - correct
+            accuracy = correct / non_push_total if non_push_total > 0 else 0
             
-            # Count predictions
-            if 'consensus_cover' in merged.columns:
-                cover_predictions = merged['consensus_cover'].sum()
+            # Count predictions (from all games, including pushes)
+            if 'consensus_cover' in merged.columns or 'consensus_prediction' in merged.columns:
+                if 'consensus_cover' in merged.columns:
+                    cover_predictions = merged['consensus_cover'].sum()
+                else:
+                    cover_predictions = (merged['consensus_prediction'] == 'Cover').sum()
                 no_cover_predictions = total_games - cover_predictions
             else:
                 cover_predictions = None
                 no_cover_predictions = None
             
-            # Count actual results
+            # Count actual results (excluding pushes)
             if 'actual_cover' in merged.columns:
-                actual_covers = merged['actual_cover'].sum()
-                actual_no_covers = total_games - actual_covers
+                actual_covers = non_push_games['actual_cover'].sum() if non_push_total > 0 else 0
+                actual_no_covers = non_push_total - actual_covers
             else:
                 actual_covers = None
                 actual_no_covers = None
@@ -193,7 +203,7 @@ def analyze_all_weeks():
                 'week': week_num,
                 'total_games': total_games,
                 'consensus_correct': correct,
-                'consensus_incorrect': total_games - correct,
+                'consensus_incorrect': incorrect,
                 'consensus_accuracy': accuracy,
                 'consensus_cover_predictions': cover_predictions,
                 'consensus_no_cover_predictions': no_cover_predictions,
