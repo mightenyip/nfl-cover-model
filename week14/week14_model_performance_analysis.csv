@@ -1,0 +1,15 @@
+game,underdog,spread,score,actual_cover,model_a_pred,model_a_correct,model_b_pred,model_b_correct,model_e_pred,model_e_correct,consensus_pred,consensus_correct,agreement
+Cowboys @ Lions,Cowboys,-3.0,30-44,No,Cover,✗,Cover,✗,Cover,✗,Cover,✗,Unanimous (3/3)
+Seahawks @ Falcons,Falcons,-7.5,37-9,No,Cover,✗,Cover,✗,Cover,✗,Cover,✗,Unanimous (3/3)
+Bengals @ Bills,Bengals,-5.5,34-39,Yes,Cover,✓,No Cover,✗,Cover,✓,Cover,✓,"Majority (A, E)"
+Titans @ Browns,Titans,-3.5,31-29,Yes,Cover,✓,No Cover,✗,Cover,✓,Cover,✓,"Majority (A, E)"
+Commanders @ Vikings,Commanders,-1.5,0-31,No,Cover,✗,Cover,✗,Cover,✗,Cover,✗,Unanimous (3/3)
+Dolphins @ Jets,Jets,-2.5,34-10,No,Cover,✗,Cover,✗,Cover,✗,Cover,✗,Unanimous (3/3)
+Saints @ Buccaneers,Saints,-8.5,24-20,Yes,No Cover,✗,Cover,✓,Cover,✓,Cover,✓,"Majority (B, E)"
+Colts @ Jaguars,Jaguars,-1.5,19-36,Yes,No Cover,✗,Cover,✓,No Cover,✗,No Cover,✗,Split (1/3)
+Steelers @ Ravens,Steelers,-5.5,27-22,Yes,Cover,✓,Cover,✓,Cover,✓,Cover,✓,Unanimous (3/3)
+Broncos @ Raiders,Raiders,-7.5,24-17,Yes,Cover,✓,Cover,✓,Cover,✓,Cover,✓,Unanimous (3/3)
+Bears @ Packers,Bears,-6.5,21-28,Yes,No Cover,✗,Cover,✓,No Cover,✗,No Cover,✗,Split (1/3)
+Rams @ Cardinals,Cardinals,-8.5,45-17,No,Cover,✗,Cover,✗,Cover,✗,Cover,✗,Unanimous (3/3)
+Texans @ Chiefs,Texans,-3.5,20-10,Yes,No Cover,✗,No Cover,✗,No Cover,✗,No Cover,✗,Unanimous (0/3)
+Eagles @ Chargers,Chargers,-2.5,19-22,Yes,No Cover,✗,No Cover,✗,No Cover,✗,No Cover,✗,Unanimous (0/3)

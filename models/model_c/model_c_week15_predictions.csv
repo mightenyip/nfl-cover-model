@@ -1,0 +1,17 @@
+game,away_team,home_team,favorite,underdog,spread,spread_description,predicted_cover,prediction,confidence,probability,rule_applied
+Falcons @ Buccaneers,Falcons,Buccaneers,Buccaneers,Falcons,-4.5,Falcons +4.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite
+Browns @ Bears,Browns,Bears,Bears,Browns,-7.5,Browns +7.5,False,No Cover,MEDIUM,55.0,Spread >= 7: Fade favorite
+Ravens @ Bengals,Ravens,Bengals,Ravens,Bengals,-2.5,Ravens -2.5,False,No Cover,MEDIUM,53.8,Small spread: Slight fade favorite
+Chargers @ Chiefs,Chargers,Chiefs,Chiefs,Chargers,-4.5,Chargers +4.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite
+Bills @ Patriots,Bills,Patriots,Bills,Patriots,-1.5,Bills -1.5,False,No Cover,MEDIUM,53.8,Small spread: Slight fade favorite
+Commanders @ Giants,Commanders,Giants,Giants,Commanders,-1.5,Commanders +1.5,False,No Cover,MEDIUM,53.8,Small spread: Slight fade favorite
+Raiders @ Eagles,Raiders,Eagles,Eagles,Raiders,-11.5,Raiders +11.5,False,No Cover,MEDIUM,55.0,Spread >= 10: Fade favorite
+Jets @ Jaguars,Jets,Jaguars,Jaguars,Jets,-12.5,Jets +12.5,False,No Cover,MEDIUM,55.0,Spread >= 10: Fade favorite
+Cardinals @ Texans,Cardinals,Texans,Texans,Cardinals,-9.5,Cardinals +9.5,False,No Cover,MEDIUM,55.0,Spread >= 7: Fade favorite
+Packers @ Broncos,Packers,Broncos,Packers,Broncos,-2.5,Packers -2.5,False,No Cover,MEDIUM,53.8,Small spread: Slight fade favorite
+Lions @ Rams,Lions,Rams,Rams,Lions,-5.5,Lions +5.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite
+Panthers @ Saints,Panthers,Saints,Panthers,Saints,-2.5,Panthers -2.5,False,No Cover,MEDIUM,53.8,Small spread: Slight fade favorite
+Titans @ 49ers,Titans,49ers,49ers,Titans,-12.5,Titans +12.5,False,No Cover,MEDIUM,55.0,Spread >= 10: Fade favorite
+Colts @ Seahawks,Colts,Seahawks,Seahawks,Colts,-13.5,Colts +13.5,False,No Cover,MEDIUM,55.0,Spread >= 10: Fade favorite
+Vikings @ Cowboys,Vikings,Cowboys,Cowboys,Vikings,-5.5,Vikings +5.5,False,No Cover,HIGH,60.0,Spread >= 3.5: Strong fade favorite
+Dolphins @ Steelers,Dolphins,Steelers,Steelers,Dolphins,-3.0,Dolphins +3.0,False,No Cover,MEDIUM,53.8,Small spread: Slight fade favorite

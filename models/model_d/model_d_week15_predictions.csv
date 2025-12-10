@@ -1,0 +1,17 @@
+game,away_team,home_team,favorite,underdog,spread,total,spread_description,predicted_cover,prediction,confidence,rule_applied
+Falcons @ Buccaneers,Falcons,Buccaneers,Buccaneers,Falcons,-4.5,44.5,Falcons +4.5,True,Cover,HIGH,Spread >= 3.5: Underdog cover
+Browns @ Bears,Browns,Bears,Bears,Browns,-7.5,39.5,Browns +7.5,True,Cover,HIGH,Spread >= 7: Underdog cover
+Ravens @ Bengals,Ravens,Bengals,Ravens,Bengals,-2.5,52.5,Ravens -2.5,False,No Cover,HIGH,Spread < 3: Favorite cover
+Chargers @ Chiefs,Chargers,Chiefs,Chiefs,Chargers,-4.5,41.5,Chargers +4.5,True,Cover,HIGH,Spread >= 3.5: Underdog cover
+Bills @ Patriots,Bills,Patriots,Bills,Patriots,-1.5,50.5,Bills -1.5,False,No Cover,HIGH,Spread < 3: Favorite cover
+Commanders @ Giants,Commanders,Giants,Giants,Commanders,-1.5,47.5,Commanders +1.5,False,No Cover,HIGH,Spread < 3: Favorite cover
+Raiders @ Eagles,Raiders,Eagles,Eagles,Raiders,-11.5,38.5,Raiders +11.5,True,Cover,HIGH,Spread >= 7: Underdog cover
+Jets @ Jaguars,Jets,Jaguars,Jaguars,Jets,-12.5,41.5,Jets +12.5,True,Cover,HIGH,Spread >= 7: Underdog cover
+Cardinals @ Texans,Cardinals,Texans,Texans,Cardinals,-9.5,42.5,Cardinals +9.5,True,Cover,HIGH,Spread >= 7: Underdog cover
+Packers @ Broncos,Packers,Broncos,Packers,Broncos,-2.5,43.5,Packers -2.5,False,No Cover,HIGH,Spread < 3: Favorite cover
+Lions @ Rams,Lions,Rams,Rams,Lions,-5.5,55.5,Lions +5.5,True,Cover,HIGH,Spread >= 3.5: Underdog cover
+Panthers @ Saints,Panthers,Saints,Panthers,Saints,-2.5,40.5,Panthers -2.5,False,No Cover,HIGH,Spread < 3: Favorite cover
+Titans @ 49ers,Titans,49ers,49ers,Titans,-12.5,44.5,Titans +12.5,True,Cover,HIGH,Spread >= 7: Underdog cover
+Colts @ Seahawks,Colts,Seahawks,Seahawks,Colts,-13.5,42.5,Colts +13.5,True,Cover,HIGH,Spread >= 7: Underdog cover
+Vikings @ Cowboys,Vikings,Cowboys,Cowboys,Vikings,-5.5,47.5,Vikings +5.5,True,Cover,HIGH,Spread >= 3.5: Underdog cover
+Dolphins @ Steelers,Dolphins,Steelers,Steelers,Dolphins,-3.0,42.5,Dolphins +3.0,True,Cover,LOW,Neutral spread: Slight underdog

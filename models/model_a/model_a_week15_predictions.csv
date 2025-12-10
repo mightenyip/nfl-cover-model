@@ -1,0 +1,17 @@
+game,away_team,home_team,favorite,underdog,spread,spread_description,cover_probability,confidence,defense_quality,opponent_def_epa,net_epa_diff,predicted_cover,prediction
+Falcons @ Buccaneers,Falcons,Buccaneers,Buccaneers,Falcons,-4.5,Falcons +4.5,0.5015,MEDIUM,AVERAGE,0.0,-0.04000000000000001,True,Cover
+Browns @ Bears,Browns,Bears,Bears,Browns,-7.5,Browns +7.5,0.3365000000000001,LOW,ELITE,-0.11,-0.12,False,No Cover
+Ravens @ Bengals,Ravens,Bengals,Ravens,Bengals,-2.5,Ravens -2.5,0.6725,HIGH,POOR,0.15,0.15,True,Cover
+Chargers @ Chiefs,Chargers,Chiefs,Chiefs,Chargers,-4.5,Chargers +4.5,0.4155,MEDIUM,STRONG,-0.08,-0.06,False,No Cover
+Bills @ Patriots,Bills,Patriots,Bills,Patriots,-1.5,Bills -1.5,0.4215,MEDIUM,STRONG,-0.05,-0.010000000000000009,False,No Cover
+Commanders @ Giants,Commanders,Giants,Giants,Commanders,-1.5,Commanders +1.5,0.6184999999999999,HIGH,POOR,0.14,-0.020000000000000018,True,Cover
+Raiders @ Eagles,Raiders,Eagles,Eagles,Raiders,-11.5,Raiders +11.5,0.4535,MEDIUM,AVERAGE,0.02,-0.27,False,No Cover
+Jets @ Jaguars,Jets,Jaguars,Jaguars,Jets,-12.5,Jets +12.5,0.5065,MEDIUM,WEAK,0.09,-0.27,True,Cover
+Cardinals @ Texans,Cardinals,Texans,Texans,Cardinals,-9.5,Cardinals +9.5,0.47150000000000003,MEDIUM,AVERAGE,0.03,-0.19,False,No Cover
+Packers @ Broncos,Packers,Broncos,Packers,Broncos,-2.5,Packers -2.5,0.4335,MEDIUM,STRONG,-0.08,0.020000000000000018,False,No Cover
+Lions @ Rams,Lions,Rams,Rams,Lions,-5.5,Lions +5.5,0.4925,MEDIUM,AVERAGE,-0.03,-0.08000000000000002,False,No Cover
+Panthers @ Saints,Panthers,Saints,Panthers,Saints,-2.5,Panthers -2.5,0.5045,MEDIUM,AVERAGE,-0.04,-0.010000000000000009,True,Cover
+Titans @ 49ers,Titans,49ers,49ers,Titans,-12.5,Titans +12.5,0.5095,MEDIUM,WEAK,0.07,-0.26,True,Cover
+Colts @ Seahawks,Colts,Seahawks,Seahawks,Colts,-13.5,Colts +13.5,0.5405,MEDIUM,AVERAGE,-0.03,0.0,True,Cover
+Vikings @ Cowboys,Vikings,Cowboys,Cowboys,Vikings,-5.5,Vikings +5.5,0.4305,MEDIUM,STRONG,-0.07,-0.01999999999999999,False,No Cover
+Dolphins @ Steelers,Dolphins,Steelers,Steelers,Dolphins,-3.0,Dolphins +3.0,0.503,MEDIUM,AVERAGE,0.04,-0.02,True,Cover

@@ -1,0 +1,17 @@
+game,away_team,home_team,favorite,underdog,spread,spread_description,cover_probability,confidence,predicted_cover,prediction
+Falcons @ Buccaneers,Falcons,Buccaneers,Buccaneers,Falcons,-4.5,Falcons +4.5,0.4525010755222667,MEDIUM,True,Cover
+Browns @ Bears,Browns,Bears,Bears,Browns,-7.5,Browns +7.5,0.4723210738148823,LOW,True,Cover
+Ravens @ Bengals,Ravens,Bengals,Ravens,Bengals,-2.5,Ravens -2.5,0.509049251244904,LOW,True,Cover
+Chargers @ Chiefs,Chargers,Chiefs,Chiefs,Chargers,-4.5,Chargers +4.5,0.45936952398615927,LOW,True,Cover
+Bills @ Patriots,Bills,Patriots,Bills,Patriots,-1.5,Bills -1.5,0.5061245062938613,MEDIUM,True,Cover
+Commanders @ Giants,Commanders,Giants,Giants,Commanders,-1.5,Commanders +1.5,0.4949209046283854,MEDIUM,True,Cover
+Raiders @ Eagles,Raiders,Eagles,Eagles,Raiders,-11.5,Raiders +11.5,0.5258807367129767,LOW,True,Cover
+Jets @ Jaguars,Jets,Jaguars,Jaguars,Jets,-12.5,Jets +12.5,0.4840250516517992,LOW,False,No Cover
+Cardinals @ Texans,Cardinals,Texans,Texans,Cardinals,-9.5,Cardinals +9.5,0.5457213072206781,MEDIUM,True,Cover
+Packers @ Broncos,Packers,Broncos,Packers,Broncos,-2.5,Packers -2.5,0.4592745843380148,LOW,True,Cover
+Lions @ Rams,Lions,Rams,Rams,Lions,-5.5,Lions +5.5,0.5347494366347461,MEDIUM,False,No Cover
+Panthers @ Saints,Panthers,Saints,Panthers,Saints,-2.5,Panthers -2.5,0.5229731786693819,LOW,True,Cover
+Titans @ 49ers,Titans,49ers,49ers,Titans,-12.5,Titans +12.5,0.4578800198078458,MEDIUM,False,No Cover
+Colts @ Seahawks,Colts,Seahawks,Seahawks,Colts,-13.5,Colts +13.5,0.5077352145256763,LOW,False,No Cover
+Vikings @ Cowboys,Vikings,Cowboys,Cowboys,Vikings,-5.5,Vikings +5.5,0.516126331856771,MEDIUM,True,Cover
+Dolphins @ Steelers,Dolphins,Steelers,Steelers,Dolphins,-3.0,Dolphins +3.0,0.5355317721015147,LOW,True,Cover

@@ -1,0 +1,17 @@
+game,favorite,underdog,spread,total,model_a,model_a_prob,model_a_conf,model_b,model_b_prob,model_b_conf,model_e,model_e_prob,model_e_conf,consensus_abe,cover_votes_abe,avg_probability
+Falcons @ Buccaneers,Buccaneers,Falcons,-4.5,44.5,Cover,50.1%,MEDIUM,Cover,50.5%,MEDIUM,Cover,45.3%,MEDIUM,Cover,3,48.6%
+Browns @ Bears,Bears,Browns,-7.5,39.5,No Cover,33.7%,LOW,No Cover,45.4%,MEDIUM,Cover,47.2%,LOW,No Cover,1,42.1%
+Ravens @ Bengals,Ravens,Bengals,-2.5,52.5,Cover,67.2%,HIGH,Cover,58.2%,MEDIUM,Cover,50.9%,LOW,Cover,3,58.8%
+Chargers @ Chiefs,Chiefs,Chargers,-4.5,41.5,No Cover,41.5%,MEDIUM,No Cover,47.9%,MEDIUM,Cover,45.9%,LOW,No Cover,1,45.1%
+Bills @ Patriots,Bills,Patriots,-1.5,50.5,No Cover,42.1%,MEDIUM,No Cover,48.0%,MEDIUM,Cover,50.6%,MEDIUM,No Cover,1,46.9%
+Commanders @ Giants,Giants,Commanders,-1.5,47.5,Cover,61.8%,HIGH,Cover,54.5%,MEDIUM,Cover,49.5%,MEDIUM,Cover,3,55.3%
+Raiders @ Eagles,Eagles,Raiders,-11.5,38.5,No Cover,45.4%,MEDIUM,No Cover,48.0%,MEDIUM,Cover,52.6%,LOW,No Cover,1,48.7%
+Jets @ Jaguars,Jaguars,Jets,-12.5,41.5,Cover,50.6%,MEDIUM,Cover,50.6%,MEDIUM,No Cover,48.4%,LOW,Cover,2,49.9%
+Cardinals @ Texans,Texans,Cardinals,-9.5,42.5,No Cover,47.1%,MEDIUM,No Cover,49.0%,MEDIUM,Cover,54.6%,MEDIUM,No Cover,1,50.2%
+Packers @ Broncos,Packers,Broncos,-2.5,43.5,No Cover,43.4%,MEDIUM,No Cover,48.9%,MEDIUM,Cover,45.9%,LOW,No Cover,1,46.1%
+Lions @ Rams,Rams,Lions,-5.5,55.5,No Cover,49.2%,MEDIUM,Cover,50.0%,MEDIUM,No Cover,53.5%,MEDIUM,No Cover,1,50.9%
+Panthers @ Saints,Panthers,Saints,-2.5,40.5,Cover,50.4%,MEDIUM,Cover,50.5%,MEDIUM,Cover,52.3%,LOW,Cover,3,51.1%
+Titans @ 49ers,49ers,Titans,-12.5,44.5,Cover,50.9%,MEDIUM,Cover,50.8%,MEDIUM,No Cover,45.8%,MEDIUM,Cover,2,49.2%
+Colts @ Seahawks,Seahawks,Colts,-13.5,42.5,Cover,54.0%,MEDIUM,Cover,54.0%,MEDIUM,No Cover,50.8%,LOW,Cover,2,52.9%
+Vikings @ Cowboys,Cowboys,Vikings,-5.5,47.5,No Cover,43.0%,MEDIUM,No Cover,49.0%,MEDIUM,Cover,51.6%,MEDIUM,No Cover,1,47.9%
+Dolphins @ Steelers,Steelers,Dolphins,-3.0,42.5,Cover,50.3%,MEDIUM,Cover,50.5%,MEDIUM,Cover,53.6%,LOW,Cover,3,51.5%
