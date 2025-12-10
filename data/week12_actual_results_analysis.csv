@@ -1,0 +1,14 @@
+game,away_team,home_team,favorite_team,underdog_team,spread_line,total_line,score,away_score,home_score,actual_cover,consensus_prediction,consensus_probability,consensus_correct,model_a_prediction,model_b_prediction,model_e_prediction,agreement
+Bills @ Texans,Bills,Texans,Bills,Texans,-6.0,43.5,23-19,19,23,True,No Cover,0.452,False,No Cover,No Cover,Cover,"Majority (A, B)"
+Steelers @ Bears,Steelers,Bears,Bears,Steelers,-2.5,45.5,31-28,28,31,False,No Cover,0.505,True,No Cover,No Cover,Cover,"Majority (A, B)"
+Patriots @ Bengals,Patriots,Bengals,Patriots,Bengals,-8.5,49.5,26-20,26,20,True,Cover,0.675,True,Cover,Cover,Cover,Unanimous (3/3)
+Giants @ Lions,Giants,Lions,Lions,Giants,-10.5,50.5,34-27,27,34,True,Cover,0.568,True,Cover,Cover,Cover,Unanimous (3/3)
+Vikings @ Packers,Vikings,Packers,Packers,Vikings,-6.5,41.5,23-6,6,23,False,No Cover,0.504,True,No Cover,No Cover,Cover,"Majority (A, B)"
+Seahawks @ Titans,Seahawks,Titans,Seahawks,Titans,-13.5,40.5,30-24,30,24,True,Cover,0.664,True,Cover,Cover,Cover,Unanimous (3/3)
+Colts @ Chiefs,Colts,Chiefs,Chiefs,Colts,-3.5,49.5,23-20,20,23,True,No Cover,0.48,False,No Cover,Cover,No Cover,"Majority (A, E)"
+Jets @ Ravens,Jets,Ravens,Ravens,Jets,-13.5,44.5,23-10,10,23,True,Cover,0.556,True,Cover,Cover,Cover,Unanimous (3/3)
+Browns @ Raiders,Browns,Raiders,Raiders,Browns,-3.5,36.5,24-10,24,10,True,No Cover,0.479,False,No Cover,Cover,No Cover,"Majority (A, E)"
+Eagles @ Cowboys,Eagles,Cowboys,Eagles,Cowboys,-3.5,47.5,24-21,21,24,True,Cover,0.592,True,Cover,Cover,Cover,Unanimous (3/3)
+Falcons @ Saints,Falcons,Saints,Saints,Falcons,-1.5,39.5,24-10,24,10,True,Cover,0.51,True,Cover,Cover,No Cover,"Majority (A, B)"
+Buccaneers @ Rams,Buccaneers,Rams,Rams,Buccaneers,-6.5,49.5,34-7,7,34,False,No Cover,0.507,True,No Cover,No Cover,Cover,"Majority (A, B)"
+Panthers @ 49ers,Panthers,49ers,49ers,Panthers,-7.0,48.5,20-9,9,20,False,Cover,0.537,False,Cover,Cover,Cover,Unanimous (3/3)

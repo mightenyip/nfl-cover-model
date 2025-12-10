@@ -1,0 +1,16 @@
+game,away_team,home_team,favorite_team,underdog_team,spread_line,total_line,score,away_score,home_score,actual_cover,consensus_prediction,consensus_probability,consensus_correct,model_a_prediction,model_b_prediction,model_e_prediction,agreement
+Jets @ Patriots,Jets,Patriots,Patriots,Jets,-12.5,42.5,27-14,14,27,False,No Cover,0.429,True,No Cover,Cover,No Cover,Split (1/3)
+Commanders @ Dolphins,Commanders,Dolphins,Dolphins,Commanders,-2.5,47.5,16-13,13,16,False,No Cover,0.541,True,No Cover,Cover,No Cover,Split (1/3)
+Panthers @ Falcons,Panthers,Falcons,Falcons,Panthers,-3.5,42.5,30-27,30,27,True,No Cover,0.471,False,No Cover,Cover,No Cover,Split (1/3)
+Buccaneers @ Bills,Buccaneers,Bills,Bills,Buccaneers,-5.5,48.5,44-32,32,44,False,No Cover,0.46,True,Cover,No Cover,No Cover,Split (1/3)
+Texans @ Titans,Texans,Titans,Texans,Titans,-6.5,37.5,16-13,16,13,True,Cover,0.521,True,Cover,Cover,No Cover,"Majority (A, B)"
+Bears @ Vikings,Bears,Vikings,Vikings,Bears,-3.0,48.5,19-17,19,17,True,Cover,0.781,True,Cover,Cover,Cover,Unanimous (3/3)
+Packers @ Giants,Packers,Giants,Packers,Giants,-7.5,42.5,27-20,27,20,True,Cover,0.532,True,Cover,Cover,No Cover,"Majority (A, B)"
+Bengals @ Steelers,Bengals,Steelers,Steelers,Bengals,-5.5,48.5,34-12,12,34,False,No Cover,0.551,True,No Cover,Cover,No Cover,Split (1/3)
+Chargers @ Jaguars,Chargers,Jaguars,Chargers,Jaguars,-3.0,43.5,35-6,6,35,True,Cover,0.599,True,Cover,Cover,No Cover,"Majority (A, B)"
+Seahawks @ Rams,Seahawks,Rams,Rams,Seahawks,-3.0,48.5,21-19,19,21,True,Cover,0.634,True,Cover,Cover,No Cover,"Majority (A, B)"
+49ers @ Cardinals,49ers,Cardinals,49ers,Cardinals,-2.5,47.5,41-22,41,22,False,No Cover,0.48,True,Cover,No Cover,No Cover,Split (1/3)
+Ravens @ Browns,Ravens,Browns,Ravens,Browns,-7.5,39.5,23-16,23,16,True,No Cover,0.397,False,Cover,No Cover,No Cover,Split (1/3)
+Chiefs @ Broncos,Chiefs,Broncos,Chiefs,Broncos,-3.5,44.5,22-19,19,22,True,No Cover,0.428,False,Cover,No Cover,No Cover,Split (1/3)
+Lions @ Eagles,Lions,Eagles,Eagles,Lions,-2.5,46.5,16-9,9,16,False,Cover,0.744,False,Cover,Cover,Cover,Unanimous (3/3)
+Cowboys @ Raiders,Cowboys,Raiders,Cowboys,Raiders,-3.5,49.5,33-16,33,16,False,No Cover,0.366,True,Cover,No Cover,No Cover,Split (1/3)

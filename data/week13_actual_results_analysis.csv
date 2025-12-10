@@ -1,0 +1,16 @@
+game,away_team,home_team,favorite_team,underdog_team,spread_line,total_line,score,away_score,home_score,actual_cover,consensus_prediction,consensus_probability,consensus_correct,model_a_prediction,model_b_prediction,model_e_prediction,agreement
+Packers @ Lions,Packers,Lions,Lions,Packers,-2.5,48.5,31-24,31,24,True,Cover,0.488,True,Cover,Cover,Cover,Unanimous (3/3)
+Chiefs @ Cowboys,Chiefs,Cowboys,Chiefs,Cowboys,-3.5,52.5,31-28,28,31,True,Cover,0.581,True,Cover,Cover,Cover,Unanimous (3/3)
+Bengals @ Ravens,Bengals,Ravens,Ravens,Bengals,-7.0,52.5,32-14,32,14,True,Cover,0.532,True,Cover,Cover,Cover,Unanimous (3/3)
+Bears @ Eagles,Bears,Eagles,Eagles,Bears,-7.0,44.5,24-15,24,15,True,Cover,0.497,True,Cover,Cover,Cover,Unanimous (3/3)
+49ers @ Browns,49ers,Browns,49ers,Browns,-5.5,38.5,26-8,26,8,False,No Cover,0.455,True,No Cover,No Cover,Cover,Split (1/3)
+Jaguars @ Titans,Jaguars,Titans,Jaguars,Titans,-6.5,41.5,25-3,25,3,False,Cover,0.587,False,Cover,Cover,Cover,Unanimous (3/3)
+Texans @ Colts,Texans,Colts,Colts,Texans,-4.5,44.5,20-16,20,16,True,No Cover,0.441,False,No Cover,No Cover,Cover,Split (1/3)
+Saints @ Dolphins,Saints,Dolphins,Dolphins,Saints,-5.5,41.5,21-17,17,21,True,Cover,0.504,True,Cover,Cover,No Cover,"Majority (A, B)"
+Falcons @ Jets,Falcons,Jets,Falcons,Jets,-2.5,39.5,27-24,24,27,True,Cover,0.564,True,Cover,Cover,Cover,Unanimous (3/3)
+Rams @ Panthers,Rams,Panthers,Rams,Panthers,-10.5,45.5,31-28,28,31,True,Cover,0.61,True,Cover,Cover,No Cover,"Majority (A, B)"
+Vikings @ Seahawks,Vikings,Seahawks,Seahawks,Vikings,-10.5,41.5,26-0,0,26,False,No Cover,0.494,True,No Cover,No Cover,Cover,Split (1/3)
+Bills @ Steelers,Bills,Steelers,Bills,Steelers,-3.5,47.5,26-7,26,7,False,Cover,0.51,False,Cover,Cover,No Cover,"Majority (A, B)"
+Raiders @ Chargers,Raiders,Chargers,Chargers,Raiders,-9.5,41.5,31-14,14,31,False,No Cover,0.485,True,No Cover,No Cover,No Cover,Unanimous (0/3)
+Broncos @ Commanders,Broncos,Commanders,Broncos,Commanders,-6.5,43.5,27-26,27,26,True,Cover,0.61,True,Cover,Cover,Cover,Unanimous (3/3)
+Giants @ Patriots,Giants,Patriots,Patriots,Giants,-7.5,46.5,33-15,15,33,False,Cover,0.544,False,Cover,Cover,Cover,Unanimous (3/3)
