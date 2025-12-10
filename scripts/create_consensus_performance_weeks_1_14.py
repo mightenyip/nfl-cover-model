@@ -167,8 +167,10 @@ def analyze_all_weeks():
         
         # Calculate consensus accuracy
         if 'consensus_correct' in merged.columns:
-            total_games = len(merged)
-            correct = merged['consensus_correct'].sum()
+            # Filter out pushes (None/NaN values)
+            non_push_games = merged[merged['consensus_correct'].notna()]
+            total_games = len(non_push_games)
+            correct = non_push_games['consensus_correct'].sum() if total_games > 0 else 0
             accuracy = correct / total_games if total_games > 0 else 0
             
             # Count predictions
