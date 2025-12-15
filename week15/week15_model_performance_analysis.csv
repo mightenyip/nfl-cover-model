@@ -1,0 +1,16 @@
+game,underdog,spread,score,actual_cover,model_a_pred,model_a_correct,model_b_pred,model_b_correct,model_c_pred,model_c_correct,model_d_pred,model_d_correct,model_e_pred,model_e_correct,consensus_pred,consensus_correct,cover_votes,total_votes,agreement
+Falcons @ Buccaneers,Falcons,-4.5,29-28,Yes,Cover,✓,Cover,✓,No Cover,✗,Cover,✓,Cover,✓,Cover,✓,4,5,Majority
+Browns @ Bears,Browns,-7.5,3-31,No,No Cover,✓,No Cover,✓,No Cover,✓,Cover,✗,Cover,✗,No Cover,✓,2,5,Majority
+Ravens @ Bengals,Bengals,-2.5,24-0,No,Cover,✗,Cover,✗,No Cover,✓,No Cover,✓,Cover,✗,Cover,✗,3,5,Majority
+Chargers @ Chiefs,Chargers,-4.5,16-13,Yes,No Cover,✗,No Cover,✗,No Cover,✗,Cover,✓,Cover,✓,No Cover,✗,2,5,Majority
+Bills @ Patriots,Patriots,-1.5,35-31,No,No Cover,✓,No Cover,✓,No Cover,✓,No Cover,✓,Cover,✗,No Cover,✓,1,5,Majority
+Commanders @ Giants,Commanders,-1.5,29-21,Yes,Cover,✓,Cover,✓,No Cover,✗,No Cover,✗,Cover,✓,Cover,✓,3,5,Majority
+Raiders @ Eagles,Raiders,-11.5,0-31,No,No Cover,✓,No Cover,✓,No Cover,✓,Cover,✗,Cover,✗,No Cover,✓,2,5,Majority
+Jets @ Jaguars,Jets,-12.5,20-48,No,Cover,✗,Cover,✗,No Cover,✓,Cover,✗,No Cover,✓,Cover,✗,3,5,Majority
+Cardinals @ Texans,Cardinals,-9.5,20-40,No,No Cover,✓,No Cover,✓,No Cover,✓,Cover,✗,Cover,✗,No Cover,✓,2,5,Majority
+Packers @ Broncos,Broncos,-2.5,26-34,Yes,No Cover,✗,No Cover,✗,No Cover,✗,No Cover,✗,Cover,✓,No Cover,✗,1,5,Majority
+Lions @ Rams,Lions,-5.5,34-41,No,No Cover,✓,Cover,✗,No Cover,✓,Cover,✗,No Cover,✓,No Cover,✓,2,5,Majority
+Panthers @ Saints,Saints,-2.5,17-20,Yes,Cover,✓,Cover,✓,No Cover,✗,No Cover,✗,Cover,✓,Cover,✓,3,5,Majority
+Titans @ 49ers,Titans,-12.5,24-37,No,Cover,✗,Cover,✗,No Cover,✓,Cover,✗,No Cover,✓,Cover,✗,3,5,Majority
+Colts @ Seahawks,Colts,-13.5,16-18,Yes,Cover,✓,Cover,✓,No Cover,✗,Cover,✓,No Cover,✗,Cover,✓,3,5,Majority
+Vikings @ Cowboys,Vikings,-5.5,34-26,Yes,No Cover,✗,No Cover,✗,No Cover,✗,Cover,✓,Cover,✓,No Cover,✗,2,5,Majority
