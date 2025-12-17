@@ -32,7 +32,7 @@ def analyze_week15_performance():
         'Titans @ 49ers': (24, 37, False),  # 49ers won 37-24, 49ers -12.5 favorites, won by 13, covered
         'Colts @ Seahawks': (16, 18, True),  # Seahawks won 18-16, Seahawks -13.5 favorites, won by 2, did not cover
         'Vikings @ Cowboys': (34, 26, True),  # Vikings won, Cowboys -5.5 favorites, Vikings covered
-        'Dolphins @ Steelers': None,  # Game not in results provided
+        'Dolphins @ Steelers': (15, 28, False),  # Steelers won 28-15, Steelers -3.0 favorites, won by 13, covered
     }
     
     # Load predictions
