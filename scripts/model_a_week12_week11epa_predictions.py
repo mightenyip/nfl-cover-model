@@ -78,7 +78,97 @@ def calculate_model_a_predictions(epa_df, odds_df):
         # Calculate net EPA difference
         away_net_epa = away_off_epa - away_def_epa
         home_net_epa = home_off_epa - home_def_epa
-        net_epa_diff = away_net_epa - home_net_epa
+#!/usr/bin/env python3
+"""
+Model A Week 12 Predictions
+Generate Model A predictions for Week 12 using the latest EPA data
+"""
+
+import pandas as pd
+import numpy as np
+from datetime import datetime
+
+def load_epa_data():
+    """Load the Week 12 EPA data"""
+    try:
+        epa_df = pd.read_csv("data/Week11_EPA.csv")
+        print(f"Loaded EPA data for {len(epa_df)} teams")
+        return epa_df
+    except FileNotFoundError:
+        print("❌ Error: data/Week11_EPA.csv not found")
+        return None
+
+def load_week12_odds():
+    """Load Week 12 odds"""
+    try:
+        odds_df = pd.read_csv("schedule/week12_2025_odds.csv")
+        print(f"Loaded {len(odds_df)} games from Week 12 odds")
+        return odds_df
+    except FileNotFoundError:
+        print("❌ Error: schedule/week12_2025_odds.csv not found")
+        return None
+
+def calculate_model_a_predictions(epa_df, odds_df):
+    """Calculate Model A predictions for Week 12"""
+    
+    print("\n=== Model A Week 12 Predictions ===")
+    print("Using latest EPA data and 5-tier defense classification")
+    print("=" * 60)
+    
+    # Team name mapping
+    team_mapping = {
+        '49ers': 'SF', 'Bears': 'CHI', 'Bengals': 'CIN', 'Bills': 'BUF', 'Broncos': 'DEN',
+        'Browns': 'CLE', 'Buccaneers': 'TB', 'Cardinals': 'ARI', 'Chargers': 'LAC', 'Chiefs': 'KC',
+        'Colts': 'IND', 'Commanders': 'WAS', 'Cowboys': 'DAL', 'Dolphins': 'MIA', 'Eagles': 'PHI',
+        'Falcons': 'ATL', 'Giants': 'NYG', 'Jaguars': 'JAX', 'Jets': 'NYJ', 'Lions': 'DET',
+        'Packers': 'GB', 'Panthers': 'CAR', 'Patriots': 'NE', 'Raiders': 'LV', 'Rams': 'LA',
+        'Ravens': 'BAL', 'Saints': 'NO', 'Seahawks': 'SEA', 'Steelers': 'PIT', 'Texans': 'HOU',
+        'Titans': 'TEN', 'Vikings': 'MIN'
+    }
+    
+    predictions = []
+    
+    for idx, row in odds_df.iterrows():
+        away_team = row['away_team']
+        home_team = row['home_team']
+        favorite = row['favorite_team']
+        underdog = row['underdog_team']
+        spread = row['spread_line']
+        
+        # Get team abbreviations
+        away_abbr = team_mapping.get(away_team, away_team)
+        home_abbr = team_mapping.get(home_team, home_team)
+        fav_abbr = team_mapping.get(favorite, favorite)
+        dog_abbr = team_mapping.get(underdog, underdog)
+        
+        # Get EPA data for both teams
+        away_epa = epa_df[epa_df['team'] == away_abbr]
+        home_epa = epa_df[epa_df['team'] == home_abbr]
+        
+        if away_epa.empty or home_epa.empty:
+            print(f"⚠️ Missing EPA data for {away_team} ({away_abbr}) or {home_team} ({home_abbr})")
+            continue
+        
+        # Extract EPA values
+        away_off_epa = away_epa['epa_off_per_play'].iloc[0]
+        away_def_epa = away_epa['epa_def_allowed_per_play'].iloc[0]
+        home_off_epa = home_epa['epa_off_per_play'].iloc[0]
+        home_def_epa = home_epa['epa_def_allowed_per_play'].iloc[0]
+        
+        # Calculate net EPA difference
+        away_net = away_off - away_def
+        home_net = home_off - home_def
+        
+        # Calculate from underdog's perspective (underdog_net - favorite_net)
+        # Positive means underdog is stronger (more likely to cover)
+        if favorite == away_team:
+            favorite_net = away_net
+            underdog_net = home_net
+        else:
+            favorite_net = home_net
+            underdog_net = away_net
+        
+        net_epa_diff = underdog_net - favorite_net
         
         # Determine opponent defense quality
         if favorite == away_team:

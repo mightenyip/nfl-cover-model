@@ -4,127 +4,128 @@ WEEK 16 2025 PREDICTIONS - MODEL RESULTS
 
  1. Rams @ Seahawks                | Spread: Rams -0.5           
     ----------------------------------------------------------------------------------------------------
-    Model A: No Cover | Probability: 36.6% | Confidence: LOW
-    Model B: No Cover | Probability: 46.6% | Confidence: MEDIUM
-    Model E: Cover    | Probability: 45.3% | Confidence: MEDIUM
-    → CONSENSUS:    No Cover | Probability: 42.9% | Split (1/3)
+    Model A: Favorite Cover     | Probability: 33.6% | Confidence: LOW
+    Model B: Favorite Cover     | Probability: 46.6% | Confidence: MEDIUM
+    Model E: Underdog Cover     | Probability: 45.3% | Confidence: MEDIUM
+    → CONSENSUS:    Favorite Cover     | Probability: 41.9% | Split (1/3)
 
  2. Eagles @ Commanders            | Spread: Eagles -6.5         
     ----------------------------------------------------------------------------------------------------
-    Model A: Cover    | Probability: 70.6% | Confidence: VERY_HIGH
-    Model B: Cover    | Probability: 60.8% | Confidence: MEDIUM
-    Model E: Cover    | Probability: 47.2% | Confidence: LOW
-    → CONSENSUS:    Cover    | Probability: 59.5% | Unanimous (3/3)
+    Model A: Underdog Cover     | Probability: 57.4% | Confidence: MEDIUM
+    Model B: Underdog Cover     | Probability: 60.8% | Confidence: MEDIUM
+    Model E: Underdog Cover     | Probability: 47.2% | Confidence: LOW
+    → CONSENSUS:    Underdog Cover     | Probability: 55.1% | Unanimous (3/3)
 
  3. Packers @ Bears                | Spread: Packers -1.5        
     ----------------------------------------------------------------------------------------------------
-    Model A: Cover    | Probability: 52.0% | Confidence: MEDIUM
-    Model B: Cover    | Probability: 51.4% | Confidence: MEDIUM
-    Model E: Cover    | Probability: 50.9% | Confidence: LOW
-    → CONSENSUS:    Cover    | Probability: 51.4% | Unanimous (3/3)
+    Model A: Favorite Cover     | Probability: 49.0% | Confidence: MEDIUM
+    Model B: Underdog Cover     | Probability: 51.4% | Confidence: MEDIUM
+    Model E: Underdog Cover     | Probability: 50.9% | Confidence: LOW
+    → CONSENSUS:    Underdog Cover     | Probability: 50.4% | Majority (B, E)
 
  4. Bills @ Browns                 | Spread: Bills -10.5         
     ----------------------------------------------------------------------------------------------------
-    Model A: No Cover | Probability: 44.8% | Confidence: MEDIUM
-    Model B: Cover    | Probability: 53.1% | Confidence: MEDIUM
-    Model E: Cover    | Probability: 45.9% | Confidence: LOW
-    → CONSENSUS:    Cover    | Probability: 47.9% | Majority (B, E)
+    Model A: Favorite Cover     | Probability: 31.6% | Confidence: LOW
+    Model B: Underdog Cover     | Probability: 53.1% | Confidence: MEDIUM
+    Model E: Underdog Cover     | Probability: 45.9% | Confidence: LOW
+    → CONSENSUS:    Underdog Cover     | Probability: 43.5% | Majority (B, E)
 
  5. Chargers @ Cowboys             | Spread: Cowboys -2.5        
     ----------------------------------------------------------------------------------------------------
-    Model A: No Cover | Probability: 45.8% | Confidence: MEDIUM
-    Model B: Cover    | Probability: 50.5% | Confidence: MEDIUM
-    Model E: Cover    | Probability: 50.6% | Confidence: MEDIUM
-    → CONSENSUS:    Cover    | Probability: 49.0% | Majority (B, E)
+    Model A: Favorite Cover     | Probability: 45.8% | Confidence: MEDIUM
+    Model B: Underdog Cover     | Probability: 50.5% | Confidence: MEDIUM
+    Model E: Underdog Cover     | Probability: 50.6% | Confidence: MEDIUM
+    → CONSENSUS:    Underdog Cover     | Probability: 49.0% | Majority (B, E)
 
  6. Chiefs @ Titans                | Spread: Chiefs -3.5         
     ----------------------------------------------------------------------------------------------------
-    Model A: Cover    | Probability: 66.2% | Confidence: HIGH
-    Model B: Cover    | Probability: 60.1% | Confidence: MEDIUM
-    Model E: Cover    | Probability: 49.5% | Confidence: MEDIUM
-    → CONSENSUS:    Cover    | Probability: 58.6% | Unanimous (3/3)
+    Model A: Favorite Cover     | Probability: 45.8% | Confidence: MEDIUM
+    Model B: Underdog Cover     | Probability: 60.1% | Confidence: MEDIUM
+    Model E: Underdog Cover     | Probability: 49.5% | Confidence: MEDIUM
+    → CONSENSUS:    Underdog Cover     | Probability: 51.8% | Majority (B, E)
 
  7. Bengals @ Dolphins             | Spread: Bengals -4.5        
     ----------------------------------------------------------------------------------------------------
-    Model A: No Cover | Probability: 46.6% | Confidence: MEDIUM
-    Model B: No Cover | Probability: 48.2% | Confidence: MEDIUM
-    Model E: Cover    | Probability: 52.6% | Confidence: LOW
-    → CONSENSUS:    No Cover | Probability: 49.1% | Split (1/3)
+    Model A: Underdog Cover     | Probability: 56.2% | Confidence: MEDIUM
+    Model B: Favorite Cover     | Probability: 48.2% | Confidence: MEDIUM
+    Model E: Underdog Cover     | Probability: 52.6% | Confidence: LOW
+    → CONSENSUS:    Underdog Cover     | Probability: 52.3% | Majority (A, E)
 
  8. Jets @ Saints                  | Spread: Saints -4.5         
     ----------------------------------------------------------------------------------------------------
-    Model A: Cover    | Probability: 52.8% | Confidence: MEDIUM
-    Model B: Cover    | Probability: 51.2% | Confidence: MEDIUM
-    Model E: No Cover | Probability: 48.4% | Confidence: LOW
-    → CONSENSUS:    Cover    | Probability: 50.8% | Majority (A, B)
+    Model A: Underdog Cover     | Probability: 52.8% | Confidence: MEDIUM
+    Model B: Underdog Cover     | Probability: 51.2% | Confidence: MEDIUM
+    Model E: Favorite Cover     | Probability: 48.4% | Confidence: LOW
+    → CONSENSUS:    Underdog Cover     | Probability: 50.8% | Majority (A, B)
 
  9. Vikings @ Giants               | Spread: Vikings -2.5        
     ----------------------------------------------------------------------------------------------------
-    Model A: Cover    | Probability: 64.0% | Confidence: HIGH
-    Model B: Cover    | Probability: 56.0% | Confidence: MEDIUM
-    Model E: Cover    | Probability: 54.6% | Confidence: MEDIUM
-    → CONSENSUS:    Cover    | Probability: 58.2% | Unanimous (3/3)
+    Model A: Underdog Cover     | Probability: 61.5% | Confidence: HIGH
+    Model B: Underdog Cover     | Probability: 56.0% | Confidence: MEDIUM
+    Model E: Underdog Cover     | Probability: 54.6% | Confidence: MEDIUM
+    → CONSENSUS:    Underdog Cover     | Probability: 57.4% | Unanimous (3/3)
 
 10. Buccaneers @ Panthers          | Spread: Buccaneers -3.0     
     ----------------------------------------------------------------------------------------------------
-    Model A: Cover    | Probability: 57.7% | Confidence: MEDIUM
-    Model B: Cover    | Probability: 54.4% | Confidence: MEDIUM
-    Model E: Cover    | Probability: 45.9% | Confidence: LOW
-    → CONSENSUS:    Cover    | Probability: 52.7% | Unanimous (3/3)
+    Model A: Underdog Cover     | Probability: 54.1% | Confidence: MEDIUM
+    Model B: Underdog Cover     | Probability: 54.4% | Confidence: MEDIUM
+    Model E: Underdog Cover     | Probability: 45.9% | Confidence: LOW
+    → CONSENSUS:    Underdog Cover     | Probability: 51.5% | Unanimous (3/3)
 
 11. Jaguars @ Broncos              | Spread: Broncos -3.0        
     ----------------------------------------------------------------------------------------------------
-    Model A: No Cover | Probability: 42.3% | Confidence: MEDIUM
-    Model B: No Cover | Probability: 48.2% | Confidence: MEDIUM
-    Model E: No Cover | Probability: 53.5% | Confidence: MEDIUM
-    → CONSENSUS:    No Cover | Probability: 48.0% | Unanimous (0/3)
+    Model A: Favorite Cover     | Probability: 42.3% | Confidence: MEDIUM
+    Model B: Favorite Cover     | Probability: 48.2% | Confidence: MEDIUM
+    Model E: Favorite Cover     | Probability: 53.5% | Confidence: MEDIUM
+    → CONSENSUS:    Favorite Cover     | Probability: 48.0% | Unanimous (0/3)
 
 12. Falcons @ Cardinals            | Spread: Falcons -2.5        
     ----------------------------------------------------------------------------------------------------
-    Model A: Cover    | Probability: 52.0% | Confidence: MEDIUM
-    Model B: Cover    | Probability: 51.6% | Confidence: MEDIUM
-    Model E: Cover    | Probability: 52.3% | Confidence: LOW
-    → CONSENSUS:    Cover    | Probability: 51.9% | Unanimous (3/3)
+    Model A: Favorite Cover     | Probability: 49.6% | Confidence: MEDIUM
+    Model B: Underdog Cover     | Probability: 51.6% | Confidence: MEDIUM
+    Model E: Underdog Cover     | Probability: 52.3% | Confidence: LOW
+    → CONSENSUS:    Underdog Cover     | Probability: 51.1% | Majority (B, E)
 
 13. Steelers @ Lions               | Spread: Lions -7.0          
     ----------------------------------------------------------------------------------------------------
-    Model A: No Cover | Probability: 48.5% | Confidence: MEDIUM
-    Model B: No Cover | Probability: 49.7% | Confidence: MEDIUM
-    Model E: No Cover | Probability: 45.8% | Confidence: MEDIUM
-    → CONSENSUS:    No Cover | Probability: 48.0% | Unanimous (0/3)
+    Model A: Favorite Cover     | Probability: 48.5% | Confidence: MEDIUM
+    Model B: Favorite Cover     | Probability: 49.7% | Confidence: MEDIUM
+    Model E: Favorite Cover     | Probability: 45.8% | Confidence: MEDIUM
+    → CONSENSUS:    Favorite Cover     | Probability: 48.0% | Unanimous (0/3)
 
 14. Raiders @ Texans               | Spread: Texans -14.5        
     ----------------------------------------------------------------------------------------------------
-    Model A: No Cover | Probability: 42.6% | Confidence: MEDIUM
-    Model B: No Cover | Probability: 46.5% | Confidence: MEDIUM
-    Model E: No Cover | Probability: 50.8% | Confidence: LOW
-    → CONSENSUS:    No Cover | Probability: 46.7% | Unanimous (0/3)
+    Model A: Favorite Cover     | Probability: 42.6% | Confidence: MEDIUM
+    Model B: Favorite Cover     | Probability: 46.5% | Confidence: MEDIUM
+    Model E: Favorite Cover     | Probability: 50.8% | Confidence: LOW
+    → CONSENSUS:    Favorite Cover     | Probability: 46.7% | Unanimous (0/3)
 
 15. Patriots @ Ravens              | Spread: Ravens -3.0         
     ----------------------------------------------------------------------------------------------------
-    Model A: Cover    | Probability: 55.4% | Confidence: MEDIUM
-    Model B: Cover    | Probability: 53.9% | Confidence: MEDIUM
-    Model E: Cover    | Probability: 51.6% | Confidence: MEDIUM
-    → CONSENSUS:    Cover    | Probability: 53.6% | Unanimous (3/3)
+    Model A: Underdog Cover     | Probability: 55.4% | Confidence: MEDIUM
+    Model B: Underdog Cover     | Probability: 53.9% | Confidence: MEDIUM
+    Model E: Underdog Cover     | Probability: 51.6% | Confidence: MEDIUM
+    → CONSENSUS:    Underdog Cover     | Probability: 53.6% | Unanimous (3/3)
 
 16. 49ers @ Colts                  | Spread: 49ers -6.5          
     ----------------------------------------------------------------------------------------------------
-    Model A: No Cover | Probability: 48.4% | Confidence: MEDIUM
-    Model B: No Cover | Probability: 49.6% | Confidence: MEDIUM
-    Model E: Cover    | Probability: 53.6% | Confidence: LOW
-    → CONSENSUS:    No Cover | Probability: 50.5% | Split (1/3)
+    Model A: Underdog Cover     | Probability: 55.6% | Confidence: MEDIUM
+    Model B: Favorite Cover     | Probability: 49.6% | Confidence: MEDIUM
+    Model E: Underdog Cover     | Probability: 53.6% | Confidence: LOW
+    → CONSENSUS:    Underdog Cover     | Probability: 52.9% | Majority (A, E)
 
 ========================================================================================================================
 SUMMARY
 ========================================================================================================================
 Total Games: 16
-Consensus Cover: 10
-Consensus No Cover: 6
+Consensus Underdog Cover: 12
+Consensus Favorite Cover: 4
 
 Agreement Breakdown:
 agreement
-Unanimous (3/3)    7
-Split (1/3)        3
+Majority (B, E)    5
+Unanimous (3/3)    4
 Unanimous (0/3)    3
-Majority (B, E)    2
+Majority (A, E)    2
+Split (1/3)        1
 Majority (A, B)    1

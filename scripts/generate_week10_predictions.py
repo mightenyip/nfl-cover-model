@@ -61,7 +61,80 @@ def run_model_a(week10_odds, epa_data):
         # Calculate net EPA
         away_net_epa = away_off_epa - away_def_epa
         home_net_epa = home_off_epa - home_def_epa
-        net_epa_diff = away_net_epa - home_net_epa
+#!/usr/bin/env python3
+"""
+Generate Week 10 Predictions for Models A, B, and E
+Using Week10_EPA.csv data
+"""
+
+import pandas as pd
+import numpy as np
+from datetime import datetime
+
+def get_team_mapping():
+    """Map team names to abbreviations"""
+    return {
+        'Raiders': 'LV', 'Broncos': 'DEN', 'Falcons': 'ATL', 'Colts': 'IND',
+        'Giants': 'NYG', 'Bears': 'CHI', 'Bills': 'BUF', 'Dolphins': 'MIA',
+        'Ravens': 'BAL', 'Vikings': 'MIN', 'Browns': 'CLE', 'Jets': 'NYJ',
+        'Patriots': 'NE', 'Buccaneers': 'TB', 'Saints': 'NO', 'Panthers': 'CAR',
+        'Jaguars': 'JAX', 'Texans': 'HOU', 'Cardinals': 'ARI', 'Seahawks': 'SEA',
+        'Rams': 'LA', '49ers': 'SF', 'Lions': 'DET', 'Commanders': 'WAS',
+        'Steelers': 'PIT', 'Chargers': 'LAC', 'Eagles': 'PHI', 'Packers': 'GB',
+        'Bengals': 'CIN', 'Titans': 'TEN', 'Chiefs': 'KC', 'Cowboys': 'DAL'
+    }
+
+def run_model_a(week10_odds, epa_data):
+    """Model A: Net EPA/Matchup EPA inverse analysis"""
+    
+    print("\n" + "="*80)
+    print("MODEL A: Net EPA/Matchup EPA Predictions")
+    print("="*80)
+    
+    team_mapping = get_team_mapping()
+    predictions = []
+    
+    for _, game in week10_odds.iterrows():
+        away_team = game['away_team']
+        home_team = game['home_team']
+        favorite = game['favorite_team']
+        underdog = game['underdog_team']
+        spread = abs(game['spread_line'])
+        
+        # Convert to abbreviations
+        away_abbr = team_mapping.get(away_team, away_team)
+        home_abbr = team_mapping.get(home_team, home_team)
+        fav_abbr = team_mapping.get(favorite, favorite)
+        dog_abbr = team_mapping.get(underdog, underdog)
+        
+        # Get EPA data
+        away_data = epa_data[epa_data['team'] == away_abbr]
+        home_data = epa_data[epa_data['team'] == home_abbr]
+        
+        if len(away_data) == 0 or len(home_data) == 0:
+            print(f"⚠️  Missing EPA data for {away_team} ({away_abbr}) or {home_team} ({home_abbr})")
+            continue
+        
+        # Extract EPA values
+        away_off_epa = away_data['epa_off_per_play'].iloc[0]
+        away_def_epa = away_data['epa_def_allowed_per_play'].iloc[0]
+        home_off_epa = home_data['epa_off_per_play'].iloc[0]
+        home_def_epa = home_data['epa_def_allowed_per_play'].iloc[0]
+        
+        # Calculate net EPA
+        away_net = away_off - away_def
+        home_net = home_off - home_def
+        
+        # Calculate from underdog's perspective (underdog_net - favorite_net)
+        # Positive means underdog is stronger (more likely to cover)
+        if favorite == away_team:
+            favorite_net = away_net
+            underdog_net = home_net
+        else:
+            favorite_net = home_net
+            underdog_net = away_net
+        
+        net_epa_diff = underdog_net - favorite_net
         
         # Determine opponent defense quality (favorite's defense)
         if favorite == away_team:

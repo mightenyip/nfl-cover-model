@@ -69,7 +69,17 @@ def run_model_a(week16_odds, epa_data):
         
         away_net = away_off - away_def
         home_net = home_off - home_def
-        net_epa_diff = away_net - home_net
+        
+        # Calculate from underdog's perspective (underdog_net - favorite_net)
+        # Positive means underdog is stronger (more likely to cover)
+        if favorite == away_team:
+            favorite_net = away_net
+            underdog_net = home_net
+        else:
+            favorite_net = home_net
+            underdog_net = away_net
+        
+        net_epa_diff = underdog_net - favorite_net
         
         # Determine opponent defense quality
         if favorite == away_team:
@@ -155,7 +165,184 @@ def run_model_b(week16_odds, epa_data):
         
         away_net = away_off - away_def
         home_net = home_off - home_def
-        net_epa_diff = away_net - home_net
+#!/usr/bin/env python3
+"""
+Create Week 16 Predictions Final
+Generate predictions using Models A, B, and E, then combine into final CSV
+"""
+
+import pandas as pd
+import numpy as np
+import os
+import random
+
+def get_team_mapping():
+    """Get team name to abbreviation mapping"""
+    return {
+        '49ers': 'SF', 'Bears': 'CHI', 'Bengals': 'CIN', 'Bills': 'BUF', 'Broncos': 'DEN',
+        'Browns': 'CLE', 'Buccaneers': 'TB', 'Cardinals': 'ARI', 'Chargers': 'LAC', 'Chiefs': 'KC',
+        'Colts': 'IND', 'Commanders': 'WAS', 'Cowboys': 'DAL', 'Dolphins': 'MIA', 'Eagles': 'PHI',
+        'Falcons': 'ATL', 'Giants': 'NYG', 'Jaguars': 'JAX', 'Jets': 'NYJ', 'Lions': 'DET',
+        'Packers': 'GB', 'Panthers': 'CAR', 'Patriots': 'NE', 'Raiders': 'LV', 'Rams': 'LA',
+        'Ravens': 'BAL', 'Saints': 'NO', 'Seahawks': 'SEA', 'Steelers': 'PIT', 'Texans': 'HOU',
+        'Titans': 'TEN', 'Vikings': 'MIN'
+    }
+
+def load_epa_data():
+    """Load Week 16 EPA data"""
+    try:
+        epa_df = pd.read_csv("data/Week16_EPA.csv")
+        print(f"✅ Loaded EPA data for {len(epa_df)} teams")
+        return epa_df
+    except FileNotFoundError:
+        print("❌ Error: data/Week16_EPA.csv not found")
+        return None
+
+def load_week16_odds():
+    """Load Week 16 odds"""
+    try:
+        odds_df = pd.read_csv("schedule/week16_2025_odds.csv")
+        print(f"✅ Loaded {len(odds_df)} games from Week 16 odds")
+        return odds_df
+    except FileNotFoundError:
+        print("❌ Error: schedule/week16_2025_odds.csv not found")
+        return None
+
+def run_model_a(week16_odds, epa_data):
+    """Run Model A predictions"""
+    team_mapping = get_team_mapping()
+    predictions = []
+    
+    for idx, row in week16_odds.iterrows():
+        away_team = row['away_team']
+        home_team = row['home_team']
+        favorite = row['favorite_team']
+        underdog = row['underdog_team']
+        spread = row['spread_line']
+        
+        away_abbr = team_mapping.get(away_team, away_team)
+        home_abbr = team_mapping.get(home_team, home_team)
+        
+        away_epa = epa_data[epa_data['team'] == away_abbr]
+        home_epa = epa_data[epa_data['team'] == home_abbr]
+        
+        if away_epa.empty or home_epa.empty:
+            continue
+        
+        away_off = away_epa['epa_off_per_play'].iloc[0]
+        away_def = away_epa['epa_def_allowed_per_play'].iloc[0]
+        home_off = home_epa['epa_off_per_play'].iloc[0]
+        home_def = home_epa['epa_def_allowed_per_play'].iloc[0]
+        
+        away_net = away_off - away_def
+        home_net = home_off - home_def
+        
+        # Calculate from underdog's perspective (underdog_net - favorite_net)
+        # Positive means underdog is stronger (more likely to cover)
+        if favorite == away_team:
+            favorite_net = away_net
+            underdog_net = home_net
+        else:
+            favorite_net = home_net
+            underdog_net = away_net
+        
+        net_epa_diff = underdog_net - favorite_net
+        
+        # Determine opponent defense quality
+        if favorite == away_team:
+            opponent_def_epa = home_def
+        else:
+            opponent_def_epa = away_def
+        
+        # 5-tier defense classification
+        if opponent_def_epa <= -0.1:
+            defense_quality = "ELITE"
+            def_adjustment = -0.15
+        elif opponent_def_epa <= -0.05:
+            defense_quality = "STRONG"
+            def_adjustment = -0.08
+        elif opponent_def_epa <= 0.05:
+            defense_quality = "AVERAGE"
+            def_adjustment = 0.0
+        elif opponent_def_epa <= 0.1:
+            defense_quality = "WEAK"
+            def_adjustment = 0.05
+        else:
+            defense_quality = "POOR"
+            def_adjustment = 0.12
+        
+        # Calculate cover probability
+        base_prob = 0.5
+        epa_adjustment = net_epa_diff * 0.3
+        spread_adjustment = abs(spread) * 0.003
+        
+        cover_prob = base_prob + epa_adjustment + def_adjustment + spread_adjustment
+        cover_prob = max(0.1, min(0.9, cover_prob))
+        
+        predicted_cover = cover_prob > 0.5
+        
+        # Confidence level
+        if cover_prob >= 0.7:
+            confidence = "VERY_HIGH"
+        elif cover_prob >= 0.6:
+            confidence = "HIGH"
+        elif cover_prob >= 0.4:
+            confidence = "MEDIUM"
+        elif cover_prob >= 0.3:
+            confidence = "LOW"
+        else:
+            confidence = "VERY_LOW"
+        
+        game = f"{away_team} @ {home_team}"
+        
+        predictions.append({
+            'game': game,
+            'predicted_cover': predicted_cover,
+            'cover_probability': cover_prob,
+            'confidence': confidence
+        })
+    
+    return pd.DataFrame(predictions)
+
+def run_model_b(week16_odds, epa_data):
+    """Run Model B predictions"""
+    team_mapping = get_team_mapping()
+    predictions = []
+    
+    for idx, row in week16_odds.iterrows():
+        away_team = row['away_team']
+        home_team = row['home_team']
+        favorite = row['favorite_team']
+        underdog = row['underdog_team']
+        spread = row['spread_line']
+        
+        away_abbr = team_mapping.get(away_team, away_team)
+        home_abbr = team_mapping.get(home_team, home_team)
+        
+        away_epa = epa_data[epa_data['team'] == away_abbr]
+        home_epa = epa_data[epa_data['team'] == home_abbr]
+        
+        if away_epa.empty or home_epa.empty:
+            continue
+        
+        away_off = away_epa['epa_off_per_play'].iloc[0]
+        away_def = away_epa['epa_def_allowed_per_play'].iloc[0]
+        home_off = home_epa['epa_off_per_play'].iloc[0]
+        home_def = home_epa['epa_def_allowed_per_play'].iloc[0]
+        
+        away_net = away_off - away_def
+        home_net = home_off - home_def
+        
+        # Calculate from underdog's perspective (underdog_net - favorite_net)
+        # Positive means underdog is stronger (more likely to cover)
+        if favorite == away_team:
+            favorite_net = away_net
+            underdog_net = home_net
+        else:
+            favorite_net = home_net
+            underdog_net = away_net
+        
+        net_epa_diff = underdog_net - favorite_net
         
         # Determine opponent defense quality
         if favorite == away_team:

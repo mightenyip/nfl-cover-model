@@ -1,17 +1,17 @@
 game,away_team,home_team,favorite_team,underdog_team,spread_line,total_line,consensus_prediction,consensus_probability,consensus_votes,agreement,model_a_prediction,model_a_probability,model_a_confidence,model_b_prediction,model_b_probability,model_b_confidence,model_e_prediction,model_e_probability,model_e_confidence,underdog_votes,total_votes
-Rams @ Seahawks,Rams,Seahawks,Rams,Seahawks,-0.5,42.5,No Cover,0.429,1/3,Split (1/3),No Cover,0.366,LOW,No Cover,0.466,MEDIUM,Cover,0.453,MEDIUM,1,3
-Eagles @ Commanders,Eagles,Commanders,Eagles,Commanders,-6.5,44.5,Cover,0.595,3/3,Unanimous (3/3),Cover,0.706,VERY_HIGH,Cover,0.608,MEDIUM,Cover,0.472,LOW,3,3
-Packers @ Bears,Packers,Bears,Packers,Bears,-1.5,46.5,Cover,0.514,3/3,Unanimous (3/3),Cover,0.52,MEDIUM,Cover,0.514,MEDIUM,Cover,0.509,LOW,3,3
-Bills @ Browns,Bills,Browns,Bills,Browns,-10.5,41.5,Cover,0.479,2/3,"Majority (B, E)",No Cover,0.448,MEDIUM,Cover,0.531,MEDIUM,Cover,0.459,LOW,2,3
+Rams @ Seahawks,Rams,Seahawks,Rams,Seahawks,-0.5,42.5,No Cover,0.412,1/3,Split (1/3),No Cover,0.336,LOW,No Cover,0.446,LOW,Cover,0.453,MEDIUM,1,3
+Eagles @ Commanders,Eagles,Commanders,Eagles,Commanders,-6.5,44.5,Cover,0.522,3/3,Unanimous (3/3),Cover,0.574,MEDIUM,Cover,0.52,MEDIUM,Cover,0.472,LOW,3,3
+Packers @ Bears,Packers,Bears,Packers,Bears,-1.5,46.5,No Cover,0.498,1/3,Split (1/3),No Cover,0.49,MEDIUM,No Cover,0.494,MEDIUM,Cover,0.509,LOW,1,3
+Bills @ Browns,Bills,Browns,Bills,Browns,-10.5,41.5,No Cover,0.406,1/3,Split (1/3),No Cover,0.316,LOW,No Cover,0.442,LOW,Cover,0.459,LOW,1,3
 Chargers @ Cowboys,Chargers,Cowboys,Cowboys,Chargers,-2.5,49.5,Cover,0.49,2/3,"Majority (B, E)",No Cover,0.458,MEDIUM,Cover,0.505,MEDIUM,Cover,0.506,MEDIUM,2,3
-Chiefs @ Titans,Chiefs,Titans,Chiefs,Titans,-3.5,37.5,Cover,0.586,3/3,Unanimous (3/3),Cover,0.662,HIGH,Cover,0.601,MEDIUM,Cover,0.495,MEDIUM,3,3
-Bengals @ Dolphins,Bengals,Dolphins,Bengals,Dolphins,-4.5,47.5,No Cover,0.491,1/3,Split (1/3),No Cover,0.466,MEDIUM,No Cover,0.482,MEDIUM,Cover,0.526,LOW,1,3
+Chiefs @ Titans,Chiefs,Titans,Chiefs,Titans,-3.5,37.5,No Cover,0.473,1/3,Split (1/3),No Cover,0.458,MEDIUM,No Cover,0.465,MEDIUM,Cover,0.495,MEDIUM,1,3
+Bengals @ Dolphins,Bengals,Dolphins,Bengals,Dolphins,-4.5,47.5,Cover,0.544,3/3,Unanimous (3/3),Cover,0.562,MEDIUM,Cover,0.546,MEDIUM,Cover,0.526,LOW,3,3
 Jets @ Saints,Jets,Saints,Saints,Jets,-4.5,40.5,Cover,0.508,2/3,"Majority (A, B)",Cover,0.528,MEDIUM,Cover,0.512,MEDIUM,No Cover,0.484,LOW,2,3
-Vikings @ Giants,Vikings,Giants,Vikings,Giants,-2.5,43.5,Cover,0.582,3/3,Unanimous (3/3),Cover,0.64,HIGH,Cover,0.56,MEDIUM,Cover,0.546,MEDIUM,3,3
-Buccaneers @ Panthers,Buccaneers,Panthers,Buccaneers,Panthers,-3.0,45.5,Cover,0.527,3/3,Unanimous (3/3),Cover,0.577,MEDIUM,Cover,0.544,MEDIUM,Cover,0.459,LOW,3,3
+Vikings @ Giants,Vikings,Giants,Vikings,Giants,-2.5,43.5,Cover,0.569,3/3,Unanimous (3/3),Cover,0.615,HIGH,Cover,0.544,MEDIUM,Cover,0.546,MEDIUM,3,3
+Buccaneers @ Panthers,Buccaneers,Panthers,Buccaneers,Panthers,-3.0,45.5,Cover,0.507,3/3,Unanimous (3/3),Cover,0.541,MEDIUM,Cover,0.52,MEDIUM,Cover,0.459,LOW,3,3
 Jaguars @ Broncos,Jaguars,Broncos,Broncos,Jaguars,-3.0,46.5,No Cover,0.48,0/3,Unanimous (0/3),No Cover,0.423,MEDIUM,No Cover,0.482,MEDIUM,No Cover,0.535,MEDIUM,0,3
-Falcons @ Cardinals,Falcons,Cardinals,Falcons,Cardinals,-2.5,47.5,Cover,0.519,3/3,Unanimous (3/3),Cover,0.52,MEDIUM,Cover,0.516,MEDIUM,Cover,0.523,LOW,3,3
+Falcons @ Cardinals,Falcons,Cardinals,Falcons,Cardinals,-2.5,47.5,No Cover,0.506,1/3,Split (1/3),No Cover,0.496,MEDIUM,No Cover,0.5,MEDIUM,Cover,0.523,LOW,1,3
 Steelers @ Lions,Steelers,Lions,Lions,Steelers,-7.0,51.5,No Cover,0.48,0/3,Unanimous (0/3),No Cover,0.485,MEDIUM,No Cover,0.497,MEDIUM,No Cover,0.458,MEDIUM,0,3
 Raiders @ Texans,Raiders,Texans,Texans,Raiders,-14.5,37.5,No Cover,0.467,0/3,Unanimous (0/3),No Cover,0.426,MEDIUM,No Cover,0.465,MEDIUM,No Cover,0.508,LOW,0,3
 Patriots @ Ravens,Patriots,Ravens,Ravens,Patriots,-3.0,48.5,Cover,0.536,3/3,Unanimous (3/3),Cover,0.554,MEDIUM,Cover,0.539,MEDIUM,Cover,0.516,MEDIUM,3,3
-49ers @ Colts,49ers,Colts,49ers,Colts,-6.5,46.5,No Cover,0.505,1/3,Split (1/3),No Cover,0.484,MEDIUM,No Cover,0.496,MEDIUM,Cover,0.536,LOW,1,3
+49ers @ Colts,49ers,Colts,49ers,Colts,-6.5,46.5,Cover,0.545,3/3,Unanimous (3/3),Cover,0.556,MEDIUM,Cover,0.544,MEDIUM,Cover,0.536,LOW,3,3
