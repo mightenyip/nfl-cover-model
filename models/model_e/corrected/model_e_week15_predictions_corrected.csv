@@ -1,0 +1,17 @@
+game,predicted_cover,cover_probability,confidence
+Falcons @ Buccaneers,True,0.4525010755222667,MEDIUM
+Browns @ Bears,True,0.4723210738148823,LOW
+Ravens @ Bengals,True,0.509049251244904,LOW
+Chargers @ Chiefs,True,0.45936952398615927,LOW
+Bills @ Patriots,True,0.5061245062938613,MEDIUM
+Commanders @ Giants,True,0.4949209046283854,MEDIUM
+Raiders @ Eagles,True,0.5258807367129767,LOW
+Jets @ Jaguars,False,0.4840250516517992,LOW
+Cardinals @ Texans,True,0.5457213072206781,MEDIUM
+Packers @ Broncos,True,0.4592745843380148,LOW
+Lions @ Rams,False,0.5347494366347461,MEDIUM
+Panthers @ Saints,True,0.5229731786693819,LOW
+Titans @ 49ers,False,0.4578800198078458,MEDIUM
+Colts @ Seahawks,False,0.5077352145256763,LOW
+Vikings @ Cowboys,True,0.516126331856771,MEDIUM
+Dolphins @ Steelers,True,0.5355317721015147,LOW
