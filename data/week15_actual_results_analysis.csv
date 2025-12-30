@@ -1,0 +1,17 @@
+game,away_team,home_team,favorite_team,underdog_team,spread_line,total_line,score,away_score,home_score,actual_cover,consensus_prediction,consensus_probability,consensus_correct,model_a_prediction,model_b_prediction,model_e_prediction,agreement
+Falcons @ Buccaneers,Falcons,Buccaneers,Buccaneers,Falcons,-4.5,44.5,29-28,29,28,True,Cover,0.487,True,Cover,Cover,Cover,Unanimous (3/3)
+Browns @ Bears,Browns,Bears,Bears,Browns,-7.5,39.5,3-31,3,31,False,No Cover,0.421,True,No Cover,No Cover,Cover,Split (1/3)
+Ravens @ Bengals,Ravens,Bengals,Ravens,Bengals,-2.5,52.5,24-0,24,0,False,Cover,0.588,False,Cover,Cover,Cover,Unanimous (3/3)
+Chargers @ Chiefs,Chargers,Chiefs,Chiefs,Chargers,-4.5,41.5,16-13,16,13,True,No Cover,0.451,False,No Cover,No Cover,Cover,Split (1/3)
+Bills @ Patriots,Bills,Patriots,Bills,Patriots,-1.5,50.5,35-31,35,31,False,No Cover,0.469,True,No Cover,No Cover,Cover,Split (1/3)
+Commanders @ Giants,Commanders,Giants,Giants,Commanders,-1.5,47.5,29-21,29,21,True,Cover,0.553,True,Cover,Cover,Cover,Unanimous (3/3)
+Raiders @ Eagles,Raiders,Eagles,Eagles,Raiders,-11.5,38.5,0-31,0,31,False,No Cover,0.487,True,No Cover,No Cover,Cover,Split (1/3)
+Jets @ Jaguars,Jets,Jaguars,Jaguars,Jets,-12.5,41.5,20-48,20,48,False,Cover,0.499,False,Cover,Cover,No Cover,"Majority (A, B)"
+Cardinals @ Texans,Cardinals,Texans,Texans,Cardinals,-9.5,42.5,20-40,20,40,False,No Cover,0.503,True,No Cover,No Cover,Cover,Split (1/3)
+Packers @ Broncos,Packers,Broncos,Packers,Broncos,-2.5,43.5,26-34,26,34,True,No Cover,0.461,False,No Cover,No Cover,Cover,Split (1/3)
+Lions @ Rams,Lions,Rams,Rams,Lions,-5.5,55.5,34-41,34,41,False,No Cover,0.509,True,No Cover,Cover,No Cover,Split (1/3)
+Panthers @ Saints,Panthers,Saints,Panthers,Saints,-2.5,40.5,17-20,17,20,True,Cover,0.511,True,Cover,Cover,Cover,Unanimous (3/3)
+Titans @ 49ers,Titans,49ers,49ers,Titans,-12.5,44.5,24-37,24,37,False,Cover,0.492,False,Cover,Cover,No Cover,"Majority (A, B)"
+Colts @ Seahawks,Colts,Seahawks,Seahawks,Colts,-13.5,42.5,16-18,16,18,True,Cover,0.53,True,Cover,Cover,No Cover,"Majority (A, B)"
+Vikings @ Cowboys,Vikings,Cowboys,Cowboys,Vikings,-5.5,47.5,34-26,34,26,True,No Cover,0.479,False,No Cover,No Cover,Cover,Split (1/3)
+Dolphins @ Steelers,Dolphins,Steelers,Steelers,Dolphins,-3.0,42.5,15-28,15,28,False,Cover,0.515,False,Cover,Cover,Cover,Unanimous (3/3)

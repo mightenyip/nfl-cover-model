@@ -1,18 +1,18 @@
 away_team,home_team,favorite_team,underdog_team,spread_line,total_line
-Cowboys,Commanders,Cowboys,Commanders,-7,50.5
+Cowboys,Commanders,Cowboys,Commanders,-8.5,50.5
 Lions,Vikings,Lions,Vikings,-7.5,43.5
 Broncos,Chiefs,Broncos,Chiefs,-13.5,36.5
-Texans,Chargers,Chargers,Texans,-2.5,39.5
-Ravens,Packers,Packers,Ravens,-2.5,40.5
+Texans,Chargers,Chargers,Texans,-2,39.5
+Ravens,Packers,Packers,Ravens,-3.5,40.5
 Cardinals,Bengals,Bengals,Cardinals,-7,53.5
 Steelers,Browns,Steelers,Browns,-3.5,33.5
 Saints,Titans,Saints,Titans,-2.5,39.5
 Jaguars,Colts,Jaguars,Colts,-6.5,47.5
 Buccaneers,Dolphins,Buccaneers,Dolphins,-5.5,46.5
-Patriots,Giants,Patriots,Giants,-13.5,42.5
-Seahawks,Panthers,Seahawks,Panthers,-7.5,42.5
-Jets,Raiders,Raiders,Jets,-1.5,41.5
+Patriots,Jets,Patriots,Jets,-13.5,42.5
+Seahawks,Panthers,Seahawks,Panthers,-7,42.5
+Giants,Raiders,Raiders,Giants,-1.5,41.5
 Eagles,Bills,Bills,Eagles,-1.5,43.5
 Bears,49ers,49ers,Bears,-3,52.5
-Rams,Falcons,Rams,Falcons,-7.5,49.5
+Rams,Falcons,Rams,Falcons,-8.5,49.5
 

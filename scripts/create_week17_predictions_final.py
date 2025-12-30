@@ -382,7 +382,11 @@ def main():
 
     print(f"\n✅ Created {output_file}")
     print(f"   Total games: {len(predictions_final)}")
-    print(f"   Consensus: {(predictions_final['consensus_prediction'] == 'Cover').sum()} Cover, {(predictions_final['consensus_prediction'] == 'No Cover').sum()} No Cover")
+    print(
+        f"   Consensus: "
+        f"{(predictions_final['consensus_prediction'] == 'Underdog Cover').sum()} Underdog Cover, "
+        f"{(predictions_final['consensus_prediction'] == 'Favorite Cover').sum()} Favorite Cover"
+    )
 
 
 if __name__ == "__main__":

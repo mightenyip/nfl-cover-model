@@ -1,0 +1,15 @@
+game,away_team,home_team,favorite_team,underdog_team,spread_line,total_line,score,away_score,home_score,actual_cover,consensus_prediction,consensus_probability,consensus_correct,model_a_prediction,model_b_prediction,model_e_prediction,agreement
+Cowboys @ Lions,Cowboys,Lions,Lions,Cowboys,-3.0,54.5,30-44,30,44,False,Cover,0.515,False,Cover,Cover,Cover,Unanimous (3/3)
+Seahawks @ Falcons,Seahawks,Falcons,Seahawks,Falcons,-7.5,44.5,37-9,37,9,False,Cover,0.527,False,Cover,Cover,Cover,Unanimous (3/3)
+Bengals @ Bills,Bengals,Bills,Bills,Bengals,-5.5,53.5,34-39,34,39,True,Cover,0.514,True,Cover,No Cover,Cover,"Majority (A, E)"
+Titans @ Browns,Titans,Browns,Browns,Titans,-3.5,33.5,31-29,31,29,True,Cover,0.484,True,Cover,No Cover,Cover,"Majority (A, E)"
+Commanders @ Vikings,Commanders,Vikings,Vikings,Commanders,-1.5,43.5,0-31,0,31,False,Cover,0.565,False,Cover,Cover,Cover,Unanimous (3/3)
+Dolphins @ Jets,Dolphins,Jets,Dolphins,Jets,-2.5,41.5,34-10,34,10,False,Cover,0.537,False,Cover,Cover,Cover,Unanimous (3/3)
+Saints @ Buccaneers,Saints,Buccaneers,Buccaneers,Saints,-8.5,41.5,24-20,24,20,True,Cover,0.506,True,No Cover,Cover,Cover,"Majority (B, E)"
+Colts @ Jaguars,Colts,Jaguars,Colts,Jaguars,-1.5,46.5,19-36,19,36,True,No Cover,0.484,False,No Cover,Cover,No Cover,Split (1/3)
+Steelers @ Ravens,Steelers,Ravens,Ravens,Steelers,-5.5,42.5,27-22,27,22,True,Cover,0.526,True,Cover,Cover,Cover,Unanimous (3/3)
+Broncos @ Raiders,Broncos,Raiders,Broncos,Raiders,-7.5,39.5,24-17,24,17,True,Cover,0.556,True,Cover,Cover,Cover,Unanimous (3/3)
+Bears @ Packers,Bears,Packers,Packers,Bears,-6.5,44.5,21-28,21,28,False,No Cover,0.51,True,No Cover,Cover,No Cover,Split (1/3)
+Rams @ Cardinals,Rams,Cardinals,Rams,Cardinals,-8.5,47.5,45-17,45,17,False,Cover,0.558,False,Cover,Cover,Cover,Unanimous (3/3)
+Texans @ Chiefs,Texans,Chiefs,Chiefs,Texans,-3.5,41.5,20-10,20,10,True,No Cover,0.426,False,No Cover,No Cover,No Cover,Unanimous (0/3)
+Eagles @ Chargers,Eagles,Chargers,Eagles,Chargers,-2.5,41.5,19-22,19,22,True,No Cover,0.475,False,No Cover,No Cover,No Cover,Unanimous (0/3)

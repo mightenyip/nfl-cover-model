@@ -1,0 +1,17 @@
+game,away_team,home_team,favorite_team,underdog_team,spread_line,total_line,score,away_score,home_score,actual_cover,consensus_prediction,consensus_probability,consensus_correct,model_a_prediction,model_b_prediction,model_e_prediction,agreement
+Cowboys @ Commanders,Cowboys,Commanders,Cowboys,Commanders,-8.5,50.5,30-23,30,23,True,Underdog Cover,0.546,True,Underdog Cover,Underdog Cover,Underdog Cover,Unanimous (3/3)
+Lions @ Vikings,Lions,Vikings,Lions,Vikings,-7.5,43.5,10-23,10,23,True,Favorite Cover,0.445,False,Favorite Cover,Favorite Cover,Underdog Cover,Split (1/3)
+Broncos @ Chiefs,Broncos,Chiefs,Broncos,Chiefs,-13.5,36.5,20-13,20,13,True,Underdog Cover,0.525,True,Underdog Cover,Underdog Cover,Underdog Cover,Unanimous (3/3)
+Texans @ Chargers,Texans,Chargers,Chargers,Texans,-2.0,39.5,20-16,20,16,True,Favorite Cover,0.434,False,Favorite Cover,Favorite Cover,Underdog Cover,Split (1/3)
+Ravens @ Packers,Ravens,Packers,Packers,Ravens,-3.5,40.5,41-24,41,24,True,Favorite Cover,0.487,False,Favorite Cover,Favorite Cover,Underdog Cover,Split (1/3)
+Cardinals @ Bengals,Cardinals,Bengals,Bengals,Cardinals,-7.0,53.5,14-37,14,37,False,Underdog Cover,0.529,False,Underdog Cover,Underdog Cover,Underdog Cover,Unanimous (3/3)
+Steelers @ Browns,Steelers,Browns,Steelers,Browns,-3.5,33.5,6-13,6,13,True,Favorite Cover,0.463,False,Favorite Cover,Favorite Cover,Underdog Cover,Split (1/3)
+Saints @ Titans,Saints,Titans,Saints,Titans,-2.5,39.5,34-26,34,26,False,Favorite Cover,0.497,True,Underdog Cover,Favorite Cover,Favorite Cover,Split (1/3)
+Jaguars @ Colts,Jaguars,Colts,Jaguars,Colts,-6.5,47.5,23-17,23,17,True,Underdog Cover,0.525,True,Underdog Cover,Underdog Cover,Underdog Cover,Unanimous (3/3)
+Buccaneers @ Dolphins,Buccaneers,Dolphins,Buccaneers,Dolphins,-5.5,46.5,17-20,17,20,True,Underdog Cover,0.515,True,Underdog Cover,Underdog Cover,Underdog Cover,Unanimous (3/3)
+Patriots @ Jets,Patriots,Jets,Patriots,Jets,-13.5,42.5,42-10,42,10,False,Favorite Cover,0.506,True,Favorite Cover,Favorite Cover,Favorite Cover,Unanimous (0/3)
+Seahawks @ Panthers,Seahawks,Panthers,Seahawks,Panthers,-7.0,42.5,27-10,27,10,False,Underdog Cover,0.512,False,Underdog Cover,Underdog Cover,Underdog Cover,Unanimous (3/3)
+Giants @ Raiders,Giants,Raiders,Raiders,Giants,-1.5,41.5,34-10,34,10,True,Underdog Cover,0.528,True,Underdog Cover,Underdog Cover,Favorite Cover,"Majority (A, B)"
+Eagles @ Bills,Eagles,Bills,Bills,Eagles,-1.5,43.5,13-12,13,12,True,Favorite Cover,0.471,False,Favorite Cover,Favorite Cover,Favorite Cover,Unanimous (0/3)
+Bears @ 49ers,Bears,49ers,49ers,Bears,-3.0,52.5,38-42,38,42,False,Underdog Cover,0.518,False,Underdog Cover,Underdog Cover,Underdog Cover,Unanimous (3/3)
+Rams @ Falcons,Rams,Falcons,Rams,Falcons,-8.5,49.5,24-27,24,27,True,Favorite Cover,0.491,False,Favorite Cover,Favorite Cover,Underdog Cover,Split (1/3)
