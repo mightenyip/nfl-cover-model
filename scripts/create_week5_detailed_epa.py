@@ -130,8 +130,8 @@ def create_week5_detailed_epa():
     print("✅ Updated detailed EPA data saved to: ../detailed_epa_data.csv")
     
     # Also save to data directory
-    df.to_csv("../data/detailed_epa_data_week5.csv", index=False)
-    print("✅ Updated detailed EPA data saved to: ../data/detailed_epa_data_week5.csv")
+    df.to_csv("../data/epa/processed/detailed_epa_data_week5.csv", index=False)
+    print("✅ Updated detailed EPA data saved to: ../data/epa/processed/detailed_epa_data_week5.csv")
     
     # Display summary
     print("\n=== Top 5 Teams by Net EPA ===")

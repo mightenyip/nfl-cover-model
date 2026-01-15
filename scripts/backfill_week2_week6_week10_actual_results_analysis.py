@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
 Backfill missing Model A/B predictions (and recompute consensus) into:
-- data/week2_actual_results_analysis.csv
-- data/week6_actual_results_analysis.csv
+- data/actual_results/week2/week2_actual_results_analysis.csv
+- data/actual_results/week6/week6_actual_results_analysis.csv
 
 And create:
-- data/week10_actual_results_analysis.csv
+- data/actual_results/week10/week10_actual_results_analysis.csv
 
 Why:
 Some early weekly analysis files have game results (actual_cover) but are missing
@@ -65,7 +65,7 @@ def consensus_vote(a: bool, b: bool, e: bool) -> bool:
 
 
 def update_week_analysis_in_place(week: int) -> None:
-    path = Path(f"data/week{week}_actual_results_analysis.csv")
+    path = Path(f"data/actual_results/week{week}/week{week}_actual_results_analysis.csv")
     if not path.exists():
         raise FileNotFoundError(str(path))
 
@@ -140,9 +140,9 @@ def update_week_analysis_in_place(week: int) -> None:
 def create_week10_analysis() -> None:
     """
     Week 10 doesn't have a week10_actual_results_analysis.csv in the repo.
-    We create it from data/week10_ats_results.csv (has spread + underdog_covered) and model prediction CSVs.
+    We create it from data/ats_results/week10/week10_ats_results.csv (has spread + underdog_covered) and model prediction CSVs.
     """
-    ats_path = Path("data/week10_ats_results.csv")
+    ats_path = Path("data/ats_results/week10/week10_ats_results.csv")
     if not ats_path.exists():
         raise FileNotFoundError(str(ats_path))
 
@@ -209,7 +209,7 @@ def create_week10_analysis() -> None:
     df["consensus_pred"] = cons
     df["consensus_correct"] = cons_correct
 
-    out_path = Path("data/week10_actual_results_analysis.csv")
+    out_path = Path("data/actual_results/week10/week10_actual_results_analysis.csv")
     df.to_csv(out_path, index=False)
     print(f"✅ Created {out_path}")
 

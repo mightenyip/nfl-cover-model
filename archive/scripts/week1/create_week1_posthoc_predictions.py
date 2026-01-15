@@ -103,7 +103,7 @@ def create_week1_predictions():
     """Create post-hoc Week 1 predictions"""
     
     # Load Week 1 results (for game info)
-    week1_results = pd.read_csv("data/week1_ats_results.csv")
+    week1_results = pd.read_csv("data/ats_results/week1/week1_ats_results.csv")
     
     # Load EPA data (use most recent available)
     epa_data = load_epa_data()
@@ -186,7 +186,7 @@ def create_week1_predictions():
     df['model_d_correct'] = (df['model_d_pred'] == df['actual_cover']) & df['model_d_pred'].notna()
     
     # Save results
-    df.to_csv("data/week1_actual_results_analysis.csv", index=False)
+    df.to_csv("data/actual_results/week1/week1_actual_results_analysis.csv", index=False)
     
     # Print summary
     total = len(df)

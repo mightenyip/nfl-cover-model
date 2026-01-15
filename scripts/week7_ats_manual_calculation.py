@@ -229,7 +229,7 @@ def calculate_week7_ats():
     
     # Save results
     df = pd.DataFrame(games)
-    output_file = "data/week7_ats_results.csv"
+    output_file = "data/ats_results/week7/week7_ats_results.csv"
     df.to_csv(output_file, index=False)
     print(f"\n✅ Week 7 ATS results saved to {output_file}")
     
@@ -245,7 +245,7 @@ def main():
     
     print(f"\n=== Analysis Complete ===")
     print(f"📊 Week 7 ATS Performance: {df['underdog_covered'].sum()}/{len(df)} underdog covers")
-    print(f"📁 Results saved to data/week7_ats_results.csv")
+    print(f"📁 Results saved to data/ats_results/week7/week7_ats_results.csv")
 
 if __name__ == "__main__":
     main()

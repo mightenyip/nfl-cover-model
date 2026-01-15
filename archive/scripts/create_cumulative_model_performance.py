@@ -44,7 +44,7 @@ def create_cumulative_performance():
     
     # Load actual data files where available
     try:
-        week1_data = pd.read_csv("data/week1_actual_results_analysis.csv")
+        week1_data = pd.read_csv("data/actual_results/week1/week1_actual_results_analysis.csv")
         # Calculate Week 1 actual counts
         week1_correct = {
             'model_a': week1_data['model_a_correct'].sum(),
@@ -56,7 +56,7 @@ def create_cumulative_performance():
         week1_e = None
         week1_consensus = None
         try:
-            week1_actual = pd.read_csv("data/week1_ats_results.csv")
+            week1_actual = pd.read_csv("data/ats_results/week1/week1_ats_results.csv")
             week1_e_pred = pd.read_csv("models/model_e/model_e_week1_predictions.csv")
             week1_consensus_pred = pd.read_csv("predictions/week1_consensus_predictions.csv")
             
@@ -91,7 +91,7 @@ def create_cumulative_performance():
     
     # Week 2 - use updated performance data
     try:
-        week2_data = pd.read_csv("data/week2_actual_results_analysis.csv")
+        week2_data = pd.read_csv("data/actual_results/week2/week2_actual_results_analysis.csv")
         week2_correct = {
             'model_a': week2_data['model_a_correct'].sum(),
             'model_b': week2_data['model_b_correct'].sum(),
@@ -107,7 +107,7 @@ def create_cumulative_performance():
     
     # Week 4 - use updated performance data
     try:
-        week4_data = pd.read_csv("data/week4_all_models_analysis.csv")
+        week4_data = pd.read_csv("data/analysis/week4/week4_all_models_analysis.csv")
         week4_correct = {
             'model_a': 5,  # Known
             'model_b': week4_data['model_b_correct'].sum(),
@@ -123,7 +123,7 @@ def create_cumulative_performance():
     # Weeks 3-7 - load from actual results analysis files
     for week_num in [3, 4, 5, 6, 7]:
         try:
-            week_data = pd.read_csv(f"data/week{week_num}_actual_results_analysis.csv")
+            week_data = pd.read_csv(f"data/actual_results/week{week_num}/week{week_num}_actual_results_analysis.csv")
             week_correct = {
                 'model_a': week_data['model_a_correct'].sum() if 'model_a_correct' in week_data.columns else None,
                 'model_b': week_data['model_b_correct'].sum() if 'model_b_correct' in week_data.columns else None,
@@ -140,7 +140,7 @@ def create_cumulative_performance():
             pass
     
     try:
-        week8_data = pd.read_csv("data/week8_actual_results_analysis.csv")
+        week8_data = pd.read_csv("data/actual_results/week8/week8_actual_results_analysis.csv")
         # Calculate Week 8 actual counts
         week8_correct = {
             'model_a': week8_data['model_a_correct'].sum(),
@@ -158,7 +158,7 @@ def create_cumulative_performance():
         pass
     
     try:
-        week9_data = pd.read_csv("data/week9_actual_results_analysis.csv")
+        week9_data = pd.read_csv("data/actual_results/week9/week9_actual_results_analysis.csv")
         # Calculate Week 9 actual counts
         week9_correct = {
             'model_a': week9_data['model_a_correct'].sum(),
@@ -224,7 +224,7 @@ def create_cumulative_performance():
     
     # Try to load existing CSV to get Model E and Consensus data
     try:
-        existing_df = pd.read_csv("data/cumulative_model_performance.csv")
+        existing_df = pd.read_csv("data/model_performance/legacy/cumulative_model_performance.csv")
         for week in range(1, 10):
             week_rows = df[df['Week'] == week]
             existing_week_rows = existing_df[existing_df['Week'] == week]
@@ -292,7 +292,7 @@ def create_cumulative_performance():
         df = pd.concat([df, pd.DataFrame([totals_row])], ignore_index=True)
     
     # Save to CSV (both locations)
-    output_file = "data/cumulative_model_performance.csv"
+    output_file = "data/model_performance/legacy/cumulative_model_performance.csv"
     df.to_csv(output_file, index=False)
     
     # Also save to model_performance directory

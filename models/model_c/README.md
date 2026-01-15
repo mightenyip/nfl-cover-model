@@ -7,7 +7,7 @@ Model C uses **Against The Spread (ATS) trends** to make predictions. It analyze
 ## Data Sources
 
 ### Master ATS Trends Data
-- **File**: `data/master_ats_trends.csv`
+- **File**: `data/ats_trends/master_ats_trends.csv`
 - **Content**: All games from Week 1-7 with ATS results
 - **Updated**: Automatically when new week data is added
 - **Format**: 108 games with detailed ATS performance
@@ -135,14 +135,14 @@ scripts/
 ## Usage Instructions
 
 ### For Weekly Updates:
-1. Add new week game results to `data/master_games_results_weekX.csv`
+1. Add new week game results to `data/game_results/master_games_results_weekX.csv`
 2. Run `scripts/weekX_ats_manual_calculation.py`
 3. Run `models/model_c/model_c_weekly_updater.py`
 4. Review predictions in `model_c_updated_predictions.csv`
 
 ### For Analysis:
-1. Check `data/combined_week1_weekX_ats.csv` for overall trends
-2. Review `data/model_c_updated_trends.csv` for current rules
+1. Check `data/ats_trends/combined/combined_week1_weekX_ats.csv` for overall trends
+2. Review `data/trends/model_c_updated_trends.csv` for current rules
 3. Use `scripts/update_model_c_ats_trends.py` for detailed analysis
 
 ## Future Improvements

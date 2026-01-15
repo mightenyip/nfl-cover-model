@@ -11,7 +11,7 @@ import glob
 def load_week_results(week_num):
     """Load actual results for a week"""
     # Try standard results file first
-    results_file = f"data/week{week_num}_ats_results.csv"
+    results_file = f"data/ats_results/week{week_num}/week{week_num}_ats_results.csv"
     if os.path.exists(results_file):
         df = pd.read_csv(results_file)
         # Ensure it has the columns we need
@@ -19,7 +19,7 @@ def load_week_results(week_num):
             return df
     
     # Try alternative results file (for week 9)
-    alt_results_file = f"data/week{week_num}_actual_results_analysis.csv"
+    alt_results_file = f"data/actual_results/week{week_num}/week{week_num}_actual_results_analysis.csv"
     if os.path.exists(alt_results_file):
         df = pd.read_csv(alt_results_file)
         # Check if it has the columns we need
@@ -361,8 +361,8 @@ def main():
         print(f"\n🏆 Best Consensus: {best_consensus} ({consensus_accuracies[best_consensus]:.1%})")
     
     # Save results
-    df.to_csv("data/full_season_consensus_performance.csv", index=False)
-    print(f"\n✅ Results saved to data/full_season_consensus_performance.csv")
+    df.to_csv("data/model_performance/legacy/full_season_consensus_performance.csv", index=False)
+    print(f"\n✅ Results saved to data/model_performance/legacy/full_season_consensus_performance.csv")
     
     return df
 

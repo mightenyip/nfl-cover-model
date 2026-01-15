@@ -15,7 +15,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(
 def load_master_ats_data():
     """Load the master ATS trends data"""
     try:
-        df = pd.read_csv("data/master_ats_trends.csv")
+        df = pd.read_csv("data/ats_trends/master_ats_trends.csv")
         return df
     except FileNotFoundError:
         print("❌ Error: master_ats_trends.csv not found")

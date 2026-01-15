@@ -35,7 +35,7 @@ def load_week_actual_results(week_num):
     """Load actual results for a week"""
     
     # Try actual_results_analysis.csv
-    results_file = f"data/week{week_num}_actual_results_analysis.csv"
+    results_file = f"data/actual_results/week{week_num}/week{week_num}_actual_results_analysis.csv"
     if os.path.exists(results_file):
         df = pd.read_csv(results_file)
         # Handle actual_cover column (could be True/False, Yes/No, or boolean)

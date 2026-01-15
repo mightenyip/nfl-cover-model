@@ -10,7 +10,7 @@ import os
 
 def load_week_results(week_num):
     """Load actual results for a week"""
-    results_file = f"data/week{week_num}_ats_results.csv"
+    results_file = f"data/ats_results/week{week_num}/week{week_num}_ats_results.csv"
     if os.path.exists(results_file):
         return pd.read_csv(results_file)
     return None

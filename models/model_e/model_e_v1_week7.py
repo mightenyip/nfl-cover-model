@@ -28,7 +28,7 @@ def run_model_e_v1_week7():
     }
     
     # Load the EPA data
-    epa_data_path = "../../data/detailed_epa_data_current.csv"
+    epa_data_path = "../../data/epa/processed/detailed_epa_data_current.csv"
     week7_odds_path = "../../schedule/week7_2025_odds.csv"
     
     try:

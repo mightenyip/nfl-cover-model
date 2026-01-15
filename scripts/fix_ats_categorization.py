@@ -14,7 +14,7 @@ def fix_categorization():
     print("=" * 60)
     
     # Load the data
-    df = pd.read_csv("data/master_ats_trends.csv")
+    df = pd.read_csv("data/ats_trends/master_ats_trends.csv")
     
     print(f"Total games: {len(df)}")
     
@@ -121,7 +121,7 @@ def fix_categorization():
     print(f"Match: {abs(home_fav_rate - away_dog_rate) < 0.1}")
     
     # Save corrected data
-    output_file = "data/master_ats_trends_corrected.csv"
+    output_file = "data/ats_trends/master_ats_trends_corrected.csv"
     df.to_csv(output_file, index=False)
     print(f"\n✅ Corrected data saved to {output_file}")
     
@@ -137,7 +137,7 @@ def main():
     
     print(f"\n=== Fix Complete ===")
     print(f"📊 Data corrected and verified")
-    print(f"📁 Saved to data/master_ats_trends_corrected.csv")
+    print(f"📁 Saved to data/ats_trends/master_ats_trends_corrected.csv")
 
 if __name__ == "__main__":
     main()

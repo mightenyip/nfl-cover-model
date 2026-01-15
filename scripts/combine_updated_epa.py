@@ -10,8 +10,8 @@ def combine_epa_data():
     """Combine offensive and defensive EPA data"""
     
     # Load the data
-    offensive_df = pd.read_csv('data/updated_offensive_epa_data.csv')
-    defensive_df = pd.read_csv('data/updated_defensive_epa_data_correct.csv')
+    offensive_df = pd.read_csv('data/epa/processed/updated_offensive_epa_data.csv')
+    defensive_df = pd.read_csv('data/epa/processed/updated_defensive_epa_data_correct.csv')
     
     # Merge on team
     combined_df = pd.merge(offensive_df, defensive_df, on='team', how='outer', suffixes=('_off', '_def'))
@@ -66,10 +66,10 @@ def main():
     combined_df = combine_epa_data()
     
     # Save the data
-    combined_df.to_csv('data/detailed_epa_data.csv', index=False)
-    combined_df.to_csv('data/detailed_epa_data_week7.csv', index=False)
-    print(f"✅ Saved combined EPA data to data/detailed_epa_data.csv")
-    print(f"✅ Saved combined EPA data to data/detailed_epa_data_week7.csv")
+    combined_df.to_csv('data/epa/processed/detailed_epa_data.csv', index=False)
+    combined_df.to_csv('data/epa/processed/detailed_epa_data_week7.csv', index=False)
+    print(f"✅ Saved combined EPA data to data/epa/processed/detailed_epa_data.csv")
+    print(f"✅ Saved combined EPA data to data/epa/processed/detailed_epa_data_week7.csv")
     
     # Display summary
     print(f"\n=== Combined EPA Data Summary ===")

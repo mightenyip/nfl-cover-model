@@ -15,13 +15,13 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 def load_comprehensive_epa_data():
     """Load the updated comprehensive EPA data"""
     try:
-        epa_file = "data/comprehensive_epa_data_week8.csv"
+        epa_file = "data/epa/source/comprehensive_epa_data_week8.csv"
         epa_data = pd.read_csv(epa_file)
         print(f"✅ Loaded comprehensive EPA data: {len(epa_data)} teams")
         return epa_data
     except FileNotFoundError:
         print("❌ Comprehensive EPA data not found, using basic EPA data")
-        epa_file = "data/sumersports_epa_data.csv"
+        epa_file = "data/epa/source/sumersports_epa_data.csv"
         epa_data = pd.read_csv(epa_file)
         return epa_data
 

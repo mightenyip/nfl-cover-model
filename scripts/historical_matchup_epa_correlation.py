@@ -238,7 +238,7 @@ def main():
             print("❌ Model X shows weak predictive power for spread performance")
     
     # Save results
-    output_path = 'data/historical_matchup_epa_analysis.csv'
+    output_path = 'data/epa/analysis/historical_matchup_epa_analysis.csv'
     df.to_csv(output_path, index=False)
     print(f"\n✅ Historical analysis saved to: {output_path}")
 

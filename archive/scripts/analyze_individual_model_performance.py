@@ -8,13 +8,13 @@ import os
 
 def load_week_results(week_num):
     """Load actual results for a week"""
-    results_file = f"data/week{week_num}_ats_results.csv"
+    results_file = f"data/ats_results/week{week_num}/week{week_num}_ats_results.csv"
     if os.path.exists(results_file):
         df = pd.read_csv(results_file)
         if 'game' in df.columns and 'underdog_covered' in df.columns:
             return df
     
-    alt_results_file = f"data/week{week_num}_actual_results_analysis.csv"
+    alt_results_file = f"data/actual_results/week{week_num}/week{week_num}_actual_results_analysis.csv"
     if os.path.exists(alt_results_file):
         df = pd.read_csv(alt_results_file)
         if 'game' in df.columns and 'actual_cover' in df.columns:
@@ -202,8 +202,8 @@ def analyze_model_performance():
             })
     
     summary_df = pd.DataFrame(summary_data)
-    summary_df.to_csv("data/individual_model_performance_summary.csv", index=False)
-    print(f"\n✅ Results saved to data/individual_model_performance_summary.csv")
+    summary_df.to_csv("data/model_performance/legacy/individual_model_performance_summary.csv", index=False)
+    print(f"\n✅ Results saved to data/model_performance/legacy/individual_model_performance_summary.csv")
     
     return model_stats
 

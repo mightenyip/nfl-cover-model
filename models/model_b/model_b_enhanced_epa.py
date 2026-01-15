@@ -20,7 +20,7 @@ def run_model_b_enhanced_epa():
     week3_odds = pd.read_csv(week3_odds_path)
 
     # Load the updated SumerSports EPA data
-    scraped_epa_path = "../../data/sumersports_epa_data.csv"
+    scraped_epa_path = "../../data/epa/source/sumersports_epa_data.csv"
     scraped_epa = pd.read_csv(scraped_epa_path)
 
     print(f"Loaded {len(week3_odds)} games from Week 3 odds")

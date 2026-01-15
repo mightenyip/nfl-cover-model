@@ -22,11 +22,11 @@ def load_historical_data():
     print("=" * 50)
     
     # Load EPA data with run/pass breakdown
-    epa_df = pd.read_csv('data/comprehensive_epa_data_week8.csv')
+    epa_df = pd.read_csv('data/epa/source/comprehensive_epa_data_week8.csv')
     print(f"Loaded EPA data for {len(epa_df)} teams")
     
     # Load run/pass ratio data (source: https://www.fftoday.com/stats/25_run_pass_ratios.html)
-    ratio_df = pd.read_csv('data/team_run_pass_ratios_2025.csv')
+    ratio_df = pd.read_csv('data/team_metrics/team_run_pass_ratios_2025.csv')
     print(f"Loaded run/pass ratios for {len(ratio_df)} teams")
     print("Note: Run/pass ratio data sourced from https://www.fftoday.com/stats/25_run_pass_ratios.html")
     
@@ -45,7 +45,7 @@ def load_historical_data():
     
     # Load data from master ATS trends file (contains weeks 1-7)
     try:
-        master_df = pd.read_csv('data/master_ats_trends_final.csv')
+        master_df = pd.read_csv('data/ats_trends/master_ats_trends_final.csv')
         print(f"Loaded master ATS data: {len(master_df)} games")
         
         processed_count = 0
@@ -242,7 +242,7 @@ def load_historical_data():
     
     # Load Week 8 data separately
     try:
-        week8_df = pd.read_csv('data/week8_ats_results.csv')
+        week8_df = pd.read_csv('data/ats_results/week8/week8_ats_results.csv')
         print(f"Loaded Week 8: {len(week8_df)} games")
         
         processed_count = 0
@@ -819,7 +819,7 @@ def main():
     generate_summary_report(df, correlations)
     
     # Save detailed results
-    output_path = 'data/model_x_b_weighted_epa_analysis.csv'
+    output_path = 'data/epa/analysis/model_x_b_weighted_epa_analysis.csv'
     df.to_csv(output_path, index=False)
     print(f"\n✅ Detailed analysis saved to: {output_path}")
 

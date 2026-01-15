@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Recompute cumulative consensus performance (Weeks 1..18) from weekly
-`data/week{N}_actual_results_analysis.csv` files and overwrite:
+`data/actual_results/week{N}/week{N}_actual_results_analysis.csv` files and overwrite:
 
 - data/model_performance/cumulative_model_performance.csv
 
@@ -50,7 +50,7 @@ def pct_with_pushes(wins: int, losses: int, pushes: int) -> str:
 
 
 def load_week_df(week: int) -> pd.DataFrame | None:
-    p = Path(f"data/week{week}_actual_results_analysis.csv")
+    p = Path(f"data/actual_results/week{week}/week{week}_actual_results_analysis.csv")
     if not p.exists():
         return None
     return pd.read_csv(p)

@@ -88,8 +88,8 @@ def main():
     defensive_df = create_updated_epa_data()
     
     # Save the data
-    defensive_df.to_csv('data/updated_defensive_epa_data.csv', index=False)
-    print(f"✅ Saved updated defensive EPA data to data/updated_defensive_epa_data.csv")
+    defensive_df.to_csv('data/epa/processed/updated_defensive_epa_data.csv', index=False)
+    print(f"✅ Saved updated defensive EPA data to data/epa/processed/updated_defensive_epa_data.csv")
     
     # Display summary
     print(f"\n=== Updated Defensive EPA Data Summary ===")

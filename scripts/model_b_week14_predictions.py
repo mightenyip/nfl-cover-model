@@ -11,11 +11,11 @@ from datetime import datetime
 def load_epa_data():
     """Load the Week 14 EPA data"""
     try:
-        epa_df = pd.read_csv("data/Week14_EPA.csv")
+        epa_df = pd.read_csv("data/epa/week14/Week14_EPA.csv")
         print(f"Loaded EPA data for {len(epa_df)} teams")
         return epa_df
     except FileNotFoundError:
-        print("❌ Error: data/Week14_EPA.csv not found")
+        print("❌ Error: data/epa/week14/Week14_EPA.csv not found")
         return None
 
 def load_week14_odds():
@@ -91,11 +91,11 @@ from datetime import datetime
 def load_epa_data():
     """Load the Week 14 EPA data"""
     try:
-        epa_df = pd.read_csv("data/Week14_EPA.csv")
+        epa_df = pd.read_csv("data/epa/week14/Week14_EPA.csv")
         print(f"Loaded EPA data for {len(epa_df)} teams")
         return epa_df
     except FileNotFoundError:
-        print("❌ Error: data/Week14_EPA.csv not found")
+        print("❌ Error: data/epa/week14/Week14_EPA.csv not found")
         return None
 
 def load_week14_odds():

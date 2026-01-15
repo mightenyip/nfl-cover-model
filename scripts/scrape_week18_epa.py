@@ -8,7 +8,7 @@ Sources:
 - https://sumersports.com/teams/defensive/
 
 Output:
-- data/Week18_EPA.csv
+- data/epa/week18/Week18_EPA.csv
 """
 
 import re
@@ -274,7 +274,7 @@ def main():
         print("❌ Failed to scrape Week 18 EPA data")
         return
 
-    output_file = "data/Week18_EPA.csv"
+    output_file = "data/epa/week18/Week18_EPA.csv"
     df.to_csv(output_file, index=False)
     print(f"\n✅ Saved Week 18 EPA data to: {output_file}")
     print(f"   Total teams: {len(df)}")

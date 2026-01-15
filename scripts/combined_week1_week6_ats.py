@@ -14,22 +14,22 @@ def combine_week1_week6_ats():
     print("=" * 60)
     
     # Load all weeks
-    week1_df = pd.read_csv("data/week1_ats_results.csv")
+    week1_df = pd.read_csv("data/ats_results/week1/week1_ats_results.csv")
     week1_df['week'] = 1
     
-    week2_df = pd.read_csv("data/week2_ats_results.csv")
+    week2_df = pd.read_csv("data/ats_results/week2/week2_ats_results.csv")
     week2_df['week'] = 2
     
-    week3_df = pd.read_csv("data/week3_ats_results.csv")
+    week3_df = pd.read_csv("data/ats_results/week3/week3_ats_results.csv")
     week3_df['week'] = 3
     
-    week4_df = pd.read_csv("data/week4_ats_results.csv")
+    week4_df = pd.read_csv("data/ats_results/week4/week4_ats_results.csv")
     week4_df['week'] = 4
     
-    week5_df = pd.read_csv("data/week5_ats_results.csv")
+    week5_df = pd.read_csv("data/ats_results/week5/week5_ats_results.csv")
     week5_df['week'] = 5
     
-    week6_df = pd.read_csv("data/week6_ats_results.csv")
+    week6_df = pd.read_csv("data/ats_results/week6/week6_ats_results.csv")
     week6_df['week'] = 6
     
     # Combine results
@@ -124,7 +124,7 @@ def combine_week1_week6_ats():
         print("⚖️ RECENT TREND: Balanced performance recently")
     
     # Save combined results
-    output_file = "data/combined_week1_week6_ats.csv"
+    output_file = "data/ats_trends/combined/combined_week1_week6_ats.csv"
     combined_df.to_csv(output_file, index=False)
     print(f"\n✅ Combined results saved to {output_file}")
     
@@ -140,7 +140,7 @@ def main():
     
     print(f"\n=== Analysis Complete ===")
     print(f"📊 Combined ATS Performance: {df['underdog_covered'].sum()}/{len(df)} underdog covers")
-    print(f"📁 Results saved to data/combined_week1_week6_ats.csv")
+    print(f"📁 Results saved to data/ats_trends/combined/combined_week1_week6_ats.csv")
 
 if __name__ == "__main__":
     main()

@@ -115,8 +115,8 @@ def combine_epa_data():
     print(f"Combined data for {len(combined_df)} teams")
     
     # Save the data
-    combined_df.to_csv("../data/updated_epa_data_week5.csv", index=False)
-    print("✅ Updated EPA data saved to: ../data/updated_epa_data_week5.csv")
+    combined_df.to_csv("../data/epa/processed/updated_epa_data_week5.csv", index=False)
+    print("✅ Updated EPA data saved to: ../data/epa/processed/updated_epa_data_week5.csv")
     
     return combined_df
 

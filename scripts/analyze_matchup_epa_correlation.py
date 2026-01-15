@@ -105,7 +105,7 @@ def analyze_matchup_epa_correlation():
         print(f"  {row['game']}: {row['matchup_epa_diff']:.3f} ({row['favorite']} {row['spread']})")
     
     # Save the analysis
-    output_path = 'data/matchup_epa_analysis_week8.csv'
+    output_path = 'data/epa/analysis/matchup_epa_analysis_week8.csv'
     matchup_df.to_csv(output_path, index=False)
     print(f"\n✅ Matchup EPA analysis saved to: {output_path}")
     

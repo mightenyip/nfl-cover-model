@@ -119,7 +119,7 @@ def create_week_results(week_num, results_data, predictions_file, odds_file):
     df = pd.DataFrame(results_analysis)
     
     # Save to file
-    output_file = f"data/week{week_num}_actual_results_analysis.csv"
+    output_file = f"data/actual_results/week{week_num}/week{week_num}_actual_results_analysis.csv"
     df.to_csv(output_file, index=False)
     
     # Calculate summary

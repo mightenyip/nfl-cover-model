@@ -14,7 +14,7 @@ def create_ats_trends_table():
     print("=" * 80)
     
     # Load the corrected data
-    df = pd.read_csv("data/master_ats_trends_final.csv")
+    df = pd.read_csv("data/ats_trends/master_ats_trends_final.csv")
     
     print(f"Total Games Analyzed: {len(df)}")
     print(f"Weeks Covered: {df['week'].min()}-{df['week'].max()}")
@@ -164,7 +164,7 @@ def create_ats_trends_table():
     }
     
     summary_df = pd.DataFrame(summary_data)
-    output_file = "data/ats_trends_summary_table.csv"
+    output_file = "data/ats_trends/ats_trends_summary_table.csv"
     summary_df.to_csv(output_file, index=False)
     print(f"✅ Summary table saved to {output_file}")
     
@@ -180,7 +180,7 @@ def main():
     
     print(f"\n=== Analysis Complete ===")
     print(f"📊 Comprehensive ATS trends table created")
-    print(f"📁 Summary saved to data/ats_trends_summary_table.csv")
+    print(f"📁 Summary saved to data/ats_trends/ats_trends_summary_table.csv")
 
 if __name__ == "__main__":
     main()

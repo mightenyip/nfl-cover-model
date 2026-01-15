@@ -4,7 +4,7 @@ Create Week 17 Predictions Final (2025)
 Generate predictions using Models A, B, and E, then combine into final CSV.
 
 Inputs:
-- data/Week17_EPA.csv
+- data/epa/week17/Week17_EPA.csv
 - schedule/week17_2025_odds.csv
 
 Outputs:
@@ -61,11 +61,11 @@ def get_team_mapping():
 
 def load_epa_data():
     try:
-        epa_df = pd.read_csv("data/Week17_EPA.csv")
+        epa_df = pd.read_csv("data/epa/week17/Week17_EPA.csv")
         print(f"✅ Loaded EPA data for {len(epa_df)} teams")
         return epa_df
     except FileNotFoundError:
-        print("❌ Error: data/Week17_EPA.csv not found")
+        print("❌ Error: data/epa/week17/Week17_EPA.csv not found")
         return None
 
 

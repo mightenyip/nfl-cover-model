@@ -5,7 +5,7 @@ Create Week 17 actual results analysis by combining:
 - predictions/week17_predictions_final.csv (model picks)
 - hardcoded Week 17 final scores (from user-provided results)
 
-Outputs: data/week17_actual_results_analysis.csv
+Outputs: data/actual_results/week17/week17_actual_results_analysis.csv
 """
 
 from __future__ import annotations
@@ -43,7 +43,7 @@ def compute_underdog_cover(
 def main() -> None:
     schedule_path = f"schedule/week{WEEK}_2025_odds.csv"
     predictions_path = f"predictions/week{WEEK}_predictions_final.csv"
-    output_path = f"data/week{WEEK}_actual_results_analysis.csv"
+    output_path = f"data/actual_results/week{WEEK}/week{WEEK}_actual_results_analysis.csv"
 
     schedule_df = pd.read_csv(schedule_path)
     preds_df = pd.read_csv(predictions_path)

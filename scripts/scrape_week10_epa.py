@@ -284,7 +284,7 @@ class Week10EPAScraper:
         print(f"✅ Combined data for {len(combined_df)} teams")
         return combined_df
     
-    def save_to_csv(self, df: pd.DataFrame, filename: str = "data/Week10_EPA.csv"):
+    def save_to_csv(self, df: pd.DataFrame, filename: str = "data/epa/week10/Week10_EPA.csv"):
         """Save EPA data to CSV"""
         
         if df.empty:
@@ -355,7 +355,7 @@ def main():
         
         if not combined_data.empty:
             # Save to CSV
-            scraper.save_to_csv(combined_data, "data/Week10_EPA.csv")
+            scraper.save_to_csv(combined_data, "data/epa/week10/Week10_EPA.csv")
             
             # Display summary
             scraper.display_summary(combined_data)

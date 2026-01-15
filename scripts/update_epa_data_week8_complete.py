@@ -69,9 +69,9 @@ def main():
     
     # Save to multiple formats
     output_files = [
-        'data/sumersports_epa_data_week8.csv',
-        'data/sumersports_epa_data_week8.json',
-        'data/sumersports_epa_data_week8.parquet'
+        'data/epa/source/sumersports_epa_data_week8.csv',
+        'data/epa/source/sumersports_epa_data_week8.json',
+        'data/epa/source/sumersports_epa_data_week8.parquet'
     ]
     
     for file_path in output_files:
@@ -84,9 +84,9 @@ def main():
         print(f"✅ Saved: {file_path}")
     
     # Also update the main EPA data file
-    updated_data.to_csv('data/sumersports_epa_data.csv', index=False)
-    updated_data.to_json('data/sumersports_epa_data.json', orient='records', indent=2)
-    updated_data.to_parquet('data/sumersports_epa_data.parquet', index=False)
+    updated_data.to_csv('data/epa/source/sumersports_epa_data.csv', index=False)
+    updated_data.to_json('data/epa/source/sumersports_epa_data.json', orient='records', indent=2)
+    updated_data.to_parquet('data/epa/source/sumersports_epa_data.parquet', index=False)
     print("✅ Updated main EPA data files")
     
     # Summary

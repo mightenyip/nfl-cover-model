@@ -13,7 +13,7 @@ def analyze_week10_performance():
     print("=== Week 10 Model Performance Analysis ===\n")
     
     # Load actual results
-    actual_results_df = pd.read_csv("data/week10_ats_results.csv")
+    actual_results_df = pd.read_csv("data/ats_results/week10/week10_ats_results.csv")
     
     # Create a dictionary for quick lookup
     actual_results = {}

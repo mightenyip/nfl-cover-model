@@ -19,7 +19,7 @@ def update_cumulative_performance():
     os.system("python3 create_cumulative_model_performance.py")
     
     # Copy to model_performance directory
-    source = "data/cumulative_model_performance.csv"
+    source = "data/model_performance/legacy/cumulative_model_performance.csv"
     dest = "data/model_performance/cumulative_model_performance.csv"
     
     if os.path.exists(source):

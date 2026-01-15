@@ -526,9 +526,9 @@ week1_results = pd.read_csv('week1/week1_2025_results_analysis.md')
 ```python
 import pandas as pd
 # Load play-by-play data
-pbp_2024 = pd.read_parquet('data/play_by_play_2024.parquet')
+pbp_2024 = pd.read_parquet('data/play_by_play/play_by_play_2024.parquet')
 # Load EPA data
-epa_data = pd.read_csv('data/sumersports_epa_data.csv')
+epa_data = pd.read_csv('data/epa/source/sumersports_epa_data.csv')
 # Load weekly odds
 week1_odds = pd.read_csv('schedule/week1_2025_odds.csv')
 ```

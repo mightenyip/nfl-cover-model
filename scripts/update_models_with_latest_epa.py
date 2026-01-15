@@ -271,7 +271,7 @@ class LatestEPAScraper:
             
             # Also save as backup with timestamp
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            backup_file = f"data/detailed_epa_data_{timestamp}.csv"
+            backup_file = f"data/epa/processed/detailed_epa_data_{timestamp}.csv"
             updated_df.to_csv(backup_file, index=False)
             print(f"✅ Saved backup to {backup_file}")
             

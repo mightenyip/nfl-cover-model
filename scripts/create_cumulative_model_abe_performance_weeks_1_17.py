@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Create cumulative Model A/B/E performance from Week 1..18 (so far) using
-weekly analysis files in data/week{N}_actual_results_analysis.csv.
+weekly analysis files in data/actual_results/week{N}/week{N}_actual_results_analysis.csv.
 
 Important:
 - Uses the repo's "underdog covered" perspective.
@@ -96,7 +96,7 @@ def main() -> None:
 
     rows = []
     for week in range(1, 19):
-        week_path = Path(f"data/week{week}_actual_results_analysis.csv")
+        week_path = Path(f"data/actual_results/week{week}/week{week}_actual_results_analysis.csv")
         if not week_path.exists():
             rows.append(
                 {

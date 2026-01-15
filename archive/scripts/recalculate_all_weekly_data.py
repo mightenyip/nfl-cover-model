@@ -218,9 +218,9 @@ def recalculate_week(week_num):
     # Load actual results - try different file names
     actual_results = None
     for file_name in [
-        f'data/week{week_num}_ats_results.csv',
-        f'data/week{week_num}_actual_results_analysis.csv',
-        f'data/master_games_results_week{week_num}.csv'
+        f'data/ats_results/week{week_num}/week{week_num}_ats_results.csv',
+        f'data/actual_results/week{week_num}/week{week_num}_actual_results_analysis.csv',
+        f'data/game_results/master_games_results_week{week_num}.csv'
     ]:
         if os.path.exists(file_name):
             actual_results = pd.read_csv(file_name)
@@ -238,11 +238,11 @@ def recalculate_week(week_num):
     week1_posthoc_predictions = {}
     if week_num == 1:
         # Try to load from the original post-hoc file (saved separately)
-        posthoc_file = f'data/week{week_num}_posthoc_predictions.csv'
+        posthoc_file = f'data/analysis/week{week_num}/week{week_num}_posthoc_predictions.csv'
         if not os.path.exists(posthoc_file):
             # Check if analysis file exists and has post-hoc format
-            if os.path.exists(f'data/week{week_num}_actual_results_analysis.csv'):
-                week1_analysis = pd.read_csv(f'data/week{week_num}_actual_results_analysis.csv')
+            if os.path.exists(f'data/actual_results/week{week_num}/week{week_num}_actual_results_analysis.csv'):
+                week1_analysis = pd.read_csv(f'data/actual_results/week{week_num}/week{week_num}_actual_results_analysis.csv')
                 if 'model_a_pred' in week1_analysis.columns and 'score' not in week1_analysis.columns:
                     # This is the post-hoc format, save it before we overwrite
                     week1_analysis.to_csv(posthoc_file, index=False)
@@ -369,7 +369,7 @@ def recalculate_week(week_num):
     results_df = pd.DataFrame(results_data)
     
     # Save to file
-    output_file = f'data/week{week_num}_actual_results_analysis.csv'
+    output_file = f'data/actual_results/week{week_num}/week{week_num}_actual_results_analysis.csv'
     results_df.to_csv(output_file, index=False)
     
     # Print summary

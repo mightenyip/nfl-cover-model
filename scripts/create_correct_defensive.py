@@ -85,8 +85,8 @@ def main():
     defensive_df = create_correct_defensive_data()
     
     # Save the data
-    defensive_df.to_csv('data/updated_defensive_epa_data_correct.csv', index=False)
-    print(f"✅ Saved correct defensive EPA data to data/updated_defensive_epa_data_correct.csv")
+    defensive_df.to_csv('data/epa/processed/updated_defensive_epa_data_correct.csv', index=False)
+    print(f"✅ Saved correct defensive EPA data to data/epa/processed/updated_defensive_epa_data_correct.csv")
     
     # Display summary
     print(f"\n=== Correct Defensive EPA Data Summary ===")

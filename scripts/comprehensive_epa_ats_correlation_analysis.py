@@ -36,7 +36,7 @@ def load_historical_data():
     
     # Load data from master ATS trends file (contains weeks 1-7)
     try:
-        master_df = pd.read_csv('data/master_ats_trends_final.csv')
+        master_df = pd.read_csv('data/ats_trends/master_ats_trends_final.csv')
         print(f"Loaded master ATS data: {len(master_df)} games")
         
         for _, row in master_df.iterrows():
@@ -104,7 +104,7 @@ def load_historical_data():
     
     # Load Week 8 data separately
     try:
-        week8_df = pd.read_csv('data/week8_ats_results.csv')
+        week8_df = pd.read_csv('data/ats_results/week8/week8_ats_results.csv')
         print(f"Loaded Week 8: {len(week8_df)} games")
         
         for _, row in week8_df.iterrows():
@@ -493,7 +493,7 @@ def main():
     generate_summary_report(df, correlations, week_correlations)
     
     # Save detailed results
-    output_path = 'data/comprehensive_epa_ats_analysis.csv'
+    output_path = 'data/epa/analysis/comprehensive_epa_ats_analysis.csv'
     df.to_csv(output_path, index=False)
     print(f"\n✅ Detailed analysis saved to: {output_path}")
 

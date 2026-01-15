@@ -18,7 +18,7 @@ def run_model_a_week5():
     week5_odds = pd.read_csv(week5_odds_path)
 
     # Load the SumerSports EPA data
-    scraped_epa_path = "../../data/sumersports_epa_data.csv"
+    scraped_epa_path = "../../data/epa/source/sumersports_epa_data.csv"
     scraped_epa = pd.read_csv(scraped_epa_path)
 
     print(f"Loaded {len(week5_odds)} games from Week 5 odds")

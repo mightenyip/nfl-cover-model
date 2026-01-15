@@ -15,7 +15,7 @@ def calculate_ats_trends():
     print("=" * 60)
     
     # Load master ATS data
-    df = pd.read_csv("data/master_ats_trends.csv")
+    df = pd.read_csv("data/ats_trends/master_ats_trends.csv")
     
     print(f"Total Games: {len(df)}")
     print(f"Weeks Covered: {df['week'].min()} - {df['week'].max()}")
@@ -155,7 +155,7 @@ def calculate_ats_trends():
     }
     
     # Save to file
-    output_file = "data/model_c_updated_trends.csv"
+    output_file = "data/trends/model_c_updated_trends.csv"
     trends_df = pd.DataFrame([
         {
             'category': 'Overall Underdogs',
@@ -196,7 +196,7 @@ def main():
     print(f"\n=== Update Complete ===")
     print(f"📊 Overall: {trends['overall_underdog_rate']:.1f}% underdogs, {trends['overall_favorite_rate']:.1f}% favorites")
     print(f"📈 Recent: {trends['recent_rate']:.1f}% underdogs")
-    print(f"📁 Trends saved to data/model_c_updated_trends.csv")
+    print(f"📁 Trends saved to data/trends/model_c_updated_trends.csv")
 
 if __name__ == "__main__":
     main()

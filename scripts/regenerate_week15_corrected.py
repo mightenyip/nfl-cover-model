@@ -24,11 +24,11 @@ def get_team_mapping():
 def load_epa_data():
     """Load Week 15 EPA data"""
     try:
-        epa_df = pd.read_csv("data/Week15_EPA.csv")
+        epa_df = pd.read_csv("data/epa/week15/Week15_EPA.csv")
         print(f"✅ Loaded EPA data for {len(epa_df)} teams")
         return epa_df
     except FileNotFoundError:
-        print("❌ Error: data/Week15_EPA.csv not found")
+        print("❌ Error: data/epa/week15/Week15_EPA.csv not found")
         return None
 
 def load_week15_odds():

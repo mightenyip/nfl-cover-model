@@ -6,7 +6,7 @@ Analyze Chiefs @ Titans prediction calculation
 import pandas as pd
 
 # Load EPA data
-epa_df = pd.read_csv("data/Week16_EPA.csv")
+epa_df = pd.read_csv("data/epa/week16/Week16_EPA.csv")
 
 # Get Chiefs and Titans data
 chiefs = epa_df[epa_df['team'] == 'KC'].iloc[0]

@@ -14,7 +14,7 @@ def fix_packers_cowboys_data():
     print("=" * 60)
     
     # Load the data
-    df = pd.read_csv("data/master_ats_trends.csv")
+    df = pd.read_csv("data/ats_trends/master_ats_trends.csv")
     
     print(f"Total games: {len(df)}")
     
@@ -95,7 +95,7 @@ def fix_packers_cowboys_data():
     print(f"Home Favorites: {home_fav_underdog_covers}/{home_fav_total} underdog covers ({home_fav_rate:.1f}%)")
     
     # Save corrected data
-    output_file = "data/master_ats_trends_final.csv"
+    output_file = "data/ats_trends/master_ats_trends_final.csv"
     df.to_csv(output_file, index=False)
     print(f"\n✅ Corrected data saved to {output_file}")
     
@@ -111,7 +111,7 @@ def main():
     
     print(f"\n=== Fix Complete ===")
     print(f"📊 Data corrected and verified")
-    print(f"📁 Saved to data/master_ats_trends_final.csv")
+    print(f"📁 Saved to data/ats_trends/master_ats_trends_final.csv")
 
 if __name__ == "__main__":
     main()

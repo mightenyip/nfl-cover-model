@@ -27,7 +27,7 @@ def run_model_b_v2_week7():
     }
     
     # Load the detailed SumerSports EPA data with Pass/Rush breakdown
-    epa_data_path = "../../data/detailed_epa_data.csv"
+    epa_data_path = "../../data/epa/processed/detailed_epa_data.csv"
     week7_odds_path = "../../schedule/week7_2025_odds.csv"
     
     try:

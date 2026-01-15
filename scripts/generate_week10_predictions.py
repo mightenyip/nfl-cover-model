@@ -431,7 +431,7 @@ def main():
     print(f"\nLoaded {len(week10_odds)} games for Week 10")
     
     # Load Week 10 EPA data
-    epa_data = pd.read_csv("data/Week10_EPA.csv")
+    epa_data = pd.read_csv("data/epa/week10/Week10_EPA.csv")
     print(f"Loaded EPA data for {len(epa_data)} teams")
     
     # Run all three models

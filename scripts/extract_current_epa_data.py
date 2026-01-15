@@ -182,8 +182,8 @@ def main():
     combined_df = combine_epa_data()
     
     # Save the data
-    combined_df.to_csv('data/detailed_epa_data_current.csv', index=False)
-    print(f"✅ Saved current EPA data to data/detailed_epa_data_current.csv")
+    combined_df.to_csv('data/epa/processed/detailed_epa_data_current.csv', index=False)
+    print(f"✅ Saved current EPA data to data/epa/processed/detailed_epa_data_current.csv")
     
     # Display summary
     print(f"\n=== Current EPA Data Summary ===")

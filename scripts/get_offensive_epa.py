@@ -87,8 +87,8 @@ def main():
     offensive_df = create_offensive_epa_data()
     
     # Save the data
-    offensive_df.to_csv('data/updated_offensive_epa_data.csv', index=False)
-    print(f"✅ Saved updated offensive EPA data to data/updated_offensive_epa_data.csv")
+    offensive_df.to_csv('data/epa/processed/updated_offensive_epa_data.csv', index=False)
+    print(f"✅ Saved updated offensive EPA data to data/epa/processed/updated_offensive_epa_data.csv")
     
     # Display summary
     print(f"\n=== Updated Offensive EPA Data Summary ===")

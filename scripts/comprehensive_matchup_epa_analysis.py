@@ -19,7 +19,7 @@ def process_week_data(week_num):
     
     # Use the correct data sources - all weeks should use data/week#_ats_results.csv
     possible_files = [
-        f'data/week{week_num}_ats_results.csv'
+        f'data/ats_results/week{week_num}/week{week_num}_ats_results.csv'
     ]
     
     week_data = None
@@ -205,7 +205,7 @@ def analyze_comprehensive_correlation(all_games_df):
         print(f"  {row['game']}: EPA Diff {row['matchup_epa_diff']:.3f}, Margin vs Spread {row['margin_vs_spread']:.1f}")
     
     # Save comprehensive analysis
-    output_path = 'data/comprehensive_matchup_epa_analysis.csv'
+    output_path = 'data/epa/analysis/comprehensive_matchup_epa_analysis.csv'
     os.makedirs('data', exist_ok=True)
     all_games_df.to_csv(output_path, index=False)
     print(f"\n💾 Comprehensive analysis saved to: {output_path}")

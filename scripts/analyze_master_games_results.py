@@ -139,7 +139,7 @@ def main():
     print("=" * 60)
     
     # Load master games results
-    games_file = "data/master_games_results.csv"
+    games_file = "data/game_results/master_games_results.csv"
     if not os.path.exists(games_file):
         print(f"❌ {games_file} not found")
         return
@@ -163,7 +163,7 @@ def main():
     
     # Save results
     if valid_games is not None:
-        output_file = "data/week1_ats_analysis.csv"
+        output_file = "data/analysis/week1/week1_ats_analysis.csv"
         valid_games.to_csv(output_file, index=False)
         print(f"\n✅ ATS analysis saved to {output_file}")
     
